@@ -212,39 +212,64 @@ def details(model, tour, wanted, players, espn_country):
 
 
 def elo_check(model, tour, active_since):
-    """Porovnání našeho Elo s Elo žebříčkem Tennis Abstract (stejná ID hráčů).
-    Stupnice se liší, proto náš rating převedeme na jejich lineární regresí a hlásíme velké odchylky."""
+    """Porovnání našeho Elo s celým Elo žebříčkem Tennis Abstract.
+    Stupnice se liší, proto náš rating převedeme na jejich lineární regresí (z top 300, kde jsou data
+    nejspolehlivější) a hlásíme velké odchylky. Hráči mimo top 300: oba modely se u nich rozcházejí víc
+    a TA je hodnotí systematicky níž, proto u nich odečteme průměrný posun a bereme vyšší hranici
+    (2,5× jejich směrodatné odchylky) – jinak by štítek mělo 12–20 % z nich."""
     path = os.path.join(elo.DATA_DIR, f"ta_elo_{tour}.csv")
     if not os.path.exists(path):
         return None
     pmap = elo.PLAYER_MAPS[tour]
     with open(path, newline="", encoding="utf-8") as f:
-        ta = [r for r in csv.DictReader(f) if int(r["rank"]) <= 300]
+        ta = list(csv.DictReader(f))
     for r in ta:                        # TA žebříček odkazuje hráče jménem → párujeme jako ESPN
         r["player_id"] = r["player_id"] or pmap.resolve("TA:" + r["name"], r["name"])
     pairs = [(r, model.rating[r["player_id"]]) for r in ta
              if model.n.get(r["player_id"], 0) >= 30 and model.last_date.get(r["player_id"], "") >= active_since]
-    if len(pairs) < 30:
+    top = [(r, o) for r, o in pairs if int(r["rank"]) <= 300]
+    if len(top) < 30:
         return None
-    xs = [o for _, o in pairs]; ys = [float(r["elo"]) for r, _ in pairs]
+    xs = [o for _, o in top]; ys = [float(r["elo"]) for r, _ in top]
     n = len(xs); mx, my = sum(xs) / n, sum(ys) / n
     sxx = sum((x - mx) ** 2 for x in xs); sxy = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
     syy = sum((y - my) ** 2 for y in ys)
     b_, a_ = sxy / sxx, my - sxy / sxx * mx
     res = [(r, o, a_ + b_ * o, float(r["elo"]) - (a_ + b_ * o)) for (r, o) in pairs]
-    sd = math.sqrt(sum(d * d for *_, d in res) / (n - 2))
-    limit = max(100.0, 2.5 * sd)
+    groups = {}
+    for name, sel in (("top300", lambda r: int(r["rank"]) <= 300), ("rest", lambda r: int(r["rank"]) > 300)):
+        ds = [d for r, o, e, d in res if sel(r)]
+        if len(ds) < 2:
+            continue
+        shift = 0.0 if name == "top300" else sum(ds) / len(ds)
+        sd = math.sqrt(sum((d - shift) ** 2 for d in ds) / (len(ds) - (2 if name == "top300" else 1)))
+        groups[name] = {"n": len(ds), "shift": shift, "sd": sd, "sel": sel}
+    groups["top300"]["limit"] = max(100.0, 2.5 * groups["top300"]["sd"])
+    if "rest" in groups:
+        groups["rest"]["limit"] = max(groups["top300"]["limit"], 2.5 * groups["rest"]["sd"])
+    def group_of(r):
+        return groups["top300"] if int(r["rank"]) <= 300 else groups["rest"]
+    flagged = []
+    for r, o, e, d in res:
+        g = group_of(r)
+        if abs(d - g["shift"]) >= g["limit"]:
+            flagged.append((r, o, e + g["shift"], d - g["shift"]))
+    flagged.sort(key=lambda x: -abs(x[3]))
     ours_rank = {pid: i for i, pid in enumerate(sorted({r["player_id"] for r, _ in pairs},
                                                        key=lambda p: -model.rating[p]), 1)}
-    flagged = sorted((x for x in res if abs(x[3]) >= limit), key=lambda x: -abs(x[3]))
-    out = {"updated": ta[0]["updated"] if ta else "", "n": n, "corr": sxy / math.sqrt(sxx * syy),
+    stats = {k: {"n": g["n"], "limit": round(g["limit"]), "shift": round(g["shift"]),
+                 "flagged": sum(1 for r, *_ in flagged if g["sel"](r))} for k, g in groups.items()}
+    out = {"updated": ta[0]["updated"] if ta else "", "n": len(pairs), "corr": sxy / math.sqrt(sxx * syy),
+           "sd": groups["top300"]["sd"], "limit": groups["top300"]["limit"], "a": a_, "b": b_, "groups": stats,
            # všichni označení hráči (pro štítek na kartě zápasu); z JSONu pro web se pak odebere
            "_by_id": {r["player_id"]: {"diff": round(d), "ta_elo": float(r["elo"]), "ours_as_ta": round(e)}
                       for r, o, e, d in flagged},
-           "sd": sd, "limit": limit, "a": a_, "b": b_,
            "flagged": [{"name": r["name"], "ta_elo": float(r["elo"]), "ta_rank": int(r["rank"]),
                         "ours_as_ta": round(e), "diff": round(d), "our_rank": ours_rank[r["player_id"]],
                         "n": model.n[r["player_id"]]} for r, o, e, d in flagged[:15]]}
+    for k, g in stats.items():
+        print(f"  Kontrola Elo {tour.upper()} {k}: {g['flagged']} z {g['n']} hráčů "
+              f"({g['flagged'] / max(g['n'], 1):.1%}), hranice {g['limit']} b., posun {g['shift']:+d}")
     for x in out["flagged"]:
         print(f"  ⚠ {tour.upper()} {x['name']}: TA Elo {x['ta_elo']:.0f} (#{x['ta_rank']}), náš model odpovídá "
               f"{x['ours_as_ta']} (#{x['our_rank']}), rozdíl {x['diff']:+d}")

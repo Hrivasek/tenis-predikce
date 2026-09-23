@@ -115,8 +115,11 @@ se pak počítá od začátku nové verze a tipy starších verzí se nemíchaj�
 - Od 26. 5. do 23. 9. přibylo 3 582 zápasů challengerů a 841 zápasů WTA 125 (100 turnajů); z WTA 125 zbylo po
   odstranění duplicit s ESPN jen 22. Nenalezeno 13 stránek (9 challengerů, 4 WTA 125 – jiné názvy než v kalendáři, např. Bad Rappenau, Guangzhou; seznam `missing` v `data/ta/tournaments.json`).
 - Datum zápasu se odhaduje z kola a týdne turnaje (kvalifikace o víkendu, finále v neděli).
-- Kontrola: build porovná naše Elo s Elo Tennis Abstract (lineární převod stupnice, top 300) a hráče s rozdílem
-  ≥ 100 bodů vypíše do logu Actions a na web (Úspěšnost). Korelace 0,97.
+- Kontrola: build porovná naše Elo s celým Elo žebříčkem Tennis Abstract (~550 hráčů na okruh; převod stupnice
+  lineárně podle top 300, korelace 0,97). Upozornění (štítek na kartě, šedá hodnota sázky, samostatná skupina tipů):
+  top 300 rozdíl ≥ 100 bodů; mimo top 300 ≥ 2,5× směrodatné odchylky (~145–160 b.) po odečtení průměrného posunu
+  (TA je tam hodnotí o 35–50 b. níž). S hranicí 100 b. by mimo top 300 mělo štítek 12 % (ATP) / 20 % (WTA) hráčů,
+  takto ~2 % – stejně jako v top 300. Elo na webu je zobrazené na stupnici TA (výpočty z původních hodnot).
 - Delší výpadek Macu (> 3 týdny): `"$HOME/Library/Application Support/tenis-predikce/ta_sync.sh" --backfill-from RRRR-MM-DD`.
 
 ### Proč na challengerech záleží
