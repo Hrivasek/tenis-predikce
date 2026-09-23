@@ -1,118 +1,118 @@
-match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_elo,n1,n2,p1_prob,predicted_at,status,winner,score
-183940,wta,2026-09-23T10:00Z,Eupago Porto Open,Round 2,Hard,2848,Oceane Dodin,3490,Elena Malygina,1647.6,1450.4,127,22,0.7079,2026-09-23T12:03+02:00,live,,
-183878,wta,2026-09-23T10:05Z,Delta Motors Tolentino Open,Round 2,Clay,19090,Isabella Maria Serban,2984,Rebeka Masarova,1569.0,1682.8,1,90,0.3749,2026-09-23T12:07+02:00,live,,
-184005,wta,2026-09-23T10:05Z,Turk Telekom Ankara Open,Round 2,Hard,8681,Weronika Falkowska,17104,Polina Iatcenko,1582.2,1660.0,13,9,0.4135,2026-09-23T12:07+02:00,final,17104,6-3 6-4
-184095,wta,2026-09-23T10:35Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,9820,Mirra Andreeva,1809,Aliaksandra Sasnovich,2042.8,1742.1,182,352,0.7942,2026-09-23T12:38+02:00,live,,
-183367,atp,2026-09-23T11:30Z,AITO Hangzhou Open,Round 1,Hard,4022,Valentin Royer,3093,Adam Walton,1574.0,1618.7,43,73,0.4475,2026-09-23T12:38+02:00,live,,
-183939,wta,2026-09-23T12:00Z,Eupago Porto Open,Round 2,Hard,14578,Matilde Jorge,7797,Sinja Kraus,2144.1,2391.9,259,476,0.2484,2026-09-23T13:47+02:00,scheduled,,
-183962,wta,2026-09-23T12:00Z,Eupago Porto Open,Round 2,Hard,15775,Ayana Akli,13314,Gabriela Knutson,2163.1,2356.8,126,297,0.2962,2026-09-23T13:47+02:00,scheduled,,
-184001,wta,2026-09-23T12:00Z,Turk Telekom Ankara Open,Round 2,Hard,14946,Elena Pridankina,13737,Ksenia Zaytseva,2312.7,2058.5,286,151,0.7569,2026-09-23T13:47+02:00,scheduled,,
-184094,wta,2026-09-23T12:00Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,5309,Alycia Parks,3641,Leylah Fernandez,2375.9,2641.8,429,389,0.2337,2026-09-23T13:47+02:00,scheduled,,
-183890,wta,2026-09-23T12:30Z,Delta Motors Tolentino Open,Round 2,Clay,3909,Jessica Pieri,10676,Leyre Romero Gormaz,2086.2,2342.4,482,417,0.2415,2026-09-23T13:47+02:00,scheduled,,
-184006,wta,2026-09-23T13:00Z,Turk Telekom Ankara Open,Round 2,Hard,3141,Berfu Cengiz,19088,Aysegul Mert,2123.9,1994.1,440,88,0.6411,2026-09-23T13:47+02:00,scheduled,,
-183949,wta,2026-09-23T13:30Z,Eupago Porto Open,Round 2,Hard,10501,Maria Timofeeva,4438,Kajsa Rinaldo Persson,2479.0,2181.0,343,423,0.7910,2026-09-23T13:47+02:00,scheduled,,
-184004,wta,2026-09-23T14:30Z,Turk Telekom Ankara Open,Round 2,Hard,15426,Shi Han,3185,Ayla Aksu,2216.5,2214.9,227,566,0.5018,2026-09-23T13:47+02:00,scheduled,,
-183880,wta,2026-09-23T16:00Z,Delta Motors Tolentino Open,Round 2,Clay,12957,Guiomar Maristany Zuleta De Reales,17887,Marta Lombardini,2376.2,1928.5,465,24,0.8808,2026-09-23T13:47+02:00,scheduled,,
-183876,wta,2026-09-23T18:00Z,Delta Motors Tolentino Open,Round 2,Clay,17102,Noemi Basiletti,13219,Mia Ristic,2282.9,2298.3,105,251,0.4828,2026-09-23T13:47+02:00,scheduled,,
-184050,wta,2026-09-24T03:00Z,Korea Open,Round 2,Hard,13615,Ma YeXin,2588,Kimberly Birrell,2168.0,2495.0,8,461,0.1883,2026-09-23T13:47+02:00,scheduled,,
-184053,wta,2026-09-24T03:00Z,Korea Open,Round 2,Hard,2734,Anna Bondar,6570,Alina Charaeva,2483.1,2395.8,697,314,0.5962,2026-09-23T13:47+02:00,scheduled,,
-183884,wta,2026-09-24T04:00Z,Delta Motors Tolentino Open,Round 2,Clay,2282,Ekaterine Gorgodze,7806,Barbora Palicova,2184.9,2150.6,932,341,0.5382,2026-09-23T13:47+02:00,scheduled,,
-183886,wta,2026-09-24T04:00Z,Delta Motors Tolentino Open,Round 2,Clay,5161,Alice Tubello,2599,Julia Grabher,2320.5,2409.4,327,672,0.4020,2026-09-23T13:47+02:00,scheduled,,
-183888,wta,2026-09-24T04:00Z,Delta Motors Tolentino Open,Round 2,Clay,5878,Veronika Erjavec,5168,Nuria Brancaccio,2318.6,2313.7,456,478,0.5055,2026-09-23T13:47+02:00,scheduled,,
-183897,wta,2026-09-24T04:00Z,Delta Motors Tolentino Open,Round 2,Clay,17107,Samira De Stefano,6571,Oksana Selekhmeteva,2332.9,2311.7,224,343,0.5236,2026-09-23T13:47+02:00,scheduled,,
-183941,wta,2026-09-24T04:00Z,Eupago Porto Open,Round 2,Hard,16295,Angelina Voloshchuk,3330,Harmony Tan,2064.6,2342.0,115,608,0.2246,2026-09-23T13:47+02:00,scheduled,,
-183956,wta,2026-09-24T04:00Z,Eupago Porto Open,Round 2,Hard,2551,Naiktha Bains,6823,Reese Brantmeier,2146.0,2190.5,489,88,0.4505,2026-09-23T13:47+02:00,scheduled,,
-183958,wta,2026-09-24T04:00Z,Eupago Porto Open,Round 2,Hard,16688,Valentina Steiner,2752,Katie Swan,1957.1,2409.2,84,369,0.1171,2026-09-23T13:47+02:00,scheduled,,
-183960,wta,2026-09-24T04:00Z,Eupago Porto Open,Round 2,Hard,14080,Veronika Podrez,16296,Mia Pohankova,2321.8,2434.8,220,60,0.3765,2026-09-23T13:47+02:00,scheduled,,
-184002,wta,2026-09-24T04:00Z,Turk Telekom Ankara Open,Round 2,Hard,13708,Tian Fangran,8560,Elena Micic,2253.9,2047.6,179,211,0.7153,2026-09-23T13:47+02:00,scheduled,,
-184003,wta,2026-09-24T04:00Z,Turk Telekom Ankara Open,Round 2,Hard,16002,Teodora Kostovic,15344,Elena Ruxandra Bertea,2318.4,1946.1,115,164,0.8407,2026-09-23T13:47+02:00,scheduled,,
-184007,wta,2026-09-24T04:00Z,Turk Telekom Ankara Open,Round 2,Hard,5299,Carole Monnet,7816,Anastasia Gasanova,2214.6,2322.0,496,490,0.3823,2026-09-23T13:47+02:00,scheduled,,
-184008,wta,2026-09-24T04:00Z,Turk Telekom Ankara Open,Round 2,Hard,16142,Deniz Dilek,1254,Cagla Buyukakcay,2031.0,2009.7,21,1031,0.5239,2026-09-23T13:47+02:00,scheduled,,
-183353,atp,2026-09-24T05:00Z,AITO Hangzhou Open,Round 1,Hard,3935,Sho Shimabukuro,3375,Hugo Gaston,2183.9,2225.0,434,478,0.4375,2026-09-23T13:47+02:00,scheduled,,
-183354,atp,2026-09-24T05:00Z,AITO Hangzhou Open,Round 1,Hard,4030,Dane Sweeny,1837,Taro Daniel,2125.7,2079.7,400,1006,0.5699,2026-09-23T13:47+02:00,scheduled,,
-183397,atp,2026-09-24T05:00Z,Chengdu Open,Round 1,Hard,4115,Nuno Borges,3666,Camilo Ugo Carabelli,2394.6,2188.1,509,584,0.7816,2026-09-23T13:47+02:00,scheduled,,
-183405,atp,2026-09-24T05:00Z,Chengdu Open,Round 1,Hard,1857,James Duckworth,3052,Lorenzo Sonego,2269.7,2334.4,891,683,0.4021,2026-09-23T13:47+02:00,scheduled,,
-183407,atp,2026-09-24T05:00Z,Chengdu Open,Round 1,Hard,3319,Tallon Griekspoor,2860,Denis Shapovalov,2376.3,2438.0,650,561,0.4068,2026-09-23T13:47+02:00,scheduled,,
-184052,wta,2026-09-24T05:00Z,Korea Open,Round 2,Hard,5737,Yeonwoo Ku,2748,Elena-Gabriela Ruse,2247.9,2593.5,330,532,0.1759,2026-09-23T13:47+02:00,scheduled,,
-184099,wta,2026-09-24T05:00Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,6708,Talia Gibson,4969,Viktoria Morvayova,2546.5,2090.5,339,463,0.8846,2026-09-23T13:47+02:00,scheduled,,
-183362,atp,2026-09-24T05:30Z,AITO Hangzhou Open,Round 1,Hard,10219,Jaime Faria,10638,Terence Atmane,2330.0,2335.1,313,413,0.4923,2026-09-23T13:47+02:00,scheduled,,
-183351,atp,2026-09-24T06:30Z,AITO Hangzhou Open,Round 1,Hard,3716,Rinky Hijikata,3812,Dalibor Svrcina,2285.5,2289.0,429,370,0.4946,2026-09-23T13:47+02:00,scheduled,,
-183356,atp,2026-09-24T06:30Z,AITO Hangzhou Open,Round 1,Hard,9213,Fabian Marozsan,2318,Alex Bolt,2352.7,2108.7,435,750,0.8193,2026-09-23T13:47+02:00,scheduled,,
-183395,atp,2026-09-24T06:30Z,Chengdu Open,Round 1,Hard,15473,Moise Kouame,3308,Alexandre Muller,2104.6,2226.2,66,732,0.3216,2026-09-23T13:47+02:00,scheduled,,
-183401,atp,2026-09-24T06:30Z,Chengdu Open,Round 1,Hard,10073,Shang Juncheng,1266,Adrian Mannarino,2316.7,2248.5,222,1280,0.6029,2026-09-23T13:47+02:00,scheduled,,
-183404,atp,2026-09-24T06:30Z,Chengdu Open,Round 1,Hard,2874,Miomir Kecmanovic,2498,Nikoloz Basilashvili,2323.6,2203.6,584,893,0.6762,2026-09-23T13:47+02:00,scheduled,,
-184097,wta,2026-09-24T06:30Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,3387,Wang Xinyu,3705,Joanna Garland,2537.3,2384.1,440,388,0.6647,2026-09-23T13:47+02:00,scheduled,,
-183360,atp,2026-09-24T07:00Z,AITO Hangzhou Open,Round 1,Hard,11382,Bu Yunchaokete,12932,Michael Zheng,2319.9,2413.6,303,121,0.3604,2026-09-23T13:47+02:00,scheduled,,
-184054,wta,2026-09-24T07:00Z,Korea Open,Round 2,Hard,2195,Jelena Ostapenko,7672,Taylah Preston,2608.0,2446.0,644,255,0.6734,2026-09-23T13:47+02:00,scheduled,,
-183358,atp,2026-09-24T08:00Z,AITO Hangzhou Open,Round 1,Hard,10153,Mattia Bellucci,2416,Kamil Majchrzak,2324.5,2361.2,403,663,0.4441,2026-09-23T13:47+02:00,scheduled,,
-183392,atp,2026-09-24T08:00Z,Chengdu Open,Round 1,Hard,8710,Aleksandr Shevchenko,2726,Hubert Hurkacz,2203.3,2459.6,475,650,0.1694,2026-09-23T13:47+02:00,scheduled,,
-183394,atp,2026-09-24T08:00Z,Chengdu Open,Round 1,Hard,10130,Martin Damm,7608,Shintaro Mochizuki,2269.2,2123.1,341,418,0.7105,2026-09-23T13:47+02:00,scheduled,,
-183396,atp,2026-09-24T08:00Z,Chengdu Open,Round 1,Hard,2863,Lloyd Harris,3849,Aleksandar Kovacevic,2298.9,2264.6,617,414,0.5524,2026-09-23T13:47+02:00,scheduled,,
-183350,atp,2026-09-24T08:30Z,AITO Hangzhou Open,Round 1,Hard,3797,Cui Jie,11396,Adolfo Daniel Vallejo,1982.0,2158.6,297,195,0.2520,2026-09-23T13:47+02:00,scheduled,,
-183346,atp,2026-09-24T09:30Z,AITO Hangzhou Open,Round 1,Hard,2567,Sun Fajing,2636,Roman Safiullin,2052.6,2329.3,490,633,0.1519,2026-09-23T13:47+02:00,scheduled,,
-183393,atp,2026-09-24T09:30Z,Chengdu Open,Round 1,Hard,4008,Juan Manuel Cerundolo,13444,Zhou Yi,2283.2,2051.7,479,150,0.8073,2026-09-23T13:47+02:00,scheduled,,
-184096,wta,2026-09-24T10:30Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,12846,Tatiana Prozorova,7759,Alexandra Eala,2457.9,2712.3,288,359,0.2429,2026-09-23T13:47+02:00,scheduled,,
-183352,atp,2026-09-24T11:30Z,AITO Hangzhou Open,Round 1,Hard,3024,Zhang Zhizhen,11398,Chak Lam Coleman Wong,2230.8,2212.7,502,14,0.5275,2026-09-23T13:47+02:00,scheduled,,
-184100,wta,2026-09-24T12:00Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,3018,Maria Sakkari,2043,Nao Hibino,2629.2,2269.0,832,757,0.8333,2026-09-23T13:47+02:00,scheduled,,
-183347,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,2383,Daniil Medvedev,-4,TBD,2579.6,1500.0,833,0,0.9993,2026-09-23T13:47+02:00,scheduled,,
-183355,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183357,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183359,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,2362,Quentin Halys,-4,TBD,2352.5,1500.0,790,0,0.9965,2026-09-23T13:47+02:00,scheduled,,
-183361,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183364,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183366,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,7509,Kyrian Jacquet,3739,Tomas Martin Etcheverry,2260.0,2366.1,369,604,0.3428,2026-09-23T13:47+02:00,scheduled,,
-183368,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,2642,Andrey Rublev,1500.0,2463.8,0,811,0.0016,2026-09-23T13:47+02:00,scheduled,,
-183408,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,9376,Valentin Vacherot,-4,TBD,2414.9,1500.0,391,0,0.9978,2026-09-23T13:47+02:00,scheduled,,
-183409,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183410,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,-3,TBD,3310,Botic Van De Zandschulp,1500.0,2436.8,0,609,0.0019,2026-09-23T13:47+02:00,scheduled,,
-183411,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,3621,Jenson Brooksby,-4,TBD,2301.3,1500.0,274,0,0.9950,2026-09-23T13:47+02:00,scheduled,,
-183412,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,3809,Vit Kopriva,-4,TBD,2238.9,1500.0,680,0,0.9922,2026-09-23T13:47+02:00,scheduled,,
-183413,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,2970,Alejandro Tabilo,-4,TBD,2400.9,1500.0,623,0,0.9975,2026-09-23T13:47+02:00,scheduled,,
-183416,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,-3,TBD,3212,Alejandro Davidovich Fokina,1500.0,2480.6,0,535,0.0014,2026-09-23T13:47+02:00,scheduled,,
-183417,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183898,wta,2026-09-25T04:00Z,Delta Motors Tolentino Open,Quarterfinal,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183899,wta,2026-09-25T04:00Z,Delta Motors Tolentino Open,Quarterfinal,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183900,wta,2026-09-25T04:00Z,Delta Motors Tolentino Open,Quarterfinal,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183901,wta,2026-09-25T04:00Z,Delta Motors Tolentino Open,Quarterfinal,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183963,wta,2026-09-25T04:00Z,Eupago Porto Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183964,wta,2026-09-25T04:00Z,Eupago Porto Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183965,wta,2026-09-25T04:00Z,Eupago Porto Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183966,wta,2026-09-25T04:00Z,Eupago Porto Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184009,wta,2026-09-25T04:00Z,Turk Telekom Ankara Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184010,wta,2026-09-25T04:00Z,Turk Telekom Ankara Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184011,wta,2026-09-25T04:00Z,Turk Telekom Ankara Open,Quarterfinal,Hard,-3,TBD,17104,Polina Iatcenko,1500.0,2344.5,0,279,0.0225,2026-09-23T13:47+02:00,scheduled,,
-184012,wta,2026-09-25T04:00Z,Turk Telekom Ankara Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184055,wta,2026-09-25T04:00Z,Korea Open,Quarterfinal,Hard,3746,Katie Volynets,-4,TBD,2614.9,1500.0,433,0,0.9932,2026-09-23T13:47+02:00,scheduled,,
-184056,wta,2026-09-25T04:00Z,Korea Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184057,wta,2026-09-25T04:00Z,Korea Open,Quarterfinal,Hard,6953,Lanlana Tararudee,14146,Maya Joint,2534.2,2484.6,285,224,0.5551,2026-09-23T13:47+02:00,scheduled,,
-184058,wta,2026-09-25T04:00Z,Korea Open,Quarterfinal,Hard,-3,TBD,9169,Alina Korneeva,1500.0,2650.8,0,182,0.0058,2026-09-23T13:47+02:00,scheduled,,
-184103,wta,2026-09-25T04:00Z,Singapore Tennis Open presented by BNP Paribas,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184104,wta,2026-09-25T04:00Z,Singapore Tennis Open presented by BNP Paribas,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184105,wta,2026-09-25T04:00Z,Singapore Tennis Open presented by BNP Paribas,Quarterfinal,Hard,2221,Elise Mertens,3417,Maja Chwalinska,2694.9,2547.3,780,372,0.6591,2026-09-23T13:47+02:00,scheduled,,
-184106,wta,2026-09-25T04:00Z,Singapore Tennis Open presented by BNP Paribas,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183967,wta,2026-09-26T04:00Z,Eupago Porto Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183968,wta,2026-09-26T04:00Z,Eupago Porto Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184013,wta,2026-09-26T04:00Z,Turk Telekom Ankara Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184014,wta,2026-09-26T04:00Z,Turk Telekom Ankara Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184059,wta,2026-09-26T04:00Z,Korea Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184060,wta,2026-09-26T04:00Z,Korea Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184101,wta,2026-09-26T04:00Z,Singapore Tennis Open presented by BNP Paribas,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184102,wta,2026-09-26T04:00Z,Singapore Tennis Open presented by BNP Paribas,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183370,atp,2026-09-27T04:00Z,AITO Hangzhou Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183371,atp,2026-09-27T04:00Z,AITO Hangzhou Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183372,atp,2026-09-27T04:00Z,AITO Hangzhou Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183373,atp,2026-09-27T04:00Z,AITO Hangzhou Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183414,atp,2026-09-27T04:00Z,Chengdu Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183415,atp,2026-09-27T04:00Z,Chengdu Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183418,atp,2026-09-27T04:00Z,Chengdu Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183419,atp,2026-09-27T04:00Z,Chengdu Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183904,wta,2026-09-27T04:00Z,Delta Motors Tolentino Open,Final,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183969,wta,2026-09-27T04:00Z,Eupago Porto Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184015,wta,2026-09-27T04:00Z,Turk Telekom Ankara Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184061,wta,2026-09-27T04:00Z,Korea Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-184107,wta,2026-09-27T04:00Z,Singapore Tennis Open presented by BNP Paribas,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183374,atp,2026-09-28T04:00Z,AITO Hangzhou Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183375,atp,2026-09-28T04:00Z,AITO Hangzhou Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183420,atp,2026-09-28T04:00Z,Chengdu Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183421,atp,2026-09-28T04:00Z,Chengdu Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
-183376,atp,2026-09-29T04:00Z,AITO Hangzhou Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T13:47+02:00,scheduled,,
+match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_elo,n1,n2,p1_prob,predicted_at,status,winner,score,model
+183940,wta,2026-09-23T10:00Z,Eupago Porto Open,Round 2,Hard,2848,Oceane Dodin,3490,Elena Malygina,1647.6,1450.4,127,22,0.7079,2026-09-23T12:03+02:00,final,3490,2-6 6-4 6-2,v1
+183878,wta,2026-09-23T10:05Z,Delta Motors Tolentino Open,Round 2,Clay,19090,Isabella Maria Serban,2984,Rebeka Masarova,1569.0,1682.8,1,90,0.3749,2026-09-23T12:07+02:00,live,,,v1
+184005,wta,2026-09-23T10:05Z,Turk Telekom Ankara Open,Round 2,Hard,8681,Weronika Falkowska,17104,Polina Iatcenko,1582.2,1660.0,13,9,0.4135,2026-09-23T12:07+02:00,final,17104,6-3 6-4,v1
+184095,wta,2026-09-23T10:35Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,9820,Mirra Andreeva,1809,Aliaksandra Sasnovich,2042.8,1742.1,182,352,0.7942,2026-09-23T12:38+02:00,final,9820,6-2 6-2,v1
+183367,atp,2026-09-23T11:30Z,AITO Hangzhou Open,Round 1,Hard,4022,Valentin Royer,3093,Adam Walton,1574.0,1618.7,43,73,0.4475,2026-09-23T12:38+02:00,live,,,v1
+183939,wta,2026-09-23T12:00Z,Eupago Porto Open,Round 2,Hard,14578,Matilde Jorge,7797,Sinja Kraus,2144.1,2391.9,259,476,0.2484,2026-09-23T13:47+02:00,live,,,v2
+183962,wta,2026-09-23T12:00Z,Eupago Porto Open,Round 2,Hard,15775,Ayana Akli,13314,Gabriela Knutson,2163.1,2356.8,126,297,0.2962,2026-09-23T13:47+02:00,live,,,v2
+184001,wta,2026-09-23T12:00Z,Turk Telekom Ankara Open,Round 2,Hard,14946,Elena Pridankina,13737,Ksenia Zaytseva,2312.7,2058.5,286,151,0.7569,2026-09-23T13:47+02:00,live,,,v2
+184094,wta,2026-09-23T12:00Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,5309,Alycia Parks,3641,Leylah Fernandez,2375.9,2641.8,429,389,0.2337,2026-09-23T13:47+02:00,live,,,v2
+183890,wta,2026-09-23T12:30Z,Delta Motors Tolentino Open,Round 2,Clay,3909,Jessica Pieri,10676,Leyre Romero Gormaz,2086.2,2342.4,482,417,0.2415,2026-09-23T14:29+02:00,scheduled,,,v2
+184006,wta,2026-09-23T13:00Z,Turk Telekom Ankara Open,Round 2,Hard,3141,Berfu Cengiz,19088,Aysegul Mert,2123.9,1994.1,440,88,0.6411,2026-09-23T14:29+02:00,scheduled,,,v2
+183949,wta,2026-09-23T13:30Z,Eupago Porto Open,Round 2,Hard,10501,Maria Timofeeva,4438,Kajsa Rinaldo Persson,2479.0,2181.0,343,423,0.7910,2026-09-23T14:29+02:00,scheduled,,,v2
+184004,wta,2026-09-23T14:30Z,Turk Telekom Ankara Open,Round 2,Hard,15426,Shi Han,3185,Ayla Aksu,2216.5,2214.9,227,566,0.5018,2026-09-23T14:29+02:00,scheduled,,,v2
+183880,wta,2026-09-23T16:00Z,Delta Motors Tolentino Open,Round 2,Clay,12957,Guiomar Maristany Zuleta De Reales,17887,Marta Lombardini,2376.2,1928.5,465,24,0.8808,2026-09-23T14:29+02:00,scheduled,,,v2
+183876,wta,2026-09-23T18:00Z,Delta Motors Tolentino Open,Round 2,Clay,17102,Noemi Basiletti,13219,Mia Ristic,2282.9,2298.3,105,251,0.4828,2026-09-23T14:29+02:00,scheduled,,,v2
+184050,wta,2026-09-24T03:00Z,Korea Open,Round 2,Hard,13615,Ma YeXin,2588,Kimberly Birrell,2168.0,2495.0,8,461,0.1883,2026-09-23T14:29+02:00,scheduled,,,v2
+184053,wta,2026-09-24T03:00Z,Korea Open,Round 2,Hard,2734,Anna Bondar,6570,Alina Charaeva,2483.1,2395.8,697,314,0.5962,2026-09-23T14:29+02:00,scheduled,,,v2
+183884,wta,2026-09-24T04:00Z,Delta Motors Tolentino Open,Round 2,Clay,2282,Ekaterine Gorgodze,7806,Barbora Palicova,2184.9,2150.6,932,341,0.5382,2026-09-23T14:29+02:00,scheduled,,,v2
+183886,wta,2026-09-24T04:00Z,Delta Motors Tolentino Open,Round 2,Clay,5161,Alice Tubello,2599,Julia Grabher,2320.5,2409.4,327,672,0.4020,2026-09-23T14:29+02:00,scheduled,,,v2
+183888,wta,2026-09-24T04:00Z,Delta Motors Tolentino Open,Round 2,Clay,5878,Veronika Erjavec,5168,Nuria Brancaccio,2318.6,2313.7,456,478,0.5055,2026-09-23T14:29+02:00,scheduled,,,v2
+183897,wta,2026-09-24T04:00Z,Delta Motors Tolentino Open,Round 2,Clay,17107,Samira De Stefano,6571,Oksana Selekhmeteva,2332.9,2311.7,224,343,0.5236,2026-09-23T14:29+02:00,scheduled,,,v2
+183941,wta,2026-09-24T04:00Z,Eupago Porto Open,Round 2,Hard,16295,Angelina Voloshchuk,3330,Harmony Tan,2064.6,2342.0,115,608,0.2246,2026-09-23T14:29+02:00,scheduled,,,v2
+183956,wta,2026-09-24T04:00Z,Eupago Porto Open,Round 2,Hard,2551,Naiktha Bains,6823,Reese Brantmeier,2146.0,2190.5,489,88,0.4505,2026-09-23T14:29+02:00,scheduled,,,v2
+183958,wta,2026-09-24T04:00Z,Eupago Porto Open,Round 2,Hard,16688,Valentina Steiner,2752,Katie Swan,1957.1,2409.2,84,369,0.1171,2026-09-23T14:29+02:00,scheduled,,,v2
+183960,wta,2026-09-24T04:00Z,Eupago Porto Open,Round 2,Hard,14080,Veronika Podrez,16296,Mia Pohankova,2321.8,2434.8,220,60,0.3765,2026-09-23T14:29+02:00,scheduled,,,v2
+184002,wta,2026-09-24T04:00Z,Turk Telekom Ankara Open,Round 2,Hard,13708,Tian Fangran,8560,Elena Micic,2253.9,2047.6,179,211,0.7153,2026-09-23T14:29+02:00,scheduled,,,v2
+184003,wta,2026-09-24T04:00Z,Turk Telekom Ankara Open,Round 2,Hard,16002,Teodora Kostovic,15344,Elena Ruxandra Bertea,2318.4,1946.1,115,164,0.8407,2026-09-23T14:29+02:00,scheduled,,,v2
+184007,wta,2026-09-24T04:00Z,Turk Telekom Ankara Open,Round 2,Hard,5299,Carole Monnet,7816,Anastasia Gasanova,2214.6,2322.0,496,490,0.3823,2026-09-23T14:29+02:00,scheduled,,,v2
+184008,wta,2026-09-24T04:00Z,Turk Telekom Ankara Open,Round 2,Hard,16142,Deniz Dilek,1254,Cagla Buyukakcay,2031.0,2009.7,21,1031,0.5239,2026-09-23T14:29+02:00,scheduled,,,v2
+183353,atp,2026-09-24T05:00Z,AITO Hangzhou Open,Round 1,Hard,3935,Sho Shimabukuro,3375,Hugo Gaston,2183.9,2225.0,434,478,0.4375,2026-09-23T14:29+02:00,scheduled,,,v2
+183354,atp,2026-09-24T05:00Z,AITO Hangzhou Open,Round 1,Hard,4030,Dane Sweeny,1837,Taro Daniel,2125.7,2079.7,400,1006,0.5699,2026-09-23T14:29+02:00,scheduled,,,v2
+183397,atp,2026-09-24T05:00Z,Chengdu Open,Round 1,Hard,4115,Nuno Borges,3666,Camilo Ugo Carabelli,2394.6,2188.1,509,584,0.7816,2026-09-23T14:29+02:00,scheduled,,,v2
+183405,atp,2026-09-24T05:00Z,Chengdu Open,Round 1,Hard,1857,James Duckworth,3052,Lorenzo Sonego,2269.7,2334.4,891,683,0.4021,2026-09-23T14:29+02:00,scheduled,,,v2
+183407,atp,2026-09-24T05:00Z,Chengdu Open,Round 1,Hard,3319,Tallon Griekspoor,2860,Denis Shapovalov,2376.3,2438.0,650,561,0.4068,2026-09-23T14:29+02:00,scheduled,,,v2
+184052,wta,2026-09-24T05:00Z,Korea Open,Round 2,Hard,5737,Yeonwoo Ku,2748,Elena-Gabriela Ruse,2247.9,2593.5,330,532,0.1759,2026-09-23T14:29+02:00,scheduled,,,v2
+184099,wta,2026-09-24T05:00Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,6708,Talia Gibson,4969,Viktoria Morvayova,2546.5,2090.5,339,463,0.8846,2026-09-23T14:29+02:00,scheduled,,,v2
+183362,atp,2026-09-24T05:30Z,AITO Hangzhou Open,Round 1,Hard,10219,Jaime Faria,10638,Terence Atmane,2330.0,2335.1,313,413,0.4923,2026-09-23T14:29+02:00,scheduled,,,v2
+183351,atp,2026-09-24T06:30Z,AITO Hangzhou Open,Round 1,Hard,3716,Rinky Hijikata,3812,Dalibor Svrcina,2285.5,2289.0,429,370,0.4946,2026-09-23T14:29+02:00,scheduled,,,v2
+183356,atp,2026-09-24T06:30Z,AITO Hangzhou Open,Round 1,Hard,9213,Fabian Marozsan,2318,Alex Bolt,2352.7,2108.7,435,750,0.8193,2026-09-23T14:29+02:00,scheduled,,,v2
+183395,atp,2026-09-24T06:30Z,Chengdu Open,Round 1,Hard,15473,Moise Kouame,3308,Alexandre Muller,2104.6,2226.2,66,732,0.3216,2026-09-23T14:29+02:00,scheduled,,,v2
+183401,atp,2026-09-24T06:30Z,Chengdu Open,Round 1,Hard,10073,Shang Juncheng,1266,Adrian Mannarino,2316.7,2248.5,222,1280,0.6029,2026-09-23T14:29+02:00,scheduled,,,v2
+183404,atp,2026-09-24T06:30Z,Chengdu Open,Round 1,Hard,2874,Miomir Kecmanovic,2498,Nikoloz Basilashvili,2323.6,2203.6,584,893,0.6762,2026-09-23T14:29+02:00,scheduled,,,v2
+184097,wta,2026-09-24T06:30Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,3387,Wang Xinyu,3705,Joanna Garland,2537.3,2384.1,440,388,0.6647,2026-09-23T14:29+02:00,scheduled,,,v2
+183360,atp,2026-09-24T07:00Z,AITO Hangzhou Open,Round 1,Hard,11382,Bu Yunchaokete,12932,Michael Zheng,2319.9,2413.6,303,121,0.3604,2026-09-23T14:29+02:00,scheduled,,,v2
+184054,wta,2026-09-24T07:00Z,Korea Open,Round 2,Hard,2195,Jelena Ostapenko,7672,Taylah Preston,2608.0,2446.0,644,255,0.6734,2026-09-23T14:29+02:00,scheduled,,,v2
+183358,atp,2026-09-24T08:00Z,AITO Hangzhou Open,Round 1,Hard,10153,Mattia Bellucci,2416,Kamil Majchrzak,2324.5,2361.2,403,663,0.4441,2026-09-23T14:29+02:00,scheduled,,,v2
+183392,atp,2026-09-24T08:00Z,Chengdu Open,Round 1,Hard,8710,Aleksandr Shevchenko,2726,Hubert Hurkacz,2203.3,2459.6,475,650,0.1694,2026-09-23T14:29+02:00,scheduled,,,v2
+183394,atp,2026-09-24T08:00Z,Chengdu Open,Round 1,Hard,10130,Martin Damm,7608,Shintaro Mochizuki,2269.2,2123.1,341,418,0.7105,2026-09-23T14:29+02:00,scheduled,,,v2
+183396,atp,2026-09-24T08:00Z,Chengdu Open,Round 1,Hard,2863,Lloyd Harris,3849,Aleksandar Kovacevic,2298.9,2264.6,617,414,0.5524,2026-09-23T14:29+02:00,scheduled,,,v2
+183350,atp,2026-09-24T08:30Z,AITO Hangzhou Open,Round 1,Hard,3797,Cui Jie,11396,Adolfo Daniel Vallejo,1982.0,2158.6,297,195,0.2520,2026-09-23T14:29+02:00,scheduled,,,v2
+183346,atp,2026-09-24T09:30Z,AITO Hangzhou Open,Round 1,Hard,2567,Sun Fajing,2636,Roman Safiullin,2052.6,2329.3,490,633,0.1519,2026-09-23T14:29+02:00,scheduled,,,v2
+183393,atp,2026-09-24T09:30Z,Chengdu Open,Round 1,Hard,4008,Juan Manuel Cerundolo,13444,Zhou Yi,2283.2,2051.7,479,150,0.8073,2026-09-23T14:29+02:00,scheduled,,,v2
+184096,wta,2026-09-24T10:30Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,12846,Tatiana Prozorova,7759,Alexandra Eala,2457.9,2712.3,288,359,0.2429,2026-09-23T14:29+02:00,scheduled,,,v2
+183352,atp,2026-09-24T11:30Z,AITO Hangzhou Open,Round 1,Hard,3024,Zhang Zhizhen,11398,Chak Lam Coleman Wong,2230.8,2212.7,502,14,0.5275,2026-09-23T14:29+02:00,scheduled,,,v2
+184100,wta,2026-09-24T12:00Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,3018,Maria Sakkari,2043,Nao Hibino,2629.2,2269.0,832,757,0.8333,2026-09-23T14:29+02:00,scheduled,,,v2
+183347,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,2383,Daniil Medvedev,-4,TBD,2579.6,1500.0,833,0,0.9993,2026-09-23T14:29+02:00,scheduled,,,v2
+183355,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183357,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183359,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,2362,Quentin Halys,-4,TBD,2352.5,1500.0,790,0,0.9965,2026-09-23T14:29+02:00,scheduled,,,v2
+183361,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183364,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183366,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,7509,Kyrian Jacquet,3739,Tomas Martin Etcheverry,2260.0,2366.1,369,604,0.3428,2026-09-23T14:29+02:00,scheduled,,,v2
+183368,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,2642,Andrey Rublev,1500.0,2463.8,0,811,0.0016,2026-09-23T14:29+02:00,scheduled,,,v2
+183408,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,9376,Valentin Vacherot,-4,TBD,2414.9,1500.0,391,0,0.9978,2026-09-23T14:29+02:00,scheduled,,,v2
+183409,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183410,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,-3,TBD,3310,Botic Van De Zandschulp,1500.0,2436.8,0,609,0.0019,2026-09-23T14:29+02:00,scheduled,,,v2
+183411,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,3621,Jenson Brooksby,-4,TBD,2301.3,1500.0,274,0,0.9950,2026-09-23T14:29+02:00,scheduled,,,v2
+183412,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,3809,Vit Kopriva,-4,TBD,2238.9,1500.0,680,0,0.9922,2026-09-23T14:29+02:00,scheduled,,,v2
+183413,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,2970,Alejandro Tabilo,-4,TBD,2400.9,1500.0,623,0,0.9975,2026-09-23T14:29+02:00,scheduled,,,v2
+183416,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,-3,TBD,3212,Alejandro Davidovich Fokina,1500.0,2480.6,0,535,0.0014,2026-09-23T14:29+02:00,scheduled,,,v2
+183417,atp,2026-09-25T04:00Z,Chengdu Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183898,wta,2026-09-25T04:00Z,Delta Motors Tolentino Open,Quarterfinal,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183899,wta,2026-09-25T04:00Z,Delta Motors Tolentino Open,Quarterfinal,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183900,wta,2026-09-25T04:00Z,Delta Motors Tolentino Open,Quarterfinal,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183901,wta,2026-09-25T04:00Z,Delta Motors Tolentino Open,Quarterfinal,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183963,wta,2026-09-25T04:00Z,Eupago Porto Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183964,wta,2026-09-25T04:00Z,Eupago Porto Open,Quarterfinal,Hard,3490,Elena Malygina,-4,TBD,2209.6,1500.0,428,0,0.9597,2026-09-23T14:29+02:00,scheduled,,,v2
+183965,wta,2026-09-25T04:00Z,Eupago Porto Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183966,wta,2026-09-25T04:00Z,Eupago Porto Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184009,wta,2026-09-25T04:00Z,Turk Telekom Ankara Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184010,wta,2026-09-25T04:00Z,Turk Telekom Ankara Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184011,wta,2026-09-25T04:00Z,Turk Telekom Ankara Open,Quarterfinal,Hard,-3,TBD,17104,Polina Iatcenko,1500.0,2344.5,0,279,0.0225,2026-09-23T14:29+02:00,scheduled,,,v2
+184012,wta,2026-09-25T04:00Z,Turk Telekom Ankara Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184055,wta,2026-09-25T04:00Z,Korea Open,Quarterfinal,Hard,3746,Katie Volynets,-4,TBD,2614.9,1500.0,433,0,0.9932,2026-09-23T14:29+02:00,scheduled,,,v2
+184056,wta,2026-09-25T04:00Z,Korea Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184057,wta,2026-09-25T04:00Z,Korea Open,Quarterfinal,Hard,6953,Lanlana Tararudee,14146,Maya Joint,2534.2,2484.6,285,224,0.5551,2026-09-23T14:29+02:00,scheduled,,,v2
+184058,wta,2026-09-25T04:00Z,Korea Open,Quarterfinal,Hard,-3,TBD,9169,Alina Korneeva,1500.0,2650.8,0,182,0.0058,2026-09-23T14:29+02:00,scheduled,,,v2
+184103,wta,2026-09-25T04:00Z,Singapore Tennis Open presented by BNP Paribas,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184104,wta,2026-09-25T04:00Z,Singapore Tennis Open presented by BNP Paribas,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184105,wta,2026-09-25T04:00Z,Singapore Tennis Open presented by BNP Paribas,Quarterfinal,Hard,2221,Elise Mertens,3417,Maja Chwalinska,2694.9,2547.3,780,372,0.6591,2026-09-23T14:29+02:00,scheduled,,,v2
+184106,wta,2026-09-25T04:00Z,Singapore Tennis Open presented by BNP Paribas,Quarterfinal,Hard,9820,Mirra Andreeva,-4,TBD,2880.3,1500.0,251,0,0.9979,2026-09-23T14:29+02:00,scheduled,,,v2
+183967,wta,2026-09-26T04:00Z,Eupago Porto Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183968,wta,2026-09-26T04:00Z,Eupago Porto Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184013,wta,2026-09-26T04:00Z,Turk Telekom Ankara Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184014,wta,2026-09-26T04:00Z,Turk Telekom Ankara Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184059,wta,2026-09-26T04:00Z,Korea Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184060,wta,2026-09-26T04:00Z,Korea Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184101,wta,2026-09-26T04:00Z,Singapore Tennis Open presented by BNP Paribas,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184102,wta,2026-09-26T04:00Z,Singapore Tennis Open presented by BNP Paribas,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183370,atp,2026-09-27T04:00Z,AITO Hangzhou Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183371,atp,2026-09-27T04:00Z,AITO Hangzhou Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183372,atp,2026-09-27T04:00Z,AITO Hangzhou Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183373,atp,2026-09-27T04:00Z,AITO Hangzhou Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183414,atp,2026-09-27T04:00Z,Chengdu Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183415,atp,2026-09-27T04:00Z,Chengdu Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183418,atp,2026-09-27T04:00Z,Chengdu Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183419,atp,2026-09-27T04:00Z,Chengdu Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183904,wta,2026-09-27T04:00Z,Delta Motors Tolentino Open,Final,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183969,wta,2026-09-27T04:00Z,Eupago Porto Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184015,wta,2026-09-27T04:00Z,Turk Telekom Ankara Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184061,wta,2026-09-27T04:00Z,Korea Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+184107,wta,2026-09-27T04:00Z,Singapore Tennis Open presented by BNP Paribas,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183374,atp,2026-09-28T04:00Z,AITO Hangzhou Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183375,atp,2026-09-28T04:00Z,AITO Hangzhou Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183420,atp,2026-09-28T04:00Z,Chengdu Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183421,atp,2026-09-28T04:00Z,Chengdu Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
+183376,atp,2026-09-29T04:00Z,AITO Hangzhou Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
