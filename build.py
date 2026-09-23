@@ -11,7 +11,7 @@ Zapisuje:
   data/predictions.csv     log předzápasových predikcí (základ živé bilance, verzováno v gitu)
 """
 import csv, json, math, os
-from collections import defaultdict
+from collections import defaultdict, deque
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -122,6 +122,85 @@ def odds_track(odds, preds):
             "other_models": sum(e["model"] != elo.MODEL_VERSION and e["profit"] is not None for e in entries)}
 
 
+LEVELS = {"G": "Grand Slam", "M": "Masters", "A": "ATP 250/500", "F": "Finals", "D": "Davis/BJK Cup",
+          "PM": "WTA 1000", "P": "WTA 500", "I": "WTA 250", "C": "Challenger/125", "L": ""}
+
+
+def load_players(tour):
+    path = os.path.join(elo.DATA_DIR, f"players_{tour}.csv")
+    if not os.path.exists(path):
+        return {}
+    with open(path, newline="", encoding="utf-8") as f:
+        return {r["player_id"]: r for r in csv.DictReader(f)}
+
+
+def match_day(r):
+    """Datum zápasu: z ESPN přesné, z historie jen začátek turnaje."""
+    if r.get("_date"):
+        return datetime.fromisoformat(r["_date"][:10]).date()
+    d = r["tourney_date"]
+    return datetime(int(d[:4]), int(d[4:6]), int(d[6:8])).date()
+
+
+def level_label(r):
+    lv = r.get("tourney_level", "")
+    if r.get("round") in ("Q", "Q1", "Q2", "Q3", "Q4"):
+        return "kvalifikace"
+    if r.get("_source") == "espn":
+        return ""
+    if lv == "L":                              # nižší úrovně: podle id/úrovně z archivu
+        return "Challenger/125" if r.get("_lvl") == "C" else "ITF/Futures"
+    return LEVELS.get(lv, lv)
+
+
+def details(model, tour, wanted, players, espn_country):
+    """Detail k zápasům v rozpisu: vzájemné zápasy, posledních 10 zápasů, zatížení v posledních dnech.
+    wanted: {match_id: (pid1, pid2, den zápasu)}"""
+    pids = {p for a, b, _ in wanted.values() for p in (a, b)}
+    pairs = {frozenset((a, b)) for a, b, _ in wanted.values()}
+    last = defaultdict(lambda: deque(maxlen=12))
+    h2h = defaultdict(list)
+    for r in model.rows:
+        w, l = r["winner_id"], r["loser_id"]
+        if w not in pids and l not in pids:
+            continue
+        item = {"d": match_day(r).isoformat(), "exact": bool(r.get("_date")), "t": r["tourney_name"],
+                "lvl": level_label(r), "r": r["round"], "s": r["_surface"], "sc": r["score"],
+                "w": w, "wn": r["winner_name"], "ln": r["loser_name"]}
+        if w in pids: last[w].append(item)
+        if l in pids: last[l].append(item)
+        if frozenset((w, l)) in pairs:
+            h2h[frozenset((w, l))].append(item)
+
+    def pinfo(pid, name, country, day):
+        info = players.get(pid, {})
+        ms = list(last[pid])
+        recent = [m for m in ms if 0 <= (day - datetime.fromisoformat(m["d"]).date()).days <= 7]
+        def load(days):
+            sel = [m for m in recent if (day - datetime.fromisoformat(m["d"]).date()).days <= days]
+            return {"m": len(sel), "sets": sum(len([t for t in m["sc"].split() if "-" in t]) for m in sel)}
+        age = None
+        if info.get("dob") and len(info["dob"]) == 8 and info["dob"] != "19000000":
+            b = datetime.strptime(info["dob"], "%Y%m%d").date()
+            age = round((day - b).days / 365.25, 1)
+        return {"name": name, "hand": {"R": "pravák", "L": "levák"}.get(info.get("hand"), ""),
+                "country": info.get("ioc") or country, "height": info.get("height") or "", "age": age,
+                "load3": load(3), "load7": load(7),
+                "exact": all(m["exact"] for m in recent),
+                "last10": [{"d": m["d"], "ex": m["exact"], "t": m["t"], "lvl": m["lvl"], "r": m["r"], "s": m["s"], "sc": m["sc"],
+                            "won": m["w"] == pid, "opp": m["ln"] if m["w"] == pid else m["wn"]}
+                           for m in reversed(ms[-10:])]}
+    out = {}
+    for mid, (a, b, day, n1, n2) in ((k, v + (espn_country[k])) for k, v in wanted.items()):
+        hh = h2h.get(frozenset((a, b)), [])
+        out[f"{tour}:{mid}"] = {
+            "h2h": [{"d": m["d"], "ex": m["exact"], "t": m["t"], "lvl": m["lvl"], "r": m["r"], "s": m["s"], "sc": m["sc"],
+                     "win": 1 if m["w"] == a else 2} for m in reversed(hh)],
+            "h2h_n": [sum(m["w"] == a for m in hh), sum(m["w"] == b for m in hh)],
+            "p1": pinfo(a, *n1, day), "p2": pinfo(b, *n2, day)}
+    return out
+
+
 def load_predictions():
     if not os.path.exists(PRED_PATH):
         return {}
@@ -148,11 +227,12 @@ def main():
         upcoming = json.load(f)
     preds = load_predictions()
     odds = load_odds()
-    matches_out, ratings_out, backtest = [], {}, {}
+    matches_out, ratings_out, backtest, details_out = [], {}, {}, {}
 
     for tour in ("atp", "wta"):
         log = []
-        model, stats = elo.run(tour, log=log)
+        model, stats = elo.run(tour, log=log, keep_rows=True)
+        wanted, wanted_meta = {}, {}
         pmap = elo.PLAYER_MAPS[tour]            # stejné párování jako při výpočtu Elo
         smap = mapping.SurfaceMap({t: elo.history(t) for t in ("atp", "wta")})
 
@@ -211,6 +291,8 @@ def main():
                 preds[key].update(status=m["status"], winner=m["winner"], score=m["score"])
             if day not in (today, today + timedelta(days=1)):
                 continue
+            wanted[m["match_id"]] = (a, b, day)
+            wanted_meta[m["match_id"]] = ((m["p1_name"], m.get("p1_country", "")), (m["p2_name"], m.get("p2_country", "")))
             pr = preds.get(key)
             p = float(pr["p1_prob"]) if pr else None
             matches_out.append({
@@ -225,6 +307,9 @@ def main():
                 "low_data": min(model.n[a], model.n[b]) < LOW_DATA,
                 "odds": odds.get(f"{tour}:{m['match_id']}"),
             })
+
+        details_out.update(details(model, tour, wanted, load_players(tour), wanted_meta))
+        del model.rows
 
     # doplnit výsledky i starším predikcím, které už vypadly z okna rozpisu
     for tour in ("atp", "wta"):
@@ -265,6 +350,7 @@ def main():
     meta = {"generated": now.isoformat(timespec="minutes"), "data_fetched": upcoming["fetched"]}
     matches_out.sort(key=lambda m: (m["day"], m["start"], m["tour"], m["tourney"]))
     for name, payload in (("today.json", {**meta, "matches": matches_out}),
+                          ("details.json", {**meta, "details": details_out}),
                           ("ratings.json", {**meta, "scale": elo.CALIBRATION, "long_break": LONG_BREAK,
                                             "low_data": LOW_DATA,
                                             **ratings_out}),

@@ -41,6 +41,21 @@ Zpětný test 2023+ (zápasy hlavní soutěže, oba hráči ≥ 10 zápasů na o
 Vyzkoušeno a **nepoužito** (žádný přínos na 2010–2022): penalizace / větší nejistota po dlouhé pauze,
 nižší startovní rating nováčků (s challengery v historii nemá efekt).
 
+Další faktory (23. 9. 2026) – logistická regrese nad Elo v2, výběr na 2019–2022 (fit 2010–2018),
+finální fit 2010–2022, test 2023+ párově na stejných zápasech (rozdíl log-loss, záporné = lepší):
+
+| Faktor | ATP | WTA | Verdikt |
+|---|---|---|---|
+| vzájemné zápasy (celkově + povrch) | −0,0002 ± 0,0002 | −0,0001 ± 0,0002 | šum |
+| únava (zápasy/sety/gemy za 3 a 7 dní) | −0,0004 ± 0,0003 | −0,0008 ± 0,0004 | hranice šumu, v provozu zkreslené (chybí challengery po 5/2026) |
+| levák, výška (i podle povrchu) | +0,0001 ± 0,0003 | +0,0000 ± 0,0001 | nic |
+| domácí prostředí | +0,0001 ± 0,0003 | −0,0002 ± 0,0003 | nic |
+| krátkodobá forma nad Elo (10 zápasů) | −0,0000 ± 0,0002 | −0,0001 ± 0,0003 | nic |
+| **statistiky podání a returnu** (EW body vyhrané na podání + na returnu) | **−0,0028 ± 0,0006** | **−0,0014 ± 0,0006** | pomáhá, ale **nenasaditelné** – pro nové zápasy nemáme zdroj |
+
+→ Verze v3 nevznikla. Pokud se objeví zdroj statistik podání/returnu pro nové zápasy (včetně challengerů),
+je to nejslibnější další krok (cca čtvrtina zisku v2 u ATP).
+
 **Při změně modelu** přidej novou verzi do `MODELS` v `elo.py` a nastav `MODEL_VERSION` – živá bilance
 se pak počítá od začátku nové verze a tipy starších verzí se nemíchají.
 
@@ -61,9 +76,21 @@ se pak počítá od začátku nové verze a tipy starších verzí se nemíchaj�
 | Sofascore API | ❌ 403 | blokuje roboty (lokálně i z GitHub Actions) |
 | atptour.com | ❌ 403 | ochrana proti robotům |
 | itftennis.com – výsledky | ❌ | Incapsula ochrana; **kalendář** (`/tennis/api/TournamentApi/GetCalendar`) z Actions funguje |
-| Tennis Abstract | ❌ | stránky hráčů 403 z Actions, `jsmatches/*.js` zastaralé |
+| Tennis Abstract | ⚠️ jen lokálně | viz níže |
 | tennis-data.co.uk | ⚠️ | soubory 2026 nenalezeny; nemá challengery (jen kurzy hlavního okruhu) |
 | **Tennis Explorer** | ⚠️ funguje jen z Actions | výsledky challengerů i ITF (`/results/?type=atp-single|itf-men-single|itf-women-single&year=&month=&day=`) + kurzy sázkovek. **Z českých IP přesměruje na blokovací stránku** (nejde ladit lokálně). Jde o scraping HTML (podmínky webu), jména zkrácená („Mmoh M.“ → nutné párování přes profily hráčů), chybí kolo a povrch. **Zatím nestavěno** (rozhodnutí 23. 9. 2026). |
+
+### Tennis Abstract (ověřeno 23. 9. 2026 odpoledne)
+- **Aktuální výsledky jsou:** stránky turnajů `/current/<rok><turnaj>.html` („Results and Forecasts“) pro ATP, WTA,
+  challengery i WTA 125 – kolo, plná jména, země, nasazení/WC/Q, skóre, nadcházející zápasy, forecast. Chybí datum zápasu,
+  povrch a **statistiky podání** (ty jsou jen u stránek hráčů, které je načítají z `/jsfrags/`).
+- **robots.txt:** zakázané jen `/jsfrags/`, `/jsmatches/`, `/jsplayers/` → stránky turnajů a Elo žebříčky povolené,
+  statistiky hráčů (jsfrags) ne. Dopolední „zastaralá data“ byla ze zakázaného `/jsmatches/`.
+- **Podmínky webu:** samostatnou stránku nemá; datasety autora jsou pod CC BY-NC-SA 4.0 (uvést zdroj, nekomerčně).
+- **Elo žebříčky** (`/reports/atp_elo_ratings.html`, `wta_elo_ratings.html`) – celkové + povrchové Elo, aktualizace týdně;
+  použitelné jako kontrola našeho modelu.
+- **Z GitHub Actions nefunguje:** všechny stránky 403 s Cloudflare výzvou („Just a moment“) – obcházet ji nebudeme.
+  Z domácí sítě stránky normálně jdou → jediná cesta je stahovat z vlastního počítače (plánovaná úloha 1–2× denně) a výsledek pushnout.
 
 ### Proč na challengerech záleží
 Bez průběžných výsledků challengerů/ITF přínos v2 postupně mizí: v testu na 2025–26 s historií

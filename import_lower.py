@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Jednorázový import zápasů nižších úrovní (challengery, kvalifikace, ITF/Futures, WTA 125)
-z archivu Sackmannových dat do kompaktních souborů data/lower_atp.csv.gz a data/lower_wta.csv.gz.
+z archivu Sackmannových dat do kompaktních souborů data/lower_atp.csv.gz a data/lower_wta.csv.gz
+a údajů o hráčích (ruka, země, výška, datum narození) do data/players_atp.csv a data/players_wta.csv.
 
   python3 import_lower.py
 
@@ -36,7 +37,24 @@ def read(path):
         raise
 
 
+PLAYER_KEEP = ["player_id", "hand", "dob", "ioc", "height"]
+
+
+def import_players(tour):
+    rows = list(csv.DictReader(io.StringIO(read(f"{tour}/{tour}_players"))))
+    out = os.path.join(elo.DATA_DIR, f"players_{tour}.csv")
+    with open(out, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=PLAYER_KEEP)
+        w.writeheader()
+        w.writerows({k: r.get(k, "") for k in PLAYER_KEEP} for r in rows)
+    print(f"{tour.upper()}: {len(rows)} hráčů -> {out}")
+
+
 def main():
+    for tour in FILES:
+        import_players(tour)
+    if "--players" in os.sys.argv:
+        return
     for tour, patterns in FILES.items():
         cutoff = max(r["tourney_date"] for r in elo.history(tour))
         rows = []

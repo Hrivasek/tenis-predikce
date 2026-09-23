@@ -36,6 +36,10 @@ def _athlete(c):
     return (m.group(1) if m else c.get("id")), name
 
 
+def _country(c):
+    return ((c.get("athlete") or {}).get("flag") or {}).get("alt", "")
+
+
 def _score(win, lose):
     sets = []
     for a, b in zip(win.get("linescores", []), lose.get("linescores", [])):
@@ -74,6 +78,7 @@ def parse(data, tour):
                     "best_of": (c.get("format") or {}).get("regulation", {}).get("periods", ""),
                     "p1_id": id1 or "", "p1_name": n1 or "", "p2_id": id2 or "", "p2_name": n2 or "",
                     "winner": "", "score": "",
+                    "p1_country": _country(comps[0]), "p2_country": _country(comps[1]),
                 }
                 if status in ("final", "ret", "wo"):
                     wi = 0 if comps[0].get("winner") else 1 if comps[1].get("winner") else None

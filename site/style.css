@@ -140,11 +140,26 @@ button { font: inherit; color: inherit; }
 .score { font-size: 13px; color: var(--ink-2); margin-top: 4px; }
 .verdict.ok { color: var(--good); font-weight: 600; } .verdict.ko { color: var(--bad); font-weight: 600; }
 
-/* kurzy u zápasu */
-.odds-toggle {
-  margin-top: 8px; background: none; border: 1px dashed var(--line); border-radius: 10px; width: 100%;
+/* kurzy a detail u zápasu */
+.card-actions { display: flex; gap: 8px; margin-top: 8px; }
+.odds-toggle, .detail-toggle {
+  flex: 1; background: none; border: 1px dashed var(--line); border-radius: 10px;
   padding: 7px; color: var(--ink-2); cursor: pointer; font-size: 13px;
 }
+.detail { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
+.sub-h { font-size: 13px; font-weight: 650; margin: 10px 0 4px; color: var(--ink-2); }
+.dl { display: flex; justify-content: space-between; gap: 10px; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 13.5px; }
+.dl:last-child { border-bottom: 0; }
+.dl-main { min-width: 0; overflow-wrap: anywhere; }
+.dl-side { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; white-space: nowrap; }
+.pgrid { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 6px; }
+@media (min-width: 640px) { .pgrid { grid-template-columns: 1fr 1fr; } }
+.pblock { background: var(--surface-2); border-radius: 12px; padding: 10px 12px; }
+.pblock h4 { margin: 0 0 2px; font-size: 15px; }
+.pblock .dl { border-color: var(--line); }
+.load { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; margin: 6px 0 2px; }
+.wl { display: inline-block; width: 18px; text-align: center; border-radius: 5px; font-size: 11px; font-weight: 700; margin-right: 4px; }
+.wl.w { background: var(--good); color: #fff; } .wl.l { background: var(--line); color: var(--ink-2); }
 .odds-box { margin-top: 8px; border-top: 1px solid var(--line); padding-top: 10px; }
 .odds-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .ev { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; font-size: 13px; }

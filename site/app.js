@@ -148,7 +148,10 @@ function matchCard(m) {
     ${done ? `<div class="score">${m.status === "wo" ? "kontumace" : esc(m.score)} ${verdict}</div>` : ""}
     ${flags.trim() ? `<div class="flags">${flags}</div>` : ""}
     ${oddsHtml}
-    ${canEnter ? `<button class="odds-toggle">${odds ? "Upravit kurzy" : "+ Zadat kurzy sázkovky"}</button>` : ""}
+    <div class="card-actions">
+      <button class="detail-toggle" aria-expanded="false">Detail zápasu</button>
+      ${canEnter ? `<button class="odds-toggle">${odds ? "Upravit kurzy" : "+ Zadat kurzy"}</button>` : ""}
+    </div>
   </article>`;
 }
 
@@ -175,6 +178,57 @@ function renderMatches() {
       <span class="chip">${ms[0].tour.toUpperCase()}</span><span class="chip ${ms[0].surface}">${SURF[ms[0].surface] || ms[0].surface}</span></div>
     ${ms.map(matchCard).join("")}`).join("");
   box.querySelectorAll(".odds-toggle").forEach((b) => b.addEventListener("click", () => openOddsForm(b.closest(".match"))));
+  box.querySelectorAll(".detail-toggle").forEach((b) => b.addEventListener("click", () => toggleDetail(b)));
+}
+
+/* ---------- DETAIL ZÁPASU ---------- */
+let detailsPromise = null;
+function loadDetails() {
+  if (!detailsPromise) detailsPromise = load("details").then((d) => d.details).catch(() => { detailsPromise = null; return null; });
+  return detailsPromise;
+}
+const fmtDay = (iso, exact) => {
+  const [y, m, d] = iso.split("-");
+  return exact ? `${+d}. ${+m}. ${y}` : `týden ${+d}. ${+m}. ${y}`;
+};
+const RND = { R1: "1. kolo", R2: "2. kolo", R3: "3. kolo", R4: "4. kolo", R128: "1/64", R64: "1/32", R32: "1/16", R16: "osmifinále",
+  QF: "čtvrtfinále", SF: "semifinále", F: "finále", RR: "skupina", Q: "kval.", Q1: "kval.", Q2: "kval.", Q3: "kval.", Q4: "kval.", BR: "o 3. místo" };
+const surfChip = (s) => (SURF[s] ? `<span class="chip ${s}">${SURF[s]}</span>` : "");
+function matchLine(m, head, tail) {
+  return `<div class="dl"><div class="dl-main">${head}<div class="muted">${esc(m.t)}${m.lvl ? " · " + esc(m.lvl) : ""} · ${RND[m.r] || esc(m.r)} · ${fmtDay(m.d, m.ex)}</div></div>
+    <div class="dl-side">${surfChip(m.s)}<div class="num">${esc(m.sc)}</div>${tail || ""}</div></div>`;
+}
+function playerBlock(p) {
+  const facts = [p.country, p.hand, p.age ? `${String(p.age).replace(".", ",")} let` : "", p.height ? `${p.height} cm` : ""].filter(Boolean).join(" · ");
+  const cz = (n, one, few, many) => `${n} ${n === 1 ? one : n >= 2 && n <= 4 ? few : many}`;
+  const ld = (x) => `${cz(x.m, "zápas", "zápasy", "zápasů")}, ${cz(x.sets, "set", "sety", "setů")}`;
+  return `<div class="pblock"><h4>${esc(p.name)}</h4><div class="muted">${esc(facts) || "údaje nejsou k dispozici"}</div>
+    <div class="load"><span>3 dny: <b>${ld(p.load3)}</b></span><span>7 dní: <b>${ld(p.load7)}</b></span></div>
+    ${p.exact ? "" : `<div class="muted">U starších zápasů známe jen začátek turnaje, zatížení je přibližné.</div>`}
+    <div class="sub-h">Posledních ${p.last10.length} zápasů</div>
+    ${p.last10.map((m) => matchLine(m, `<span class="wl ${m.won ? "w" : "l"}">${m.won ? "V" : "P"}</span> ${esc(m.opp)}`)).join("") || '<p class="muted">Žádné zápasy v datech.</p>'}
+  </div>`;
+}
+async function toggleDetail(btn) {
+  const card = btn.closest(".match");
+  const open = card.querySelector(".detail");
+  if (open) { open.remove(); btn.setAttribute("aria-expanded", "false"); btn.textContent = "Detail zápasu"; return; }
+  btn.textContent = "Načítám…";
+  const all = await loadDetails();
+  const d = all && all[card.dataset.key];
+  const box = document.createElement("div");
+  box.className = "detail";
+  if (!d) box.innerHTML = `<p class="muted">Detail pro tento zápas není k dispozici.</p>`;
+  else {
+    const m = S.today.matches.find((x) => `${x.tour}:${x.id}` === card.dataset.key);
+    const names = [d.p1.name, d.p2.name];
+    box.innerHTML = `<div class="sub-h">Vzájemné zápasy ${d.h2h.length ? `<b>${d.h2h_n[0]} : ${d.h2h_n[1]}</b>` : ""}</div>
+      ${d.h2h.length ? d.h2h.map((h) => matchLine(h, `vyhrál(a) <b>${esc(names[h.win - 1])}</b>`)).join("") : '<p class="muted">Zatím spolu nehráli (v dostupných datech).</p>'}
+      <div class="pgrid">${playerBlock(d.p1)}${playerBlock(d.p2)}</div>
+      <p class="muted">Challengery a ITF jsou v datech jen do 5/2026. Model zatím používá jen Elo – tyto údaje jsou pro informaci.</p>`;
+  }
+  card.appendChild(box);
+  btn.setAttribute("aria-expanded", "true"); btn.textContent = "Skrýt detail";
 }
 
 function openOddsForm(card) {

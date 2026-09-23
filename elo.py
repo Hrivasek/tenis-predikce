@@ -105,6 +105,7 @@ def load_lower(tour):
             r["_key"] = (r["tourney_date"], "L" + r["tourney_id"], ROUND_ORDER.get(r["round"], 5),
                          int(r["match_num"] or 0))
             r["_eval"] = False
+            r["_lvl"] = r["tourney_level"]    # původní úroveň (C = challenger / WTA 125) pro zobrazení
             r["tourney_level"] = "L"          # grandslamové kvalifikace nemají násobek grandslamu
             rows.append(r)
     return rows
@@ -199,7 +200,7 @@ class Elo:
 
 
 def run(tour, eval_from="20230101", min_matches=10, espn=True, lower=True, freeze_after=None,
-        eval_to="99999999", log=None, **params):
+        eval_to="99999999", log=None, keep_rows=False, **params):
     """Projede všechny zápasy. Před každým zápasem udělá predikci (tu hodnotíme),
     teprve potom rating aktualizuje. freeze_after: od toho data už rating neaktualizuje
     (simulace modelu, který nedostává čerstvá data). log: seznam, kam se uloží každá
@@ -209,7 +210,10 @@ def run(tour, eval_from="20230101", min_matches=10, espn=True, lower=True, freez
     params.setdefault("mov", MOV.get(tour, 0.0))
     elo = Elo(**params)
     stats = defaultdict(float)
-    for r in load_matches(tour, espn=espn, lower=lower):
+    rows = load_matches(tour, espn=espn, lower=lower)
+    if keep_rows:
+        elo.rows = rows                     # build.py z nich skládá detail zápasu
+    for r in rows:
         w, l, surf = r["winner_id"], r["loser_id"], r["_surface"]
         elo.names[w], elo.names[l] = r["winner_name"], r["loser_name"]
         # datum posledního zápasu: u ESPN přesné, u historie jen začátek turnaje
