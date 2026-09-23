@@ -5,3 +5,4 @@ data/atp_20*.csv
 data/wta_20*.csv
 # generuje se v GitHub Actions při každém nasazení
 site/data/
+.claude/

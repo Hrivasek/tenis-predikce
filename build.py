@@ -22,13 +22,19 @@ OUT_DIR = os.path.join(ROOT, "site", "data")
 PRED_PATH = os.path.join(elo.DATA_DIR, "predictions.csv")
 PRAGUE = ZoneInfo("Europe/Prague")
 LOW_DATA = 10                     # pod tolik zápasů je Elo hráče nespolehlivé
+LONG_BREAK = 60                   # dní bez zápasu → štítek „dlouho nehrál“ (model neví o zraněních)
+ODDS_PATH = os.path.join(elo.DATA_DIR, "odds.json")     # kurzy zadané z webu (přes GitHub API)
 PRED_FIELDS = ["match_id", "tour", "start", "tourney", "round", "surface",
                "p1_id", "p1_name", "p2_id", "p2_name", "p1_elo", "p2_elo", "n1", "n2",
                "p1_prob", "predicted_at", "status", "winner", "score"]
 
 
+def parse_iso(iso):
+    return datetime.fromisoformat(iso.replace("Z", "+00:00"))
+
+
 def local_day(iso):
-    return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(PRAGUE).date()
+    return parse_iso(iso).astimezone(PRAGUE).date()
 
 
 def summary(ps):
@@ -52,6 +58,61 @@ def calibration(ps):
             for i, (n, s, w) in sorted(b.items())]
 
 
+def days_between(yyyymmdd, day):
+    return (day - datetime.strptime(yyyymmdd, "%Y%m%d").date()).days
+
+
+def player_info(model, pid, name, surface, day):
+    last = model.last_date.get(pid)
+    off = days_between(last, day) if last else None
+    return {"name": name, "elo": round(model.blended(pid, surface)), "n": model.n[pid],
+            "days_off": off, "long_break": off is not None and off >= LONG_BREAK}
+
+
+def load_odds():
+    if not os.path.exists(ODDS_PATH):
+        return {}
+    with open(ODDS_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def odds_track(odds, preds):
+    """Jak by dopadly sázky podle modelu proti zadaným kurzům: 1 jednotka na stranu
+    s nejvyšší kladnou hodnotou (EV = p * kurz - 1). Skreč a kontumace = storno."""
+    entries = []
+    for key, o in odds.items():
+        tour, mid = key.split(":", 1)
+        pr = preds.get((tour, mid))
+        if not pr or not o.get("o1") or not o.get("o2"):
+            continue
+        p1 = float(pr["p1_prob"])
+        ev1, ev2 = p1 * o["o1"] - 1, (1 - p1) * o["o2"] - 1
+        side = 1 if ev1 >= ev2 else 2
+        ev = max(ev1, ev2)
+        late = bool(o.get("at")) and parse_iso(o["at"]) > parse_iso(pr["start"])
+        e = {"key": key, "tour": tour, "start": pr["start"], "tourney": pr["tourney"],
+             "p1": pr["p1_name"], "p2": pr["p2_name"], "p1_prob": p1, "o1": o["o1"], "o2": o["o2"],
+             "book": o.get("book", ""), "margin": 1 / o["o1"] + 1 / o["o2"] - 1,
+             "tip": side if ev > 0 else None, "ev": ev, "late": late,
+             "status": pr["status"], "profit": None}
+        if e["tip"] and not late and pr["status"] == "final":
+            won = pr["winner"] == (pr["p1_id"] if side == 1 else pr["p2_id"])
+            e["profit"] = (o["o1"] if side == 1 else o["o2"]) - 1 if won else -1.0
+        entries.append(e)
+    entries.sort(key=lambda e: e["start"], reverse=True)
+
+    def agg(min_ev):
+        done = [e for e in entries if e["profit"] is not None and e["ev"] > min_ev]
+        n = len(done)
+        profit = sum(e["profit"] for e in done)
+        return {"min_ev": min_ev, "n": n, "wins": sum(e["profit"] > 0 for e in done),
+                "profit": profit, "roi": profit / n if n else None}
+    return {"entries": entries[:200], "total": len(entries),
+            "tips_pending": sum(e["tip"] is not None and e["profit"] is None and e["status"] == "scheduled"
+                                for e in entries),
+            "by_threshold": [agg(t) for t in (0.0, 0.05, 0.10)]}
+
+
 def load_predictions():
     if not os.path.exists(PRED_PATH):
         return {}
@@ -72,6 +133,7 @@ def main():
     with open(os.path.join(elo.DATA_DIR, "upcoming.json"), encoding="utf-8") as f:
         upcoming = json.load(f)
     preds = load_predictions()
+    odds = load_odds()
     matches_out, ratings_out, backtest = [], {}, {}
 
     for tour in ("atp", "wta"):
@@ -79,6 +141,16 @@ def main():
         model, stats = elo.run(tour, log=log)
         pmap = mapping.PlayerMap(tour, elo.history(tour))
         smap = mapping.SurfaceMap({t: elo.history(t) for t in ("atp", "wta")})
+        # do Elo kvalifikace nepočítáme, ale pro „kdy naposledy hrál“ se hodí
+        with open(os.path.join(elo.DATA_DIR, f"espn_{tour}.csv"), newline="", encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                if r["qualifying"] == "1" and r["status"] != "wo":
+                    d = r["date"][:10].replace("-", "")
+                    for i in ("1", "2"):
+                        pid = pmap.resolve(r[f"p{i}_id"], r[f"p{i}_name"])
+                        if d > model.last_date.get(pid, ""):
+                            model.last_date[pid] = d
+                            model.names.setdefault(pid, r[f"p{i}_name"])
 
         # --- zpětný test (2023+) ---
         by_surface = defaultdict(list); by_year = defaultdict(list)
@@ -135,11 +207,12 @@ def main():
                 "time_valid": m["time_valid"], "tourney": m["tourney_name"], "round": m["round"],
                 "surface": surface, "status": m["status"], "score": m["score"],
                 "winner": 1 if m["winner"] == m["p1_id"] else 2 if m["winner"] else None,
-                "p1": {"name": m["p1_name"], "elo": round(model.blended(a, surface)), "n": model.n[a]},
-                "p2": {"name": m["p2_name"], "elo": round(model.blended(b, surface)), "n": model.n[b]},
+                "p1": player_info(model, a, m["p1_name"], surface, day),
+                "p2": player_info(model, b, m["p2_name"], surface, day),
                 "p1_prob": p,
                 "fair1": round(1 / p, 2) if p else None, "fair2": round(1 / (1 - p), 2) if p else None,
                 "low_data": min(model.n[a], model.n[b]) < LOW_DATA,
+                "odds": odds.get(f"{tour}:{m['match_id']}"),
             })
 
     # doplnit výsledky i starším predikcím, které už vypadly z okna rozpisu
@@ -174,8 +247,10 @@ def main():
     meta = {"generated": now.isoformat(timespec="minutes"), "data_fetched": upcoming["fetched"]}
     matches_out.sort(key=lambda m: (m["day"], m["start"], m["tour"], m["tourney"]))
     for name, payload in (("today.json", {**meta, "matches": matches_out}),
-                          ("ratings.json", {**meta, "surface_weight": elo.SURFACE_WEIGHT, **ratings_out}),
-                          ("track.json", {**meta, "backtest": backtest, "live": live})):
+                          ("ratings.json", {**meta, "scale": elo.CALIBRATION, "long_break": LONG_BREAK,
+                                            **ratings_out}),
+                          ("track.json", {**meta, "backtest": backtest, "live": live,
+                                          "odds": odds_track(odds, preds)})):
         with open(os.path.join(OUT_DIR, name), "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
 

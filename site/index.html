@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tenis Elo</title>
+<meta name="description" content="Elo predikce tenisových zápasů ATP a WTA: pravděpodobnosti, férové kurzy, kalkulačka a úspěšnost modelu.">
+<meta name="theme-color" content="#0f1720" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f7f4" media="(prefers-color-scheme: light)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23c8e03a'/%3E%3Cpath d='M5 9c6 3 6 11 0 14M27 9c-6 3-6 11 0 14' stroke='%23fff' stroke-width='2' fill='none'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="ball" aria-hidden="true"></span>Tenis Elo</div>
+  <div class="updated" id="updated"></div>
+  <button class="icon-btn" id="open-settings" aria-label="Nastavení">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.5 7.5 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.4 7.4 0 0 0-1.7-1L15 3.5h-4L10.7 6a7.4 7.4 0 0 0-1.7 1l-2.4-1-2 3.4 2 1.6a7.5 7.5 0 0 0 0 2l-2 1.6 2 3.4 2.4-1a7.4 7.4 0 0 0 1.7 1l.3 2.5h4l.3-2.5a7.4 7.4 0 0 0 1.7-1l2.4 1 2-3.4-2-1.6zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>
+  </button>
+</header>
+
+<main>
+  <!-- DNES -->
+  <section id="tab-today" class="tab active" aria-label="Zápasy">
+    <div class="controls">
+      <div class="seg" id="day-seg" role="tablist"></div>
+      <div class="seg small" id="tour-seg">
+        <button data-v="all" class="on">Vše</button><button data-v="atp">ATP</button><button data-v="wta">WTA</button>
+      </div>
+    </div>
+    <div id="matches"></div>
+  </section>
+
+  <!-- KALKULAČKA -->
+  <section id="tab-calc" class="tab" aria-label="Kalkulačka">
+    <div class="card calc">
+      <div class="seg" id="calc-tour"><button data-v="atp" class="on">ATP</button><button data-v="wta">WTA</button></div>
+      <label class="field"><span>Hráč A</span><input id="calc-a" list="players" autocomplete="off" placeholder="Začni psát jméno…"></label>
+      <label class="field"><span>Hráč B</span><input id="calc-b" list="players" autocomplete="off" placeholder="Začni psát jméno…"></label>
+      <datalist id="players"></datalist>
+      <div class="seg" id="calc-surface">
+        <button data-v="Hard" class="on">Tvrdý</button><button data-v="Clay">Antuka</button><button data-v="Grass">Tráva</button><button data-v="elo">Celkově</button>
+      </div>
+      <div id="calc-out" class="calc-out"></div>
+      <details class="calc-odds">
+        <summary>Porovnat s kurzy sázkovky</summary>
+        <div class="odds-row">
+          <label class="field"><span>Kurz A</span><input id="calc-o1" inputmode="decimal" placeholder="např. 1.85"></label>
+          <label class="field"><span>Kurz B</span><input id="calc-o2" inputmode="decimal" placeholder="např. 2.05"></label>
+        </div>
+        <div id="calc-ev"></div>
+      </details>
+    </div>
+  </section>
+
+  <!-- ÚSPĚŠNOST -->
+  <section id="tab-track" class="tab" aria-label="Úspěšnost">
+    <div id="track"></div>
+  </section>
+</main>
+
+<nav class="bottom" aria-label="Hlavní navigace">
+  <button data-tab="today" class="on"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Zápasy</button>
+  <button data-tab="calc"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16M17 4v16M3 12h18"/></svg>Kalkulačka</button>
+  <button data-tab="track"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Úspěšnost</button>
+</nav>
+
+<dialog id="settings">
+  <form method="dialog" class="dlg">
+    <h2>Ukládání kurzů</h2>
+    <p>Kurzy se ukládají do souboru <code>data/odds.json</code> v repozitáři přes GitHub API. Potřebuješ
+      <b>fine-grained token</b> omezený jen na tento repozitář s oprávněním <b>Contents: Read and write</b>
+      (GitHub → Settings → Developer settings → Fine-grained tokens).</p>
+    <p class="muted">Token zůstane jen v tomto prohlížeči (localStorage). Nikam jinam se neposílá.</p>
+    <label class="field"><span>Repozitář</span><input id="set-repo" autocomplete="off" placeholder="uzivatel/repozitar"></label>
+    <label class="field"><span>Token</span><input id="set-token" type="password" autocomplete="off" placeholder="github_pat_…"></label>
+    <div id="set-status" class="muted"></div>
+    <div class="dlg-actions">
+      <button type="button" id="set-test" class="btn ghost">Ověřit</button>
+      <button type="button" id="set-clear" class="btn ghost">Smazat token</button>
+      <button value="close" class="btn">Hotovo</button>
+    </div>
+  </form>
+</dialog>
+
+<footer class="foot">
+  Elo model s kalibrací. Historická data: <a href="https://github.com/JeffSackmann">Jeff Sackmann / Tennis Abstract</a>
+  (CC BY-NC-SA 4.0), čerstvé výsledky a rozpis: ESPN. Jen pro zábavu, nejde o investiční radu.
+  <a href="https://github.com/Hrivasek/tenis-predikce" id="repo-link">Zdrojový kód</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -139,7 +139,8 @@ def run(tour, eval_from="20230101", min_matches=10, espn=True, quals=False, free
     for r in load_matches(tour, espn=espn, quals=quals):
         w, l, surf = r["winner_id"], r["loser_id"], r["_surface"]
         elo.names[w], elo.names[l] = r["winner_name"], r["loser_name"]
-        elo.last_date[w] = elo.last_date[l] = r["tourney_date"]
+        # datum posledního zápasu: u ESPN přesné, u historie jen začátek turnaje
+        elo.last_date[w] = elo.last_date[l] = r["_date"][:10].replace("-", "") if r.get("_date") else r["tourney_date"]
         if (eval_from <= r["tourney_date"] <= eval_to and not r["_ret"]
                 and elo.n[w] >= min_matches and elo.n[l] >= min_matches):
             p = elo.predict(w, l, surf)               # pravděpodobnost, že vyhraje skutečný vítěz

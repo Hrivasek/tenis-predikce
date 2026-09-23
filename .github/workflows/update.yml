@@ -1,0 +1,67 @@
+name: Aktualizace a nasazení webu
+
+on:
+  schedule:
+    # UTC; v létě 6:00, 13:00 a 19:00 pražského času
+    - cron: "0 4 * * *"
+    - cron: "0 11 * * *"
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["data/odds.json", "data/aliases.json", "data/surfaces.json", "site/**", "*.py"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+
+      - name: Stáhnout čerstvá data z ESPN
+        id: fetch
+        continue-on-error: true      # při výpadku ESPN web zůstane na posledních datech
+        run: python3 update.py
+
+      - name: Varování při výpadku ESPN
+        if: steps.fetch.outcome == 'failure'
+        run: echo "::warning::Stahování z ESPN selhalo – web se sestaví z posledních uložených dat."
+
+      - name: Spočítat predikce a data pro web
+        run: python3 build.py
+
+      - name: Uložit data do repozitáře
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "Beze změn"; exit 0; fi
+          git commit -m "Data $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
+
+      - uses: actions/upload-pages-artifact@v3
+        with: {path: site}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
