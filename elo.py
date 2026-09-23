@@ -149,7 +149,7 @@ def run(tour, eval_from="20230101", min_matches=10, espn=True, quals=False, free
             stats["logloss"] += -math.log(max(p, 1e-9))
             stats["brier"] += (1 - p) ** 2
             if log is not None:
-                log.append({"date": r["tourney_date"], "surface": surf, "p": p})
+                log.append({"date": r["tourney_date"], "surface": surf, "p": p, "nmin": min(elo.n[w], elo.n[l]), "win_less_exp": elo.n[w] < elo.n[l]})
             try:                                       # srovnání: vyhraje lépe postavený v žebříčku
                 wr, lr = int(r["winner_rank"]), int(r["loser_rank"])
                 stats["rank_n"] += 1

@@ -21,7 +21,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(ROOT, "site", "data")
 PRED_PATH = os.path.join(elo.DATA_DIR, "predictions.csv")
 PRAGUE = ZoneInfo("Europe/Prague")
-LOW_DATA = 10                     # pod tolik zápasů je Elo hráče nespolehlivé
+# Pod tolik zápasů je Elo hráče nespolehlivé. Ověřeno na 2015+: když model dělá favorita z hráče
+# s 0–9 zápasy, přeceňuje ho o 6–15 p. b., u 10–14 o 4–5 p. b., od 15 už je odchylka v šumu.
+LOW_DATA = 15
 LONG_BREAK = 60                   # dní bez zápasu → štítek „dlouho nehrál“ (model neví o zraněních)
 ODDS_PATH = os.path.join(elo.DATA_DIR, "odds.json")     # kurzy zadané z webu (přes GitHub API)
 PRED_FIELDS = ["match_id", "tour", "start", "tourney", "round", "surface",
@@ -78,7 +80,8 @@ def load_odds():
 
 def odds_track(odds, preds):
     """Jak by dopadly sázky podle modelu proti zadaným kurzům: 1 jednotka na stranu
-    s nejvyšší kladnou hodnotou (EV = p * kurz - 1). Skreč a kontumace = storno."""
+    s nejvyšší kladnou hodnotou (EV = p * kurz - 1). Skreč a kontumace = storno.
+    Zápasy hráčů s málo daty se vyhodnocují zvlášť, aby nezkreslovaly výsledky."""
     entries = []
     for key, o in odds.items():
         tour, mid = key.split(":", 1)
@@ -94,6 +97,7 @@ def odds_track(odds, preds):
              "p1": pr["p1_name"], "p2": pr["p2_name"], "p1_prob": p1, "o1": o["o1"], "o2": o["o2"],
              "book": o.get("book", ""), "margin": 1 / o["o1"] + 1 / o["o2"] - 1,
              "tip": side if ev > 0 else None, "ev": ev, "late": late,
+             "low_data": min(int(pr["n1"]), int(pr["n2"])) < LOW_DATA,
              "status": pr["status"], "profit": None}
         if e["tip"] and not late and pr["status"] == "final":
             won = pr["winner"] == (pr["p1_id"] if side == 1 else pr["p2_id"])
@@ -101,8 +105,9 @@ def odds_track(odds, preds):
         entries.append(e)
     entries.sort(key=lambda e: e["start"], reverse=True)
 
-    def agg(min_ev):
-        done = [e for e in entries if e["profit"] is not None and e["ev"] > min_ev]
+    def agg(min_ev, low_data=False):
+        done = [e for e in entries
+                if e["profit"] is not None and e["ev"] > min_ev and e["low_data"] == low_data]
         n = len(done)
         profit = sum(e["profit"] for e in done)
         return {"min_ev": min_ev, "n": n, "wins": sum(e["profit"] > 0 for e in done),
@@ -110,7 +115,8 @@ def odds_track(odds, preds):
     return {"entries": entries[:200], "total": len(entries),
             "tips_pending": sum(e["tip"] is not None and e["profit"] is None and e["status"] == "scheduled"
                                 for e in entries),
-            "by_threshold": [agg(t) for t in (0.0, 0.05, 0.10)]}
+            "by_threshold": [agg(t) for t in (0.0, 0.05, 0.10)],
+            "low_data": agg(0.0, low_data=True)}
 
 
 def load_predictions():
@@ -248,6 +254,7 @@ def main():
     matches_out.sort(key=lambda m: (m["day"], m["start"], m["tour"], m["tourney"]))
     for name, payload in (("today.json", {**meta, "matches": matches_out}),
                           ("ratings.json", {**meta, "scale": elo.CALIBRATION, "long_break": LONG_BREAK,
+                                            "low_data": LOW_DATA,
                                             **ratings_out}),
                           ("track.json", {**meta, "backtest": backtest, "live": live,
                                           "odds": odds_track(odds, preds)})):

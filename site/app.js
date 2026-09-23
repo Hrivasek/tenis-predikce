@@ -102,10 +102,12 @@ function oddsFor(m) {
 }
 
 /* ---------- ZÁPASY ---------- */
-function evBlock(p1, o1, o2, n1, n2) {
+/* unreliable: aspoň jeden hráč má málo dat → kladnou hodnotu ukážeme šedě s varováním */
+function evBlock(p1, o1, o2, n1, n2, unreliable = false) {
   const e1 = p1 * o1 - 1, e2 = (1 - p1) * o2 - 1;
   const cell = (n, e, o, p) => `<div><div class="muted">${esc(n)} @ ${num(o)}</div>
-    <b class="${e > 0 ? "pos" : "neg"}">${e > 0 ? "hodnota " : ""}${signPct(e)}</b>
+    <b class="${e > 0 && !unreliable ? "pos" : "neg"}">${e > 0 ? "hodnota " : ""}${signPct(e)}</b>
+    ${e > 0 && unreliable ? `<div class="unrel">nespolehlivé – málo dat</div>` : ""}
     <div class="muted">férový ${num(1 / p)}</div></div>`;
   const margin = 1 / o1 + 1 / o2 - 1;
   return `<div class="ev">${cell(n1, e1, o1, p1)}${cell(n2, e2, o2, 1 - p1)}</div>
@@ -128,14 +130,14 @@ function matchCard(m) {
     verdict = `<span class="verdict ${hit ? "ok" : "ko"}">${hit ? "model trefil" : "model netrefil"}</span>`;
   }
   const flags = [
-    m.low_data ? `<span class="chip info" title="Pod 10 zápasů je Elo nespolehlivé">málo dat (${Math.min(m.p1.n, m.p2.n)} záp.)</span>` : "",
+    m.low_data ? `<span class="chip info" title="Pod ${S.ratings.low_data} zápasy je Elo nespolehlivé">málo dat (${Math.min(m.p1.n, m.p2.n)} záp.)</span>` : "",
     breakFlag(m.p1), breakFlag(m.p2),
     p == null ? `<span class="chip">${done ? "bez předzápasové predikce" : "bez predikce"}</span>` : "",
   ].join("");
   const odds = oddsFor(m);
   let oddsHtml = "";
   if (p != null && odds) {
-    oddsHtml = `<div class="odds-saved">Kurzy${odds.book ? " " + esc(odds.book) : ""}: ${evBlock(p, odds.o1, odds.o2, m.p1.name.split(" ").slice(-1)[0], m.p2.name.split(" ").slice(-1)[0])}</div>`;
+    oddsHtml = `<div class="odds-saved">Kurzy${odds.book ? " " + esc(odds.book) : ""}: ${evBlock(p, odds.o1, odds.o2, m.p1.name.split(" ").slice(-1)[0], m.p2.name.split(" ").slice(-1)[0], m.low_data)}</div>`;
   }
   const canEnter = p != null && m.status === "scheduled";
   return `<article class="card match" data-key="${m.tour}:${m.id}">
@@ -193,7 +195,7 @@ function openOddsForm(card) {
   card.appendChild(box);
   const upd = () => {
     const o1 = parseOdd(box.querySelector(".o1").value), o2 = parseOdd(box.querySelector(".o2").value);
-    box.querySelector(".ev-live").innerHTML = o1 && o2 ? evBlock(m.p1_prob, o1, o2, m.p1.name.split(" ").slice(-1)[0], m.p2.name.split(" ").slice(-1)[0]) : "";
+    box.querySelector(".ev-live").innerHTML = o1 && o2 ? evBlock(m.p1_prob, o1, o2, m.p1.name.split(" ").slice(-1)[0], m.p2.name.split(" ").slice(-1)[0], m.low_data) : "";
   };
   box.addEventListener("input", upd); upd();
   const status = box.querySelector(".status");
@@ -256,13 +258,14 @@ function renderCalc() {
       <div class="sub num">férový kurz <b>${num(1 / pp)}</b></div>
       <div class="sub num">Elo ${Math.round(pl[k])} · ${pl.n} záp.</div>
       ${off >= S.ratings.long_break ? `<div class="flags"><span class="chip warn">⏸ ${off} dní bez zápasu</span></div>` : ""}
-      ${pl.n < 10 ? `<div class="flags"><span class="chip info">málo dat</span></div>` : ""}</div>`;
+      ${pl.n < S.ratings.low_data ? `<div class="flags"><span class="chip info">málo dat</span></div>` : ""}</div>`;
   };
   out.innerHTML = `<div class="big">${side(a, p, "a")}${side(b, 1 - p, "b")}</div>
     <div class="bar" aria-hidden="true" style="margin-top:10px"><i style="width:${(p * 100).toFixed(1)}%"></i></div>
     <p class="muted">${k === "elo" ? "Celkové Elo bez ohledu na povrch." : "Mix celkového a povrchového Elo (" + SURF[k].toLowerCase() + ")."}</p>`;
   const o1 = parseOdd($("#calc-o1").value), o2 = parseOdd($("#calc-o2").value);
-  evOut.innerHTML = o1 && o2 ? evBlock(p, o1, o2, a.name.split(" ").slice(-1)[0], b.name.split(" ").slice(-1)[0]) : "";
+  const unreliable = Math.min(a.n, b.n) < S.ratings.low_data;
+  evOut.innerHTML = o1 && o2 ? evBlock(p, o1, o2, a.name.split(" ").slice(-1)[0], b.name.split(" ").slice(-1)[0], unreliable) : "";
 }
 function initCalc() {
   seg($("#calc-tour"), S.calcTour, (v) => { S.calcTour = v; $("#calc-a").value = $("#calc-b").value = ""; fillDatalist(); renderCalc(); });
@@ -308,18 +311,22 @@ function renderTrack() {
   const thead = `<tr><th></th><th>zápasů</th><th>trefa</th><th>log-loss</th><th>Brier</th></tr>`;
 
   let oddsHtml = `<p class="explain">U každého zápasu můžeš zadat kurzy sázkovky. Model pak vsadí 1 jednotku na stranu s kladnou hodnotou
-    (pravděpodobnost × kurz > 1). Skreč a kontumace se počítají jako storno, kurzy zadané až po začátku zápasu se nepočítají.</p>`;
+    (pravděpodobnost × kurz > 1). Skreč a kontumace se počítají jako storno, kurzy zadané až po začátku zápasu se nepočítají.
+    Zápasy, kde má některý hráč méně než ${S.ratings.low_data} zápasů, jsou vyhodnocené zvlášť.</p>`;
+  const oddsRow = (label, r) => `<tr><td>${label}</td><td class="num">${r.n}</td><td class="num">${r.wins}</td>
+    <td class="num ${r.profit > 0 ? "pos" : r.profit < 0 ? "neg" : ""}">${num(r.profit)}</td><td class="num">${r.roi == null ? "–" : signPct(r.roi)}</td></tr>`;
   if (!od || !od.total) oddsHtml += `<p class="muted">Zatím nejsou zadané žádné kurzy.</p>`;
   else {
     oddsHtml += `<div class="scroll"><table class="t"><tr><th>hodnota nad</th><th>sázek</th><th>výher</th><th>zisk (j.)</th><th>ROI</th></tr>
-      ${od.by_threshold.map((r) => `<tr><td>${pct(r.min_ev)}</td><td class="num">${r.n}</td><td class="num">${r.wins}</td>
-        <td class="num ${r.profit > 0 ? "pos" : r.profit < 0 ? "neg" : ""}">${num(r.profit)}</td><td class="num">${r.roi == null ? "–" : signPct(r.roi)}</td></tr>`).join("")}
+      <tr><td colspan="5" class="muted" style="text-align:left">Spolehlivé zápasy</td></tr>
+      ${od.by_threshold.map((r) => oddsRow(pct(r.min_ev), r)).join("")}
+      ${od.low_data ? `<tr><td colspan="5" class="muted" style="text-align:left">Málo dat (jen pro informaci)</td></tr>${oddsRow(pct(0), od.low_data)}` : ""}
       </table></div><p class="muted">Zadaných zápasů: ${od.total}, tipů čeká na výsledek: ${od.tips_pending}.</p>`;
     oddsHtml += od.entries.slice(0, 30).map((e) => {
       const tipName = e.tip ? (e.tip === 1 ? e.p1 : e.p2) : null;
       const res = e.profit == null ? (e.late ? "zadáno pozdě" : e.tip ? "čeká" : "bez sázky")
         : `<span class="${e.profit > 0 ? "pos" : "neg"}">${e.profit > 0 ? "+" : ""}${num(e.profit)} j.</span>`;
-      return `<div class="list-item"><div class="l">${esc(e.p1)} – ${esc(e.p2)}<div class="muted">${num(e.o1)} / ${num(e.o2)}${e.book ? " · " + esc(e.book) : ""}${tipName ? " · tip " + esc(tipName) + " (" + signPct(e.ev) + ")" : ""}</div></div><div class="r">${res}</div></div>`;
+      return `<div class="list-item"><div class="l">${esc(e.p1)} – ${esc(e.p2)}${e.low_data ? ' <span class="chip info">málo dat</span>' : ""}<div class="muted">${num(e.o1)} / ${num(e.o2)}${e.book ? " · " + esc(e.book) : ""}${tipName ? " · tip " + esc(tipName) + " (" + signPct(e.ev) + ")" : ""}</div></div><div class="r">${res}</div></div>`;
     }).join("");
   }
 

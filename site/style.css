@@ -148,8 +148,9 @@ button { font: inherit; color: inherit; }
 .odds-box { margin-top: 8px; border-top: 1px solid var(--line); padding-top: 10px; }
 .odds-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .ev { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; font-size: 13px; }
-.ev div { background: var(--surface-2); border-radius: 10px; padding: 6px 8px; }
+.ev > div { background: var(--surface-2); border-radius: 10px; padding: 6px 8px; }
 .ev b.pos { color: var(--good); } .ev b.neg { color: var(--muted); }
+.ev .unrel { color: var(--warn-ink); font-size: 12px; }
 .odds-saved { font-size: 13px; margin-top: 8px; color: var(--ink-2); }
 .odds-saved b.pos { color: var(--good); }
 
