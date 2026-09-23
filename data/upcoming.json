@@ -1,5 +1,5 @@
 {
-"fetched": "2026-09-23T12:29:06+00:00",
+"fetched": "2026-09-23T12:40:33+00:00",
 "matches": [
 {
 "match_id": "186069",
@@ -3687,14 +3687,14 @@
 "qualifying": 0,
 "date": "2026-09-23T10:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "19090",
 "p1_name": "Isabella Maria Serban",
 "p2_id": "2984",
 "p2_name": "Rebeka Masarova",
-"winner": "",
-"score": "",
+"winner": "2984",
+"score": "5-7 6-2 6-0",
 "tour": "wta"
 },
 {
@@ -3883,7 +3883,7 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-09-23T12:30Z",
+"date": "2026-09-23T12:40Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
@@ -5495,8 +5495,8 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "2984",
+"p2_name": "Rebeka Masarova",
 "winner": "",
 "score": "",
 "tour": "wta"
