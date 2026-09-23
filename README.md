@@ -1,6 +1,6 @@
 # Tenis Elo – predikce zápasů ATP/WTA
 
-Web: **https://hrivasek.github.io/tenis-predikce/** (mobilní, aktualizuje se sám třikrát denně).
+Web: **https://hrivasek.github.io/tenis-predikce/** (mobilní, aktualizuje se sám každou hodinu 6:00–1:00).
 
 Elo model pro dvouhru ATP a WTA s kalibrací pravděpodobností. Web ukazuje dnešní a zítřejší zápasy
 s pravděpodobnostmi a férovými kurzy, kalkulačku hráč proti hráči podle povrchu a úspěšnost modelu
@@ -14,9 +14,9 @@ s pravděpodobnostmi a férovými kurzy, kalkulačku hráč proti hráči podle 
 | `build.py` | spočítá Elo, predikce, statistiky → `site/data/*.json`; vede log předzápasových tipů `data/predictions.csv` |
 | `elo.py` | model (`python3 elo.py test` = zpětný test 2023+) |
 | `mapping.py` | párování ESPN jmen na ID hráčů v historii (`data/aliases.json`) a povrch turnaje (`data/surfaces.json`) |
-| `import_lower.py` | jednorázový import challengerů/ITF/kvalifikací z archivu → `data/lower_*.csv.gz` |
+| `import_lower.py` | jednorázový import challengerů/ITF/kvalifikací a údajů o hráčích z archivu → `data/lower_*.csv.gz`, `data/players_*.csv` |
 | `site/` | statický web (HTML + JS, bez závislostí) |
-| `.github/workflows/update.yml` | cron 4:00, 11:00, 17:00 UTC + při změně kódu nebo `data/odds.json`: update → build → commit dat → GitHub Pages |
+| `.github/workflows/update.yml` | každou hodinu 6:00–1:00 pražského času (úplné stažení v 6, 12, 18 h) + při změně kódu nebo `data/odds.json`: update → build → commit dat → GitHub Pages; běhy se nepřekrývají |
 
 Kurzy sázkovky zadané na webu se ukládají přes GitHub API do `data/odds.json`
 (fine-grained token jen pro tento repozitář, oprávnění *Contents: Read and write*, uložený v prohlížeči).
