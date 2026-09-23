@@ -333,7 +333,8 @@ function renderTrack() {
       <tr><td colspan="5" class="muted" style="text-align:left">Spolehlivé zápasy</td></tr>
       ${od.by_threshold.map((r) => oddsRow(pct(r.min_ev), r)).join("")}
       ${od.low_data ? `<tr><td colspan="5" class="muted" style="text-align:left">Málo dat (jen pro informaci)</td></tr>${oddsRow(pct(0), od.low_data)}` : ""}
-      </table></div><p class="muted">Zadaných zápasů: ${od.total}, tipů čeká na výsledek: ${od.tips_pending}.</p>`;
+      </table></div><p class="muted">Zadaných zápasů: ${od.total}, tipů čeká na výsledek: ${od.tips_pending}.
+      Počítají se jen tipy modelu ${esc(live.model)}${od.other_models ? ` (vynechané tipy starších modelů: ${od.other_models})` : ""}.</p>`;
     oddsHtml += od.entries.slice(0, 30).map((e) => {
       const tipName = e.tip ? (e.tip === 1 ? e.p1 : e.p2) : null;
       const res = e.profit == null ? (e.late ? "zadáno pozdě" : e.tip ? "čeká" : "bez sázky")
@@ -352,8 +353,13 @@ function renderTrack() {
 
   $("#track").innerHTML = `
     <h2 class="sec">Živá bilance</h2>
-    <p class="explain">Jen tipy zveřejněné před začátkem zápasu (predikce se po začátku zápasu už nemění). Skreče a kontumace se nepočítají.</p>
+    <div class="model-note"><span class="chip info">model ${esc(live.model)}</span>
+      <span>${esc(live.label)}. Tipy se počítají od <b>${fmtSince(live.since)}</b>.</span></div>
+    <p class="explain">Jen tipy zveřejněné před začátkem zápasu (predikce se po začátku zápasu už nemění). Skreče a kontumace se nepočítají.
+      Tipy starších verzí modelu se do bilance nemíchají.</p>
     ${kpis(live.all)}
+    ${(live.previous || []).map((v) => `<p class="muted">Starší model ${esc(v.model)} (${esc(v.label)}, od ${fmtSince(v.since)}):
+      ${v.n ? `vyhodnocené tipy: ${v.n}, trefa ${pct(v.acc, 1)}, log-loss ${num(v.logloss, 3)}` : "žádné vyhodnocené tipy"}.</p>`).join("")}
     ${live.all.n ? `<div class="scroll"><table class="t">${thead}${rowS("ATP", live.atp)}${rowS("WTA", live.wta)}</table></div>` : ""}
     ${live.all.n >= 30 ? calibChart([{ name: "živě", color: c3, data: live.all.calibration }]) : ""}
 
@@ -372,6 +378,10 @@ function renderTrack() {
     ${calibChart([{ name: "ATP", color: c1, data: bt.atp.calibration }, { name: "WTA", color: c2, data: bt.wta.calibration }])}
 
     ${recent ? `<h2 class="sec">Poslední vyhodnocené tipy</h2>${recent}` : ""}`;
+}
+
+function fmtSince(iso) {
+  return new Date(iso).toLocaleString("cs-CZ", { timeZone: TZ, day: "numeric", month: "numeric", year: "numeric", hour: "2-digit", minute: "2-digit" });
 }
 
 /* ---------- nastavení ---------- */

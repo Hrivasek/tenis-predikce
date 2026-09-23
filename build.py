@@ -30,7 +30,7 @@ LONG_BREAK = 60                   # dní bez zápasu → štítek „dlouho nehr
 ODDS_PATH = os.path.join(elo.DATA_DIR, "odds.json")     # kurzy zadané z webu (přes GitHub API)
 PRED_FIELDS = ["match_id", "tour", "start", "tourney", "round", "surface",
                "p1_id", "p1_name", "p2_id", "p2_name", "p1_elo", "p2_elo", "n1", "n2",
-               "p1_prob", "predicted_at", "status", "winner", "score"]
+               "p1_prob", "predicted_at", "status", "winner", "score", "model"]
 
 
 def parse_iso(iso):
@@ -100,7 +100,7 @@ def odds_track(odds, preds):
              "book": o.get("book", ""), "margin": 1 / o["o1"] + 1 / o["o2"] - 1,
              "tip": side if ev > 0 else None, "ev": ev, "late": late,
              "low_data": min(int(pr["n1"]), int(pr["n2"])) < LOW_DATA,
-             "status": pr["status"], "profit": None}
+             "model": pr["model"], "status": pr["status"], "profit": None}
         if e["tip"] and not late and pr["status"] == "final":
             won = pr["winner"] == (pr["p1_id"] if side == 1 else pr["p2_id"])
             e["profit"] = (o["o1"] if side == 1 else o["o2"]) - 1 if won else -1.0
@@ -108,8 +108,8 @@ def odds_track(odds, preds):
     entries.sort(key=lambda e: e["start"], reverse=True)
 
     def agg(min_ev, low_data=False):
-        done = [e for e in entries
-                if e["profit"] is not None and e["ev"] > min_ev and e["low_data"] == low_data]
+        done = [e for e in entries if e["profit"] is not None and e["ev"] > min_ev
+                and e["low_data"] == low_data and e["model"] == elo.MODEL_VERSION]
         n = len(done)
         profit = sum(e["profit"] for e in done)
         return {"min_ev": min_ev, "n": n, "wins": sum(e["profit"] > 0 for e in done),
@@ -118,14 +118,20 @@ def odds_track(odds, preds):
             "tips_pending": sum(e["tip"] is not None and e["profit"] is None and e["status"] == "scheduled"
                                 for e in entries),
             "by_threshold": [agg(t) for t in (0.0, 0.05, 0.10)],
-            "low_data": agg(0.0, low_data=True)}
+            "low_data": agg(0.0, low_data=True),
+            "other_models": sum(e["model"] != elo.MODEL_VERSION and e["profit"] is not None for e in entries)}
 
 
 def load_predictions():
     if not os.path.exists(PRED_PATH):
         return {}
     with open(PRED_PATH, newline="", encoding="utf-8") as f:
-        return {(r["tour"], r["match_id"]): r for r in csv.DictReader(f)}
+        preds = {(r["tour"], r["match_id"]): r for r in csv.DictReader(f)}
+    for r in preds.values():
+        if not r.get("model"):          # starší řádky bez verze: podle času predikce
+            r["model"] = max((v for v, m in elo.MODELS.items() if r["predicted_at"] >= m["since"]),
+                             key=lambda v: elo.MODELS[v]["since"], default="v1")
+    return preds
 
 
 def save_predictions(preds):
@@ -192,7 +198,7 @@ def main():
                     "n1": model.n[a], "n2": model.n[b],
                     "p1_prob": f"{model.predict(a, b, surface, int(m['best_of'] or 3)):.4f}",
                     "predicted_at": now.isoformat(timespec="minutes"), "status": "scheduled",
-                    "winner": "", "score": ""}
+                    "winner": "", "score": "", "model": elo.MODEL_VERSION}
             elif key in preds:
                 # rozehraný / dohraný zápas: predikce zůstává, jak byla před zápasem
                 preds[key].update(status=m["status"], winner=m["winner"], score=m["score"])
@@ -223,12 +229,19 @@ def main():
                     pr.update(status=r["status"], winner=r["winner"], score=r["score"])
     save_predictions(preds)
 
-    # --- živá bilance: jen předem zveřejněné tipy, bez skrečů a kontumací ---
-    live = {}
+    # --- živá bilance: jen předem zveřejněné tipy, bez skrečů a kontumací, jen aktuální model ---
+    live = {"model": elo.MODEL_VERSION, **elo.MODELS[elo.MODEL_VERSION], "previous": []}
+    for v, meta_v in elo.MODELS.items():
+        if v == elo.MODEL_VERSION:
+            continue
+        ps = [(float(p["p1_prob"]) if p["winner"] == p["p1_id"] else 1 - float(p["p1_prob"]))
+              for p in preds.values() if p["model"] == v and p["status"] == "final"]
+        live["previous"].append({"model": v, **meta_v, **summary(ps)})
     for tour in ("atp", "wta", "all"):
         ps, recent = [], []
         for pr in sorted(preds.values(), key=lambda r: r["start"]):
-            if (tour != "all" and pr["tour"] != tour) or pr["status"] != "final":
+            if (tour != "all" and pr["tour"] != tour) or pr["status"] != "final" \
+                    or pr["model"] != elo.MODEL_VERSION:
                 continue
             p1 = float(pr["p1_prob"])
             ps.append(p1 if pr["winner"] == pr["p1_id"] else 1 - p1)

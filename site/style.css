@@ -188,6 +188,7 @@ button { font: inherit; color: inherit; }
 .kpi .v { font-size: 22px; font-weight: 750; letter-spacing: -.02em; }
 .kpi .l { font-size: 12px; color: var(--muted); }
 h2.sec { font-size: 17px; margin: 22px 0 8px; }
+.model-note { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; font-size: 14px; margin-bottom: 6px; }
 .explain { font-size: 13px; color: var(--ink-2); margin: 0 0 10px; }
 table.t { width: 100%; border-collapse: collapse; font-size: 13.5px; }
 table.t th, table.t td { padding: 6px 4px; text-align: right; border-bottom: 1px solid var(--line); }

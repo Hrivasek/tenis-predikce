@@ -28,6 +28,14 @@ MOV = {"atp": 0.45, "wta": 0.6}
 # Aktualizace ratingů zůstávají nekalibrované.
 CALIBRATION = {"atp": 0.85, "wta": 0.776}
 START = 1500.0
+# Verze modelu – živá bilance tipů se počítá zvlášť pro každou verzi, aby se výsledky nemíchaly.
+# since = kdy verze začala dělat predikce (pražský čas). Při každé změně modelu přidat novou verzi.
+MODELS = {
+    "v1": {"since": "2026-09-23T11:39+02:00", "label": "Elo ATP/WTA s kalibrací"},
+    "v2": {"since": "2026-09-23T13:47+02:00",
+           "label": "Elo + challengery a ITF, skóre (gemy), 3 vítězné sety"},
+}
+MODEL_VERSION = "v2"
 # Zápasy nižších úrovní (challengery, kvalifikace, ITF/Futures, WTA 125) mají v Elo plnou váhu –
 # nižší váhy (0,25–0,75) testované na 2010–2022 vycházely hůř nebo stejně.
 
