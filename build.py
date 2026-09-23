@@ -229,6 +229,9 @@ def elo_check(model, tour, active_since):
                                                        key=lambda p: -model.rating[p]), 1)}
     flagged = sorted((x for x in res if abs(x[3]) >= limit), key=lambda x: -abs(x[3]))
     out = {"updated": ta[0]["updated"] if ta else "", "n": n, "corr": sxy / math.sqrt(sxx * syy),
+           # všichni označení hráči (pro štítek na kartě zápasu); z JSONu pro web se pak odebere
+           "_by_id": {r["player_id"]: {"diff": round(d), "ta_elo": float(r["elo"]), "ours_as_ta": round(e)}
+                      for r, o, e, d in flagged},
            "sd": sd, "limit": limit,
            "flagged": [{"name": r["name"], "ta_elo": float(r["elo"]), "ta_rank": int(r["rank"]),
                         "ours_as_ta": round(e), "diff": round(d), "our_rank": ours_rank[r["player_id"]],
@@ -297,6 +300,7 @@ def main():
         players.sort(key=lambda p: -p["elo"])
         ratings_out[tour] = players
         checks[tour] = elo_check(model, tour, year_ago)
+        elo_warn = (checks[tour] or {}).pop("_by_id", {})
 
         # --- predikce zápasů v rozpisu ---
         for m in upcoming["matches"]:
@@ -344,6 +348,9 @@ def main():
                 "p1_prob": p,
                 "fair1": round(1 / p, 2) if p else None, "fair2": round(1 / (1 - p), 2) if p else None,
                 "low_data": min(model.n[a], model.n[b]) < LOW_DATA,
+                # Elo nesedí s Tennis Abstract (rozdíl ≥ ~100 bodů) → hodnotu sázky brát opatrně
+                "elo_warn": [{"name": nm, **elo_warn[pid]} for pid, nm in ((a, m["p1_name"]), (b, m["p2_name"]))
+                             if pid in elo_warn],
                 "odds": odds.get(f"{tour}:{m['match_id']}"),
             })
 

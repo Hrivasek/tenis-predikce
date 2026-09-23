@@ -104,14 +104,29 @@ function oddsFor(m) {
 /* ---------- ZÁPASY ---------- */
 /* unreliable: aspoň jeden hráč má málo dat → kladnou hodnotu ukážeme šedě s varováním */
 function evBlock(p1, o1, o2, n1, n2, unreliable = false) {
+  // unreliable: false | true („málo dat“) | text důvodu
   const e1 = p1 * o1 - 1, e2 = (1 - p1) * o2 - 1;
   const cell = (n, e, o, p) => `<div><div class="muted">${esc(n)} @ ${num(o)}</div>
     <b class="${e > 0 && !unreliable ? "pos" : "neg"}">${e > 0 ? "hodnota " : ""}${signPct(e)}</b>
-    ${e > 0 && unreliable ? `<div class="unrel">nespolehlivé – málo dat</div>` : ""}
+    ${e > 0 && unreliable ? `<div class="unrel">nespolehlivé – ${unreliable === true ? "málo dat" : esc(unreliable)}</div>` : ""}
     <div class="muted">férový ${num(1 / p)}</div></div>`;
   const margin = 1 / o1 + 1 / o2 - 1;
   return `<div class="ev">${cell(n1, e1, o1, p1)}${cell(n2, e2, o2, 1 - p1)}</div>
     <div class="muted" style="margin-top:4px">Marže sázkovky ${pct(margin, 1)}</div>`;
+}
+
+/* proč je hodnota sázky u zápasu nespolehlivá (nebo false) */
+function unreliableReason(m) {
+  const r = [];
+  if (m.low_data) r.push("málo dat");
+  if (m.elo_warn && m.elo_warn.length) r.push("Elo nesedí s TA");
+  return r.length ? r.join(", ") : false;
+}
+function eloWarnChip(m) {
+  if (!m.elo_warn || !m.elo_warn.length) return "";
+  const tip = m.elo_warn.map((w) => `${w.name}: Tennis Abstract ${Math.round(w.ta_elo)}, náš model ${w.ours_as_ta} (${w.diff > 0 ? "+" : ""}${w.diff})`).join("; ");
+  const who = m.elo_warn.map((w) => esc(w.name.split(" ").slice(-1)[0])).join(", ");
+  return `<span class="chip warn" title="${esc(tip)}">⚠ Elo nesedí s Tennis Abstract (${who})</span>`;
 }
 
 function matchCard(m) {
@@ -131,13 +146,13 @@ function matchCard(m) {
   }
   const flags = [
     m.low_data ? `<span class="chip info" title="Pod ${S.ratings.low_data} zápasy je Elo nespolehlivé">málo dat (${Math.min(m.p1.n, m.p2.n)} záp.)</span>` : "",
-    breakFlag(m.p1), breakFlag(m.p2),
+    breakFlag(m.p1), breakFlag(m.p2), eloWarnChip(m),
     p == null ? `<span class="chip">${done ? "bez předzápasové predikce" : "bez predikce"}</span>` : "",
   ].join("");
   const odds = oddsFor(m);
   let oddsHtml = "";
   if (p != null && odds) {
-    oddsHtml = `<div class="odds-saved">Kurzy${odds.book ? " " + esc(odds.book) : ""}: ${evBlock(p, odds.o1, odds.o2, m.p1.name.split(" ").slice(-1)[0], m.p2.name.split(" ").slice(-1)[0], m.low_data)}</div>`;
+    oddsHtml = `<div class="odds-saved">Kurzy${odds.book ? " " + esc(odds.book) : ""}: ${evBlock(p, odds.o1, odds.o2, m.p1.name.split(" ").slice(-1)[0], m.p2.name.split(" ").slice(-1)[0], unreliableReason(m))}</div>`;
   }
   const canEnter = p != null && m.status === "scheduled";
   return `<article class="card match" data-key="${m.tour}:${m.id}">
@@ -249,7 +264,7 @@ function openOddsForm(card) {
   card.appendChild(box);
   const upd = () => {
     const o1 = parseOdd(box.querySelector(".o1").value), o2 = parseOdd(box.querySelector(".o2").value);
-    box.querySelector(".ev-live").innerHTML = o1 && o2 ? evBlock(m.p1_prob, o1, o2, m.p1.name.split(" ").slice(-1)[0], m.p2.name.split(" ").slice(-1)[0], m.low_data) : "";
+    box.querySelector(".ev-live").innerHTML = o1 && o2 ? evBlock(m.p1_prob, o1, o2, m.p1.name.split(" ").slice(-1)[0], m.p2.name.split(" ").slice(-1)[0], unreliableReason(m)) : "";
   };
   box.addEventListener("input", upd); upd();
   const status = box.querySelector(".status");
