@@ -172,6 +172,8 @@ button { font: inherit; color: inherit; }
 /* kalkulačka */
 .calc .seg { margin-bottom: 12px; }
 .calc-out { margin: 6px 0 4px; }
+.check { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--ink-2); margin: -4px 0 10px; }
+.check input { width: 18px; height: 18px; accent-color: var(--accent); }
 .calc-out .big { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .calc-out .side { background: var(--surface-2); border-radius: 12px; padding: 10px 12px; }
 .calc-out .side .pct { font-size: 28px; font-weight: 750; letter-spacing: -.02em; }

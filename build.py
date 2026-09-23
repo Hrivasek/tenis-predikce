@@ -21,9 +21,11 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(ROOT, "site", "data")
 PRED_PATH = os.path.join(elo.DATA_DIR, "predictions.csv")
 PRAGUE = ZoneInfo("Europe/Prague")
-# Pod tolik zápasů je Elo hráče nespolehlivé. Ověřeno na 2015+: když model dělá favorita z hráče
-# s 0–9 zápasy, přeceňuje ho o 6–15 p. b., u 10–14 o 4–5 p. b., od 15 už je odchylka v šumu.
-LOW_DATA = 15
+# Pod tolik zápasů (všech úrovní včetně challengerů a ITF) je Elo hráče nespolehlivé.
+# Ověřeno na 2015+: hráče s 0–4 zápasy dělá model favoritem o 16 (ATP) až 28 (WTA) p. b. častěji,
+# než odpovídá realitě; od 5 zápasů systematické přeceňování mizí. 10 = hranice s rezervou.
+# (Bez challengerů v historii bylo potřeba 15 zápasů hlavní soutěže.)
+LOW_DATA = 10
 LONG_BREAK = 60                   # dní bez zápasu → štítek „dlouho nehrál“ (model neví o zraněních)
 ODDS_PATH = os.path.join(elo.DATA_DIR, "odds.json")     # kurzy zadané z webu (přes GitHub API)
 PRED_FIELDS = ["match_id", "tour", "start", "tourney", "round", "surface",
@@ -145,18 +147,8 @@ def main():
     for tour in ("atp", "wta"):
         log = []
         model, stats = elo.run(tour, log=log)
-        pmap = mapping.PlayerMap(tour, elo.history(tour))
+        pmap = elo.PLAYER_MAPS[tour]            # stejné párování jako při výpočtu Elo
         smap = mapping.SurfaceMap({t: elo.history(t) for t in ("atp", "wta")})
-        # do Elo kvalifikace nepočítáme, ale pro „kdy naposledy hrál“ se hodí
-        with open(os.path.join(elo.DATA_DIR, f"espn_{tour}.csv"), newline="", encoding="utf-8") as f:
-            for r in csv.DictReader(f):
-                if r["qualifying"] == "1" and r["status"] != "wo":
-                    d = r["date"][:10].replace("-", "")
-                    for i in ("1", "2"):
-                        pid = pmap.resolve(r[f"p{i}_id"], r[f"p{i}_name"])
-                        if d > model.last_date.get(pid, ""):
-                            model.last_date[pid] = d
-                            model.names.setdefault(pid, r[f"p{i}_name"])
 
         # --- zpětný test (2023+) ---
         by_surface = defaultdict(list); by_year = defaultdict(list)
@@ -198,7 +190,7 @@ def main():
                     "p1_id": m["p1_id"], "p1_name": m["p1_name"], "p2_id": m["p2_id"], "p2_name": m["p2_name"],
                     "p1_elo": f"{model.blended(a, surface):.1f}", "p2_elo": f"{model.blended(b, surface):.1f}",
                     "n1": model.n[a], "n2": model.n[b],
-                    "p1_prob": f"{model.predict(a, b, surface):.4f}",
+                    "p1_prob": f"{model.predict(a, b, surface, int(m['best_of'] or 3)):.4f}",
                     "predicted_at": now.isoformat(timespec="minutes"), "status": "scheduled",
                     "winner": "", "score": ""}
             elif key in preds:

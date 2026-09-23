@@ -6,3 +6,4 @@ data/wta_20*.csv
 # generuje se v GitHub Actions při každém nasazení
 site/data/
 .claude/
+data/lower/

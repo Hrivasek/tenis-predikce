@@ -238,6 +238,13 @@ function findPlayer(name) {
 function fillDatalist() {
   $("#players").innerHTML = calcPlayers().map((p) => `<option value="${esc(p.name)}">`).join("");
 }
+/* pravděpodobnost na 2 vítězné sety -> na 3 vítězné (stejně jako elo.best_of_5) */
+function bestOf5(p) {
+  let lo = 0, hi = 1;
+  for (let i = 0; i < 40; i++) { const s = (lo + hi) / 2; if (s * s * (3 - 2 * s) < p) lo = s; else hi = s; }
+  const s = (lo + hi) / 2;
+  return s ** 3 * (10 - 15 * s + 6 * s * s);
+}
 function daysSince(yyyymmdd) {
   const d = new Date(`${yyyymmdd.slice(0, 4)}-${yyyymmdd.slice(4, 6)}-${yyyymmdd.slice(6)}T12:00:00`);
   return Math.floor((Date.now() - d) / 864e5);
@@ -251,7 +258,9 @@ function renderCalc() {
   }
   if (a.id === b.id) { out.innerHTML = `<p class="muted">Vyber dva různé hráče.</p>`; evOut.innerHTML = ""; return; }
   const k = S.calcSurface, scale = S.ratings.scale[S.calcTour];
-  const p = 1 / (1 + Math.pow(10, -((a[k] - b[k]) * scale) / 400));
+  let p = 1 / (1 + Math.pow(10, -((a[k] - b[k]) * scale) / 400));
+  const bo5 = S.calcTour === "atp" && $("#calc-bo5").checked;
+  if (bo5) p = bestOf5(p);
   const side = (pl, pp, c) => {
     const off = daysSince(pl.last);
     return `<div class="side ${c}"><div class="who">${esc(pl.name)}</div><div class="pct num">${pct(pp, 1)}</div>
@@ -262,13 +271,16 @@ function renderCalc() {
   };
   out.innerHTML = `<div class="big">${side(a, p, "a")}${side(b, 1 - p, "b")}</div>
     <div class="bar" aria-hidden="true" style="margin-top:10px"><i style="width:${(p * 100).toFixed(1)}%"></i></div>
-    <p class="muted">${k === "elo" ? "Celkové Elo bez ohledu na povrch." : "Mix celkového a povrchového Elo (" + SURF[k].toLowerCase() + ")."}</p>`;
+    <p class="muted">${k === "elo" ? "Celkové Elo bez ohledu na povrch." : "Mix celkového a povrchového Elo (" + SURF[k].toLowerCase() + ")."}${bo5 ? " Na 3 vítězné sety favorit vyhrává častěji." : ""}
+      Počet zápasů zahrnuje i challengery a ITF.</p>`;
   const o1 = parseOdd($("#calc-o1").value), o2 = parseOdd($("#calc-o2").value);
   const unreliable = Math.min(a.n, b.n) < S.ratings.low_data;
   evOut.innerHTML = o1 && o2 ? evBlock(p, o1, o2, a.name.split(" ").slice(-1)[0], b.name.split(" ").slice(-1)[0], unreliable) : "";
 }
 function initCalc() {
-  seg($("#calc-tour"), S.calcTour, (v) => { S.calcTour = v; $("#calc-a").value = $("#calc-b").value = ""; fillDatalist(); renderCalc(); });
+  const bo5Wrap = () => { $("#calc-bo5-wrap").style.display = S.calcTour === "atp" ? "" : "none"; };
+  seg($("#calc-tour"), S.calcTour, (v) => { S.calcTour = v; $("#calc-a").value = $("#calc-b").value = ""; fillDatalist(); bo5Wrap(); renderCalc(); });
+  $("#calc-bo5").addEventListener("change", renderCalc); bo5Wrap();
   seg($("#calc-surface"), S.calcSurface, (v) => { S.calcSurface = v; renderCalc(); });
   ["#calc-a", "#calc-b", "#calc-o1", "#calc-o2"].forEach((s) => $(s).addEventListener("input", renderCalc));
   fillDatalist(); renderCalc();
