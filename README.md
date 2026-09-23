@@ -15,13 +15,20 @@ s pravděpodobnostmi a férovými kurzy, kalkulačku hráč proti hráči podle 
 | `elo.py` | model (`python3 elo.py test` = zpětný test 2023+) |
 | `mapping.py` | párování ESPN jmen na ID hráčů v historii (`data/aliases.json`) a povrch turnaje (`data/surfaces.json`) |
 | `import_lower.py` | jednorázový import challengerů/ITF/kvalifikací a údajů o hráčích z archivu → `data/lower_*.csv.gz`, `data/players_*.csv` |
+| `tennisabstract.py` | challengery a WTA 125 + Elo žebříčky z Tennis Abstract → `data/ta_matches.csv`, `data/ta_elo_*.csv` (běží na Macu, ne v Actions) |
+| `scripts/ta_sync.sh`, `scripts/install_launchd.sh` | plánovaná úloha na Macu 8:00 a 20:00: stažení z Tennis Abstract → push do repozitáře |
 | `site/` | statický web (HTML + JS, bez závislostí) |
 | `.github/workflows/update.yml` | každou hodinu 6:00–1:00 pražského času (úplné stažení v 6, 12, 18 h) + při změně kódu nebo `data/odds.json`: update → build → commit dat → GitHub Pages; běhy se nepřekrývají |
 
 Kurzy sázkovky zadané na webu se ukládají přes GitHub API do `data/odds.json`
 (fine-grained token jen pro tento repozitář, oprávnění *Contents: Read and write*, uložený v prohlížeči).
 
-## Model (verze v2, od 23. 9. 2026)
+## Model (verze v3, od 23. 9. 2026 večer)
+
+v3 = v2 + aktuální challengery a WTA 125 z Tennis Abstract (od 26. 5. 2026, průběžně 2× denně).
+Na zápasech hlavní soutěže ATP od června: log-loss 0,6554 → 0,6526 (WTA beze změny – WTA 125 už má ESPN).
+
+### v2
 
 - Elo celkové + povrchové (mix 50 : 50), K = 300 / (zápasy + 5)^0,4, grandslamy ×1,1.
 - Historie zahrnuje i challengery, kvalifikace, ITF/Futures a WTA 125 (plná váha – nižší váhy nepomohly).
@@ -53,8 +60,13 @@ finální fit 2010–2022, test 2023+ párově na stejných zápasech (rozdíl l
 | krátkodobá forma nad Elo (10 zápasů) | −0,0000 ± 0,0002 | −0,0001 ± 0,0003 | nic |
 | **statistiky podání a returnu** (EW body vyhrané na podání + na returnu) | **−0,0028 ± 0,0006** | **−0,0014 ± 0,0006** | pomáhá, ale **nenasaditelné** – pro nové zápasy nemáme zdroj |
 
-→ Verze v3 nevznikla. Pokud se objeví zdroj statistik podání/returnu pro nové zápasy (včetně challengerů),
-je to nejslibnější další krok (cca čtvrtina zisku v2 u ATP).
+→ Žádný z těchto faktorů se do modelu nedostal.
+
+### Nejslibnější další krok: statistiky podání a returnu
+Jediný další faktor s jasným přínosem (ATP −0,0028 log-loss, z = −4,9; WTA −0,0014) – zhruba čtvrtina zisku v2 u ATP.
+Chybí zdroj pro nové zápasy: ESPN je nemá (ani u finále US Open), na Tennis Abstract jsou jen v `/jsfrags/`
+(zakázané v robots.txt). Až se najde zdroj (např. placené API s bodovými statistikami, viz tabulka níže),
+přidat jako EW průměr bodů vyhraných na podání + na returnu v logistické regresi nad Elo a nasadit jako novou verzi.
 
 **Při změně modelu** přidej novou verzi do `MODELS` v `elo.py` a nastav `MODEL_VERSION` – živá bilance
 se pak počítá od začátku nové verze a tipy starších verzí se nemíchají.
@@ -91,6 +103,21 @@ se pak počítá od začátku nové verze a tipy starších verzí se nemíchaj�
   použitelné jako kontrola našeho modelu.
 - **Z GitHub Actions nefunguje:** všechny stránky 403 s Cloudflare výzvou („Just a moment“) – obcházet ji nebudeme.
   Z domácí sítě stránky normálně jdou → jediná cesta je stahovat z vlastního počítače (plánovaná úloha 1–2× denně) a výsledek pushnout.
+
+### Tennis Abstract – nasazeno (23. 9. 2026)
+- `tennisabstract.py` na Macu (launchd 8:00 a 20:00): úvodní stránka + stránky běžících challengerů a WTA 125,
+  u nedokončených turnajů z posledních 3 týdnů dohání zmeškané (kalendář z Wikipedie dává termín, město a povrch).
+  Pauza 5 s mezi dotazy, User-Agent `tenis-predikce/1.0 (+https://github.com/Hrivasek/tenis-predikce)`.
+  Jednou týdně Elo žebříčky ATP a WTA.
+- **ITF turnaje Tennis Abstract nemá** – ITF zůstává jen v historii do 5/2026.
+- Hráči jsou na stránkách odkázaní **Sackmannovými ID** (stejná jako v archivu). Ověřeno na 10 turnajích z května:
+  ATP 327/330 zápasů shodně (kolo + ID vítěze + ID poraženého), WTA 100 % (TA značí kola WTA R1/R2 → převádíme), 0 rozdílných ID.
+- Od 26. 5. do 23. 9. přibylo 3 582 zápasů challengerů a 841 zápasů WTA 125 (100 turnajů); z WTA 125 zbylo po
+  odstranění duplicit s ESPN jen 22. Nenalezeno 13 stránek (9 challengerů, 4 WTA 125 – jiné názvy než v kalendáři, např. Bad Rappenau, Guangzhou; seznam `missing` v `data/ta/tournaments.json`).
+- Datum zápasu se odhaduje z kola a týdne turnaje (kvalifikace o víkendu, finále v neděli).
+- Kontrola: build porovná naše Elo s Elo Tennis Abstract (lineární převod stupnice, top 300) a hráče s rozdílem
+  ≥ 100 bodů vypíše do logu Actions a na web (Úspěšnost). Korelace 0,97.
+- Delší výpadek Macu (> 3 týdny): `"$HOME/Library/Application Support/tenis-predikce/ta_sync.sh" --backfill-from RRRR-MM-DD`.
 
 ### Proč na challengerech záleží
 Bez průběžných výsledků challengerů/ITF přínos v2 postupně mizí: v testu na 2025–26 s historií

@@ -9,7 +9,8 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["data/odds.json", "data/aliases.json", "data/surfaces.json", "site/**", "*.py"]
+    paths: ["data/odds.json", "data/aliases.json", "data/surfaces.json", "data/ta_matches.csv", "data/ta_elo_*.csv",
+            "site/**", "*.py"]
 
 permissions:
   contents: write

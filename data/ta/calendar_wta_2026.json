@@ -1,0 +1,453 @@
+{
+"fetched": "2026-09-23T15:47:13",
+"events": [
+{
+"week": "2026-01-05",
+"name": "Workday Canberra International",
+"city": "Canberra",
+"country": "Australia",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-26",
+"name": "Philippine Women's Open",
+"city": "Manila",
+"country": "Philippines",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-02",
+"name": "L&T Mumbai Open",
+"city": "Mumbai",
+"country": "India",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-09",
+"name": "Oeiras 1 Jamor Indoor",
+"city": "Oeiras",
+"country": "Portugal",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-16",
+"name": "Oeiras 2 Jamor Indoor",
+"city": "Oeiras",
+"country": "Portugal",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-02-16",
+"name": "Open Arena Les Sables d'Olonne",
+"city": "Les Sables-d'Olonne",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-16",
+"name": "Dow Tennis Classic",
+"city": "Midland",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-23",
+"name": "Megasaray Hotels Open",
+"city": "Antalya",
+"country": "Turkey",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-02",
+"name": "Megasaray Hotels Open 2",
+"city": "Antalya",
+"country": "Turkey",
+"surface": "Clay",
+"nth": 2
+},
+{
+"week": "2026-03-09",
+"name": "Austin 125",
+"city": "Austin",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-09",
+"name": "Megasaray Hotels Open 3",
+"city": "Antalya",
+"country": "Turkey",
+"surface": "Clay",
+"nth": 3
+},
+{
+"week": "2026-03-23",
+"name": "Dubrovnik Open",
+"city": "Dubrovnik",
+"country": "Croatia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-06",
+"name": "Grand Prix Open Villa de Madrid",
+"city": "Madrid",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-13",
+"name": "Oeiras Jamor Ladies Open",
+"city": "Oeiras",
+"country": "Portugal",
+"surface": "Clay",
+"nth": 3
+},
+{
+"week": "2026-04-20",
+"name": "Oeiras Open CETO",
+"city": "Oeiras",
+"country": "Portugal",
+"surface": "Clay",
+"nth": 4
+},
+{
+"week": "2026-04-27",
+"name": "L'Open 35 de Saint-Malo",
+"city": "Saint-Malo",
+"country": "France",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-27",
+"name": "Catalonia Open Solgironès",
+"city": "La Bisbal d'Empordà",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-27",
+"name": "Huzhou Open",
+"city": "Huzhou",
+"country": "China",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-04",
+"name": "İstanbul Open",
+"city": "Istanbul",
+"country": "Turkey",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-04",
+"name": "Jiangxi Open",
+"city": "Jiujiang",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-05-11",
+"name": "Parma Ladies Open",
+"city": "Parma",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-11",
+"name": "Trophée Clarins",
+"city": "Paris",
+"country": "France",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-01",
+"name": "Lexus Birmingham Open",
+"city": "Birmingham",
+"country": "United Kingdom",
+"surface": "Grass",
+"nth": 1
+},
+{
+"week": "2026-06-01",
+"name": "Open delle Puglie Trofeo",
+"city": "Foggia",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-01",
+"name": "Makarska Open",
+"city": "Makarska",
+"country": "Croatia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-08",
+"name": "Lexus Ilkley Open",
+"city": "Ilkley",
+"country": "United Kingdom",
+"surface": "Grass",
+"nth": 1
+},
+{
+"week": "2026-06-08",
+"name": "Memorial Eugenio Fontana",
+"city": "Modena",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-15",
+"name": "Internazionali Femminili di Brescia",
+"city": "Brescia",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-15",
+"name": "Figueira da Foz Open",
+"city": "Figueira da Foz",
+"country": "Portugal",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Hall of Fame Open",
+"city": "Newport",
+"country": "United States",
+"surface": "Grass",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Grand Est Open 88",
+"city": "Contrexéville",
+"country": "France",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Nordea Open",
+"city": "Båstad",
+"country": "Sweden",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-13",
+"name": "Generali Open Ladies Kitzbühel",
+"city": "Kitzbühel",
+"country": "Austria",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-13",
+"name": "ATV Bancomat Tennis Open",
+"city": "Rome",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-13",
+"name": "ENKA Open",
+"city": "Istanbul",
+"country": "Turkey",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-07-20",
+"name": "37° Palermo Ladies Open",
+"city": "Palermo",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-27",
+"name": "AXERIA Open",
+"city": "Târgu Mureș",
+"country": "Romania",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-27",
+"name": "Odlum Brown Van Open",
+"city": "Vancouver",
+"country": "Canada",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-03",
+"name": "T-Mobile Polish Open",
+"city": "Warsaw",
+"country": "Poland",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-24",
+"name": "Ennoble Care Philly Open",
+"city": "Philadelphia",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-07",
+"name": "Montreux Nestlé Open",
+"city": "Montreux",
+"country": "Switzerland",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-09-07",
+"name": "ATIK Antalya Open",
+"city": "Antalya",
+"country": "Turkey",
+"surface": "Clay",
+"nth": 4
+},
+{
+"week": "2026-09-07",
+"name": "Kia Open",
+"city": "Barranquilla",
+"country": "Colombia",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-14",
+"name": "BBVA Open Internacional de Valencia",
+"city": "Valencia",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-09-14",
+"name": "Zavarovalnica Triglav Ljubljana",
+"city": "Ljubljana",
+"country": "Slovenia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-09-14",
+"name": "Caldas da Rainha Ladies Open",
+"city": "Caldas da Rainha",
+"country": "Portugal",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-21",
+"name": "Delta Motors Tolentino Open",
+"city": "Tolentino",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-09-21",
+"name": "Eupago Porto Open",
+"city": "Porto",
+"country": "Portugal",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-21",
+"name": "Turk Telekom Ankara Open",
+"city": "Ankara",
+"country": "Turkey",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-28",
+"name": "Jingshan Tennis Open",
+"city": "Jingshan",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-28",
+"name": "Adana Open",
+"city": "Adana",
+"country": "Turkey",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-05",
+"name": "Suzhou Open",
+"city": "Suzhou",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-05",
+"name": "Samsun Open",
+"city": "Samsun",
+"country": "Turkey",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-12",
+"name": "Vanda Pharmaceuticals Mallorca <br> Women's Championships",
+"city": "Mallorca",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-12",
+"name": "Lisboa Belém Open",
+"city": "Lisbon",
+"country": "Portugal",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-12",
+"name": "RoveretOpen Città della Pace",
+"city": "Rovereto",
+"country": "Italy",
+"surface": "Hard",
+"nth": 1
+}
+]
+}

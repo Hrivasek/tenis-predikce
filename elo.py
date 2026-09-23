@@ -34,8 +34,10 @@ MODELS = {
     "v1": {"since": "2026-09-23T11:39+02:00", "label": "Elo ATP/WTA s kalibrací"},
     "v2": {"since": "2026-09-23T13:47+02:00",
            "label": "Elo + challengery a ITF, skóre (gemy), 3 vítězné sety"},
+    "v3": {"since": "2026-09-23T16:16+02:00",
+           "label": "v2 + aktuální challengery a WTA 125 z Tennis Abstract"},
 }
-MODEL_VERSION = "v2"
+MODEL_VERSION = "v3"
 # Zápasy nižších úrovní (challengery, kvalifikace, ITF/Futures, WTA 125) mají v Elo plnou váhu –
 # nižší váhy (0,25–0,75) testované na 2010–2022 vycházely hůř nebo stejně.
 
@@ -111,6 +113,39 @@ def load_lower(tour):
     return rows
 
 
+HISTORY_END = "20260525"      # poslední turnaj v archivu (hlavní historie i nižší úrovně)
+
+
+def load_ta(tour):
+    """Challengery a WTA 125 z Tennis Abstract (tennisabstract.py, od 26. 5. 2026). Hráči mají Sackmannova ID."""
+    path = os.path.join(DATA_DIR, "ta_matches.csv")
+    rows = []
+    if not os.path.exists(path):
+        return rows
+    import datetime as dt
+    with open(path, newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            start = r["start"].replace("-", "")
+            # turnaje do konce archivu (25. 5. 2026) už jsou v historii
+            if r["tour"] != tour or "W/O" in r["score"] or not r["score"] or start <= HISTORY_END:
+                continue
+            rnd = r["round"]
+            # odhad dne zápasu: kvalifikace o víkendu před turnajem, pak po kolech do neděle
+            off = {"Q1": -2, "Q2": -1, "Q3": 0}.get(rnd) if rnd.startswith("Q") else \
+                {"R64": 0, "R32": 1, "R16": 3, "QF": 4, "SF": 5, "F": 6}.get(rnd, 2)
+            day = dt.date(int(start[:4]), int(start[4:6]), int(start[6:8])) + dt.timedelta(days=off or 0)
+            name = re.sub(r"^WTA", "", r["slug"][4:])                  # Genoa2Challenger -> Genoa 2 Challenger
+            name = re.sub(r"(?<=[a-z])(?=[A-Z0-9])|(?<=\d)(?=[A-Z])", " ", name)
+            rows.append({"tourney_id": "TA" + r["slug"], "tourney_name": name, "tourney_date": start,
+                         "tourney_level": "L", "_lvl": "C", "round": rnd, "match_num": "0", "best_of": "3",
+                         "winner_id": r["winner_id"], "winner_name": r["winner_name"], "winner_ioc": r["winner_ioc"],
+                         "loser_id": r["loser_id"], "loser_name": r["loser_name"], "loser_ioc": r["loser_ioc"],
+                         "score": r["score"], "_surface": r["surface"] or "Hard", "_ret": "RET" in r["score"],
+                         "_key": (start, "TA" + r["slug"], ROUND_ORDER.get(rnd, 5), 0), "_eval": False,
+                         "_date": day.isoformat(), "_date_est": True, "_source": "ta"})
+    return rows
+
+
 _HISTORY = {}
 PLAYER_MAPS = {}      # PlayerMap použitá při posledním load_matches – build.py s ní páruje rozpis
 
@@ -141,13 +176,25 @@ def load_espn(tour, quals=False, lower=None):
     return rows, pmap, smap
 
 
-def load_matches(tour, espn=True, lower=True, quals=None):
+def load_matches(tour, espn=True, lower=True, quals=None, ta=True):
     """Všechny zápasy chronologicky. S nižšími úrovněmi bereme z ESPN i kvalifikace (v historii jsou taky)."""
     low = load_lower(tour) if lower else []
+    ta = load_ta(tour) if lower and ta else []
     rows = list(history(tour)) + low
     if espn:
-        esp, PLAYER_MAPS[tour], _ = load_espn(tour, bool(low) if quals is None else quals, low)
+        esp, PLAYER_MAPS[tour], _ = load_espn(tour, bool(low) if quals is None else quals, low + ta)
         rows += esp
+        # WTA 125 bývají i v ESPN – zápas stejné dvojice do 10 dní od začátku turnaje bereme jen jednou
+        import datetime as dt
+        day = lambda s: dt.date(int(s[:4]), int(s[4:6]), int(s[6:8])).toordinal()
+        seen = {}
+        for r in esp:
+            seen.setdefault(frozenset((r["winner_id"], r["loser_id"])), []).append(day(r["tourney_date"]))
+        def dup(r):
+            d = day(r["tourney_date"])
+            return any(abs(x - d) <= 10 for x in seen.get(frozenset((r["winner_id"], r["loser_id"])), []))
+        ta = [r for r in ta if not dup(r)]
+    rows += ta
     rows.sort(key=lambda r: r["_key"])       # chronologicky – žádný únik dat z budoucnosti
     return rows
 
@@ -206,11 +253,12 @@ def run(tour, eval_from="20230101", min_matches=10, espn=True, lower=True, freez
     (simulace modelu, který nedostává čerstvá data). log: seznam, kam se uloží každá
     hodnocená predikce (pro podrobné statistiky). Hodnotí se jen hlavní soutěž okruhu, kde oba
     hráči mají aspoň min_matches zápasů hlavní soutěže – stejná sada jako před přidáním challengerů."""
+    use_ta = params.pop("ta", True)
     params.setdefault("calibration", CALIBRATION.get(tour, 1.0))
     params.setdefault("mov", MOV.get(tour, 0.0))
     elo = Elo(**params)
     stats = defaultdict(float)
-    rows = load_matches(tour, espn=espn, lower=lower)
+    rows = load_matches(tour, espn=espn, lower=lower, ta=use_ta)
     if keep_rows:
         elo.rows = rows                     # build.py z nich skládá detail zápasu
     for r in rows:

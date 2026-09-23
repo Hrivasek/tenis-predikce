@@ -164,7 +164,8 @@ def details(model, tour, wanted, players, espn_country):
         w, l = r["winner_id"], r["loser_id"]
         if w not in pids and l not in pids:
             continue
-        item = {"d": match_day(r).isoformat(), "exact": bool(r.get("_date")), "t": r["tourney_name"],
+        item = {"d": match_day(r).isoformat(), "exact": bool(r.get("_date")) and not r.get("_date_est"),
+                "t": r["tourney_name"],
                 "lvl": level_label(r), "r": r["round"], "s": r["_surface"], "sc": r["score"],
                 "w": w, "wn": r["winner_name"], "ln": r["loser_name"]}
         if w in pids: last[w].append(item)
@@ -201,6 +202,43 @@ def details(model, tour, wanted, players, espn_country):
     return out
 
 
+def elo_check(model, tour, active_since):
+    """Porovnání našeho Elo s Elo žebříčkem Tennis Abstract (stejná ID hráčů).
+    Stupnice se liší, proto náš rating převedeme na jejich lineární regresí a hlásíme velké odchylky."""
+    path = os.path.join(elo.DATA_DIR, f"ta_elo_{tour}.csv")
+    if not os.path.exists(path):
+        return None
+    pmap = elo.PLAYER_MAPS[tour]
+    with open(path, newline="", encoding="utf-8") as f:
+        ta = [r for r in csv.DictReader(f) if int(r["rank"]) <= 300]
+    for r in ta:                        # TA žebříček odkazuje hráče jménem → párujeme jako ESPN
+        r["player_id"] = r["player_id"] or pmap.resolve("TA:" + r["name"], r["name"])
+    pairs = [(r, model.rating[r["player_id"]]) for r in ta
+             if model.n.get(r["player_id"], 0) >= 30 and model.last_date.get(r["player_id"], "") >= active_since]
+    if len(pairs) < 30:
+        return None
+    xs = [o for _, o in pairs]; ys = [float(r["elo"]) for r, _ in pairs]
+    n = len(xs); mx, my = sum(xs) / n, sum(ys) / n
+    sxx = sum((x - mx) ** 2 for x in xs); sxy = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+    syy = sum((y - my) ** 2 for y in ys)
+    b_, a_ = sxy / sxx, my - sxy / sxx * mx
+    res = [(r, o, a_ + b_ * o, float(r["elo"]) - (a_ + b_ * o)) for (r, o) in pairs]
+    sd = math.sqrt(sum(d * d for *_, d in res) / (n - 2))
+    limit = max(100.0, 2.5 * sd)
+    ours_rank = {pid: i for i, pid in enumerate(sorted({r["player_id"] for r, _ in pairs},
+                                                       key=lambda p: -model.rating[p]), 1)}
+    flagged = sorted((x for x in res if abs(x[3]) >= limit), key=lambda x: -abs(x[3]))
+    out = {"updated": ta[0]["updated"] if ta else "", "n": n, "corr": sxy / math.sqrt(sxx * syy),
+           "sd": sd, "limit": limit,
+           "flagged": [{"name": r["name"], "ta_elo": float(r["elo"]), "ta_rank": int(r["rank"]),
+                        "ours_as_ta": round(e), "diff": round(d), "our_rank": ours_rank[r["player_id"]],
+                        "n": model.n[r["player_id"]]} for r, o, e, d in flagged[:15]]}
+    for x in out["flagged"]:
+        print(f"  ⚠ {tour.upper()} {x['name']}: TA Elo {x['ta_elo']:.0f} (#{x['ta_rank']}), náš model odpovídá "
+              f"{x['ours_as_ta']} (#{x['our_rank']}), rozdíl {x['diff']:+d}")
+    return out
+
+
 def load_predictions():
     if not os.path.exists(PRED_PATH):
         return {}
@@ -227,7 +265,7 @@ def main():
         upcoming = json.load(f)
     preds = load_predictions()
     odds = load_odds()
-    matches_out, ratings_out, backtest, details_out = [], {}, {}, {}
+    matches_out, ratings_out, backtest, details_out, checks = [], {}, {}, {}, {}
 
     for tour in ("atp", "wta"):
         log = []
@@ -258,6 +296,7 @@ def main():
                                 **{s: round(model.blended(pid, s), 1) for s in elo.SURFACES}})
         players.sort(key=lambda p: -p["elo"])
         ratings_out[tour] = players
+        checks[tour] = elo_check(model, tour, year_ago)
 
         # --- predikce zápasů v rozpisu ---
         for m in upcoming["matches"]:
@@ -354,7 +393,7 @@ def main():
                           ("ratings.json", {**meta, "scale": elo.CALIBRATION, "long_break": LONG_BREAK,
                                             "low_data": LOW_DATA,
                                             **ratings_out}),
-                          ("track.json", {**meta, "backtest": backtest, "live": live,
+                          ("track.json", {**meta, "backtest": backtest, "live": live, "elo_check": checks,
                                           "odds": odds_track(odds, preds)})):
         with open(os.path.join(OUT_DIR, name), "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))

@@ -431,7 +431,23 @@ function renderTrack() {
     <p class="explain">Když model dává favoritovi 70 %, měl by favorit vyhrát zhruba v 70 % případů. Body na přerušované čáře = férové pravděpodobnosti.</p>
     ${calibChart([{ name: "ATP", color: c1, data: bt.atp.calibration }, { name: "WTA", color: c2, data: bt.wta.calibration }])}
 
+    ${eloCheck(t.elo_check)}
     ${recent ? `<h2 class="sec">Poslední vyhodnocené tipy</h2>${recent}` : ""}`;
+}
+
+function eloCheck(ec) {
+  if (!ec || (!ec.atp && !ec.wta)) return "";
+  const part = (tour, c) => !c ? "" : `<h3 class="sub-h">${tour.toUpperCase()} – shoda ${num(c.corr, 3)} (korelace, ${c.n} hráčů), žebříček TA z ${esc(c.updated)}</h3>
+    ${c.flagged.length ? c.flagged.map((x) => `<div class="list-item"><div class="l"><b>${esc(x.name)}</b>
+      <div class="muted">TA #${x.ta_rank} · náš #${x.our_rank} · ${x.n} zápasů</div></div>
+      <div class="r num"><span class="${x.diff > 0 ? "pos" : "neg"}">${x.diff > 0 ? "+" : ""}${x.diff}</span>
+      <div class="muted">TA ${Math.round(x.ta_elo)} / náš ${x.ours_as_ta}</div></div></div>`).join("")
+      : `<p class="muted">Žádný hráč se neliší o víc než ${Math.round(c.limit)} bodů.</p>`}`;
+  return `<h2 class="sec">Kontrola proti Elo Tennis Abstract</h2>
+    <p class="explain">Náš rating převedený na stupnici Tennis Abstract (lineárně, top 300, aktivní hráči s aspoň 30 zápasy).
+      Seznam ukazuje hráče s rozdílem aspoň ${Math.round(Math.max(ec.atp?.limit || 0, ec.wta?.limit || 0))} bodů –
+      kladné číslo = Tennis Abstract hráče hodnotí výš než náš model. Velký rozdíl bývá u hráčů po pauze nebo s krátkou historií.</p>
+    ${part("atp", ec.atp)}${part("wta", ec.wta)}`;
 }
 
 function fmtSince(iso) {

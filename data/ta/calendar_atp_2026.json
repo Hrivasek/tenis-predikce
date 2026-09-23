@@ -1,0 +1,1581 @@
+{
+"fetched": "2026-09-23T15:47:07",
+"events": [
+{
+"week": "2026-01-05",
+"name": "Bengaluru Open",
+"city": "Bengaluru",
+"country": "India",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-05",
+"name": "Canberra Tennis International",
+"city": "Canberra",
+"country": "Australia",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-05",
+"name": "BNC Tennis Open",
+"city": "Nouméa",
+"country": "New Caledonia",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-05",
+"name": "Nonthaburi Challenger",
+"city": "Nonthaburi",
+"country": "Thailand",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-05",
+"name": "Lexus Nottingham Challenger",
+"city": "Nottingham",
+"country": "United Kingdom",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-12",
+"name": "Nonthaburi Challenger II",
+"city": "Nonthaburi",
+"country": "Thailand",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-01-12",
+"name": "Challenger AAT",
+"city": "Buenos Aires",
+"country": "Argentina",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-01-12",
+"name": "Glasgow Challenger",
+"city": "Glasgow",
+"country": "United Kingdom",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-19",
+"name": "Oeiras Indoors",
+"city": "Oeiras",
+"country": "Portugal",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-19",
+"name": "Itajaí Open",
+"city": "Itajaí",
+"country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-01-19",
+"name": "Soma Bay Open",
+"city": "Soma Bay",
+"country": "Egypt",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-19",
+"name": "Phan Thiết Challenger",
+"city": "Phan Thiết",
+"country": "Vietnam",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-26",
+"name": "Bahrain Ministry of Interior Tennis Challenger",
+"city": "Manama",
+"country": "Bahrain",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-26",
+"name": "Open Quimper Bretagne",
+"city": "Quimper",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-26",
+"name": "Challenger Concepción",
+"city": "Concepción",
+"country": "Chile",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-01-26",
+"name": "San Diego Open",
+"city": "San Diego",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-01-26",
+"name": "Oeiras Indoors II",
+"city": "Oeiras",
+"country": "Portugal",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-01-26",
+"name": "Phan Thiết Challenger II",
+"city": "Phan Thiết",
+"country": "Vietnam",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-02-02",
+"name": "Rosario Challenger",
+"city": "Rosario",
+"country": "Argentina",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-02-02",
+"name": "Queensland International",
+"city": "Brisbane",
+"country": "Australia",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-02",
+"name": "Cleveland Open",
+"city": "Cleveland",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-02",
+"name": "Tenerife Challenger",
+"city": "Tenerife",
+"country": "Spain",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-02",
+"name": "Trofeo Città di Cesenatico",
+"city": "Cesenatico",
+"country": "Italy",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-02",
+"name": "Koblenz Open",
+"city": "Koblenz",
+"country": "Germany",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-09",
+"name": "Teréga Open Pau–Pyrénées",
+"city": "Pau",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-09",
+"name": "Queensland International II",
+"city": "Brisbane",
+"country": "Australia",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-02-09",
+"name": "Tenerife Challenger II",
+"city": "Tenerife",
+"country": "Spain",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-02-09",
+"name": "Baton Rouge Challenger",
+"city": "Baton Rouge",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-09",
+"name": "Chennai Open Challenger",
+"city": "Chennai",
+"country": "India",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-16",
+"name": "Play In Challenger",
+"city": "Lille",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-16",
+"name": "Metepec Open",
+"city": "Metepec",
+"country": "Mexico",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-16",
+"name": "Delhi Open",
+"city": "New Delhi",
+"country": "India",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-16",
+"name": "Challenger de Tigre",
+"city": "Tigre",
+"country": "Argentina",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-02-23",
+"name": "Open Saint-Brieuc",
+"city": "Saint-Brieuc",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-23",
+"name": "Challenger Città di Lugano",
+"city": "Lugano",
+"country": "Switzerland",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-23",
+"name": "Pune Challenger",
+"city": "Pune",
+"country": "India",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-02-23",
+"name": "Challenger de Tigre II",
+"city": "Tigre",
+"country": "Argentina",
+"surface": "Clay",
+"nth": 2
+},
+{
+"week": "2026-03-02",
+"name": "Thionville Open",
+"city": "Thionville",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-02",
+"name": "Brasília Tennis Open",
+"city": "Brasília",
+"country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-02",
+"name": "Rwanda Challenger",
+"city": "Kigali",
+"country": "Rwanda",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-02",
+"name": "Fujairah Open",
+"city": "Fujairah",
+"country": "United Arab Emirates",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-02",
+"name": "Crete Challenger",
+"city": "Hersonissos",
+"country": "Greece",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-09",
+"name": "Arizona Tennis Classic",
+"city": "Phoenix",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-09",
+"name": "Copa Cap Cana",
+"city": "Punta Cana",
+"country": "Dominican Republic",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-09",
+"name": "Rwanda Challenger II",
+"city": "Kigali",
+"country": "Rwanda",
+"surface": "Clay",
+"nth": 2
+},
+{
+"week": "2026-03-09",
+"name": "Challenger La Manche",
+"city": "Cherbourg-en-Cotentin",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-09",
+"name": "Challenger de Santiago",
+"city": "Santiago",
+"country": "Chile",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-09",
+"name": "Crete Challenger II",
+"city": "Hersonissos",
+"country": "Greece",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-03-16",
+"name": "Paraguay Open",
+"city": "Asunción",
+"country": "Paraguay",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-16",
+"name": "Morelos Open",
+"city": "Cuernavaca",
+"country": "Mexico",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-16",
+"name": "Murcia Open",
+"city": "Murcia",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-16",
+"name": "Zadar Open",
+"city": "Zadar",
+"country": "Croatia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-23",
+"name": "Morelia Open",
+"city": "Morelia",
+"country": "Mexico",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-23",
+"name": "Napoli Tennis Cup",
+"city": "Naples",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-23",
+"name": "Montemar Challenger",
+"city": "Alicante",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-23",
+"name": "Latin America Open",
+"city": "São Paulo",
+"country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-23",
+"name": "Kia Open Bucaramanga",
+"city": "Bucaramanga",
+"country": "Colombia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-23",
+"name": "Split Open",
+"city": "Split",
+"country": "Croatia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-23",
+"name": "Yokkaichi Challenger",
+"city": "Yokkaichi",
+"country": "Japan",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-03-30",
+"name": "Open Menorca",
+"city": "Menorca",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-30",
+"name": "Open Città della Disfida",
+"city": "Barletta",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-30",
+"name": "Banorte Tennis Open",
+"city": "San Luis Potosí",
+"country": "Mexico",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-30",
+"name": "São Léo Open",
+"city": "São Leopoldo",
+"country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-03-30",
+"name": "Miyazaki Challenger",
+"city": "Miyazaki",
+"country": "Japan",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-04-06",
+"name": "Mexico City Open",
+"city": "Mexico City",
+"country": "Mexico",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-06",
+"name": "Monza Open",
+"city": "Monza",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-06",
+"name": "Campeonato Internacional de Tênis de Campinas",
+"city": "Campinas",
+"country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-06",
+"name": "Open Comunidad de Madrid",
+"city": "Madrid",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-06",
+"name": "Sarasota Open",
+"city": "Sarasota",
+"country": "United States",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-06",
+"name": "Wuning Challenger",
+"city": "Wuning",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-04-13",
+"name": "Busan Open",
+"city": "Busan",
+"country": "South Korea",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-04-13",
+"name": "Open de Oeiras",
+"city": "Oeiras",
+"country": "Portugal",
+"surface": "Clay",
+"nth": 3
+},
+{
+"week": "2026-04-13",
+"name": "Santa Cruz Challenger",
+"city": "Santa Cruz de la Sierra",
+"country": "Bolivia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-13",
+"name": "Tallahassee Tennis Challenger",
+"city": "Tallahassee",
+"country": "United States",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-13",
+"name": "Wuning Challenger II",
+"city": "Wuning",
+"country": "China",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-04-20",
+"name": "Gwangju Open",
+"city": "Gwangju",
+"country": "South Korea",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-04-20",
+"name": "Garden Open",
+"city": "Rome",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-20",
+"name": "Savannah Challenger",
+"city": "Savannah",
+"country": "United States",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-20",
+"name": "Côte d'Ivoire Open",
+"city": "Abidjan",
+"country": "Ivory Coast",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-04-20",
+"name": "Shymkent Challenger",
+"city": "Shymkent",
+"country": "Kazakhstan",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-27",
+"name": "Open Aix Provence",
+"city": "Aix-en-Provence",
+"country": "France",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-27",
+"name": "Sardegna Open",
+"city": "Cagliari",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-27",
+"name": "Upper Austria Open",
+"city": "Mauthausen",
+"country": "Austria",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-27",
+"name": "Jiujiang Challenger",
+"city": "Jiujiang",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-04-27",
+"name": "Ostra Group Open",
+"city": "Ostrava",
+"country": "Czech Republic",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-04-27",
+"name": "Côte d'Ivoire Open II",
+"city": "Abidjan",
+"country": "Ivory Coast",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-04-27",
+"name": "Shymkent Challenger II",
+"city": "Shymkent",
+"country": "Kazakhstan",
+"surface": "Clay",
+"nth": 2
+},
+{
+"week": "2026-05-04",
+"name": "Wuxi Open",
+"city": "Wuxi",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-05-04",
+"name": "Abruzzo Open",
+"city": "Francavilla al Mare",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-04",
+"name": "Brazzaville Challenger",
+"city": "Brazzaville",
+"country": "Republic of the Congo",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-04",
+"name": "Santos Brasil Tennis Cup",
+"city": "Santos",
+"country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-11",
+"name": "BNP Paribas Primrose Bordeaux",
+"city": "Bordeaux",
+"country": "France",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-11",
+"name": "Copa Faulconbridge",
+"city": "Valencia",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-11",
+"name": "Open de Oeiras II",
+"city": "Oeiras",
+"country": "Portugal",
+"surface": "Clay",
+"nth": 4
+},
+{
+"week": "2026-05-11",
+"name": "Tunis Open",
+"city": "Tunis",
+"country": "Tunisia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-11",
+"name": "Zagreb Open",
+"city": "Zagreb",
+"country": "Croatia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-11",
+"name": "Bengaluru Open II",
+"city": "Bengaluru",
+"country": "India",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-05-11",
+"name": "Challenger Córdoba",
+"city": "Córdoba",
+"country": "Argentina",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-18",
+"name": "Bosphorus Challenger Cup",
+"city": "Istanbul",
+"country": "Turkey",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-18",
+"name": "Bengaluru Open III",
+"city": "Bengaluru",
+"country": "India",
+"surface": "Hard",
+"nth": 3
+},
+{
+"week": "2026-05-18",
+"name": "Challenger Città di Cervia",
+"city": "Cervia",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-25",
+"name": "Moldova Open",
+"city": "Chișinău",
+"country": "Moldova",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-25",
+"name": "Little Rock Challenger",
+"city": "Little Rock",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-05-25",
+"name": "Internazionali di Tennis Città di Vicenza",
+"city": "Vicenza",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-05-25",
+"name": "Centurion Challenger",
+"city": "Centurion",
+"country": "South Africa",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-05-25",
+"name": "Košice Open",
+"city": "Košice",
+"country": "Slovakia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-01",
+"name": "Birmingham Open",
+"city": "Birmingham",
+"country": "United Kingdom",
+"surface": "Grass",
+"nth": 1
+},
+{
+"week": "2026-06-01",
+"name": "Internazionali di Tennis Città di Perugia",
+"city": "Perugia",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-01",
+"name": "Neckarcup 2.0",
+"city": "Bad Rappenau",
+"country": "Germany",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-01",
+"name": "UniCredit Czech Open",
+"city": "Prostějov",
+"country": "Czech Republic",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-01",
+"name": "Tyler Tennis Championships",
+"city": "Tyler",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-06-01",
+"name": "Centurion Challenger II",
+"city": "Centurion",
+"country": "South Africa",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-06-08",
+"name": "Ilkley Open",
+"city": "Ilkley",
+"country": "United Kingdom",
+"surface": "Grass",
+"nth": 1
+},
+{
+"week": "2026-06-08",
+"name": "Bratislava Open",
+"city": "Bratislava",
+"country": "Slovakia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-08",
+"name": "Open Sopra Steria de Lyon",
+"city": "Lyon",
+"country": "France",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-08",
+"name": "Cattolica Challenger",
+"city": "Cattolica",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-08",
+"name": "Challenger Tucumán",
+"city": "San Miguel de Tucumán",
+"country": "Argentina",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-15",
+"name": "Nottingham Open",
+"city": "Nottingham",
+"country": "United Kingdom",
+"surface": "Grass",
+"nth": 2
+},
+{
+"week": "2026-06-15",
+"name": "Emilia-Romagna Open",
+"city": "Parma",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-15",
+"name": "Poznań Open",
+"city": "Poznań",
+"country": "Poland",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-15",
+"name": "Dublin Challenger",
+"city": "Dublin",
+"country": "Ireland",
+"surface": "Grass",
+"nth": 1
+},
+{
+"week": "2026-06-15",
+"name": "CIT Open",
+"city": "Asunción",
+"country": "Paraguay",
+"surface": "Clay",
+"nth": 2
+},
+{
+"week": "2026-06-15",
+"name": "Royan Atlantique Open",
+"city": "Royan",
+"country": "France",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-22",
+"name": "INTARO Open",
+"city": "Târgu Mureș",
+"country": "Romania",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-22",
+"name": "Piracicaba Challenger",
+"city": "Piracicaba",
+"country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-22",
+"name": "Plovdiv Challenger",
+"city": "Plovdiv",
+"country": "Bulgaria",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-29",
+"name": "Ion Țiriac Challenger",
+"city": "Brașov",
+"country": "Romania",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-29",
+"name": "Cary Tennis Classic",
+"city": "Cary",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-06-29",
+"name": "Aspria Tennis Cup",
+"city": "Milan",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-29",
+"name": "Quito Challenger",
+"city": "Quito",
+"country": "Ecuador",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-06-29",
+"name": "Internationaux de Tennis de Troyes",
+"city": "Troyes",
+"country": "France",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Brawo Open",
+"city": "Braunschweig",
+"country": "Germany",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Hall of Fame Open",
+"city": "Newport",
+"country": "United States",
+"surface": "Grass",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Iași Open",
+"city": "Iași",
+"country": "Romania",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Open Bogotá",
+"city": "Bogotá",
+"country": "Colombia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Internazionali di Tennis Città di Trieste",
+"city": "Trieste",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Ethias Province Open",
+"city": "Liège",
+"country": "Belgium",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-06",
+"name": "Lexus Nottingham Challenger II",
+"city": "Nottingham",
+"country": "United Kingdom",
+"surface": "Grass",
+"nth": 3
+},
+{
+"week": "2026-07-13",
+"name": "Dutch Open",
+"city": "Bunschoten",
+"country": "Netherlands",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-13",
+"name": "Internazionali di Tennis del Friuli Venezia Giulia",
+"city": "Cordenons",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-13",
+"name": "Championnats Banque Nationale de Granby",
+"city": "Granby",
+"country": "Canada",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-07-13",
+"name": "Lincoln Challenger",
+"city": "Lincoln",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-07-13",
+"name": "Open de Tenis Ciudad de Pozoblanco",
+"city": "Pozoblanco",
+"country": "Spain",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-07-20",
+"name": "Zug Open",
+"city": "Zug",
+"country": "Switzerland",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-20",
+"name": "Cranbrook Tennis Classic",
+"city": "Bloomfield Hills",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-07-20",
+"name": "Open Castilla y León",
+"city": "Segovia",
+"country": "Spain",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-07-20",
+"name": "Tampere Open",
+"city": "Tampere",
+"country": "Finland",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-20",
+"name": "Winnipeg National Bank Challenger",
+"city": "Winnipeg",
+"country": "Canada",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-07-27",
+"name": "San Marino Open",
+"city": "San Marino",
+"country": "San Marino",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-27",
+"name": "Odlum Brown Vancouver Open",
+"city": "Vancouver",
+"country": "Canada",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-07-27",
+"name": "Bonn Open",
+"city": "Bonn",
+"country": "Germany",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-27",
+"name": "Svijany Open",
+"city": "Liberec",
+"country": "Czech Republic",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-07-27",
+"name": "Samsun Open",
+"city": "Samsun",
+"country": "Turkey",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-03",
+"name": "Platzmann Open",
+"city": "Hagen",
+"country": "Germany",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-08-03",
+"name": "Mazovia Open",
+"city": "Grodzisk Mazowiecki",
+"country": "Poland",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-03",
+"name": "Lexington Open",
+"city": "Lexington",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-03",
+"name": "ENKA Open",
+"city": "Istanbul",
+"country": "Turkey",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-08-03",
+"name": "Plovdiv Challenger II",
+"city": "Plovdiv",
+"country": "Bulgaria",
+"surface": "Clay",
+"nth": 2
+},
+{
+"week": "2026-08-10",
+"name": "Indiana Hardcourt Championships",
+"city": "Brownsburg",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-10",
+"name": "Hamburg Ladies & Gents Cup",
+"city": "Hamburg",
+"country": "Germany",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-08-10",
+"name": "Internazionali di Tennis Città di Todi",
+"city": "Todi",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-08-10",
+"name": "President's Cup",
+"city": "Astana",
+"country": "Kazakhstan",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-10",
+"name": "Cancún Country Open",
+"city": "Cancún",
+"country": "Mexico",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-10",
+"name": "Challenger Banque Nationale de Québec",
+"city": "Quebec City",
+"country": "Canada",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-10",
+"name": "Kingston Open",
+"city": "Kingston",
+"country": "Jamaica",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-10",
+"name": "Advantage Cars Prague Open",
+"city": "Prague",
+"country": "Czech Republic",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-08-10",
+"name": "Roehampton Challenger",
+"city": "Roehampton",
+"country": "United Kingdom",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-10",
+"name": "Open de Sion",
+"city": "Sion",
+"country": "Switzerland",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-08-24",
+"name": "Kingston Open II",
+"city": "Kingston",
+"country": "Jamaica",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-08-24",
+"name": "Schwaben Open",
+"city": "Augsburg",
+"country": "Germany",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-08-24",
+"name": "Roehampton Challenger II",
+"city": "Roehampton",
+"country": "United Kingdom",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-08-31",
+"name": "Como Lake Challenger",
+"city": "Como",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-08-31",
+"name": "Rafa Nadal Open",
+"city": "Manacor",
+"country": "Spain",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-31",
+"name": "CT Porto Cup",
+"city": "Porto",
+"country": "Portugal",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-08-31",
+"name": "International Challenger Zhangjiagang",
+"city": "Zhangjiagang",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-08-31",
+"name": "Plovdiv Challenger III",
+"city": "Plovdiv",
+"country": "Bulgaria",
+"surface": "Clay",
+"nth": 3
+},
+{
+"week": "2026-09-07",
+"name": "AON Open Challenger",
+"city": "Genoa",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-09-07",
+"name": "Copa Sevilla",
+"city": "Seville",
+"country": "Spain",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-09-07",
+"name": "Shanghai Challenger",
+"city": "Shanghai",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-07",
+"name": "NÖ Open",
+"city": "Tulln",
+"country": "Austria",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-09-07",
+"name": "Cassis Open Provence",
+"city": "Cassis",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-07",
+"name": "Istanbul Challenger",
+"city": "Istanbul",
+"country": "Turkey",
+"surface": "Hard",
+"nth": 3
+},
+{
+"week": "2026-09-07",
+"name": "Phan Thiết Challenger III",
+"city": "Phan Thiết",
+"country": "Vietnam",
+"surface": "Hard",
+"nth": 3
+},
+{
+"week": "2026-09-14",
+"name": "Szczecin Open",
+"city": "Szczecin",
+"country": "Poland",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-09-14",
+"name": "Tiburon Challenger",
+"city": "Tiburon",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-14",
+"name": "Guangzhou Huangpu International Tennis Open",
+"city": "Guangzhou",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-14",
+"name": "Open de Rennes",
+"city": "Rennes",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-14",
+"name": "Città di Biella",
+"city": "Biella",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-09-14",
+"name": "Phan Thiết Challenger IV",
+"city": "Phan Thiết",
+"country": "Vietnam",
+"surface": "Hard",
+"nth": 4
+},
+{
+"week": "2026-09-21",
+"name": "Saint-Tropez Open",
+"city": "Saint-Tropez",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-09-21",
+"name": "Challenger de Buenos Aires",
+"city": "Buenos Aires",
+"country": "Argentina",
+"surface": "Clay",
+"nth": 2
+},
+{
+"week": "2026-09-21",
+"name": "De Wave Open Challenger",
+"city": "Genoa",
+"country": "Italy",
+"surface": "Clay",
+"nth": 2
+},
+{
+"week": "2026-09-21",
+"name": "Plovdiv Challenger IV",
+"city": "Plovdiv",
+"country": "Bulgaria",
+"surface": "Clay",
+"nth": 4
+},
+{
+"week": "2026-09-21",
+"name": "San Diego Challenger",
+"city": "San Diego",
+"country": "United States",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-09-28",
+"name": "Porto Open",
+"city": "Porto",
+"country": "Portugal",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-09-28",
+"name": "Jingshan Tennis Open",
+"city": "Jingshan",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-19",
+"name": "Lisboa Belém Open",
+"city": "Lisbon",
+"country": "Portugal",
+"surface": "Clay",
+"nth": 1
+}
+]
+}
