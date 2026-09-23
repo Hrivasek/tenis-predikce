@@ -1,5 +1,5 @@
 {
-"fetched": "2026-09-23T12:41:39+00:00",
+"fetched": "2026-09-23T13:03:27+00:00",
 "matches": [
 {
 "match_id": "186069",
@@ -3885,7 +3885,7 @@
 "qualifying": 0,
 "date": "2026-09-23T12:40Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "3909",
 "p1_name": "Jessica Pieri",
@@ -3905,7 +3905,7 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-09-23T13:00Z",
+"date": "2026-09-23T13:05Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
