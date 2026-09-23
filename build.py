@@ -190,7 +190,7 @@ def main():
             surface = smap.resolve(tour, m["tourney_name"], m["venue"], m["event_start"])
             if m["status"] == "scheduled":
                 # dokud se nehraje, predikci přepisujeme nejčerstvějšími ratingy
-                preds[key] = {
+                new = {
                     "match_id": m["match_id"], "tour": tour, "start": m["date"],
                     "tourney": m["tourney_name"], "round": m["round"], "surface": surface,
                     "p1_id": m["p1_id"], "p1_name": m["p1_name"], "p2_id": m["p2_id"], "p2_name": m["p2_name"],
@@ -199,6 +199,13 @@ def main():
                     "p1_prob": f"{model.predict(a, b, surface, int(m['best_of'] or 3)):.4f}",
                     "predicted_at": now.isoformat(timespec="minutes"), "status": "scheduled",
                     "winner": "", "score": "", "model": elo.MODEL_VERSION}
+                old = preds.get(key)
+                same = old and all(str(old.get(k)) == str(new[k]) for k in new
+                                   if k not in ("predicted_at", "start", "status"))
+                if same:
+                    old["start"] = new["start"]; old["status"] = "scheduled"   # beze změny → čas predikce necháme
+                else:
+                    preds[key] = new
             elif key in preds:
                 # rozehraný / dohraný zápas: predikce zůstává, jak byla před zápasem
                 preds[key].update(status=m["status"], winner=m["winner"], score=m["score"])

@@ -2,10 +2,10 @@ name: Aktualizace a nasazení webu
 
 on:
   schedule:
-    # UTC; v létě 6:00, 13:00 a 19:00 pražského času
-    - cron: "0 4 * * *"
-    - cron: "0 11 * * *"
-    - cron: "0 17 * * *"
+    # Každou hodinu 6:00–1:00 pražského času. Cron běží v UTC a nezná letní čas, proto pokrývá
+    # obě varianty (léto: 4–23 UTC, zima: 5–0 UTC) a přesné okno hlídá job „gate“ níže.
+    # Minuta 7 místo celé hodiny: GitHub na začátku hodiny plánované běhy často zpožďuje.
+    - cron: "7 0,4-23 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -16,22 +16,47 @@ permissions:
   pages: write
   id-token: write
 
+# Běhy se nikdy nepřekrývají: celý běh (build i deploy) je v jedné skupině. Když jeden běží,
+# další čeká; čekající může nahradit jen novější běh – ten si ale stáhne aktuální main (ref: main),
+# takže nic z nahrazeného běhu (např. nově zadaný kurz) se neztratí.
 concurrency:
   group: update
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+      full: ${{ steps.check.outputs.full }}
+    steps:
+      - id: check
+        run: |
+          h=$(TZ=Europe/Prague date +%-H)
+          echo "Pražský čas: $(TZ=Europe/Prague date '+%Y-%m-%d %H:%M')"
+          if [ "${{ github.event_name }}" != "schedule" ]; then run=true
+          elif [ "$h" -ge 6 ] || [ "$h" -le 1 ]; then run=true
+          else run=false; fi
+          # běhy v 6, 12 a 18 h (a ruční spuštění) stáhnou 10+ dní zpět kvůli opravám výsledků, ostatní jen 2 dny
+          case "$h" in 6|12|18) full=true ;; *) full=false ;; esac
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then full=true; fi
+          echo "run=$run" >> "$GITHUB_OUTPUT"; echo "full=$full" >> "$GITHUB_OUTPUT"
+          echo "run=$run full=$full"
+
   build:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with: {ref: main}
       - uses: actions/setup-python@v7
         with: {python-version: "3.12"}
 
       - name: Stáhnout čerstvá data z ESPN
         id: fetch
         continue-on-error: true      # při výpadku ESPN web zůstane na posledních datech
-        run: python3 update.py
+        run: python3 update.py ${{ needs.gate.outputs.full == 'true' && ' ' || '--quick' }}
 
       - name: Varování při výpadku ESPN
         if: steps.fetch.outcome == 'failure'
@@ -40,16 +65,18 @@ jobs:
       - name: Spočítat predikce a data pro web
         run: python3 build.py
 
+      # Kurzy z webu jdou přes GitHub API do data/odds.json; tento job ho nikdy nemění,
+      # takže rebase nemůže skončit konfliktem – jen se zopakuje push, když web mezitím commitnul.
       - name: Uložit data do repozitáře
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/espn_atp.csv data/espn_wta.csv data/upcoming.json data/predictions.csv
           if git diff --cached --quiet; then echo "Beze změn"; exit 0; fi
           git commit -m "Data $(date -u +'%Y-%m-%d %H:%M') UTC"
-          for i in 1 2 3; do
+          for i in 1 2 3 4 5; do
             git pull --rebase origin main && git push origin HEAD:main && exit 0
-            sleep 5
+            sleep $((i * 5))
           done
           exit 1
 

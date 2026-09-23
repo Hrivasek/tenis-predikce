@@ -2,7 +2,8 @@
 """
 Stáhne čerstvé výsledky a rozpis z ESPN.
 
-  python3 update.py              # posledních 10 dní + rozpis na 3 dny dopředu
+  python3 update.py              # od posledního uloženého výsledku −10 dní + rozpis na 3 dny dopředu
+  python3 update.py --quick      # jen předevčírem..+3 dny (hodinové běhy; opravy starších výsledků chytí ranní běh)
   python3 update.py --backfill   # vše od konce historických dat (Sackmann, 25. 5. 2026)
 
 Zapisuje:
@@ -51,11 +52,14 @@ def save_results(tour, rows):
 def main():
     today = espn.now_utc().date()
     backfill = "--backfill" in sys.argv
+    quick = "--quick" in sys.argv
     upcoming = []
     for tour in ("atp", "wta"):
         stored = load_results(tour)
         if backfill or not stored:
             start = BACKFILL_FROM
+        elif quick:
+            start = today - timedelta(days=2)
         else:
             start = date.fromisoformat(max(r["date"] for r in stored.values())[:10]) - timedelta(days=10)
         before = len(stored)
