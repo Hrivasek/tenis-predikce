@@ -3,14 +3,14 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 183878,wta,2026-09-23T10:05Z,Delta Motors Tolentino Open,Round 2,Clay,19090,Isabella Maria Serban,2984,Rebeka Masarova,1569.0,1682.8,1,90,0.3749,2026-09-23T12:07+02:00,final,2984,5-7 6-2 6-0,v1
 184005,wta,2026-09-23T10:05Z,Turk Telekom Ankara Open,Round 2,Hard,8681,Weronika Falkowska,17104,Polina Iatcenko,1582.2,1660.0,13,9,0.4135,2026-09-23T12:07+02:00,final,17104,6-3 6-4,v1
 184095,wta,2026-09-23T10:35Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,9820,Mirra Andreeva,1809,Aliaksandra Sasnovich,2042.8,1742.1,182,352,0.7942,2026-09-23T12:38+02:00,final,9820,6-2 6-2,v1
-183367,atp,2026-09-23T11:30Z,AITO Hangzhou Open,Round 1,Hard,4022,Valentin Royer,3093,Adam Walton,1574.0,1618.7,43,73,0.4475,2026-09-23T12:38+02:00,live,,,v1
+183367,atp,2026-09-23T11:30Z,AITO Hangzhou Open,Round 1,Hard,4022,Valentin Royer,3093,Adam Walton,1574.0,1618.7,43,73,0.4475,2026-09-23T12:38+02:00,final,4022,6-3 6-4,v1
 183939,wta,2026-09-23T12:00Z,Eupago Porto Open,Round 2,Hard,14578,Matilde Jorge,7797,Sinja Kraus,2144.1,2391.9,259,476,0.2484,2026-09-23T13:47+02:00,live,,,v2
 183962,wta,2026-09-23T12:00Z,Eupago Porto Open,Round 2,Hard,15775,Ayana Akli,13314,Gabriela Knutson,2163.1,2356.8,126,297,0.2962,2026-09-23T13:47+02:00,live,,,v2
 184001,wta,2026-09-23T12:00Z,Turk Telekom Ankara Open,Round 2,Hard,14946,Elena Pridankina,13737,Ksenia Zaytseva,2312.7,2058.5,286,151,0.7569,2026-09-23T13:47+02:00,live,,,v2
 184094,wta,2026-09-23T12:00Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,5309,Alycia Parks,3641,Leylah Fernandez,2375.9,2641.8,429,389,0.2337,2026-09-23T13:47+02:00,live,,,v2
 183890,wta,2026-09-23T12:40Z,Delta Motors Tolentino Open,Round 2,Clay,3909,Jessica Pieri,10676,Leyre Romero Gormaz,2086.2,2342.4,482,417,0.2415,2026-09-23T14:29+02:00,live,,,v2
 184006,wta,2026-09-23T13:05Z,Turk Telekom Ankara Open,Round 2,Hard,3141,Berfu Cengiz,19088,Aysegul Mert,2123.9,1994.1,440,88,0.6411,2026-09-23T14:29+02:00,live,,,v2
-183949,wta,2026-09-23T13:30Z,Eupago Porto Open,Round 2,Hard,10501,Maria Timofeeva,4438,Kajsa Rinaldo Persson,2479.0,2181.0,343,423,0.7910,2026-09-23T14:29+02:00,scheduled,,,v2
+183949,wta,2026-09-23T14:00Z,Eupago Porto Open,Round 2,Hard,10501,Maria Timofeeva,4438,Kajsa Rinaldo Persson,2479.0,2181.0,343,423,0.7910,2026-09-23T14:29+02:00,scheduled,,,v2
 184004,wta,2026-09-23T14:30Z,Turk Telekom Ankara Open,Round 2,Hard,15426,Shi Han,3185,Ayla Aksu,2216.5,2214.9,227,566,0.5018,2026-09-23T14:29+02:00,scheduled,,,v2
 183880,wta,2026-09-23T16:00Z,Delta Motors Tolentino Open,Round 2,Clay,12957,Guiomar Maristany Zuleta De Reales,17887,Marta Lombardini,2376.2,1928.5,465,24,0.8808,2026-09-23T14:29+02:00,scheduled,,,v2
 183876,wta,2026-09-23T18:00Z,Delta Motors Tolentino Open,Round 2,Clay,17102,Noemi Basiletti,13219,Mia Ristic,2282.9,2298.3,105,251,0.4828,2026-09-23T14:29+02:00,scheduled,,,v2
@@ -54,7 +54,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 184096,wta,2026-09-24T10:30Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,12846,Tatiana Prozorova,7759,Alexandra Eala,2457.9,2712.3,288,359,0.2429,2026-09-23T14:29+02:00,scheduled,,,v2
 183352,atp,2026-09-24T11:30Z,AITO Hangzhou Open,Round 1,Hard,3024,Zhang Zhizhen,11398,Chak Lam Coleman Wong,2230.8,2212.7,502,14,0.5275,2026-09-23T14:29+02:00,scheduled,,,v2
 184100,wta,2026-09-24T12:00Z,Singapore Tennis Open presented by BNP Paribas,Round 2,Hard,3018,Maria Sakkari,2043,Nao Hibino,2629.2,2269.0,832,757,0.8333,2026-09-23T14:29+02:00,scheduled,,,v2
-183347,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,2383,Daniil Medvedev,-4,TBD,2579.6,1500.0,833,0,0.9993,2026-09-23T14:29+02:00,scheduled,,,v2
+183347,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,2383,Daniil Medvedev,4022,Valentin Royer,2579.6,2247.3,833,420,0.8888,2026-09-23T15:34+02:00,scheduled,,,v2
 183355,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
 183357,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-23T14:29+02:00,scheduled,,,v2
 183359,atp,2026-09-25T04:00Z,AITO Hangzhou Open,Round 2,Hard,2362,Quentin Halys,-4,TBD,2352.5,1500.0,790,0,0.9965,2026-09-23T14:29+02:00,scheduled,,,v2

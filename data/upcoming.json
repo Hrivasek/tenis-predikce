@@ -1,5 +1,5 @@
 {
-"fetched": "2026-09-23T13:09:49+00:00",
+"fetched": "2026-09-23T13:34:44+00:00",
 "matches": [
 {
 "match_id": "186069",
@@ -21,6 +21,8 @@
 "p2_name": "Gaeul Jang",
 "winner": "10858",
 "score": "6-0 6-1",
+"p1_country": "Russia",
+"p2_country": "Korea",
 "tour": "wta"
 },
 {
@@ -43,6 +45,8 @@
 "p2_name": "Darya Astakhova",
 "winner": "6259",
 "score": "6-2 6-7(6) 6-2",
+"p1_country": "Japan",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -65,6 +69,8 @@
 "p2_name": "Desirae Krawczyk",
 "winner": "2506",
 "score": "6-3 6-4",
+"p1_country": "Germany",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -87,6 +93,8 @@
 "p2_name": "Anastasia Kulikova",
 "winner": "4852",
 "score": "6-4 7-5",
+"p1_country": "China",
+"p2_country": "Finland",
 "tour": "wta"
 },
 {
@@ -109,6 +117,8 @@
 "p2_name": "Eunhye Lee",
 "winner": "11550",
 "score": "6-0 5-7 6-3",
+"p1_country": "Japan",
+"p2_country": "Korea",
 "tour": "wta"
 },
 {
@@ -131,6 +141,8 @@
 "p2_name": "Sofya Lansere",
 "winner": "13530",
 "score": "6-4 6-4",
+"p1_country": "Japan",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -153,6 +165,8 @@
 "p2_name": "Kai Ning Chanya Ng",
 "winner": "2043",
 "score": "6-0 6-1",
+"p1_country": "Japan",
+"p2_country": "Singapore",
 "tour": "wta"
 },
 {
@@ -175,6 +189,8 @@
 "p2_name": "Ma YeXin",
 "winner": "13615",
 "score": "6-3 6-0",
+"p1_country": "Canada",
+"p2_country": "China",
 "tour": "wta"
 },
 {
@@ -197,6 +213,8 @@
 "p2_name": "Boyoung Jeong",
 "winner": "15534",
 "score": "6-4 3-6 7-6(4)",
+"p1_country": "Japan",
+"p2_country": "Korea",
 "tour": "wta"
 },
 {
@@ -219,6 +237,8 @@
 "p2_name": "Ellen Perez",
 "winner": "3705",
 "score": "6-1 6-2",
+"p1_country": "Chinese Taipei",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -241,6 +261,8 @@
 "p2_name": "Priscilla Hon",
 "winner": "13682",
 "score": "6-7(1) 7-6(6) 7-5",
+"p1_country": "China",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -263,6 +285,8 @@
 "p2_name": "Viktoria Morvayova",
 "winner": "4969",
 "score": "6-3 6-3",
+"p1_country": "Slovenia",
+"p2_country": "Slovakia",
 "tour": "wta"
 },
 {
@@ -285,6 +309,8 @@
 "p2_name": "Kyoka Okamura",
 "winner": "2431",
 "score": "7-6(2) 6-3",
+"p1_country": "Singapore",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -307,6 +333,8 @@
 "p2_name": "Ulrikke Eikeri",
 "winner": "13738",
 "score": "6-1 6-4",
+"p1_country": "Japan",
+"p2_country": "Norway",
 "tour": "wta"
 },
 {
@@ -329,6 +357,8 @@
 "p2_name": "Rina Saigo",
 "winner": "14955",
 "score": "6-3 6-2",
+"p1_country": "Russia",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -351,6 +381,8 @@
 "p2_name": "Sara Saito",
 "winner": "13679",
 "score": "7-6(4) 6-1",
+"p1_country": "Chinese Taipei",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -373,6 +405,8 @@
 "p2_name": "Ma YeXin",
 "winner": "13615",
 "score": "6-3 6-1",
+"p1_country": "Korea",
+"p2_country": "China",
 "tour": "wta"
 },
 {
@@ -395,6 +429,8 @@
 "p2_name": "Darya Astakhova",
 "winner": "6259",
 "score": "6-4 6-4",
+"p1_country": "Russia",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -417,6 +453,8 @@
 "p2_name": "Yao Xinxin",
 "winner": "13682",
 "score": "6-1 6-4",
+"p1_country": "Japan",
+"p2_country": "China",
 "tour": "wta"
 },
 {
@@ -439,6 +477,8 @@
 "p2_name": "Anastasia Kulikova",
 "winner": "2506",
 "score": "6-4 6-3",
+"p1_country": "Germany",
+"p2_country": "Finland",
 "tour": "wta"
 },
 {
@@ -461,6 +501,8 @@
 "p2_name": "Aoi Ito",
 "winner": "2043",
 "score": "6-2 2-6 7-6(2)",
+"p1_country": "Japan",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -483,6 +525,8 @@
 "p2_name": "Sara Saito",
 "winner": "14955",
 "score": "7-5 6-2",
+"p1_country": "Russia",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -505,6 +549,8 @@
 "p2_name": "Viktoria Morvayova",
 "winner": "3705",
 "score": "6-4 6-3",
+"p1_country": "Chinese Taipei",
+"p2_country": "Slovakia",
 "tour": "wta"
 },
 {
@@ -527,6 +573,8 @@
 "p2_name": "Kyoka Okamura",
 "winner": "2431",
 "score": "6-1 6-1",
+"p1_country": "Japan",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -549,6 +597,8 @@
 "p2_name": "Iva Primorac Pavicic",
 "winner": "4389",
 "score": "6-2 2-6 6-3",
+"p1_country": "USA",
+"p2_country": "Croatia",
 "tour": "wta"
 },
 {
@@ -571,6 +621,8 @@
 "p2_name": "Yana Morderger",
 "winner": "3909",
 "score": "7-5 6-3",
+"p1_country": "Italy",
+"p2_country": "Germany",
 "tour": "wta"
 },
 {
@@ -593,6 +645,8 @@
 "p2_name": "Ekaterina Yashina",
 "winner": "4183",
 "score": "6-2 6-4",
+"p1_country": "Türkiye",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -615,6 +669,8 @@
 "p2_name": "Ilay Yoruk",
 "winner": "16202",
 "score": "6-1 6-0",
+"p1_country": "Türkiye",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -637,6 +693,8 @@
 "p2_name": "Arianna Ovarelli",
 "winner": "8623",
 "score": "6-2 6-1",
+"p1_country": "Sweden",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -659,6 +717,8 @@
 "p2_name": "Raphaelle Lacasse",
 "winner": "16295",
 "score": "5-7 6-3 6-3",
+"p1_country": "Portugal",
+"p2_country": "Canada",
 "tour": "wta"
 },
 {
@@ -681,6 +741,8 @@
 "p2_name": "Ariana Arseneault",
 "winner": "5803",
 "score": "6-0 6-0",
+"p1_country": "Portugal",
+"p2_country": "Canada",
 "tour": "wta"
 },
 {
@@ -703,6 +765,8 @@
 "p2_name": "Katerina Tsygourova",
 "winner": "18953",
 "score": "6-3 6-3",
+"p1_country": "Germany",
+"p2_country": "Switzerland",
 "tour": "wta"
 },
 {
@@ -725,6 +789,8 @@
 "p2_name": "Ashmitha Easwaramurthi",
 "winner": "19071",
 "score": "6-1 6-0",
+"p1_country": "Germany",
+"p2_country": "India",
 "tour": "wta"
 },
 {
@@ -747,6 +813,8 @@
 "p2_name": "Melisa Ercan",
 "winner": "14147",
 "score": "6-2 6-0",
+"p1_country": "Italy",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -769,6 +837,8 @@
 "p2_name": "Jessica Hinojosa Gomez",
 "winner": "18673",
 "score": "6-3 6-0",
+"p1_country": "USA",
+"p2_country": "Mexico",
 "tour": "wta"
 },
 {
@@ -791,6 +861,8 @@
 "p2_name": "Reese Brantmeier",
 "winner": "6823",
 "score": "6-1 6-0",
+"p1_country": "Netherlands",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -813,6 +885,8 @@
 "p2_name": "Enola Chiesa",
 "winner": "16995",
 "score": "4-6 6-4 6-3",
+"p1_country": "Slovenia",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -835,6 +909,8 @@
 "p2_name": "Naoko Eto",
 "winner": "13737",
 "score": "6-0 6-0",
+"p1_country": "Russia",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -857,6 +933,8 @@
 "p2_name": "Alana Smith",
 "winner": "4720",
 "score": "6-3 6-2",
+"p1_country": "Türkiye",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -879,6 +957,8 @@
 "p2_name": "Laura Bohner",
 "winner": "4700",
 "score": "6-4 6-2",
+"p1_country": "Italy",
+"p2_country": "Germany",
 "tour": "wta"
 },
 {
@@ -901,6 +981,8 @@
 "p2_name": "Ivana Sebestova",
 "winner": "18567",
 "score": "6-2 6-2",
+"p1_country": "Great Britain",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
@@ -923,6 +1005,8 @@
 "p2_name": "Naiktha Bains",
 "winner": "2551",
 "score": "6-1 6-1",
+"p1_country": "Portugal",
+"p2_country": "Great Britain",
 "tour": "wta"
 },
 {
@@ -945,6 +1029,8 @@
 "p2_name": "Valentina Steiner",
 "winner": "16688",
 "score": "4-6 1-1 RET",
+"p1_country": "Australia",
+"p2_country": "Germany",
 "tour": "wta"
 },
 {
@@ -967,6 +1053,8 @@
 "p2_name": "Maria Martinez Vaquero",
 "winner": "14252",
 "score": "6-0 6-3",
+"p1_country": "India",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
@@ -989,6 +1077,8 @@
 "p2_name": "Aneta Kucmova",
 "winner": "17027",
 "score": "6-1 6-3",
+"p1_country": "Italy",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
@@ -1011,6 +1101,8 @@
 "p2_name": "Maria Toma",
 "winner": "5133",
 "score": "6-2 6-1",
+"p1_country": "Czechia",
+"p2_country": "Romania",
 "tour": "wta"
 },
 {
@@ -1033,6 +1125,8 @@
 "p2_name": "Elvina Kalieva",
 "winner": "3746",
 "score": "6-3 6-0",
+"p1_country": "USA",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -1055,6 +1149,8 @@
 "p2_name": "Moyuka Uchijima",
 "winner": "6953",
 "score": "6-4 6-7(5) 6-2",
+"p1_country": "Thailand",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -1077,6 +1173,8 @@
 "p2_name": "Maya Joint",
 "winner": "14146",
 "score": "2-6 7-6(7) 6-3",
+"p1_country": "China",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -1099,6 +1197,8 @@
 "p2_name": "Aliaksandra Sasnovich",
 "winner": "1809",
 "score": "7-5 6-0",
+"p1_country": "Australia",
+"p2_country": "Belarus",
 "tour": "wta"
 },
 {
@@ -1121,6 +1221,8 @@
 "p2_name": "Mananchaya Sawangkaew",
 "winner": "9169",
 "score": "6-4 6-2",
+"p1_country": "Russia",
+"p2_country": "Thailand",
 "tour": "wta"
 },
 {
@@ -1143,6 +1245,8 @@
 "p2_name": "Nao Hibino",
 "winner": "2043",
 "score": "7-5 3-6 6-4",
+"p1_country": "France",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -1165,6 +1269,8 @@
 "p2_name": "Polina Kudermetova",
 "winner": "3908",
 "score": "7-6(4) 4-6 7-5",
+"p1_country": "Uzbekistan",
+"p2_country": "Uzbekistan",
 "tour": "wta"
 },
 {
@@ -1187,6 +1293,8 @@
 "p2_name": "Dayeon Back",
 "winner": "11552",
 "score": "6-3 4-6 6-1",
+"p1_country": "China",
+"p2_country": "Korea",
 "tour": "wta"
 },
 {
@@ -1209,6 +1317,8 @@
 "p2_name": "Fiona Ferro",
 "winner": "6708",
 "score": "6-3 6-3",
+"p1_country": "Australia",
+"p2_country": "France",
 "tour": "wta"
 },
 {
@@ -1231,6 +1341,8 @@
 "p2_name": "Maja Chwalinska",
 "winner": "3417",
 "score": "6-4 6-2",
+"p1_country": "Slovakia",
+"p2_country": "Poland",
 "tour": "wta"
 },
 {
@@ -1253,6 +1365,8 @@
 "p2_name": "Iva Primorac Pavicic",
 "winner": "4700",
 "score": "6-3 6-4",
+"p1_country": "Italy",
+"p2_country": "Croatia",
 "tour": "wta"
 },
 {
@@ -1275,6 +1389,8 @@
 "p2_name": "Enola Chiesa",
 "winner": "8623",
 "score": "3-6 6-3 7-6(6)",
+"p1_country": "Sweden",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -1297,6 +1413,8 @@
 "p2_name": "Melisa Ercan",
 "winner": "19070",
 "score": "7-5 6-1",
+"p1_country": "Russia",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -1319,6 +1437,8 @@
 "p2_name": "Ekaterina Yashina",
 "winner": "19071",
 "score": "6-4 6-2",
+"p1_country": "Germany",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -1341,6 +1461,8 @@
 "p2_name": "Ilay Yoruk",
 "winner": "16202",
 "score": "2-6 6-4 7-5",
+"p1_country": "Russia",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -1363,6 +1485,8 @@
 "p2_name": "Magda Linette",
 "winner": "6259",
 "score": "3-6 6-1 7-6(2)",
+"p1_country": "Russia",
+"p2_country": "Poland",
 "tour": "wta"
 },
 {
@@ -1385,6 +1509,8 @@
 "p2_name": "Aneta Kucmova",
 "winner": "3909",
 "score": "6-0 6-3",
+"p1_country": "Italy",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
@@ -1407,6 +1533,8 @@
 "p2_name": "Ariana Arseneault",
 "winner": "16295",
 "score": "6-3 7-5",
+"p1_country": "Portugal",
+"p2_country": "Canada",
 "tour": "wta"
 },
 {
@@ -1429,6 +1557,8 @@
 "p2_name": "Reese Brantmeier",
 "winner": "6823",
 "score": "6-3 6-4",
+"p1_country": "Great Britain",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -1451,6 +1581,8 @@
 "p2_name": "Valentina Steiner",
 "winner": "16688",
 "score": "6-4 1-6 6-4",
+"p1_country": "USA",
+"p2_country": "Germany",
 "tour": "wta"
 },
 {
@@ -1473,6 +1605,8 @@
 "p2_name": "Alana Smith",
 "winner": "8681",
 "score": "6-3 6-3",
+"p1_country": "Poland",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -1495,6 +1629,8 @@
 "p2_name": "Leylah Fernandez",
 "winner": "3641",
 "score": "6-2 6-3",
+"p1_country": "Japan",
+"p2_country": "Canada",
 "tour": "wta"
 },
 {
@@ -1517,6 +1653,8 @@
 "p2_name": "Polina Iatcenko",
 "winner": "17104",
 "score": "4-6 6-3 6-3",
+"p1_country": "Slovakia",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -1539,6 +1677,8 @@
 "p2_name": "Tian Fangran",
 "winner": "13708",
 "score": "6-2 7-6(2)",
+"p1_country": "Belarus",
+"p2_country": "China",
 "tour": "wta"
 },
 {
@@ -1561,6 +1701,8 @@
 "p2_name": "Katerina Tsygourova",
 "winner": "18953",
 "score": "6-2 6-2",
+"p1_country": "Czechia",
+"p2_country": "Switzerland",
 "tour": "wta"
 },
 {
@@ -1583,6 +1725,8 @@
 "p2_name": "Despina Papamichail",
 "winner": "12957",
 "score": "6-3 6-3",
+"p1_country": "Spain",
+"p2_country": "Greece",
 "tour": "wta"
 },
 {
@@ -1605,6 +1749,8 @@
 "p2_name": "Naiktha Bains",
 "winner": "2551",
 "score": "6-2 6-4",
+"p1_country": "India",
+"p2_country": "Great Britain",
 "tour": "wta"
 },
 {
@@ -1627,6 +1773,8 @@
 "p2_name": "Ayana Akli",
 "winner": "15775",
 "score": "6-4 6-1",
+"p1_country": "Netherlands",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -1649,6 +1797,8 @@
 "p2_name": "Arantxa Rus",
 "winner": "13219",
 "score": "4-6 6-0 6-3",
+"p1_country": "Serbia",
+"p2_country": "Netherlands",
 "tour": "wta"
 },
 {
@@ -1671,6 +1821,8 @@
 "p2_name": "Joanna Garland",
 "winner": "3705",
 "score": "6-3 5-7 6-1",
+"p1_country": "Australia",
+"p2_country": "Chinese Taipei",
 "tour": "wta"
 },
 {
@@ -1693,6 +1845,8 @@
 "p2_name": "Ksenia Zaytseva",
 "winner": "13737",
 "score": "5-7 6-3 6-4",
+"p1_country": "Macedonia",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -1715,6 +1869,8 @@
 "p2_name": "Leyre Romero Gormaz",
 "winner": "10676",
 "score": "6-7(4) 6-1 7-6(3)",
+"p1_country": "Slovenia",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
@@ -1737,6 +1893,8 @@
 "p2_name": "Sinja Kraus",
 "winner": "7797",
 "score": "6-1 6-4",
+"p1_country": "Australia",
+"p2_country": "Austria",
 "tour": "wta"
 },
 {
@@ -1759,6 +1917,8 @@
 "p2_name": "Carla Tomai",
 "winner": "4438",
 "score": "6-0 6-0",
+"p1_country": "Sweden",
+"p2_country": "Portugal",
 "tour": "wta"
 },
 {
@@ -1781,6 +1941,8 @@
 "p2_name": "Oceane Dodin",
 "winner": "2848",
 "score": "1-6 6-3 6-4",
+"p1_country": "Switzerland",
+"p2_country": "France",
 "tour": "wta"
 },
 {
@@ -1803,6 +1965,8 @@
 "p2_name": "Isabella Shinikova",
 "winner": "19088",
 "score": "4-6 6-1 6-3",
+"p1_country": "Türkiye",
+"p2_country": "Bulgaria",
 "tour": "wta"
 },
 {
@@ -1825,6 +1989,8 @@
 "p2_name": "Oksana Selekhmeteva",
 "winner": "6571",
 "score": "7-5 0-6 7-5",
+"p1_country": "Italy",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
@@ -1847,6 +2013,8 @@
 "p2_name": "Ayla Aksu",
 "winner": "3185",
 "score": "6-1 7-6(3)",
+"p1_country": "Japan",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -1869,6 +2037,8 @@
 "p2_name": "Noemi Basiletti",
 "winner": "17102",
 "score": "6-3 6-4",
+"p1_country": "Czechia",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -1891,6 +2061,8 @@
 "p2_name": "Himeno Sakatsume",
 "winner": "7672",
 "score": "6-2 3-6 6-2",
+"p1_country": "Australia",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -1913,6 +2085,8 @@
 "p2_name": "Elena-Gabriela Ruse",
 "winner": "2748",
 "score": "6-1 6-2",
+"p1_country": "Germany",
+"p2_country": "Romania",
 "tour": "wta"
 },
 {
@@ -1935,6 +2109,8 @@
 "p2_name": "Oleksandra Oliynykova",
 "winner": "5705",
 "score": "6-1 7-6(1)",
+"p1_country": "USA",
+"p2_country": "Ukraine",
 "tour": "wta"
 },
 {
@@ -1957,6 +2133,8 @@
 "p2_name": "Robin Montgomery",
 "winner": "3651",
 "score": "7-6(4) 6-3",
+"p1_country": "Korea",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -1979,6 +2157,8 @@
 "p2_name": "Omar Jasika",
 "winner": "2318",
 "score": "6-4 6-3",
+"p1_country": "Australia",
+"p2_country": "Australia",
 "tour": "atp"
 },
 {
@@ -2001,6 +2181,8 @@
 "p2_name": "Akira Santillan",
 "winner": "2566",
 "score": "6-3 6-0",
+"p1_country": "China",
+"p2_country": "Japan",
 "tour": "atp"
 },
 {
@@ -2023,6 +2205,8 @@
 "p2_name": "Jake Delaney",
 "winner": "1837",
 "score": "6-3 6-4",
+"p1_country": "Japan",
+"p2_country": "Australia",
 "tour": "atp"
 },
 {
@@ -2045,6 +2229,8 @@
 "p2_name": "Renata Zarazua",
 "winner": "2734",
 "score": "2-6 6-3 6-1",
+"p1_country": "Hungary",
+"p2_country": "Mexico",
 "tour": "wta"
 },
 {
@@ -2067,6 +2253,8 @@
 "p2_name": "Luka Pavlovic",
 "winner": "3308",
 "score": "6-4 6-7(6) 6-3",
+"p1_country": "France",
+"p2_country": "France",
 "tour": "atp"
 },
 {
@@ -2089,6 +2277,8 @@
 "p2_name": "Alexis Galarneau",
 "winner": "3562",
 "score": "7-5 7-6(5)",
+"p1_country": "Sweden",
+"p2_country": "Canada",
 "tour": "atp"
 },
 {
@@ -2111,6 +2301,8 @@
 "p2_name": "Andre Ilagan",
 "winner": "14190",
 "score": "7-6(4) 7-6(5)",
+"p1_country": "Russia",
+"p2_country": "USA",
 "tour": "atp"
 },
 {
@@ -2133,6 +2325,8 @@
 "p2_name": "Mei Yamaguchi",
 "winner": "5309",
 "score": "6-4 6-3",
+"p1_country": "USA",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -2155,6 +2349,8 @@
 "p2_name": "Ma YeXin",
 "winner": "13615",
 "score": "3-6 6-0 6-2",
+"p1_country": "Australia",
+"p2_country": "China",
 "tour": "wta"
 },
 {
@@ -2177,6 +2373,8 @@
 "p2_name": "Te Rigele",
 "winner": "1317",
 "score": "6-7(6) 6-4 7-5",
+"p1_country": "Australia",
+"p2_country": "China",
 "tour": "atp"
 },
 {
@@ -2199,6 +2397,8 @@
 "p2_name": "Hayato Matsuoka",
 "winner": "15543",
 "score": "6-4 7-5",
+"p1_country": "France",
+"p2_country": "Japan",
 "tour": "atp"
 },
 {
@@ -2221,6 +2421,8 @@
 "p2_name": "Philip Sekulic",
 "winner": "3812",
 "score": "6-3 6-2",
+"p1_country": "Czechia",
+"p2_country": "Australia",
 "tour": "atp"
 },
 {
@@ -2243,6 +2445,8 @@
 "p2_name": "Yeonwoo Ku",
 "winner": "5737",
 "score": "6-3 6-2",
+"p1_country": "Russia",
+"p2_country": "Korea",
 "tour": "wta"
 },
 {
@@ -2265,6 +2469,8 @@
 "p2_name": "Sofia Costoulas",
 "winner": "12846",
 "score": "5-7 7-6(2) 6-2",
+"p1_country": "Russia",
+"p2_country": "Belgium",
 "tour": "wta"
 },
 {
@@ -2287,6 +2493,8 @@
 "p2_name": "Pavel Kotov",
 "winner": "3572",
 "score": "6-7(4) 7-5 7-5",
+"p1_country": "Switzerland",
+"p2_country": "Russia",
 "tour": "atp"
 },
 {
@@ -2309,6 +2517,8 @@
 "p2_name": "Xiao Linang",
 "winner": "7608",
 "score": "7-5 4-6 7-5",
+"p1_country": "Japan",
+"p2_country": "China",
 "tour": "atp"
 },
 {
@@ -2331,6 +2541,8 @@
 "p2_name": "Kenta Miyoshi",
 "winner": "2863",
 "score": "6-3 7-5",
+"p1_country": "South Africa",
+"p2_country": "Japan",
 "tour": "atp"
 },
 {
@@ -2353,6 +2565,8 @@
 "p2_name": "Kimberly Birrell",
 "winner": "2588",
 "score": "7-6(2) 6-4",
+"p1_country": "Slovenia",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -2375,6 +2589,8 @@
 "p2_name": "Rio Noguchi",
 "winner": "3798",
 "score": "6-1 6-4",
+"p1_country": "Japan",
+"p2_country": "Japan",
 "tour": "atp"
 },
 {
@@ -2397,6 +2613,8 @@
 "p2_name": "Matthew Dellavedova",
 "winner": "2567",
 "score": "3-6 6-1 7-6(4)",
+"p1_country": "China",
+"p2_country": "Australia",
 "tour": "atp"
 },
 {
@@ -2419,6 +2637,8 @@
 "p2_name": "Wang Xinyu",
 "winner": "3387",
 "score": "6-1 6-2",
+"p1_country": "Croatia",
+"p2_country": "China",
 "tour": "wta"
 },
 {
@@ -2441,6 +2661,8 @@
 "p2_name": "Anastasia Zakharova",
 "winner": "2195",
 "score": "6-4 6-1",
+"p1_country": "Latvia",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -2463,6 +2685,8 @@
 "p2_name": "Hanlei Lu",
 "winner": "2498",
 "score": "6-2 6-0",
+"p1_country": "Georgia",
+"p2_country": "China",
 "tour": "atp"
 },
 {
@@ -2485,6 +2709,8 @@
 "p2_name": "Federico Cina",
 "winner": "14601",
 "score": "6-1 6-2",
+"p1_country": "Japan",
+"p2_country": "Italy",
 "tour": "atp"
 },
 {
@@ -2507,6 +2733,8 @@
 "p2_name": "Ilay Yoruk",
 "winner": "8681",
 "score": "6-2 6-0",
+"p1_country": "Poland",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -2529,6 +2757,8 @@
 "p2_name": "Anastasia Gasanova",
 "winner": "7816",
 "score": "6-2 6-4",
+"p1_country": "Russia",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -2551,6 +2781,8 @@
 "p2_name": "Daria Egorova",
 "winner": "14946",
 "score": "7-6(5) 1-6 7-5",
+"p1_country": "Russia",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -2573,6 +2805,8 @@
 "p2_name": "Rebeka Masarova",
 "winner": "2984",
 "score": "5-7 6-1 7-5",
+"p1_country": "Sweden",
+"p2_country": "Switzerland",
 "tour": "wta"
 },
 {
@@ -2595,6 +2829,8 @@
 "p2_name": "Dalila Spiteri",
 "winner": "5161",
 "score": "6-2 6-2",
+"p1_country": "France",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -2617,6 +2853,8 @@
 "p2_name": "Sofia Kenin",
 "winner": "6570",
 "score": "3-6 7-6(4) 6-4",
+"p1_country": "Armenia",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -2639,6 +2877,8 @@
 "p2_name": "Aneta Laboutkova",
 "winner": "19090",
 "score": "6-3 6-4",
+"p1_country": "Italy",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
@@ -2661,6 +2901,8 @@
 "p2_name": "Katie Swan",
 "winner": "2752",
 "score": "6-1 6-0",
+"p1_country": "India",
+"p2_country": "Great Britain",
 "tour": "wta"
 },
 {
@@ -2683,6 +2925,8 @@
 "p2_name": "Elena Malygina",
 "winner": "3490",
 "score": "6-4 5-7 6-4",
+"p1_country": "Germany",
+"p2_country": "Estonia",
 "tour": "wta"
 },
 {
@@ -2705,6 +2949,8 @@
 "p2_name": "Teresa Franco Dias",
 "winner": "16295",
 "score": "6-0 6-2",
+"p1_country": "Portugal",
+"p2_country": "Portugal",
 "tour": "wta"
 },
 {
@@ -2727,6 +2973,8 @@
 "p2_name": "Maria Lourdes Carle",
 "winner": "5168",
 "score": "6-3 4-6 6-4",
+"p1_country": "Italy",
+"p2_country": "Argentina",
 "tour": "wta"
 },
 {
@@ -2749,6 +2997,8 @@
 "p2_name": "Anna-Lena Friedsam",
 "winner": "2042",
 "score": "6-0 5-7 7-6(4)",
+"p1_country": "Czechia",
+"p2_country": "Germany",
 "tour": "wta"
 },
 {
@@ -2771,6 +3021,8 @@
 "p2_name": "Berfu Cengiz",
 "winner": "3141",
 "score": "6-2 6-4",
+"p1_country": "Poland",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -2793,6 +3045,8 @@
 "p2_name": "Julia Riera",
 "winner": "8560",
 "score": "6-1 6-3",
+"p1_country": "Australia",
+"p2_country": "Argentina",
 "tour": "wta"
 },
 {
@@ -2815,6 +3069,8 @@
 "p2_name": "Katerina Tsygourova",
 "winner": "5878",
 "score": "4-6 6-3 6-4",
+"p1_country": "Slovenia",
+"p2_country": "Switzerland",
 "tour": "wta"
 },
 {
@@ -2837,6 +3093,8 @@
 "p2_name": "Sofia Johnson",
 "winner": "10501",
 "score": "6-4 6-2",
+"p1_country": "Uzbekistan",
+"p2_country": "Great Britain",
 "tour": "wta"
 },
 {
@@ -2859,6 +3117,8 @@
 "p2_name": "Alicia Herrero Linana",
 "winner": "7806",
 "score": "6-7(5) 6-1 7-5",
+"p1_country": "Czechia",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
@@ -2881,6 +3141,8 @@
 "p2_name": "Celia Cervino Ruiz",
 "winner": "14578",
 "score": "6-3 6-4",
+"p1_country": "Portugal",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
@@ -2903,6 +3165,8 @@
 "p2_name": "Carole Monnet",
 "winner": "5299",
 "score": "6-1 7-6(4)",
+"p1_country": "USA",
+"p2_country": "France",
 "tour": "wta"
 },
 {
@@ -2925,6 +3189,8 @@
 "p2_name": "Carolyn Ansari",
 "winner": "16002",
 "score": "6-3 6-1",
+"p1_country": "Serbia",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -2947,6 +3213,8 @@
 "p2_name": "Shi Han",
 "winner": "15426",
 "score": "6-1 6-1",
+"p1_country": "Türkiye",
+"p2_country": "China",
 "tour": "wta"
 },
 {
@@ -2969,6 +3237,8 @@
 "p2_name": "Marta Lombardini",
 "winner": "17887",
 "score": "4-6 6-2 6-3",
+"p1_country": "Italy",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -2991,6 +3261,8 @@
 "p2_name": "Carol Young Suh Lee",
 "winner": "3330",
 "score": "6-3 7-5",
+"p1_country": "France",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -3013,6 +3285,8 @@
 "p2_name": "Gabriela Knutson",
 "winner": "13314",
 "score": "6-4 6-2",
+"p1_country": "Canada",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
@@ -3035,6 +3309,8 @@
 "p2_name": "Elena Ruxandra Bertea",
 "winner": "15344",
 "score": "6-1 2-6 7-6(5)",
+"p1_country": "Germany",
+"p2_country": "Romania",
 "tour": "wta"
 },
 {
@@ -3057,6 +3333,8 @@
 "p2_name": "Linda Fruhvirtova",
 "winner": "3018",
 "score": "6-4 6-1",
+"p1_country": "Greece",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
@@ -3079,6 +3357,8 @@
 "p2_name": "Mia Pohankova",
 "winner": "16296",
 "score": "6-2 6-1",
+"p1_country": "Portugal",
+"p2_country": "Slovakia",
 "tour": "wta"
 },
 {
@@ -3101,6 +3381,8 @@
 "p2_name": "Cagla Buyukakcay",
 "winner": "1254",
 "score": "2-6 6-4 6-4",
+"p1_country": "Slovakia",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -3123,6 +3405,8 @@
 "p2_name": "Laura Pigossi",
 "winner": "2282",
 "score": "6-1 5-7 6-3",
+"p1_country": "Georgia",
+"p2_country": "Brazil",
 "tour": "wta"
 },
 {
@@ -3145,6 +3429,8 @@
 "p2_name": "Caroline Werner",
 "winner": "16688",
 "score": "6-2 7-5",
+"p1_country": "Germany",
+"p2_country": "Germany",
 "tour": "wta"
 },
 {
@@ -3167,6 +3453,8 @@
 "p2_name": "Naiktha Bains",
 "winner": "2551",
 "score": "5-2 RET",
+"p1_country": "Andorra",
+"p2_country": "Great Britain",
 "tour": "wta"
 },
 {
@@ -3189,6 +3477,8 @@
 "p2_name": "Samira De Stefano",
 "winner": "17107",
 "score": "6-0 6-2",
+"p1_country": "Czechia",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -3211,6 +3501,8 @@
 "p2_name": "Madalena Matias",
 "winner": "14080",
 "score": "4-6 6-1 6-2",
+"p1_country": "Ukraine",
+"p2_country": "Portugal",
 "tour": "wta"
 },
 {
@@ -3233,6 +3525,8 @@
 "p2_name": "Reese Brantmeier",
 "winner": "6823",
 "score": "6-3 7-6(5)",
+"p1_country": "Russia",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -3255,6 +3549,8 @@
 "p2_name": "Ginevra De Angelis",
 "winner": "3909",
 "score": "6-2 6-0",
+"p1_country": "Italy",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -3277,6 +3573,8 @@
 "p2_name": "Julia Grabher",
 "winner": "2599",
 "score": "4-6 7-5 6-3",
+"p1_country": "Italy",
+"p2_country": "Austria",
 "tour": "wta"
 },
 {
@@ -3299,6 +3597,8 @@
 "p2_name": "Sohyun Park",
 "winner": "6953",
 "score": "7-6(5) 6-0",
+"p1_country": "Thailand",
+"p2_country": "Korea",
 "tour": "wta"
 },
 {
@@ -3321,6 +3621,8 @@
 "p2_name": "Katie Volynets",
 "winner": "3746",
 "score": "6-3 6-0",
+"p1_country": "Uzbekistan",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -3343,6 +3645,8 @@
 "p2_name": "Hayato Matsuoka",
 "winner": "1837",
 "score": "6-4 7-6(9)",
+"p1_country": "Japan",
+"p2_country": "Japan",
 "tour": "atp"
 },
 {
@@ -3365,6 +3669,8 @@
 "p2_name": "Akira Santillan",
 "winner": "2318",
 "score": "6-1 2-6 6-4",
+"p1_country": "Australia",
+"p2_country": "Japan",
 "tour": "atp"
 },
 {
@@ -3387,6 +3693,8 @@
 "p2_name": "Alexis Galarneau",
 "winner": "2863",
 "score": "6-3 7-5",
+"p1_country": "South Africa",
+"p2_country": "Canada",
 "tour": "atp"
 },
 {
@@ -3409,6 +3717,8 @@
 "p2_name": "Petr Bar Biryukov",
 "winner": "3308",
 "score": "6-4 6-4",
+"p1_country": "France",
+"p2_country": "Russia",
 "tour": "atp"
 },
 {
@@ -3431,6 +3741,8 @@
 "p2_name": "Jenson Brooksby",
 "winner": "3621",
 "score": "7-5 7-5",
+"p1_country": "Argentina",
+"p2_country": "USA",
 "tour": "atp"
 },
 {
@@ -3453,6 +3765,8 @@
 "p2_name": "Maya Joint",
 "winner": "14146",
 "score": "6-2 6-1",
+"p1_country": "Korea",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -3475,6 +3789,8 @@
 "p2_name": "Maja Chwalinska",
 "winner": "3417",
 "score": "6-0 6-1",
+"p1_country": "Ukraine",
+"p2_country": "Poland",
 "tour": "wta"
 },
 {
@@ -3497,6 +3813,8 @@
 "p2_name": "Sun Fajing",
 "winner": "2567",
 "score": "6-4 7-5",
+"p1_country": "Australia",
+"p2_country": "China",
 "tour": "atp"
 },
 {
@@ -3519,6 +3837,8 @@
 "p2_name": "Rio Noguchi",
 "winner": "3812",
 "score": "6-4 6-1",
+"p1_country": "Czechia",
+"p2_country": "Japan",
 "tour": "atp"
 },
 {
@@ -3541,6 +3861,8 @@
 "p2_name": "Darya Astakhova",
 "winner": "9169",
 "score": "6-2 3-6 6-1",
+"p1_country": "Russia",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -3563,6 +3885,8 @@
 "p2_name": "Federico Cina",
 "winner": "2498",
 "score": "6-3 6-2",
+"p1_country": "Georgia",
+"p2_country": "Italy",
 "tour": "atp"
 },
 {
@@ -3585,6 +3909,8 @@
 "p2_name": "Pavel Kotov",
 "winner": "7608",
 "score": "7-5 6-3",
+"p1_country": "Japan",
+"p2_country": "Russia",
 "tour": "atp"
 },
 {
@@ -3607,6 +3933,8 @@
 "p2_name": "Barbora Krejcikova",
 "winner": "2221",
 "score": "",
+"p1_country": "Belgium",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
@@ -3629,6 +3957,8 @@
 "p2_name": "Hu Jia",
 "winner": "3809",
 "score": "6-4 7-5",
+"p1_country": "Czechia",
+"p2_country": "China",
 "tour": "atp"
 },
 {
@@ -3651,6 +3981,8 @@
 "p2_name": "Kyrian Jacquet",
 "winner": "7509",
 "score": "7-6(5) 3-6 6-3",
+"p1_country": "Australia",
+"p2_country": "France",
 "tour": "atp"
 },
 {
@@ -3673,6 +4005,8 @@
 "p2_name": "Deniz Dilek",
 "winner": "16142",
 "score": "6-3 6-3",
+"p1_country": "Argentina",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -3695,6 +4029,8 @@
 "p2_name": "Rebeka Masarova",
 "winner": "2984",
 "score": "5-7 6-2 6-0",
+"p1_country": "Italy",
+"p2_country": "Switzerland",
 "tour": "wta"
 },
 {
@@ -3717,6 +4053,8 @@
 "p2_name": "Elena Malygina",
 "winner": "3490",
 "score": "2-6 6-4 6-2",
+"p1_country": "France",
+"p2_country": "Estonia",
 "tour": "wta"
 },
 {
@@ -3739,6 +4077,8 @@
 "p2_name": "Polina Iatcenko",
 "winner": "17104",
 "score": "6-3 6-4",
+"p1_country": "Poland",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -3761,6 +4101,8 @@
 "p2_name": "Aliaksandra Sasnovich",
 "winner": "9820",
 "score": "6-2 6-2",
+"p1_country": "Russia",
+"p2_country": "Belarus",
 "tour": "wta"
 },
 {
@@ -3775,14 +4117,16 @@
 "qualifying": 0,
 "date": "2026-09-23T11:35Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "4022",
 "p1_name": "Valentin Royer",
 "p2_id": "3093",
 "p2_name": "Adam Walton",
-"winner": "",
-"score": "",
+"winner": "4022",
+"score": "6-3 6-4",
+"p1_country": "France",
+"p2_country": "Australia",
 "tour": "atp"
 },
 {
@@ -3805,6 +4149,8 @@
 "p2_name": "Sinja Kraus",
 "winner": "",
 "score": "",
+"p1_country": "Portugal",
+"p2_country": "Austria",
 "tour": "wta"
 },
 {
@@ -3827,6 +4173,8 @@
 "p2_name": "Leylah Fernandez",
 "winner": "",
 "score": "",
+"p1_country": "USA",
+"p2_country": "Canada",
 "tour": "wta"
 },
 {
@@ -3849,6 +4197,8 @@
 "p2_name": "Ksenia Zaytseva",
 "winner": "",
 "score": "",
+"p1_country": "Russia",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -3871,6 +4221,8 @@
 "p2_name": "Gabriela Knutson",
 "winner": "",
 "score": "",
+"p1_country": "USA",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
@@ -3893,6 +4245,8 @@
 "p2_name": "Leyre Romero Gormaz",
 "winner": "",
 "score": "",
+"p1_country": "Italy",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
@@ -3915,6 +4269,8 @@
 "p2_name": "Aysegul Mert",
 "winner": "",
 "score": "",
+"p1_country": "Türkiye",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -3927,7 +4283,7 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-09-23T13:30Z",
+"date": "2026-09-23T14:00Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
@@ -3937,6 +4293,8 @@
 "p2_name": "Kajsa Rinaldo Persson",
 "winner": "",
 "score": "",
+"p1_country": "Uzbekistan",
+"p2_country": "Sweden",
 "tour": "wta"
 },
 {
@@ -3959,6 +4317,8 @@
 "p2_name": "Ayla Aksu",
 "winner": "",
 "score": "",
+"p1_country": "China",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -3981,6 +4341,8 @@
 "p2_name": "Marta Lombardini",
 "winner": "",
 "score": "",
+"p1_country": "Spain",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -4003,6 +4365,8 @@
 "p2_name": "Mia Ristic",
 "winner": "",
 "score": "",
+"p1_country": "Italy",
+"p2_country": "Serbia",
 "tour": "wta"
 },
 {
@@ -4025,6 +4389,8 @@
 "p2_name": "Alina Charaeva",
 "winner": "",
 "score": "",
+"p1_country": "Hungary",
+"p2_country": "Armenia",
 "tour": "wta"
 },
 {
@@ -4047,6 +4413,8 @@
 "p2_name": "Kimberly Birrell",
 "winner": "",
 "score": "",
+"p1_country": "China",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -4069,6 +4437,8 @@
 "p2_name": "Oksana Selekhmeteva",
 "winner": "",
 "score": "",
+"p1_country": "Italy",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
@@ -4091,6 +4461,8 @@
 "p2_name": "Barbora Palicova",
 "winner": "",
 "score": "",
+"p1_country": "Georgia",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
@@ -4113,6 +4485,8 @@
 "p2_name": "Julia Grabher",
 "winner": "",
 "score": "",
+"p1_country": "France",
+"p2_country": "Austria",
 "tour": "wta"
 },
 {
@@ -4135,6 +4509,8 @@
 "p2_name": "Nuria Brancaccio",
 "winner": "",
 "score": "",
+"p1_country": "Slovenia",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
@@ -4157,6 +4533,8 @@
 "p2_name": "Harmony Tan",
 "winner": "",
 "score": "",
+"p1_country": "Portugal",
+"p2_country": "France",
 "tour": "wta"
 },
 {
@@ -4179,6 +4557,8 @@
 "p2_name": "Reese Brantmeier",
 "winner": "",
 "score": "",
+"p1_country": "Great Britain",
+"p2_country": "USA",
 "tour": "wta"
 },
 {
@@ -4201,6 +4581,8 @@
 "p2_name": "Katie Swan",
 "winner": "",
 "score": "",
+"p1_country": "Germany",
+"p2_country": "Great Britain",
 "tour": "wta"
 },
 {
@@ -4223,6 +4605,8 @@
 "p2_name": "Mia Pohankova",
 "winner": "",
 "score": "",
+"p1_country": "Ukraine",
+"p2_country": "Slovakia",
 "tour": "wta"
 },
 {
@@ -4245,6 +4629,8 @@
 "p2_name": "Anastasia Gasanova",
 "winner": "",
 "score": "",
+"p1_country": "France",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -4267,6 +4653,8 @@
 "p2_name": "Cagla Buyukakcay",
 "winner": "",
 "score": "",
+"p1_country": "Türkiye",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -4289,6 +4677,8 @@
 "p2_name": "Elena Micic",
 "winner": "",
 "score": "",
+"p1_country": "China",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -4311,6 +4701,8 @@
 "p2_name": "Elena Ruxandra Bertea",
 "winner": "",
 "score": "",
+"p1_country": "Serbia",
+"p2_country": "Romania",
 "tour": "wta"
 },
 {
@@ -4333,6 +4725,8 @@
 "p2_name": "Denis Shapovalov",
 "winner": "",
 "score": "",
+"p1_country": "Netherlands",
+"p2_country": "Canada",
 "tour": "atp"
 },
 {
@@ -4355,6 +4749,8 @@
 "p2_name": "Lorenzo Sonego",
 "winner": "",
 "score": "",
+"p1_country": "Australia",
+"p2_country": "Italy",
 "tour": "atp"
 },
 {
@@ -4377,6 +4773,8 @@
 "p2_name": "Camilo Ugo Carabelli",
 "winner": "",
 "score": "",
+"p1_country": "Portugal",
+"p2_country": "Argentina",
 "tour": "atp"
 },
 {
@@ -4399,6 +4797,8 @@
 "p2_name": "Taro Daniel",
 "winner": "",
 "score": "",
+"p1_country": "Australia",
+"p2_country": "Japan",
 "tour": "atp"
 },
 {
@@ -4421,6 +4821,8 @@
 "p2_name": "Hugo Gaston",
 "winner": "",
 "score": "",
+"p1_country": "Japan",
+"p2_country": "France",
 "tour": "atp"
 },
 {
@@ -4443,6 +4845,8 @@
 "p2_name": "Elena-Gabriela Ruse",
 "winner": "",
 "score": "",
+"p1_country": "Korea",
+"p2_country": "Romania",
 "tour": "wta"
 },
 {
@@ -4465,6 +4869,8 @@
 "p2_name": "Viktoria Morvayova",
 "winner": "",
 "score": "",
+"p1_country": "Australia",
+"p2_country": "Slovakia",
 "tour": "wta"
 },
 {
@@ -4487,6 +4893,8 @@
 "p2_name": "Terence Atmane",
 "winner": "",
 "score": "",
+"p1_country": "Portugal",
+"p2_country": "France",
 "tour": "atp"
 },
 {
@@ -4509,6 +4917,8 @@
 "p2_name": "Nikoloz Basilashvili",
 "winner": "",
 "score": "",
+"p1_country": "Serbia",
+"p2_country": "Georgia",
 "tour": "atp"
 },
 {
@@ -4531,6 +4941,8 @@
 "p2_name": "Adrian Mannarino",
 "winner": "",
 "score": "",
+"p1_country": "China",
+"p2_country": "France",
 "tour": "atp"
 },
 {
@@ -4553,6 +4965,8 @@
 "p2_name": "Alexandre Muller",
 "winner": "",
 "score": "",
+"p1_country": "France",
+"p2_country": "France",
 "tour": "atp"
 },
 {
@@ -4575,6 +4989,8 @@
 "p2_name": "Alex Bolt",
 "winner": "",
 "score": "",
+"p1_country": "Hungary",
+"p2_country": "Australia",
 "tour": "atp"
 },
 {
@@ -4597,6 +5013,8 @@
 "p2_name": "Dalibor Svrcina",
 "winner": "",
 "score": "",
+"p1_country": "Australia",
+"p2_country": "Czechia",
 "tour": "atp"
 },
 {
@@ -4619,6 +5037,8 @@
 "p2_name": "Joanna Garland",
 "winner": "",
 "score": "",
+"p1_country": "China",
+"p2_country": "Chinese Taipei",
 "tour": "wta"
 },
 {
@@ -4641,6 +5061,8 @@
 "p2_name": "Michael Zheng",
 "winner": "",
 "score": "",
+"p1_country": "China",
+"p2_country": "USA",
 "tour": "atp"
 },
 {
@@ -4663,6 +5085,8 @@
 "p2_name": "Taylah Preston",
 "winner": "",
 "score": "",
+"p1_country": "Latvia",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -4685,6 +5109,8 @@
 "p2_name": "Aleksandar Kovacevic",
 "winner": "",
 "score": "",
+"p1_country": "South Africa",
+"p2_country": "USA",
 "tour": "atp"
 },
 {
@@ -4707,6 +5133,8 @@
 "p2_name": "Shintaro Mochizuki",
 "winner": "",
 "score": "",
+"p1_country": "USA",
+"p2_country": "Japan",
 "tour": "atp"
 },
 {
@@ -4729,6 +5157,8 @@
 "p2_name": "Hubert Hurkacz",
 "winner": "",
 "score": "",
+"p1_country": "Kazakhstan",
+"p2_country": "Poland",
 "tour": "atp"
 },
 {
@@ -4751,6 +5181,8 @@
 "p2_name": "Kamil Majchrzak",
 "winner": "",
 "score": "",
+"p1_country": "Italy",
+"p2_country": "Poland",
 "tour": "atp"
 },
 {
@@ -4773,6 +5205,8 @@
 "p2_name": "Adolfo Daniel Vallejo",
 "winner": "",
 "score": "",
+"p1_country": "China",
+"p2_country": "Paraguay",
 "tour": "atp"
 },
 {
@@ -4795,6 +5229,8 @@
 "p2_name": "Zhou Yi",
 "winner": "",
 "score": "",
+"p1_country": "Argentina",
+"p2_country": "China",
 "tour": "atp"
 },
 {
@@ -4817,6 +5253,8 @@
 "p2_name": "Roman Safiullin",
 "winner": "",
 "score": "",
+"p1_country": "China",
+"p2_country": "Russia",
 "tour": "atp"
 },
 {
@@ -4839,6 +5277,8 @@
 "p2_name": "Alexandra Eala",
 "winner": "",
 "score": "",
+"p1_country": "Russia",
+"p2_country": "Philippines",
 "tour": "wta"
 },
 {
@@ -4861,6 +5301,8 @@
 "p2_name": "Chak Lam Coleman Wong",
 "winner": "",
 "score": "",
+"p1_country": "China",
+"p2_country": "Hong Kong",
 "tour": "atp"
 },
 {
@@ -4883,6 +5325,8 @@
 "p2_name": "Nao Hibino",
 "winner": "",
 "score": "",
+"p1_country": "Greece",
+"p2_country": "Japan",
 "tour": "wta"
 },
 {
@@ -4905,6 +5349,8 @@
 "p2_name": "Alejandro Davidovich Fokina",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "Spain",
 "tour": "atp"
 },
 {
@@ -4927,6 +5373,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -4949,6 +5397,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "Chile",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -4971,6 +5421,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "Czechia",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -4993,6 +5445,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "USA",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5015,6 +5469,8 @@
 "p2_name": "Botic Van De Zandschulp",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "Netherlands",
 "tour": "atp"
 },
 {
@@ -5037,6 +5493,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5059,6 +5517,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "Monaco",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5077,10 +5537,12 @@
 "best_of": 5,
 "p1_id": "2383",
 "p1_name": "Daniil Medvedev",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "4022",
+"p2_name": "Valentin Royer",
 "winner": "",
 "score": "",
+"p1_country": "Russia",
+"p2_country": "France",
 "tour": "atp"
 },
 {
@@ -5103,6 +5565,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5125,6 +5589,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5147,6 +5613,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "France",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5169,6 +5637,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5191,6 +5661,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5213,6 +5685,8 @@
 "p2_name": "Tomas Martin Etcheverry",
 "winner": "",
 "score": "",
+"p1_country": "France",
+"p2_country": "Argentina",
 "tour": "atp"
 },
 {
@@ -5235,6 +5709,8 @@
 "p2_name": "Andrey Rublev",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "Russia",
 "tour": "atp"
 },
 {
@@ -5257,6 +5733,8 @@
 "p2_name": "Alina Korneeva",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -5279,6 +5757,8 @@
 "p2_name": "Maya Joint",
 "winner": "",
 "score": "",
+"p1_country": "Thailand",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
@@ -5301,6 +5781,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5323,6 +5805,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "USA",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5345,6 +5829,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5367,6 +5853,8 @@
 "p2_name": "Maja Chwalinska",
 "winner": "",
 "score": "",
+"p1_country": "Belgium",
+"p2_country": "Poland",
 "tour": "wta"
 },
 {
@@ -5389,6 +5877,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "Russia",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5411,6 +5901,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5433,6 +5925,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5455,6 +5949,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5477,6 +5973,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5499,6 +5997,8 @@
 "p2_name": "Rebeka Masarova",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "Switzerland",
 "tour": "wta"
 },
 {
@@ -5521,6 +6021,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "Estonia",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5543,6 +6045,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5565,6 +6069,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5587,6 +6093,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5609,6 +6117,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5631,6 +6141,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5653,6 +6165,8 @@
 "p2_name": "Polina Iatcenko",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -5675,6 +6189,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5697,6 +6213,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5719,6 +6237,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5741,6 +6261,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5763,6 +6285,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5785,6 +6309,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5807,6 +6333,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5829,6 +6357,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5851,6 +6381,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5873,6 +6405,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5895,6 +6429,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -5917,6 +6453,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5939,6 +6477,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5961,6 +6501,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -5983,6 +6525,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6005,6 +6549,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6027,6 +6573,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6049,6 +6597,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6071,6 +6621,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6093,6 +6645,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -6115,6 +6669,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -6137,6 +6693,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -6159,6 +6717,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -6181,6 +6741,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -6203,6 +6765,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6225,6 +6789,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6247,6 +6813,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6269,6 +6837,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6291,6 +6861,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 },
 {
@@ -6313,6 +6885,8 @@
 "p2_name": "TBD",
 "winner": "",
 "score": "",
+"p1_country": "",
+"p2_country": "",
 "tour": "atp"
 }
 ]
