@@ -314,6 +314,11 @@ function bestOf5(p) {
   const s = (lo + hi) / 2;
   return s ** 3 * (10 - 15 * s + 6 * s * s);
 }
+/* náš rating převedený na stupnici Tennis Abstract – jen pro zobrazení, výpočty jedou z původních hodnot */
+function dispElo(tour, x) {
+  const d = S.ratings.display && S.ratings.display[tour];
+  return Math.round(d ? d.a + d.b * x : x);
+}
 function daysSince(yyyymmdd) {
   const d = new Date(`${yyyymmdd.slice(0, 4)}-${yyyymmdd.slice(4, 6)}-${yyyymmdd.slice(6)}T12:00:00`);
   return Math.floor((Date.now() - d) / 864e5);
@@ -334,14 +339,14 @@ function renderCalc() {
     const off = daysSince(pl.last);
     return `<div class="side ${c}"><div class="who">${esc(pl.name)}</div><div class="pct num">${pct(pp, 1)}</div>
       <div class="sub num">férový kurz <b>${num(1 / pp)}</b></div>
-      <div class="sub num">Elo ${Math.round(pl[k])} · ${pl.n} záp.</div>
+      <div class="sub num">Elo ${dispElo(S.calcTour, pl[k])} · ${pl.n} záp.</div>
       ${off >= S.ratings.long_break ? `<div class="flags"><span class="chip warn">⏸ ${off} dní bez zápasu</span></div>` : ""}
       ${pl.n < S.ratings.low_data ? `<div class="flags"><span class="chip info">málo dat</span></div>` : ""}</div>`;
   };
   out.innerHTML = `<div class="big">${side(a, p, "a")}${side(b, 1 - p, "b")}</div>
     <div class="bar" aria-hidden="true" style="margin-top:10px"><i style="width:${(p * 100).toFixed(1)}%"></i></div>
     <p class="muted">${k === "elo" ? "Celkové Elo bez ohledu na povrch." : "Mix celkového a povrchového Elo (" + SURF[k].toLowerCase() + ")."}${bo5 ? " Na 3 vítězné sety favorit vyhrává častěji." : ""}
-      Počet zápasů zahrnuje i challengery a ITF.</p>`;
+      Počet zápasů zahrnuje i challengery a ITF. Elo je zobrazené na stupnici Tennis Abstract.</p>`;
   const o1 = parseOdd($("#calc-o1").value), o2 = parseOdd($("#calc-o2").value);
   const unreliable = Math.min(a.n, b.n) < S.ratings.low_data;
   evOut.innerHTML = o1 && o2 ? evBlock(p, o1, o2, a.name.split(" ").slice(-1)[0], b.name.split(" ").slice(-1)[0], unreliable) : "";
@@ -393,7 +398,8 @@ function renderTrack() {
 
   let oddsHtml = `<p class="explain">U každého zápasu můžeš zadat kurzy sázkovky. Model pak vsadí 1 jednotku na stranu s kladnou hodnotou
     (pravděpodobnost × kurz > 1). Skreč a kontumace se počítají jako storno, kurzy zadané až po začátku zápasu se nepočítají.
-    Zápasy, kde má některý hráč méně než ${S.ratings.low_data} zápasů, jsou vyhodnocené zvlášť.</p>`;
+    Zvlášť jsou vyhodnocené zápasy, kde má některý hráč méně než ${S.ratings.low_data} zápasů, a zápasy, kde se Elo
+    některého hráče v době tipu výrazně lišilo od Tennis Abstract.</p>`;
   const oddsRow = (label, r) => `<tr><td>${label}</td><td class="num">${r.n}</td><td class="num">${r.wins}</td>
     <td class="num ${r.profit > 0 ? "pos" : r.profit < 0 ? "neg" : ""}">${num(r.profit)}</td><td class="num">${r.roi == null ? "–" : signPct(r.roi)}</td></tr>`;
   if (!od || !od.total) oddsHtml += `<p class="muted">Zatím nejsou zadané žádné kurzy.</p>`;
@@ -402,13 +408,14 @@ function renderTrack() {
       <tr><td colspan="5" class="muted" style="text-align:left">Spolehlivé zápasy</td></tr>
       ${od.by_threshold.map((r) => oddsRow(pct(r.min_ev), r)).join("")}
       ${od.low_data ? `<tr><td colspan="5" class="muted" style="text-align:left">Málo dat (jen pro informaci)</td></tr>${oddsRow(pct(0), od.low_data)}` : ""}
+      ${od.elo_warn ? `<tr><td colspan="5" class="muted" style="text-align:left">Elo nesedí s Tennis Abstract (jen pro informaci)</td></tr>${oddsRow(pct(0), od.elo_warn)}` : ""}
       </table></div><p class="muted">Zadaných zápasů: ${od.total}, tipů čeká na výsledek: ${od.tips_pending}.
       Počítají se jen tipy modelu ${esc(live.model)}${od.other_models ? ` (vynechané tipy starších modelů: ${od.other_models})` : ""}.</p>`;
     oddsHtml += od.entries.slice(0, 30).map((e) => {
       const tipName = e.tip ? (e.tip === 1 ? e.p1 : e.p2) : null;
       const res = e.profit == null ? (e.late ? "zadáno pozdě" : e.tip ? "čeká" : "bez sázky")
         : `<span class="${e.profit > 0 ? "pos" : "neg"}">${e.profit > 0 ? "+" : ""}${num(e.profit)} j.</span>`;
-      return `<div class="list-item"><div class="l">${esc(e.p1)} – ${esc(e.p2)}${e.low_data ? ' <span class="chip info">málo dat</span>' : ""}<div class="muted">${num(e.o1)} / ${num(e.o2)}${e.book ? " · " + esc(e.book) : ""}${tipName ? " · tip " + esc(tipName) + " (" + signPct(e.ev) + ")" : ""}</div></div><div class="r">${res}</div></div>`;
+      return `<div class="list-item"><div class="l">${esc(e.p1)} – ${esc(e.p2)}${e.low_data ? ' <span class="chip info">málo dat</span>' : e.elo_warn ? ' <span class="chip warn">Elo ≠ TA</span>' : ""}<div class="muted">${num(e.o1)} / ${num(e.o2)}${e.book ? " · " + esc(e.book) : ""}${tipName ? " · tip " + esc(tipName) + " (" + signPct(e.ev) + ")" : ""}</div></div><div class="r">${res}</div></div>`;
     }).join("");
   }
 

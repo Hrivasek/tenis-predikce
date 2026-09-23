@@ -30,7 +30,7 @@ LONG_BREAK = 60                   # dní bez zápasu → štítek „dlouho nehr
 ODDS_PATH = os.path.join(elo.DATA_DIR, "odds.json")     # kurzy zadané z webu (přes GitHub API)
 PRED_FIELDS = ["match_id", "tour", "start", "tourney", "round", "surface",
                "p1_id", "p1_name", "p2_id", "p2_name", "p1_elo", "p2_elo", "n1", "n2",
-               "p1_prob", "predicted_at", "status", "winner", "score", "model"]
+               "p1_prob", "predicted_at", "status", "winner", "score", "model", "elo_warn"]
 
 
 def parse_iso(iso):
@@ -66,10 +66,15 @@ def days_between(yyyymmdd, day):
     return (day - datetime.strptime(yyyymmdd, "%Y%m%d").date()).days
 
 
-def player_info(model, pid, name, surface, day):
+def to_ta(x, disp):
+    """Náš rating převedený na stupnici Tennis Abstract (jen pro zobrazení)."""
+    return round(disp["a"] + disp["b"] * x) if disp else round(x)
+
+
+def player_info(model, pid, name, surface, day, disp=None):
     last = model.last_date.get(pid)
     off = days_between(last, day) if last else None
-    return {"name": name, "elo": round(model.blended(pid, surface)), "n": model.n[pid],
+    return {"name": name, "elo": to_ta(model.blended(pid, surface), disp), "n": model.n[pid],
             "days_off": off, "long_break": off is not None and off >= LONG_BREAK}
 
 
@@ -83,7 +88,8 @@ def load_odds():
 def odds_track(odds, preds):
     """Jak by dopadly sázky podle modelu proti zadaným kurzům: 1 jednotka na stranu
     s nejvyšší kladnou hodnotou (EV = p * kurz - 1). Skreč a kontumace = storno.
-    Zápasy hráčů s málo daty se vyhodnocují zvlášť, aby nezkreslovaly výsledky."""
+    Zápasy hráčů s málo daty a zápasy, kde Elo nesedí s Tennis Abstract (stav v době tipu), se
+    vyhodnocují zvlášť, aby nezkreslovaly výsledky. Platí-li obojí, zápas patří do „málo dat“."""
     entries = []
     for key, o in odds.items():
         tour, mid = key.split(":", 1)
@@ -100,16 +106,18 @@ def odds_track(odds, preds):
              "book": o.get("book", ""), "margin": 1 / o["o1"] + 1 / o["o2"] - 1,
              "tip": side if ev > 0 else None, "ev": ev, "late": late,
              "low_data": min(int(pr["n1"]), int(pr["n2"])) < LOW_DATA,
+             "elo_warn": pr.get("elo_warn") == "1",
              "model": pr["model"], "status": pr["status"], "profit": None}
+        e["group"] = "low_data" if e["low_data"] else "elo_warn" if e["elo_warn"] else "ok"
         if e["tip"] and not late and pr["status"] == "final":
             won = pr["winner"] == (pr["p1_id"] if side == 1 else pr["p2_id"])
             e["profit"] = (o["o1"] if side == 1 else o["o2"]) - 1 if won else -1.0
         entries.append(e)
     entries.sort(key=lambda e: e["start"], reverse=True)
 
-    def agg(min_ev, low_data=False):
+    def agg(min_ev, group="ok"):
         done = [e for e in entries if e["profit"] is not None and e["ev"] > min_ev
-                and e["low_data"] == low_data and e["model"] == elo.MODEL_VERSION]
+                and e["group"] == group and e["model"] == elo.MODEL_VERSION]
         n = len(done)
         profit = sum(e["profit"] for e in done)
         return {"min_ev": min_ev, "n": n, "wins": sum(e["profit"] > 0 for e in done),
@@ -118,7 +126,8 @@ def odds_track(odds, preds):
             "tips_pending": sum(e["tip"] is not None and e["profit"] is None and e["status"] == "scheduled"
                                 for e in entries),
             "by_threshold": [agg(t) for t in (0.0, 0.05, 0.10)],
-            "low_data": agg(0.0, low_data=True),
+            "low_data": agg(0.0, "low_data"),
+            "elo_warn": agg(0.0, "elo_warn"),
             "other_models": sum(e["model"] != elo.MODEL_VERSION and e["profit"] is not None for e in entries)}
 
 
@@ -232,7 +241,7 @@ def elo_check(model, tour, active_since):
            # všichni označení hráči (pro štítek na kartě zápasu); z JSONu pro web se pak odebere
            "_by_id": {r["player_id"]: {"diff": round(d), "ta_elo": float(r["elo"]), "ours_as_ta": round(e)}
                       for r, o, e, d in flagged},
-           "sd": sd, "limit": limit,
+           "sd": sd, "limit": limit, "a": a_, "b": b_,
            "flagged": [{"name": r["name"], "ta_elo": float(r["elo"]), "ta_rank": int(r["rank"]),
                         "ours_as_ta": round(e), "diff": round(d), "our_rank": ours_rank[r["player_id"]],
                         "n": model.n[r["player_id"]]} for r, o, e, d in flagged[:15]]}
@@ -268,7 +277,7 @@ def main():
         upcoming = json.load(f)
     preds = load_predictions()
     odds = load_odds()
-    matches_out, ratings_out, backtest, details_out, checks = [], {}, {}, {}, {}
+    matches_out, ratings_out, backtest, details_out, checks, display = [], {}, {}, {}, {}, {}
 
     for tour in ("atp", "wta"):
         log = []
@@ -301,6 +310,8 @@ def main():
         ratings_out[tour] = players
         checks[tour] = elo_check(model, tour, year_ago)
         elo_warn = (checks[tour] or {}).pop("_by_id", {})
+        disp = {"a": checks[tour]["a"], "b": checks[tour]["b"]} if checks[tour] else None
+        display[tour] = disp
 
         # --- predikce zápasů v rozpisu ---
         for m in upcoming["matches"]:
@@ -321,7 +332,8 @@ def main():
                     "n1": model.n[a], "n2": model.n[b],
                     "p1_prob": f"{model.predict(a, b, surface, int(m['best_of'] or 3)):.4f}",
                     "predicted_at": now.isoformat(timespec="minutes"), "status": "scheduled",
-                    "winner": "", "score": "", "model": elo.MODEL_VERSION}
+                    "winner": "", "score": "", "model": elo.MODEL_VERSION,
+                    "elo_warn": "1" if a in elo_warn or b in elo_warn else ""}
                 old = preds.get(key)
                 same = old and all(str(old.get(k)) == str(new[k]) for k in new
                                    if k not in ("predicted_at", "start", "status"))
@@ -343,8 +355,8 @@ def main():
                 "time_valid": m["time_valid"], "tourney": m["tourney_name"], "round": m["round"],
                 "surface": surface, "status": m["status"], "score": m["score"],
                 "winner": 1 if m["winner"] == m["p1_id"] else 2 if m["winner"] else None,
-                "p1": player_info(model, a, m["p1_name"], surface, day),
-                "p2": player_info(model, b, m["p2_name"], surface, day),
+                "p1": player_info(model, a, m["p1_name"], surface, day, disp),
+                "p2": player_info(model, b, m["p2_name"], surface, day, disp),
                 "p1_prob": p,
                 "fair1": round(1 / p, 2) if p else None, "fair2": round(1 / (1 - p), 2) if p else None,
                 "low_data": min(model.n[a], model.n[b]) < LOW_DATA,
@@ -398,6 +410,7 @@ def main():
     for name, payload in (("today.json", {**meta, "matches": matches_out}),
                           ("details.json", {**meta, "details": details_out}),
                           ("ratings.json", {**meta, "scale": elo.CALIBRATION, "long_break": LONG_BREAK,
+                                            "display": display,   # zobrazení: a + b * rating (stupnice TA)
                                             "low_data": LOW_DATA,
                                             **ratings_out}),
                           ("track.json", {**meta, "backtest": backtest, "live": live, "elo_check": checks,
