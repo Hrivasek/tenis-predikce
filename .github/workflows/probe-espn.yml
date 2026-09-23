@@ -1,0 +1,31 @@
+name: Test ESPN z GitHub Actions
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Python urllib (jako update.py)
+        run: |
+          python3 - <<'PY'
+          import espn, datetime
+          d = datetime.date.today()
+          for tour in ("atp", "wta"):
+              for delta in (-1, 0, 1):
+                  day = (d + datetime.timedelta(days=delta)).strftime("%Y%m%d")
+                  try:
+                      rows = espn.parse(espn.fetch(tour, day, retries=1), tour)
+                      print(tour, day, "OK", len(rows), "zápasů")
+                  except Exception as e:
+                      print(tour, day, "CHYBA", e)
+          PY
+      - name: curl
+        run: |
+          for ua in "" "Mozilla/5.0"; do
+            curl -s -o /dev/null -w "UA='$ua' -> %{http_code}\n" ${ua:+-A "$ua"} \
+              "https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=$(date +%Y%m%d)"
+          done
+      - name: Celý update.py
+        run: python3 update.py

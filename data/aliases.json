@@ -1,0 +1,12 @@
+{
+ "_poznamka": "Ruční párování: ESPN jméno (nebo ESPN id) -> ID hráče v historických datech.",
+ "atp": {
+  "Aleksandr Shevchenko": "207686",
+  "Abdullah Shelbayh": "209406"
+ },
+ "wta": {
+  "Catherine McNally": "216083",
+  "Giorgia Pedone": "223410",
+  "Mimi Xu": "259685"
+ }
+}

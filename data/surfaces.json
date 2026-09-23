@@ -1,0 +1,103 @@
+{
+ "_poznamka": "Ruční povrchy turnajů, které nejsou v historických datech. 'match' se hledá v názvu turnaje + městě, 'months' volitelně omezí na měsíce. Neznámé turnaje = Hard.",
+ "rules": [
+  {
+   "match": "Antalya",
+   "months": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "surface": "Clay",
+   "jistota": "nizka"
+  },
+  {
+   "match": "London",
+   "months": [
+    6,
+    7
+   ],
+   "surface": "Grass"
+  },
+  {
+   "match": "Ilkley",
+   "surface": "Grass"
+  },
+  {
+   "match": "Foggia",
+   "surface": "Clay"
+  },
+  {
+   "match": "Makarska",
+   "surface": "Clay"
+  },
+  {
+   "match": "Modena",
+   "surface": "Clay"
+  },
+  {
+   "match": "Brescia",
+   "surface": "Clay"
+  },
+  {
+   "match": "Contrexeville",
+   "surface": "Clay"
+  },
+  {
+   "match": "Targu Mures",
+   "surface": "Clay"
+  },
+  {
+   "match": "Montreux",
+   "surface": "Clay"
+  },
+  {
+   "match": "Barranquilla",
+   "surface": "Clay"
+  },
+  {
+   "match": "Ljubljana",
+   "surface": "Clay"
+  },
+  {
+   "match": "Valencia",
+   "surface": "Clay"
+  },
+  {
+   "match": "Tolentino",
+   "surface": "Clay"
+  },
+  {
+   "match": "Memphis",
+   "surface": "Hard"
+  },
+  {
+   "match": "Vancouver",
+   "surface": "Hard"
+  },
+  {
+   "match": "Philadelphia",
+   "surface": "Hard"
+  },
+  {
+   "match": "Ankara",
+   "surface": "Hard"
+  },
+  {
+   "match": "Figueira Da Foz",
+   "surface": "Hard",
+   "jistota": "nizka"
+  },
+  {
+   "match": "Caldas da Rainha",
+   "surface": "Hard",
+   "jistota": "nizka"
+  },
+  {
+   "match": "Porto",
+   "surface": "Hard",
+   "jistota": "nizka"
+  }
+ ]
+}

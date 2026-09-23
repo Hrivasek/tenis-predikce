@@ -1,0 +1,7 @@
+__pycache__/
+.DS_Store
+# roční soubory jsou jen rozpadlá kopie *_all.csv
+data/atp_20*.csv
+data/wta_20*.csv
+# generuje se v GitHub Actions při každém nasazení
+site/data/
