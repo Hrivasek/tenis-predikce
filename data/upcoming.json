@@ -1,5 +1,5 @@
 {
-"fetched": "2026-09-24T18:57:58+00:00",
+"fetched": "2026-09-24T20:47:25+00:00",
 "matches": [
 {
 "match_id": "186069",
@@ -5317,14 +5317,14 @@
 "qualifying": 0,
 "date": "2026-09-24T18:15Z",
 "time_valid": 1,
-"status": "live",
+"status": "ret",
 "best_of": 3,
 "p1_id": "5878",
 "p1_name": "Veronika Erjavec",
 "p2_id": "5168",
 "p2_name": "Nuria Brancaccio",
-"winner": "",
-"score": "",
+"winner": "5168",
+"score": "5-7 5-3 RET",
 "p1_country": "Slovenia",
 "p2_country": "Italy",
 "tour": "wta"
@@ -5991,13 +5991,13 @@
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "5168",
+"p1_name": "Nuria Brancaccio",
 "p2_id": "2599",
 "p2_name": "Julia Grabher",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Italy",
 "p2_country": "Austria",
 "tour": "wta"
 },

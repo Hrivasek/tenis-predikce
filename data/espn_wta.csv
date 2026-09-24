@@ -2741,3 +2741,4 @@ match_id,event_id,tourney_name,venue,event_start,tourney_level,round,round_order
 184100,1009-2026,Singapore Tennis Open presented by BNP Paribas,"Singapore, Singapore",20260918,A,Round 2,2,0,2026-09-24T14:05Z,final,3,3018,Maria Sakkari,2043,Nao Hibino,3018,7-5 6-1
 184008,1077-2026,Turk Telekom Ankara Open,"Ankara, Türkiye",20260920,A,Round 2,2,0,2026-09-24T14:10Z,final,3,16142,Deniz Dilek,1254,Cagla Buyukakcay,16142,6-1 2-6 6-2
 183897,1019-2026,Delta Motors Tolentino Open,"Tolentino, Italy",20260920,A,Round 2,2,0,2026-09-24T15:45Z,final,3,17107,Samira De Stefano,6571,Oksana Selekhmeteva,6571,5-7 6-1 6-2
+183888,1019-2026,Delta Motors Tolentino Open,"Tolentino, Italy",20260920,A,Round 2,2,0,2026-09-24T18:15Z,ret,3,5878,Veronika Erjavec,5168,Nuria Brancaccio,5168,5-7 5-3 RET
