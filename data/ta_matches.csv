@@ -4201,6 +4201,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,106044,Nicolas Kicker,ARG,106198,Hugo Dellien,BOL,4-6 7-5 6-0
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,106057,Facundo Mena,ARG,207815,Guido Ivan Justo,ARG,6-4 7-6(0)
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,122669,Juan Pablo Varillas,PER,123961,Murkel Alejandro Dellien Velasco,BOL,4-6 7-5 6-4
+2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,200495,Eduardo Ribeiro,BRA,105948,Federico Coria,ARG,6-4 7-5
+2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,208046,Pedro Boscardin Dias,BRA,208364,Franco Roncadelli,URU,0-6 7-6(5) 6-3
+2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,209875,Alex Barrena,ARG,126663,Juan Pablo Ficovich,ARG,6-3 7-5
+2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,210178,Juan Carlos Prado Angelo,BOL,209254,Valerio Aboian,ARG,6-2 6-1
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,212051,Joaquin Aguilar Cardozo,URU,207681,Francisco Comesana,ARG,7-5 6-7(5) 6-4
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R32,105948,Federico Coria,ARG,211636,Lucio Ratti,ARG,6-7(3) 6-3 7-5
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R32,106044,Nicolas Kicker,ARG,211658,Tomas Martinez,ARG,1-6 6-2 6-0
@@ -4238,6 +4242,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026Genoa2Challenger,atp,2026-09-21,Clay,R16,209898,Dali Blanch,USA,210054,Matthew William Donald,CZE,6-3 6-1
 2026Genoa2Challenger,atp,2026-09-21,Clay,R16,209903,Lukas Neumayer,AUT,212305,Juan Cruz Martin Manzano,ITA,0-6 6-4 6-1
 2026Genoa2Challenger,atp,2026-09-21,Clay,R16,210053,Luka Mikrut,CRO,106293,Kimmer Coppejans,BEL,6-1 6-1
+2026Genoa2Challenger,atp,2026-09-21,Clay,R16,212241,Carlo Alberto Caniato,ITA,210167,Tom Gentzsch,GER,6-3 5-7 7-5
 2026Genoa2Challenger,atp,2026-09-21,Clay,R16,213001,Mika Petkovic,GER,134840,Raul Brancaccio,ITA,6-4 7-6(1)
 2026Genoa2Challenger,atp,2026-09-21,Clay,R32,106293,Kimmer Coppejans,BEL,209952,Sean Cuenin,FRA,7-6(6) 0-0 RET
 2026Genoa2Challenger,atp,2026-09-21,Clay,R32,126652,Jay Clarke,GBR,210145,John Sperle,GER,7-5 6-3
@@ -4316,6 +4321,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,Q2,212711,Daniel Jade,FRA,212912,Mathys Domenc,FRA,6-7(12) 6-4 7-5
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,R16,109054,Daniel Masur,GER,200188,Matteo Martineau,FRA,6-3 5-7 6-3
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,R16,206750,Daniil Glinka,EST,200259,Ugo Blanchet,FRA,6-4 3-6 6-4
+2026Saint-TropezChallenger,atp,2026-09-21,Hard,R16,207411,Jesper De Jong,NED,200462,Andrea Guerrieri,ITA,3-6 7-6(8) 7-6(2)
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,R16,208004,Harold Mayot,FRA,210220,Edas Butvilas,LTU,6-4 6-3
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,R16,208169,Titouan Droguet,FRA,127339,Borna Gojo,CRO,3-6 6-3 6-4
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,R16,209326,Murphy Cassone,USA,126129,Billy Harris,GBR,7-6(3) 6-4
@@ -4357,7 +4363,11 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SanDiego2Challenger,atp,2026-09-21,Hard,Q2,212958,Spencer Johnson,USA,213551,Jakub Vrba,CZE,6-2 6-4
 2026SanDiego2Challenger,atp,2026-09-21,Hard,R16,127108,Igor Ribeiro Marcondes,BRA,135753,Patrick Maloney,USA,3-6 7-6(7) 6-2
 2026SanDiego2Challenger,atp,2026-09-21,Hard,R16,144870,Federico Agustin Gomez,ARG,212216,Trevor Svajda,USA,7-5 6-4
+2026SanDiego2Challenger,atp,2026-09-21,Hard,R16,200748,Andres Andrade,ECU,210464,Darwin Blanch,USA,3-6 6-3 7-5
+2026SanDiego2Challenger,atp,2026-09-21,Hard,R16,207729,Tristan Boyer,USA,210478,Sebastian Gorzny,USA,6-4 7-6(7)
+2026SanDiego2Challenger,atp,2026-09-21,Hard,R16,209355,Timo Legout,FRA,212256,Colton Smith,USA,6-3 6-3
 2026SanDiego2Challenger,atp,2026-09-21,Hard,R16,210157,Dylan Dietrich,SUI,202333,Keegan Smith,USA,6-2 7-6(4)
+2026SanDiego2Challenger,atp,2026-09-21,Hard,R16,210460,Nishesh Basavareddy,USA,213825,Keaton Hance,USA,6-2 4-6 6-3
 2026SanDiego2Challenger,atp,2026-09-21,Hard,R16,211902,Henry Searle,GBR,208119,Liam Draxl,CAN,7-6(7) 2-6 6-4
 2026SanDiego2Challenger,atp,2026-09-21,Hard,R32,127108,Igor Ribeiro Marcondes,BRA,210028,Ozan Baris,USA,6-1 6-3
 2026SanDiego2Challenger,atp,2026-09-21,Hard,R32,135753,Patrick Maloney,USA,211711,Braden Shick,USA,6-3 7-6(5)
@@ -4457,6 +4467,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTATolentino125,wta,2026-09-21,Clay,R16,213620,Jessica Pieri,ITA,220742,Leyre Romero Gormaz,ESP,3-6 6-4 6-1
 2026WTATolentino125,wta,2026-09-21,Clay,R16,214119,Rebeka Masarova,ESP,265197,Isabella Maria Serban,ROU,5-7 6-2 6-0
 2026WTATolentino125,wta,2026-09-21,Clay,R16,215571,Guiomar Maristany Zuleta De Reales,ESP,267409,Marta Lombardini,ITA,6-2 6-3
+2026WTATolentino125,wta,2026-09-21,Clay,R16,215572,Nuria Brancaccio,ITA,220662,Veronika Erjavec,SLO,5-7 5-3 RET
+2026WTATolentino125,wta,2026-09-21,Clay,R16,221407,Oksana Selekhmeteva,RUS,256705,Samira De Stefano,ITA,5-7 6-1 6-2
 2026WTATolentino125,wta,2026-09-21,Clay,R16,239392,Mia Ristic,SRB,231625,Noemi Basiletti,ITA,6-3 3-6 6-3
 2026WTATolentino125,wta,2026-09-21,Clay,R32,202493,Ekaterine Gorgodze,GEO,206007,Laura Pigossi,BRA,6-1 5-7 6-3
 2026WTATolentino125,wta,2026-09-21,Clay,R32,211814,Julia Grabher,AUT,221411,Jennifer Ruggeri,ITA,4-6 7-5 6-3
