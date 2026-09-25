@@ -1,5 +1,5 @@
 {
-"fetched": "2026-09-25T18:21:10+00:00",
+"fetched": "2026-09-25T19:13:28+00:00",
 "matches": [
 {
 "match_id": "186069",
@@ -6650,6 +6650,30 @@
 "tour": "wta"
 },
 {
+"match_id": "183967",
+"event_id": "1022-2026",
+"tourney_name": "Eupago Porto Open",
+"venue": "Porto, Portugal",
+"event_start": "20260920",
+"tourney_level": "A",
+"round": "Semifinal",
+"round_order": 11,
+"qualifying": 0,
+"date": "2026-09-26T11:00Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "10501",
+"p1_name": "Maria Timofeeva",
+"p2_id": "16296",
+"p2_name": "Mia Pohankova",
+"winner": "",
+"score": "",
+"p1_country": "Uzbekistan",
+"p2_country": "Slovakia",
+"tour": "wta"
+},
+{
 "match_id": "183361",
 "event_id": "1001-2026",
 "tourney_name": "AITO Hangzhou Open",
@@ -6672,30 +6696,6 @@
 "p1_country": "Hong Kong",
 "p2_country": "Paraguay",
 "tour": "atp"
-},
-{
-"match_id": "183967",
-"event_id": "1022-2026",
-"tourney_name": "Eupago Porto Open",
-"venue": "Porto, Portugal",
-"event_start": "20260920",
-"tourney_level": "A",
-"round": "Semifinal",
-"round_order": 11,
-"qualifying": 0,
-"date": "2026-09-26T11:30Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "10501",
-"p1_name": "Maria Timofeeva",
-"p2_id": "16296",
-"p2_name": "Mia Pohankova",
-"winner": "",
-"score": "",
-"p1_country": "Uzbekistan",
-"p2_country": "Slovakia",
-"tour": "wta"
 },
 {
 "match_id": "184014",
