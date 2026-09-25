@@ -4198,6 +4198,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,Q2,209254,Valerio Aboian,ARG,106352,Matias Franco Descotte,ARG,6-1 6-7(6) 6-4
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,Q2,211658,Tomas Martinez,ARG,208532,Thiago Cigarran,ARG,6-1 4-0 RET
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,Q2,212051,Joaquin Aguilar Cardozo,URU,212481,Federico Aguilar Cardozo,URU,6-4 7-5
+2026BuenosAires2Challenger,atp,2026-09-21,Clay,QF,208046,Pedro Boscardin Dias,BRA,200495,Eduardo Ribeiro,BRA,6-4 6-4
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,106044,Nicolas Kicker,ARG,106198,Hugo Dellien,BOL,4-6 7-5 6-0
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,106057,Facundo Mena,ARG,207815,Guido Ivan Justo,ARG,6-4 7-6(0)
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R16,122669,Juan Pablo Varillas,PER,123961,Murkel Alejandro Dellien Velasco,BOL,4-6 7-5 6-4
@@ -4236,6 +4237,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026Genoa2Challenger,atp,2026-09-21,Clay,Q2,210145,John Sperle,GER,200266,Javier Barranco Cosano,ESP,7-6(3) 1-2 RET
 2026Genoa2Challenger,atp,2026-09-21,Clay,Q2,210629,Alejandro Juan Mano,ESP,207764,Ryan Nijboer,NED,4-6 6-3 6-4
 2026Genoa2Challenger,atp,2026-09-21,Clay,Q2,213120,Lorenzo Berto,ITA,212029,Dimitris Sakellaridis,GRE,1-6 7-5 6-4
+2026Genoa2Challenger,atp,2026-09-21,Clay,QF,202359,Marvin Moeller,GER,209898,Dali Blanch,USA,6-3 4-6 6-3
+2026Genoa2Challenger,atp,2026-09-21,Clay,QF,209506,Francesco Forti,ITA,213001,Mika Petkovic,GER,6-4 5-7 6-2
+2026Genoa2Challenger,atp,2026-09-21,Clay,QF,210053,Luka Mikrut,CRO,209903,Lukas Neumayer,AUT,6-3 6-4
+2026Genoa2Challenger,atp,2026-09-21,Clay,QF,212241,Carlo Alberto Caniato,ITA,126652,Jay Clarke,GBR,6-0 2-0 RET
 2026Genoa2Challenger,atp,2026-09-21,Clay,R16,126652,Jay Clarke,GBR,208153,Giuseppe La Vela,ITA,6-1 6-2
 2026Genoa2Challenger,atp,2026-09-21,Clay,R16,202359,Marvin Moeller,GER,206467,Federico Arnaboldi,ITA,6-4 6-4
 2026Genoa2Challenger,atp,2026-09-21,Clay,R16,209506,Francesco Forti,ITA,210629,Alejandro Juan Mano,ESP,6-1 6-2
@@ -4277,6 +4282,9 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026Plovdiv4Challenger,atp,2026-09-21,Clay,Q2,210200,Yanaki Milev,BUL,211594,Luca Wiedenmann,GER,6-2 6-1
 2026Plovdiv4Challenger,atp,2026-09-21,Clay,Q2,212978,Izan Almazan Valiente,ESP,210198,George Lazarov,BUL,6-1 7-5
 2026Plovdiv4Challenger,atp,2026-09-21,Clay,Q2,213760,Pavel Lagutin,RUS,210425,Svyatoslav Gulin,RUS,7-6(7) 3-0 RET
+2026Plovdiv4Challenger,atp,2026-09-21,Clay,QF,126535,Carlos Taberner,ESP,123921,Calvin Hemery,FRA,1-6 7-5 6-4
+2026Plovdiv4Challenger,atp,2026-09-21,Clay,QF,207797,Jonas Forejtek,CZE,208269,Felix Gill,GBR,7-6(3) 6-0
+2026Plovdiv4Challenger,atp,2026-09-21,Clay,QF,208024,Max Alcala Gurri,ESP,207546,Pol Martin Tiffon,ESP,5-2 RET
 2026Plovdiv4Challenger,atp,2026-09-21,Clay,R16,123921,Calvin Hemery,FRA,106177,Oriol Roca Batalla,ESP,3-6 6-4 6-1
 2026Plovdiv4Challenger,atp,2026-09-21,Clay,R16,126535,Carlos Taberner,ESP,208328,Max Wiskandt,GER,7-5 6-4
 2026Plovdiv4Challenger,atp,2026-09-21,Clay,R16,202090,Adrian Andreev,BUL,129814,Ivan Ivanov,BUL,7-6(5) 6-3
@@ -4319,6 +4327,9 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,Q2,200188,Matteo Martineau,FRA,207993,Justin Boulais,CAN,6-3 6-1
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,Q2,209326,Murphy Cassone,USA,200452,Patrick Zahraj,GER,6-2 7-5
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,Q2,212711,Daniel Jade,FRA,212912,Mathys Domenc,FRA,6-7(12) 6-4 7-5
+2026Saint-TropezChallenger,atp,2026-09-21,Hard,QF,208004,Harold Mayot,FRA,207411,Jesper De Jong,NED,6-3 4-6 7-5
+2026Saint-TropezChallenger,atp,2026-09-21,Hard,QF,209326,Murphy Cassone,USA,109054,Daniel Masur,GER,6-7(4) 7-6(12) 6-4
+2026Saint-TropezChallenger,atp,2026-09-21,Hard,QF,209976,Dino Prizmic,CRO,206750,Daniil Glinka,EST,7-6(4) 7-5
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,R16,109054,Daniel Masur,GER,200188,Matteo Martineau,FRA,6-3 5-7 6-3
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,R16,206750,Daniil Glinka,EST,200259,Ugo Blanchet,FRA,6-4 3-6 6-4
 2026Saint-TropezChallenger,atp,2026-09-21,Hard,R16,207411,Jesper De Jong,NED,200462,Andrea Guerrieri,ITA,3-6 7-6(8) 7-6(2)
@@ -4394,6 +4405,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTAAnkara125,wta,2026-09-21,Hard,Q2,216579,Weronika Falkowska,POL,220673,Alana Smith,USA,6-3 6-3
 2026WTAAnkara125,wta,2026-09-21,Hard,Q2,223100,Marie Vogt,GER,202672,Ekaterina Yashina,RUS,6-4 6-2
 2026WTAAnkara125,wta,2026-09-21,Hard,Q2,266864,Daria Egorova,RUS,222878,Melisa Ercan,TUR,7-5 6-1
+2026WTAAnkara125,wta,2026-09-21,Hard,QF,214507,Berfu Cengiz,TUR,222559,Han Shi,CHN,6-3 6-4
+2026WTAAnkara125,wta,2026-09-21,Hard,QF,223325,Polina Iatcenko,RUS,257874,Ksenia Zaytseva,RUS,6-3 6-2
+2026WTAAnkara125,wta,2026-09-21,Hard,QF,266403,Deniz Dilek,TUR,214181,Anastasia Gasanova,RUS,4-6 6-2 7-5
+2026WTAAnkara125,wta,2026-09-21,Hard,QF,267439,Teodora Kostovic,SRB,221885,Fangran Tian,CHN,6-0 7-5
 2026WTAAnkara125,wta,2026-09-21,Hard,R16,214181,Anastasia Gasanova,RUS,220733,Carole Monnet,FRA,6-2 6-1
 2026WTAAnkara125,wta,2026-09-21,Hard,R16,214507,Berfu Cengiz,TUR,222762,Aysegul Mert,TUR,7-6(2) 6-2
 2026WTAAnkara125,wta,2026-09-21,Hard,R16,221885,Fangran Tian,CHN,239397,Elena Micic,AUS,6-2 7-5
@@ -4428,6 +4443,9 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTAPorto125,wta,2026-09-21,Hard,Q2,222034,Reese Brantmeier,USA,260338,Sofia Johnson,GBR,6-3 6-4
 2026WTAPorto125,wta,2026-09-21,Hard,Q2,259794,Angelina Voloshchuk,POR,220502,Ariana Arseneault,CAN,6-3 7-5
 2026WTAPorto125,wta,2026-09-21,Hard,Q2,260296,Valentina Steiner,GER,220891,Kylie Collins,USA,6-4 1-6 6-4
+2026WTAPorto125,wta,2026-09-21,Hard,QF,221237,Maria Timofeeva,UZB,213873,Gabriela Andrea Knutson,CZE,6-1 6-2
+2026WTAPorto125,wta,2026-09-21,Hard,QF,221257,Sinja Kraus,AUT,216116,Elena Malygina,EST,6-7(5) 6-3 6-4
+2026WTAPorto125,wta,2026-09-21,Hard,QF,222034,Reese Brantmeier,USA,259794,Angelina Voloshchuk,POR,6-3 6-2
 2026WTAPorto125,wta,2026-09-21,Hard,R16,213873,Gabriela Andrea Knutson,CZE,264149,Ayana Akli,USA,6-4 5-7 6-4
 2026WTAPorto125,wta,2026-09-21,Hard,R16,215042,Katie Swan,GBR,260296,Valentina Steiner,GER,6-1 6-0
 2026WTAPorto125,wta,2026-09-21,Hard,R16,216116,Elena Malygina,EST,206219,Oceane Dodin,FRA,2-6 6-4 6-2
@@ -4462,6 +4480,9 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTATolentino125,wta,2026-09-21,Clay,Q2,214919,Dalila Spiteri,ITA,206248,Iva Primorac,CRO,6-3 6-4
 2026WTATolentino125,wta,2026-09-21,Clay,Q2,216173,Katerina Tsygourova,SUI,216186,Aneta Laboutkova,CZE,6-2 6-2
 2026WTATolentino125,wta,2026-09-21,Clay,Q2,221369,Lisa Zaar,SWE,220496,Enola Chiesa,ITA,3-6 6-3 7-6(6)
+2026WTATolentino125,wta,2026-09-21,Clay,QF,213620,Jessica Pieri,ITA,239392,Mia Ristic,SRB,6-4 6-4
+2026WTATolentino125,wta,2026-09-21,Clay,QF,215571,Guiomar Maristany Zuleta De Reales,ESP,214119,Rebeka Masarova,ESP,6-4 6-3
+2026WTATolentino125,wta,2026-09-21,Clay,QF,221407,Oksana Selekhmeteva,RUS,202493,Ekaterine Gorgodze,GEO,6-1 2-6 6-2
 2026WTATolentino125,wta,2026-09-21,Clay,R16,202493,Ekaterine Gorgodze,GEO,223323,Barbora Palicova,CZE,7-5 7-5
 2026WTATolentino125,wta,2026-09-21,Clay,R16,211814,Julia Grabher,AUT,220554,Alice Tubello,FRA,3-6 6-3 6-4
 2026WTATolentino125,wta,2026-09-21,Clay,R16,213620,Jessica Pieri,ITA,220742,Leyre Romero Gormaz,ESP,3-6 6-4 6-1
