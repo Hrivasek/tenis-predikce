@@ -2764,6 +2764,7 @@ match_id,event_id,tourney_name,venue,event_start,tourney_level,round,round_order
 186180,1028-2026,Jingshan Tennis Open,"Jingshan, China PR",20260925,A,Qualifying 1st Round,0,1,2026-09-26T03:05Z,final,3,5969,Nika Radisic,16978,Chengyiyi Yuan,16978,6-2 6-3
 186181,1028-2026,Jingshan Tennis Open,"Jingshan, China PR",20260925,A,Qualifying 1st Round,0,1,2026-09-26T03:05Z,final,3,17362,Kristiana Sidorova,19093,Aruzhan  Sagandykova,17362,3-6 6-2 6-1
 186175,1028-2026,Jingshan Tennis Open,"Jingshan, China PR",20260925,A,Qualifying 1st Round,0,1,2026-09-26T03:10Z,final,3,12959,Amelia Rajecki,2543,Hiroko Kuwata,12959,6-1 1-6 6-1
+184101,1009-2026,Singapore Tennis Open presented by BNP Paribas,"Singapore, Singapore",20260918,A,Semifinal,11,0,2026-09-26T04:00Z,wo,3,12846,Tatiana Prozorova,6708,Talia Gibson,6708,
 186178,1028-2026,Jingshan Tennis Open,"Jingshan, China PR",20260925,A,Qualifying 1st Round,0,1,2026-09-26T04:40Z,final,3,5490,Guo Meiqi,13531,Natsumi Kawaguchi,5490,6-0 6-3
 186179,1028-2026,Jingshan Tennis Open,"Jingshan, China PR",20260925,A,Qualifying 1st Round,0,1,2026-09-26T04:40Z,final,3,15544,Wang Jiaqi,2594,Zhang Ying,15544,7-5 7-5
 184058,811-2026,Korea Open,"Seoul, Korea Republic",20260918,A,Quarterfinal,10,0,2026-09-26T04:45Z,final,3,7672,Taylah Preston,9169,Alina Korneeva,9169,6-1 6-4
@@ -2772,4 +2773,15 @@ match_id,event_id,tourney_name,venue,event_start,tourney_level,round,round_order
 184059,811-2026,Korea Open,"Seoul, Korea Republic",20260918,A,Semifinal,11,0,2026-09-26T06:50Z,final,3,2734,Anna Bondar,2588,Kimberly Birrell,2588,7-5 2-6 6-1
 186188,1078-2026,Adana Open,"Adana, Türkiye",20260926,A,Qualifying 1st Round,0,1,2026-09-26T07:40Z,final,3,19094,Melis Keser,15344,Elena Ruxandra Bertea,15344,6-0 6-0
 186192,1078-2026,Adana Open,"Adana, Türkiye",20260926,A,Qualifying 1st Round,0,1,2026-09-26T07:40Z,final,3,2736,Viktoria Hruncakova,11452,Jaeda Daniel,2736,6-4 6-3
-184101,1009-2026,Singapore Tennis Open presented by BNP Paribas,"Singapore, Singapore",20260918,A,Semifinal,11,0,2026-09-27T04:00Z,wo,3,12846,Tatiana Prozorova,6708,Talia Gibson,6708,
+186194,1078-2026,Adana Open,"Adana, Türkiye",20260926,A,Qualifying 1st Round,0,1,2026-09-26T08:20Z,ret,3,7438,Erika Andreeva,16202,Ilay Yoruk,7438,6-3 3-6 4-1 RET
+186191,1078-2026,Adana Open,"Adana, Türkiye",20260926,A,Qualifying 1st Round,0,1,2026-09-26T08:45Z,final,3,19088,Aysegul Mert,5626,Anastasia Tikhonova,5626,7-6(3) 6-2
+186187,1078-2026,Adana Open,"Adana, Türkiye",20260926,A,Qualifying 1st Round,0,1,2026-09-26T09:20Z,final,3,8699,Fiona Crawley,16130,Adelina Lacinova,8699,4-6 6-3 6-3
+184060,811-2026,Korea Open,"Seoul, Korea Republic",20260918,A,Semifinal,11,0,2026-09-26T09:40Z,ret,3,9169,Alina Korneeva,14146,Maya Joint,14146,6-2 1-0 RET
+183968,1022-2026,Eupago Porto Open,"Porto, Portugal",20260920,A,Semifinal,11,0,2026-09-26T10:00Z,final,3,6823,Reese Brantmeier,7797,Sinja Kraus,6823,6-3 6-0
+184102,1009-2026,Singapore Tennis Open presented by BNP Paribas,"Singapore, Singapore",20260918,A,Semifinal,11,0,2026-09-26T10:05Z,final,3,3641,Leylah Fernandez,3417,Maja Chwalinska,3641,1-6 6-4 6-2
+184013,1077-2026,Turk Telekom Ankara Open,"Ankara, Türkiye",20260920,A,Semifinal,11,0,2026-09-26T10:30Z,final,3,16002,Teodora Kostovic,17104,Polina Iatcenko,16002,7-5 7-5
+186190,1078-2026,Adana Open,"Adana, Türkiye",20260926,A,Qualifying 1st Round,0,1,2026-09-26T10:45Z,final,3,19095,Piraye Ozdemir,6403,Lois Boisson,6403,6-1 6-1
+186193,1078-2026,Adana Open,"Adana, Türkiye",20260926,A,Qualifying 1st Round,0,1,2026-09-26T10:45Z,final,3,3070,Isabella Shinikova,8560,Elena Micic,8560,6-2 6-1
+183967,1022-2026,Eupago Porto Open,"Porto, Portugal",20260920,A,Semifinal,11,0,2026-09-26T11:20Z,final,3,10501,Maria Timofeeva,16296,Mia Pohankova,10501,6-2 6-7(3) 6-3
+184014,1077-2026,Turk Telekom Ankara Open,"Ankara, Türkiye",20260920,A,Semifinal,11,0,2026-09-26T12:50Z,final,3,16142,Deniz Dilek,3141,Berfu Cengiz,3141,6-1 6-1
+186197,1078-2026,Adana Open,"Adana, Türkiye",20260926,A,Qualifying Final,0,1,2026-09-27T04:00Z,wo,3,13369,Gina Feistel,15344,Elena Ruxandra Bertea,15344,
