@@ -4226,6 +4226,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R32,209875,Alex Barrena,ARG,212864,Valentin Garay,ARG,6-2 6-2
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R32,210178,Juan Carlos Prado Angelo,BOL,202271,Lorenzo Joaquin Rodriguez,ARG,7-6(5) 7-6(9)
 2026BuenosAires2Challenger,atp,2026-09-21,Clay,R32,212051,Joaquin Aguilar Cardozo,URU,212785,Carlos Maria Zarate,ARG,6-2 6-1
+2026BuenosAires2Challenger,atp,2026-09-21,Clay,SF,106057,Facundo Mena,ARG,208046,Pedro Boscardin Dias,BRA,7-5 6-0
+2026BuenosAires2Challenger,atp,2026-09-21,Clay,SF,209875,Alex Barrena,ARG,212051,Joaquin Aguilar Cardozo,URU,6-4 6-3
 2026Genoa2Challenger,atp,2026-09-21,Clay,Q1,132831,Giovanni Oradini,ITA,144731,Kody Pearson,AUS,6-2 6-2
 2026Genoa2Challenger,atp,2026-09-21,Clay,Q1,207764,Ryan Nijboer,NED,211391,Iannis Miletich,ITA,6-3 6-3
 2026Genoa2Challenger,atp,2026-09-21,Clay,Q1,209164,Lorenzo Rottoli,ITA,122294,Gabriele Maria Noce,ITA,6-3 6-4
@@ -4411,6 +4413,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SanDiego2Challenger,atp,2026-09-21,Hard,R32,212216,Trevor Svajda,USA,210250,Erik Arutiunian,BLR,6-3 6-3
 2026SanDiego2Challenger,atp,2026-09-21,Hard,R32,212256,Colton Smith,USA,111578,Stefan Kozlov,USA,6-4 6-2
 2026SanDiego2Challenger,atp,2026-09-21,Hard,R32,213825,Keaton Hance,USA,211346,Andres Martin,USA,6-4 7-5
+2026SanDiego2Challenger,atp,2026-09-21,Hard,SF,127108,Igor Ribeiro Marcondes,BRA,209355,Timo Legout,FRA,6-7(5) 7-5 7-5
+2026SanDiego2Challenger,atp,2026-09-21,Hard,SF,210460,Nishesh Basavareddy,USA,210157,Dylan Dietrich,SUI,6-7(10) 6-4 5-1 RET
 2026WTAAnkara125,wta,2026-09-21,Hard,Q1,202672,Ekaterina Yashina,RUS,220798,Semra Aksu,TUR,6-2 6-4
 2026WTAAnkara125,wta,2026-09-21,Hard,Q1,215879,Ilay Yoruk,TUR,270145,Sude Ulueren,TUR,6-1 6-0
 2026WTAAnkara125,wta,2026-09-21,Hard,Q1,222878,Melisa Ercan,TUR,260604,Giulia Alessia Monteleone,ITA,6-2 6-0
@@ -4527,4 +4531,5 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTATolentino125,wta,2026-09-21,Clay,R32,256705,Samira De Stefano,ITA,239438,Julie Struplova,CZE,6-0 6-2
 2026WTATolentino125,wta,2026-09-21,Clay,R32,265197,Isabella Maria Serban,ROU,216186,Aneta Laboutkova,CZE,6-3 6-4
 2026WTATolentino125,wta,2026-09-21,Clay,R32,267409,Marta Lombardini,ITA,215878,Aurora Zantedeschi,ITA,4-6 6-2 6-3
+2026WTATolentino125,wta,2026-09-21,Clay,SF,211814,Julia Grabher,AUT,221407,Oksana Selekhmeteva,RUS,7-6(5) 6-1
 2026WTATolentino125,wta,2026-09-21,Clay,SF,215571,Guiomar Maristany Zuleta De Reales,ESP,213620,Jessica Pieri,ITA,6-1 6-2
