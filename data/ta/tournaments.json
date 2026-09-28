@@ -49,6 +49,17 @@
   "surface": "Clay",
   "tour": "atp"
  },
+ "2026BariChallenger": {
+  "city": "Bari",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-09-28T20:00:58",
+  "n": 18,
+  "source": "home",
+  "start": "2026-09-28",
+  "surface": "",
+  "tour": "atp"
+ },
  "2026BiellaChallenger": {
   "city": "Biella",
   "complete": true,
@@ -152,10 +163,10 @@
  },
  "2026BuenosAires2Challenger": {
   "city": "Buenos Aires",
-  "complete": false,
+  "complete": true,
   "country": "Argentina",
-  "fetched": "2026-09-28T08:11:11",
-  "n": 48,
+  "fetched": "2026-09-28T20:00:14",
+  "n": 49,
   "source": "home",
   "start": "2026-09-21",
   "surface": "Clay",
@@ -252,6 +263,17 @@
   "surface": "Clay",
   "tour": "atp"
  },
+ "2026ColumbusChallenger": {
+  "city": "Columbus",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-09-28T20:01:05",
+  "n": 12,
+  "source": "home",
+  "start": "2026-09-28",
+  "surface": "",
+  "tour": "atp"
+ },
  "2026ComoChallenger": {
   "city": "Como",
   "complete": true,
@@ -272,6 +294,17 @@
   "source": "kalendář",
   "start": "2026-07-13",
   "surface": "Clay",
+  "tour": "atp"
+ },
+ "2026CuritibaChallenger": {
+  "city": "Curitiba",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-09-28T20:01:10",
+  "n": 9,
+  "source": "home",
+  "start": "2026-09-28",
+  "surface": "",
   "tour": "atp"
  },
  "2026DublinChallenger": {
@@ -415,12 +448,11 @@
   "tour": "atp"
  },
  "2026JingshanChallenger": {
-  "candidates": [
-   "2026JingshanChallenger"
-  ],
   "city": "Jingshan",
   "complete": false,
   "country": "China",
+  "fetched": "2026-09-28T20:00:36",
+  "n": 10,
   "source": "kalendář",
   "start": "2026-09-28",
   "surface": "Hard",
@@ -549,6 +581,17 @@
   "source": "kalendář",
   "start": "2026-06-29",
   "surface": "Clay",
+  "tour": "atp"
+ },
+ "2026MouilleronleCaptifChallenger": {
+  "city": "MouilleronleCaptif",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-09-28T20:01:16",
+  "n": 16,
+  "source": "home",
+  "start": "2026-09-28",
+  "surface": "",
   "tour": "atp"
  },
  "2026NewportChallenger": {
@@ -833,10 +876,10 @@
  },
  "2026SanDiego2Challenger": {
   "city": "San Diego",
-  "complete": false,
+  "complete": true,
   "country": "United States",
-  "fetched": "2026-09-28T08:11:16",
-  "n": 48,
+  "fetched": "2026-09-28T20:00:19",
+  "n": 49,
   "source": "home",
   "start": "2026-09-21",
   "surface": "Hard",
@@ -1031,12 +1074,11 @@
   "tour": "atp"
  },
  "2026WTAAdana125": {
-  "candidates": [
-   "2026WTAAdana125"
-  ],
   "city": "Adana",
   "complete": false,
   "country": "Turkey",
+  "fetched": "2026-09-28T20:00:47",
+  "n": 15,
   "source": "kalendář",
   "start": "2026-09-28",
   "surface": "Hard",
@@ -1296,7 +1338,7 @@
   "city": "Porto",
   "complete": false,
   "country": "Portugal",
-  "fetched": "2026-09-28T08:11:22",
+  "fetched": "2026-09-28T20:00:25",
   "n": 41,
   "source": "home",
   "start": "2026-09-21",
@@ -1329,7 +1371,7 @@
   "city": "Tolentino",
   "complete": false,
   "country": "Italy",
-  "fetched": "2026-09-28T08:11:27",
+  "fetched": "2026-09-28T20:00:31",
   "n": 39,
   "source": "home",
   "start": "2026-09-21",
