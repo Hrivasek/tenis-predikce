@@ -154,7 +154,7 @@
   "city": "Buenos Aires",
   "complete": false,
   "country": "Argentina",
-  "fetched": "2026-09-27T20:06:13",
+  "fetched": "2026-09-28T08:11:11",
   "n": 48,
   "source": "home",
   "start": "2026-09-21",
@@ -414,6 +414,18 @@
   "surface": "Hard",
   "tour": "atp"
  },
+ "2026JingshanChallenger": {
+  "candidates": [
+   "2026JingshanChallenger"
+  ],
+  "city": "Jingshan",
+  "complete": false,
+  "country": "China",
+  "source": "kalendář",
+  "start": "2026-09-28",
+  "surface": "Hard",
+  "tour": "atp"
+ },
  "2026Kingston2Challenger": {
   "city": "Kingston",
   "complete": true,
@@ -660,6 +672,18 @@
   "surface": "Clay",
   "tour": "atp"
  },
+ "2026Porto2Challenger": {
+  "candidates": [
+   "2026Porto2Challenger"
+  ],
+  "city": "Porto",
+  "complete": false,
+  "country": "Portugal",
+  "source": "kalendář",
+  "start": "2026-09-28",
+  "surface": "Hard",
+  "tour": "atp"
+ },
  "2026PortoChallenger": {
   "candidates": [
    "2026PortoChallenger"
@@ -811,7 +835,7 @@
   "city": "San Diego",
   "complete": false,
   "country": "United States",
-  "fetched": "2026-09-27T20:06:35",
+  "fetched": "2026-09-28T08:11:16",
   "n": 48,
   "source": "home",
   "start": "2026-09-21",
@@ -1006,6 +1030,18 @@
   "surface": "Clay",
   "tour": "atp"
  },
+ "2026WTAAdana125": {
+  "candidates": [
+   "2026WTAAdana125"
+  ],
+  "city": "Adana",
+  "complete": false,
+  "country": "Turkey",
+  "source": "kalendář",
+  "start": "2026-09-28",
+  "surface": "Hard",
+  "tour": "wta"
+ },
  "2026WTAAnkara125": {
   "city": "Ankara",
   "complete": true,
@@ -1154,6 +1190,18 @@
   "surface": "Hard",
   "tour": "wta"
  },
+ "2026WTAJingshan125": {
+  "candidates": [
+   "2026WTAJingshan125"
+  ],
+  "city": "Jingshan",
+  "complete": false,
+  "country": "China",
+  "source": "kalendář",
+  "start": "2026-09-28",
+  "surface": "Hard",
+  "tour": "wta"
+ },
  "2026WTAKitzbuhel125": {
   "candidates": [
    "2026WTAKitzbuhel125"
@@ -1248,7 +1296,7 @@
   "city": "Porto",
   "complete": false,
   "country": "Portugal",
-  "fetched": "2026-09-27T20:06:47",
+  "fetched": "2026-09-28T08:11:22",
   "n": 41,
   "source": "home",
   "start": "2026-09-21",
@@ -1281,7 +1329,7 @@
   "city": "Tolentino",
   "complete": false,
   "country": "Italy",
-  "fetched": "2026-09-27T20:06:52",
+  "fetched": "2026-09-28T08:11:27",
   "n": 39,
   "source": "home",
   "start": "2026-09-21",
