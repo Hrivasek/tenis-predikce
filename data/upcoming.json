@@ -1,5 +1,5 @@
 {
-"fetched": "2026-09-29T18:32:29+00:00",
+"fetched": "2026-09-29T22:54:05+00:00",
 "matches": [
 {
 "match_id": "186135",
@@ -4597,14 +4597,14 @@
 "qualifying": 0,
 "date": "2026-09-29T18:00Z",
 "time_valid": 1,
-"status": "live",
+"status": "ret",
 "best_of": 3,
 "p1_id": "16002",
 "p1_name": "Teodora Kostovic",
 "p2_id": "3141",
 "p2_name": "Berfu Cengiz",
-"winner": "",
-"score": "",
+"winner": "16002",
+"score": "6-1 RET",
 "p1_country": "Serbia",
 "p2_country": "Türkiye",
 "tour": "wta"
@@ -5463,13 +5463,13 @@
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "16002",
+"p1_name": "Teodora Kostovic",
 "p2_id": "2764",
 "p2_name": "Dalma Galfi",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Serbia",
 "p2_country": "Hungary",
 "tour": "wta"
 },
