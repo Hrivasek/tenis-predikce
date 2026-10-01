@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-01T12:04:02+00:00",
+"fetched": "2026-10-01T12:04:56+00:00",
 "matches": [
 {
 "match_id": "186181",
@@ -4429,14 +4429,14 @@
 "qualifying": 0,
 "date": "2026-10-01T09:25Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "3319",
 "p1_name": "Tallon Griekspoor",
 "p2_id": "2642",
 "p2_name": "Andrey Rublev",
-"winner": "",
-"score": "",
+"winner": "2642",
+"score": "6-4 5-7 7-6(6)",
 "p1_country": "Netherlands",
 "p2_country": "Russia",
 "tour": "atp"
@@ -5511,13 +5511,13 @@
 "time_valid": 0,
 "status": "scheduled",
 "best_of": 5,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "2642",
+"p1_name": "Andrey Rublev",
 "p2_id": "2636",
 "p2_name": "Roman Safiullin",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Russia",
 "p2_country": "Russia",
 "tour": "atp"
 },
