@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-01T11:40:42+00:00",
+"fetched": "2026-10-01T11:43:58+00:00",
 "matches": [
 {
 "match_id": "186181",
@@ -4501,14 +4501,14 @@
 "qualifying": 0,
 "date": "2026-10-01T10:30Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "6403",
 "p1_name": "Lois Boisson",
 "p2_id": "2902",
 "p2_name": "Anna Blinkova",
-"winner": "",
-"score": "",
+"winner": "6403",
+"score": "6-0 6-1",
 "p1_country": "France",
 "p2_country": "Russia",
 "tour": "wta"
@@ -5681,12 +5681,12 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "6403",
+"p2_name": "Lois Boisson",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "France",
 "tour": "wta"
 },
 {
