@@ -233,7 +233,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 184267,wta,2026-10-01T03:00Z,China Open,Round 1,Hard,2746,Sofia Kenin,6724,Ashlyn Krueger,2399.6,2499.4,513,325,0.3903,2026-09-28T12:45+02:00,final,6724,6-3 6-3,v3,
 184286,wta,2026-10-01T03:00Z,China Open,Round 1,Hard,13478,Yuliia Starodubtseva,6570,Alina Charaeva,2503.6,2389.0,256,315,0.6253,2026-09-28T12:45+02:00,final,6570,5-7 7-5 6-2,v3,
 183484,atp,2026-10-01T03:30Z,Kinoshita Group Japan Open Tennis Championships,Round 1,Hard,3659,Holger Rune,7509,Kyrian Jacquet,2527.5,2285.4,411,377,0.8176,2026-09-28T20:01+02:00,final,7509,6-3 6-1,v3,1
-183487,atp,2026-10-01T03:30Z,Kinoshita Group Japan Open Tennis Championships,Round 1,Hard,1035,Kei Nishikori,2708,Frances Tiafoe,2344.9,2553.0,821,698,0.2167,2026-09-28T12:45+02:00,live,,,v3,
+183487,atp,2026-10-01T03:30Z,Kinoshita Group Japan Open Tennis Championships,Round 1,Hard,1035,Kei Nishikori,2708,Frances Tiafoe,2344.9,2553.0,821,698,0.2167,2026-09-28T12:45+02:00,final,2708,6-4 6-4,v3,
 183494,atp,2026-10-01T03:30Z,Kinoshita Group Japan Open Tennis Championships,Round 1,Hard,3739,Tomas Martin Etcheverry,2869,Stefanos Tsitsipas,2339.3,2486.6,605,783,0.2881,2026-09-29T14:34+02:00,final,2869,4-6 6-3 6-4,v3,
 183441,atp,2026-10-01T04:30Z,China Open,Round 1,Hard,2636,Roman Safiullin,7602,Flavio Cobolli,2362.7,2418.5,643,426,0.4154,2026-09-28T20:01+02:00,live,,,v3,
 183445,atp,2026-10-01T04:30Z,China Open,Round 1,Hard,11226,Ignacio Buse,2362,Quentin Halys,2332.1,2344.2,278,791,0.4815,2026-09-28T12:45+02:00,live,,,v3,
@@ -298,7 +298,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 184309,wta,2026-10-02T04:00Z,China Open,Round 2,Hard,3039,Karolina Muchova,2054,Katie Boulter,2836.1,2545.9,451,561,0.7852,2026-09-30T18:45+02:00,scheduled,,,v3,
 184318,wta,2026-10-02T04:00Z,China Open,Round 2,Hard,6970,Linda Noskova,2748,Elena-Gabriela Ruse,2782.6,2603.0,322,535,0.6905,2026-09-30T08:01+02:00,scheduled,,,v3,
 183502,atp,2026-10-02T07:00Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,7509,Kyrian Jacquet,7833,Luciano Darderi,2325.6,2360.2,378,399,0.4473,2026-10-01T08:45+02:00,scheduled,,,v3,
-183505,atp,2026-10-02T08:30Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,10052,Arthur Fils,-4,TBD,2635.0,1500.0,320,0,0.9995,2026-09-30T12:24+02:00,scheduled,,,v3,
+183505,atp,2026-10-02T08:30Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,10052,Arthur Fils,2708,Frances Tiafoe,2635.0,2556.9,320,699,0.6173,2026-10-01T08:45+02:00,scheduled,,,v3,
 183500,atp,2026-10-03T04:00Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,-3,TBD,2970,Alejandro Tabilo,1500.0,2418.2,0,625,0.0022,2026-09-30T08:01+02:00,scheduled,,,v3,
 183501,atp,2026-10-03T04:00Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,-3,TBD,3793,Matteo Arnaldi,1500.0,2285.6,0,380,0.0056,2026-09-30T18:45+02:00,scheduled,,,v3,
 183504,atp,2026-10-03T04:00Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,3085,Ugo Humbert,-4,TBD,2463.7,1500.0,604,0,0.9984,2026-10-01T08:45+02:00,scheduled,,,v3,
