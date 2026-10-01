@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-01T06:47:56+00:00",
+"fetched": "2026-10-01T06:48:58+00:00",
 "matches": [
 {
 "match_id": "186181",
@@ -4117,14 +4117,14 @@
 "qualifying": 0,
 "date": "2026-10-01T05:45Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "13530",
 "p1_name": "Aoi Ito",
 "p2_id": "2588",
 "p2_name": "Kimberly Birrell",
-"winner": "",
-"score": "",
+"winner": "2588",
+"score": "6-1 6-1",
 "p1_country": "Japan",
 "p2_country": "Australia",
 "tour": "wta"
@@ -5969,12 +5969,12 @@
 "best_of": 3,
 "p1_id": "2392",
 "p1_name": "Marie Bouzkova",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "2588",
+"p2_name": "Kimberly Birrell",
 "winner": "",
 "score": "",
 "p1_country": "Czechia",
-"p2_country": "",
+"p2_country": "Australia",
 "tour": "wta"
 },
 {
