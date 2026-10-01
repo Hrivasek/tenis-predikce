@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-01T11:56:05+00:00",
+"fetched": "2026-10-01T11:57:05+00:00",
 "matches": [
 {
 "match_id": "186181",
@@ -4453,14 +4453,14 @@
 "qualifying": 0,
 "date": "2026-10-01T09:30Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "3212",
 "p1_name": "Alejandro Davidovich Fokina",
 "p2_id": "2622",
 "p2_name": "Matteo Berrettini",
-"winner": "",
-"score": "",
+"winner": "2622",
+"score": "1-6 7-6(1) 6-4",
 "p1_country": "Spain",
 "p2_country": "Italy",
 "tour": "atp"
@@ -5439,13 +5439,13 @@
 "time_valid": 0,
 "status": "scheduled",
 "best_of": 5,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "2622",
+"p1_name": "Matteo Berrettini",
 "p2_id": "11396",
 "p2_name": "Adolfo Daniel Vallejo",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Italy",
 "p2_country": "Paraguay",
 "tour": "atp"
 },
