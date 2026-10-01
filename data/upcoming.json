@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-01T11:43:58+00:00",
+"fetched": "2026-10-01T11:45:00+00:00",
 "matches": [
 {
 "match_id": "186181",
@@ -4525,14 +4525,14 @@
 "qualifying": 0,
 "date": "2026-10-01T10:35Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "11396",
 "p1_name": "Adolfo Daniel Vallejo",
 "p2_id": "12657",
 "p2_name": "Rafael Jodar",
-"winner": "",
-"score": "",
+"winner": "11396",
+"score": "6-1 6-3",
 "p1_country": "Paraguay",
 "p2_country": "Spain",
 "tour": "atp"
@@ -5441,12 +5441,12 @@
 "best_of": 5,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "11396",
+"p2_name": "Adolfo Daniel Vallejo",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Paraguay",
 "tour": "atp"
 },
 {
