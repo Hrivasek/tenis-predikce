@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-02T18:25:35+00:00",
+"fetched": "2026-10-02T21:14:50+00:00",
 "matches": [
 {
 "match_id": "186181",
@@ -5389,14 +5389,14 @@
 "qualifying": 0,
 "date": "2026-10-02T18:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "6816",
 "p1_name": "Antonia Ruzic",
 "p2_id": "16002",
 "p2_name": "Teodora Kostovic",
-"winner": "",
-"score": "",
+"winner": "6816",
+"score": "4-6 6-4 6-2",
 "p1_country": "Croatia",
 "p2_country": "Serbia",
 "tour": "wta"
@@ -6279,13 +6279,13 @@
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "6816",
+"p1_name": "Antonia Ruzic",
 "p2_id": "4453",
 "p2_name": "Leolia Jeanjean",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Croatia",
 "p2_country": "France",
 "tour": "wta"
 },
