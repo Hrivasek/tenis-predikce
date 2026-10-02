@@ -290,10 +290,10 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 183505,atp,2026-10-02T09:45Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,10052,Arthur Fils,2708,Frances Tiafoe,2635.0,2556.9,320,699,0.6173,2026-10-01T08:45+02:00,final,10052,6-3 7-5,v3,
 183442,atp,2026-10-02T11:00Z,China Open,Round 2,Hard,2726,Hubert Hurkacz,10427,Arthur Gea,2501.7,2402.1,660,252,0.6481,2026-10-01T19:19+02:00,final,2726,7-6(5) 6-7(5) 6-2,v3,
 184295,wta,2026-10-02T11:00Z,China Open,Round 2,Hard,2751,Renata Zarazua,3038,Aryna Sabalenka,2406.1,3083.9,676,707,0.0462,2026-09-30T18:45+02:00,final,3038,6-1 6-3,v3,
-184147,wta,2026-10-02T12:00Z,Adana Open,Quarterfinal,Hard,4453,Leolia Jeanjean,8067,Lucrezia Stefanini,2380.3,2357.7,417,581,0.5252,2026-10-01T08:45+02:00,other,,,v3,
+184147,wta,2026-10-02T12:00Z,Adana Open,Quarterfinal,Hard,4453,Leolia Jeanjean,8067,Lucrezia Stefanini,2380.3,2357.7,417,581,0.5252,2026-10-01T08:45+02:00,final,4453,6-4 1-6 6-1,v3,
 184149,wta,2026-10-02T12:00Z,Adana Open,Quarterfinal,Hard,14946,Elena Pridankina,7438,Erika Andreeva,2318.7,2310.3,289,348,0.5094,2026-09-30T18:45+02:00,final,7438,1-6 6-1 6-3,v3,
 183453,atp,2026-10-02T12:30Z,China Open,Round 2,Hard,11382,Bu Yunchaokete,296,Novak Djokovic,2333.5,2776.1,320,1448,0.0570,2026-09-30T18:45+02:00,final,296,4-6 7-6(2) 6-2,v3,
-184148,wta,2026-10-02T17:45Z,Adana Open,Quarterfinal,Hard,6816,Antonia Ruzic,16002,Teodora Kostovic,2443.4,2386.4,346,120,0.5633,2026-09-30T18:45+02:00,scheduled,,,v3,
+184148,wta,2026-10-02T17:45Z,Adana Open,Quarterfinal,Hard,6816,Antonia Ruzic,16002,Teodora Kostovic,2443.4,2386.4,346,120,0.5633,2026-09-30T18:45+02:00,live,,,v3,
 183500,atp,2026-10-03T02:00Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,2860,Denis Shapovalov,2970,Alejandro Tabilo,2453.3,2418.2,566,625,0.5536,2026-10-01T12:51+02:00,scheduled,,,v3,
 183450,atp,2026-10-03T03:00Z,China Open,Round 2,Hard,2651,Alex de Minaur,2362,Quentin Halys,2560.7,2356.1,668,792,0.7796,2026-10-01T12:51+02:00,scheduled,,,v3,
 184311,wta,2026-10-03T03:00Z,China Open,Round 2,Hard,3626,Coco Gauff,3404,Camila Osorio,2997.7,2560.9,435,389,0.8756,2026-10-01T19:19+02:00,scheduled,,,v3,
@@ -301,8 +301,6 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 184320,wta,2026-10-03T03:00Z,China Open,Round 2,Hard,2040,Donna Vekic,2780,Zhu Lin,2478.0,2452.5,737,721,0.5284,2026-10-01T13:38+02:00,scheduled,,,v3,
 184325,wta,2026-10-03T03:00Z,China Open,Round 2,Hard,6724,Ashlyn Krueger,3380,Ann Li,2513.9,2559.6,326,455,0.4492,2026-10-01T08:45+02:00,scheduled,,,v3,
 183501,atp,2026-10-03T03:30Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,3782,Carlos Alcaraz,3793,Matteo Arnaldi,2868.2,2285.6,457,380,0.9772,2026-10-01T12:51+02:00,scheduled,,,v3,
-184151,wta,2026-10-03T04:00Z,Adana Open,Semifinal,Hard,7438,Erika Andreeva,6403,Lois Boisson,2322.5,2477.9,349,237,0.3331,2026-10-02T18:35+02:00,scheduled,,,v3,1
-184153,wta,2026-10-03T04:00Z,Adana Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-25T08:36+02:00,scheduled,,,v3,
 184199,wta,2026-10-03T04:30Z,Jingshan Tennis Open,Semifinal,Hard,12287,Emerson Jones,10858,Alexandra Shubladze,2375.3,2447.1,144,211,0.4205,2026-10-02T12:25+02:00,scheduled,,,v3,1
 184312,wta,2026-10-03T04:30Z,China Open,Round 2,Hard,2248,Katerina Siniakova,1797,Elina Svitolina,2665.4,2861.6,699,830,0.2939,2026-10-01T12:51+02:00,scheduled,,,v3,
 184313,wta,2026-10-03T04:30Z,China Open,Round 2,Hard,3018,Maria Sakkari,2140,Storm Hunter,2617.2,2440.7,834,397,0.6875,2026-10-01T12:51+02:00,scheduled,,,v3,
@@ -322,7 +320,9 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 183452,atp,2026-10-03T09:00Z,China Open,Round 2,Hard,2383,Daniil Medvedev,2337,Jan-Lennard Struff,2597.5,2302.0,838,1039,0.8630,2026-10-02T11:29+02:00,scheduled,,,v3,
 183446,atp,2026-10-03T11:00Z,China Open,Round 2,Hard,2375,Alexander Zverev,10073,Shang Juncheng,2709.5,2308.6,900,224,0.9261,2026-10-01T12:51+02:00,scheduled,,,v3,
 184322,wta,2026-10-03T11:00Z,China Open,Round 2,Hard,7209,Sonay Kartal,3387,Wang Xinyu,2668.5,2536.5,236,442,0.6433,2026-10-01T08:45+02:00,scheduled,,,v3,
+184151,wta,2026-10-03T12:00Z,Adana Open,Semifinal,Hard,7438,Erika Andreeva,6403,Lois Boisson,2322.5,2477.9,349,237,0.3331,2026-10-02T18:35+02:00,scheduled,,,v3,1
 184323,wta,2026-10-03T12:30Z,China Open,Round 2,Hard,3126,Elena Rybakina,6570,Alina Charaeva,3078.2,2405.0,566,316,0.9529,2026-10-01T08:45+02:00,scheduled,,,v3,
+184153,wta,2026-10-03T13:00Z,Adana Open,Semifinal,Hard,-3,TBD,4453,Leolia Jeanjean,1500.0,2389.5,0,418,0.0185,2026-10-02T20:25+02:00,scheduled,,,v3,
 183462,atp,2026-10-04T04:00Z,China Open,Quarterfinal,Hard,2726,Hubert Hurkacz,2367,Karen Khachanov,2508.2,2473.7,661,742,0.5525,2026-10-02T18:35+02:00,scheduled,,,v3,
 183463,atp,2026-10-04T04:00Z,China Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-27T08:21+02:00,scheduled,,,v3,
 183464,atp,2026-10-04T04:00Z,China Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-27T08:21+02:00,scheduled,,,v3,
