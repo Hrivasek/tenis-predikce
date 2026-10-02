@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-02T09:35:34+00:00",
+"fetched": "2026-10-02T09:38:00+00:00",
 "matches": [
 {
 "match_id": "186181",
@@ -5221,7 +5221,7 @@
 "qualifying": 0,
 "date": "2026-10-02T09:30Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "7804",
 "p1_name": "Nikola Bartunkova",

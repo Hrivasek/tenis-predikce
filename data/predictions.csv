@@ -286,7 +286,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 184309,wta,2026-10-02T07:00Z,China Open,Round 2,Hard,3039,Karolina Muchova,2054,Katie Boulter,2836.1,2545.9,451,561,0.7852,2026-09-30T18:45+02:00,final,3039,7-6(3) 6-1,v3,
 184307,wta,2026-10-02T08:15Z,China Open,Round 2,Hard,7819,Sara Bejlek,2584,Maddison Inglis,2617.1,2358.1,261,461,0.7608,2026-09-30T12:24+02:00,live,,,v3,
 184306,wta,2026-10-02T08:30Z,China Open,Round 2,Hard,10501,Maria Timofeeva,2789,Naomi Osaka,2545.0,2842.9,348,496,0.2090,2026-09-30T08:01+02:00,live,,,v3,
-184296,wta,2026-10-02T09:30Z,China Open,Round 2,Hard,7804,Nikola Bartunkova,2672,Magdalena Frech,2602.1,2531.4,241,675,0.5782,2026-09-30T18:45+02:00,scheduled,,,v3,
+184296,wta,2026-10-02T09:30Z,China Open,Round 2,Hard,7804,Nikola Bartunkova,2672,Magdalena Frech,2602.1,2531.4,241,675,0.5782,2026-09-30T18:45+02:00,live,,,v3,
 183505,atp,2026-10-02T09:40Z,Kinoshita Group Japan Open Tennis Championships,Round 2,Hard,10052,Arthur Fils,2708,Frances Tiafoe,2635.0,2556.9,320,699,0.6173,2026-10-01T08:45+02:00,scheduled,,,v3,
 183442,atp,2026-10-02T11:00Z,China Open,Round 2,Hard,2726,Hubert Hurkacz,10427,Arthur Gea,2501.7,2402.1,660,252,0.6481,2026-10-01T19:19+02:00,scheduled,,,v3,
 184295,wta,2026-10-02T11:00Z,China Open,Round 2,Hard,2751,Renata Zarazua,3038,Aryna Sabalenka,2406.1,3083.9,676,707,0.0462,2026-09-30T18:45+02:00,scheduled,,,v3,
