@@ -4584,6 +4584,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026BariChallenger,atp,2026-09-28,,R32,211533,Gianluca Cadenasso,ITA,209917,Benito Sanchez Martinez,GER,6-3 6-1
 2026BariChallenger,atp,2026-09-28,,R32,212305,Juan Cruz Martin Manzano,ITA,214126,Matteo Sciahbasi,ITA,7-5 6-3
 2026BariChallenger,atp,2026-09-28,,R32,213003,Pierluigi Basile,ITA,208328,Max Wiskandt,GER,6-7(6) 7-6(2) 6-3
+2026BariChallenger,atp,2026-09-28,,SF,210129,Samuele Pieri,ITA,126964,Vitaliy Sachko,UKR,5-7 6-4 6-2
+2026BariChallenger,atp,2026-09-28,,SF,212305,Juan Cruz Martin Manzano,ITA,210054,Matthew William Donald,CZE,6-3 6-2
 2026ColumbusChallenger,atp,2026-09-28,,Q1,111454,Li Tu,AUS,211664,Nicolas Oliveira,BRA,6-2 6-3
 2026ColumbusChallenger,atp,2026-09-28,,Q1,126206,Alex Rybakov,USA,212733,Matthew Forbes,USA,7-5 6-3
 2026ColumbusChallenger,atp,2026-09-28,,Q1,200366,Olukayode Alafia Damina Ayeni,USA,209971,Michael Bassem Sobhy,EGY,6-3 6-0
@@ -4604,6 +4606,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026ColumbusChallenger,atp,2026-09-28,,Q2,211673,Duncan Chan,CAN,213825,Keaton Hance,USA,6-3 6-2
 2026ColumbusChallenger,atp,2026-09-28,,QF,106283,Mitchell Krueger,USA,202333,Keegan Smith,USA,6-4 7-6(4)
 2026ColumbusChallenger,atp,2026-09-28,,QF,200748,Andres Andrade,ECU,212219,Mees Rottgering,NED,6-3 7-6(5)
+2026ColumbusChallenger,atp,2026-09-28,,QF,209406,Abedallah Shelbayh,JOR,208854,Aidan Mayo,USA,7-6(7) 7-5
 2026ColumbusChallenger,atp,2026-09-28,,QF,210157,Dylan Dietrich,SUI,210464,Darwin Blanch,USA,6-3 6-3
 2026ColumbusChallenger,atp,2026-09-28,,R16,106283,Mitchell Krueger,USA,111578,Stefan Kozlov,USA,6-2 3-6 6-3
 2026ColumbusChallenger,atp,2026-09-28,,R16,200748,Andres Andrade,ECU,207664,Luca Staeheli,SUI,6-3 7-6(7)
@@ -4646,6 +4649,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026CuritibaChallenger,atp,2026-09-28,,Q2,212831,Samuel Heredia,COL,126581,Juan Sebastian Osorio,COL,7-6(5) 5-7 6-4
 2026CuritibaChallenger,atp,2026-09-28,,QF,144642,Tomas Barrios Vera,CHI,207799,Matheus Pucinelli De Almeida,BRA,6-1 3-6 6-3
 2026CuritibaChallenger,atp,2026-09-28,,QF,207815,Guido Ivan Justo,ARG,106380,Gonzalo Villanueva,ARG,6-2 6-4
+2026CuritibaChallenger,atp,2026-09-28,,QF,208046,Pedro Boscardin Dias,BRA,213036,Luis Guto Miguel,BRA,6-3 5-7 6-2
+2026CuritibaChallenger,atp,2026-09-28,,QF,208361,Gustavo Heide,BRA,210510,Lautaro Midon,ARG,6-2 6-4
 2026CuritibaChallenger,atp,2026-09-28,,R16,106380,Gonzalo Villanueva,ARG,127123,Mateus Alves,BRA,6-2 6-3
 2026CuritibaChallenger,atp,2026-09-28,,R16,144642,Tomas Barrios Vera,CHI,208913,Juan Bautista Torres,ARG,6-2 6-3
 2026CuritibaChallenger,atp,2026-09-28,,R16,207799,Matheus Pucinelli De Almeida,BRA,206307,Joao Lucas Reis Da Silva,BRA,6-3 4-6 6-3
@@ -4724,6 +4729,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,Q2,209258,Alexandre Reco,FRA,200452,Patrick Zahraj,GER,7-5 6-3
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,Q2,211542,Filippo Romano,ITA,126106,Ryan Peniston,GBR,6-2 6-3
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,Q2,211901,Yanis Ghazouani Durand,FRA,210223,Leonardo Rossi,ITA,6-4 7-5
+2026MouilleronleCaptifChallenger,atp,2026-09-28,,QF,148679,Henry Bernet,SUI,213149,Felix Balshaw,FRA,3-6 6-2 6-3
+2026MouilleronleCaptifChallenger,atp,2026-09-28,,QF,206889,Clement Chidekh,FRA,208004,Harold Mayot,FRA,3-6 6-2 2-0 RET
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,QF,209849,Sascha Gueymard Wayenburg,FRA,202127,Clement Tabur,FRA,2-6 6-3 6-4
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,QF,212082,Joel Schwaerzler,AUT,131911,Lucas Poullain,FRA,6-4 6-1
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,R16,131911,Lucas Poullain,FRA,200329,Remy Bertola,SUI,3-6 7-5 6-3
@@ -4750,6 +4757,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,R32,212082,Joel Schwaerzler,AUT,132744,Alberto Barroso Campos,ESP,6-3 7-5
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,R32,212225,Thomas Faurel,FRA,209957,Jack Pinnington Jones,GBR,6-2 6-4
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,R32,213149,Felix Balshaw,FRA,126129,Billy Harris,GBR,7-6(6) 3-6 7-6(3)
+2026MouilleronleCaptifChallenger,atp,2026-09-28,,SF,209849,Sascha Gueymard Wayenburg,FRA,212082,Joel Schwaerzler,AUT,6-4 6-2
 2026WTAAdana125,wta,2026-09-28,Hard,Q1,214149,Viktoria Hruncakova,SVK,214271,Jaeda Daniel,USA,6-4 6-3
 2026WTAAdana125,wta,2026-09-28,Hard,Q1,220680,Fiona Crawley,USA,263853,Adelina Lachinova,LAT,4-6 6-3 6-3
 2026WTAAdana125,wta,2026-09-28,Hard,Q1,221073,Anastasia Tikhonova,RUS,222762,Aysegul Mert,TUR,7-6(3) 6-2
@@ -4803,6 +4811,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTAAdana125,wta,2026-09-28,Hard,R32,222965,Erika Andreeva,RUS,223325,Polina Iatcenko,RUS,6-3 6-2
 2026WTAAdana125,wta,2026-09-28,Hard,R32,239389,Elena Pridankina,RUS,213767,Ayla Aksu,USA,6-3 6-3
 2026WTAAdana125,wta,2026-09-28,Hard,R32,267439,Teodora Kostovic,SRB,214507,Berfu Cengiz,TUR,6-1 0-0 RET
+2026WTAAdana125,wta,2026-09-28,Hard,SF,206417,Leolia Jeanjean,FRA,222045,Antonia Ruzic,CRO,4-6 6-1 6-3
+2026WTAAdana125,wta,2026-09-28,Hard,SF,222391,Lois Boisson,FRA,222965,Erika Andreeva,RUS,6-3 4-6 6-2
 2026WTAJingshan125,wta,2026-09-28,Hard,Q1,213821,Wushuang Zheng,CHN,210672,Polina Leykina,RUS,6-2 6-2
 2026WTAJingshan125,wta,2026-09-28,Hard,Q1,215134,Chengyiyi Yuan,CHN,220713,Nika Radisic,SLO,6-2 6-3
 2026WTAJingshan125,wta,2026-09-28,Hard,Q1,216162,Meiqi Guo,CHN,221229,Natsumi Kawaguchi,JPN,6-0 6-3
@@ -4858,3 +4868,5 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTAJingshan125,wta,2026-09-28,Hard,R32,263644,Emerson Jones,AUS,211844,Haruka Kaji,JPN,6-2 6-4
 2026WTAJingshan125,wta,2026-09-28,Hard,R32,264064,Chenting Zhu,CHN,260170,Sara Saito,JPN,6-2 6-3
 2026WTAJingshan125,wta,2026-09-28,Hard,R32,264205,Yuhan Wang,CHN,221945,Amelia Rajecki,GBR,6-4 3-6 7-6(1)
+2026WTAJingshan125,wta,2026-09-28,Hard,SF,222601,Jessica Bouzas Maneiro,ESP,221434,Aliona Falei,BLR,6-3 6-3
+2026WTAJingshan125,wta,2026-09-28,Hard,SF,260168,Alexandra Shubladze,RUS,263644,Emerson Jones,AUS,7-5 6-4
