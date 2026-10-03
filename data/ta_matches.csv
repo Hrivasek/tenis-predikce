@@ -4556,6 +4556,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026BariChallenger,atp,2026-09-28,,Q2,210054,Matthew William Donald,CZE,212029,Dimitris Sakellaridis,GRE,7-5 7-6(6)
 2026BariChallenger,atp,2026-09-28,,Q2,210145,John Sperle,GER,106162,Franco Agamenone,ITA,6-2 1-6 7-6(5)
 2026BariChallenger,atp,2026-09-28,,Q2,213003,Pierluigi Basile,ITA,209191,Oleksandr Ovcharenko,UKR,3-6 7-5 6-1
+2026BariChallenger,atp,2026-09-28,,QF,126964,Vitaliy Sachko,UKR,211533,Gianluca Cadenasso,ITA,4-6 6-2 3-0 RET
+2026BariChallenger,atp,2026-09-28,,QF,210054,Matthew William Donald,CZE,209322,Martin Krumich,CZE,4-6 6-1 6-3
+2026BariChallenger,atp,2026-09-28,,QF,210129,Samuele Pieri,ITA,126535,Carlos Taberner,ESP,6-4 4-6 6-3
+2026BariChallenger,atp,2026-09-28,,QF,212305,Juan Cruz Martin Manzano,ITA,133872,Enrico Dalla Valle,ITA,6-1 6-2
 2026BariChallenger,atp,2026-09-28,,R16,126535,Carlos Taberner,ESP,210668,Massimo Giunta,ITA,6-2 6-2
 2026BariChallenger,atp,2026-09-28,,R16,126964,Vitaliy Sachko,UKR,106220,Dimitar Kuzmanov,BUL,6-3 6-1
 2026BariChallenger,atp,2026-09-28,,R16,133872,Enrico Dalla Valle,ITA,200436,Zsombor Piros,HUN,6-4 6-2
@@ -4598,6 +4602,9 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026ColumbusChallenger,atp,2026-09-28,,Q2,209867,Daniil Ostapenkov,BLR,209088,Quinn Vandecasteele,USA,6-2 7-6(3)
 2026ColumbusChallenger,atp,2026-09-28,,Q2,210744,Kaylan Bigun,USA,200366,Olukayode Alafia Damina Ayeni,USA,6-3 6-2
 2026ColumbusChallenger,atp,2026-09-28,,Q2,211673,Duncan Chan,CAN,213825,Keaton Hance,USA,6-3 6-2
+2026ColumbusChallenger,atp,2026-09-28,,QF,106283,Mitchell Krueger,USA,202333,Keegan Smith,USA,6-4 7-6(4)
+2026ColumbusChallenger,atp,2026-09-28,,QF,200748,Andres Andrade,ECU,212219,Mees Rottgering,NED,6-3 7-6(5)
+2026ColumbusChallenger,atp,2026-09-28,,QF,210157,Dylan Dietrich,SUI,210464,Darwin Blanch,USA,6-3 6-3
 2026ColumbusChallenger,atp,2026-09-28,,R16,106283,Mitchell Krueger,USA,111578,Stefan Kozlov,USA,6-2 3-6 6-3
 2026ColumbusChallenger,atp,2026-09-28,,R16,200748,Andres Andrade,ECU,207664,Luca Staeheli,SUI,6-3 7-6(7)
 2026ColumbusChallenger,atp,2026-09-28,,R16,202333,Keegan Smith,USA,210416,Bryce Nakashima,USA,6-4 3-6 7-5
@@ -4637,6 +4644,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026CuritibaChallenger,atp,2026-09-28,,Q2,208063,Paulo Andre Saraiva Dos Santos,BRA,211662,Gabriel Schenekenberg,BRA,7-5 6-4
 2026CuritibaChallenger,atp,2026-09-28,,Q2,212762,Victor Hugo Remondy Pagotto,BRA,210218,Bruno Fernandez,BRA,7-6(1) 4-6 6-3
 2026CuritibaChallenger,atp,2026-09-28,,Q2,212831,Samuel Heredia,COL,126581,Juan Sebastian Osorio,COL,7-6(5) 5-7 6-4
+2026CuritibaChallenger,atp,2026-09-28,,QF,144642,Tomas Barrios Vera,CHI,207799,Matheus Pucinelli De Almeida,BRA,6-1 3-6 6-3
+2026CuritibaChallenger,atp,2026-09-28,,QF,207815,Guido Ivan Justo,ARG,106380,Gonzalo Villanueva,ARG,6-2 6-4
 2026CuritibaChallenger,atp,2026-09-28,,R16,106380,Gonzalo Villanueva,ARG,127123,Mateus Alves,BRA,6-2 6-3
 2026CuritibaChallenger,atp,2026-09-28,,R16,144642,Tomas Barrios Vera,CHI,208913,Juan Bautista Torres,ARG,6-2 6-3
 2026CuritibaChallenger,atp,2026-09-28,,R16,207799,Matheus Pucinelli De Almeida,BRA,206307,Joao Lucas Reis Da Silva,BRA,6-3 4-6 6-3
@@ -4715,6 +4724,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,Q2,209258,Alexandre Reco,FRA,200452,Patrick Zahraj,GER,7-5 6-3
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,Q2,211542,Filippo Romano,ITA,126106,Ryan Peniston,GBR,6-2 6-3
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,Q2,211901,Yanis Ghazouani Durand,FRA,210223,Leonardo Rossi,ITA,6-4 7-5
+2026MouilleronleCaptifChallenger,atp,2026-09-28,,QF,209849,Sascha Gueymard Wayenburg,FRA,202127,Clement Tabur,FRA,2-6 6-3 6-4
+2026MouilleronleCaptifChallenger,atp,2026-09-28,,QF,212082,Joel Schwaerzler,AUT,131911,Lucas Poullain,FRA,6-4 6-1
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,R16,131911,Lucas Poullain,FRA,200329,Remy Bertola,SUI,3-6 7-5 6-3
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,R16,148679,Henry Bernet,SUI,208502,Dominic Stricker,SUI,6-1 7-6(4)
 2026MouilleronleCaptifChallenger,atp,2026-09-28,,R16,202127,Clement Tabur,FRA,212225,Thomas Faurel,FRA,6-1 6-4
@@ -4748,6 +4759,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTAAdana125,wta,2026-09-28,Hard,Q2,221073,Anastasia Tikhonova,RUS,214149,Viktoria Hruncakova,SVK,6-1 6-2
 2026WTAAdana125,wta,2026-09-28,Hard,Q2,222965,Erika Andreeva,RUS,239397,Elena Micic,AUS,6-2 6-2
 2026WTAAdana125,wta,2026-09-28,Hard,Q2,246493,Elena Ruxandra Bertea,ROU,252531,Gina Feistel,GER,W/O
+2026WTAAdana125,wta,2026-09-28,Hard,QF,206417,Leolia Jeanjean,FRA,214593,Lucrezia Stefanini,ITA,6-4 1-6 6-1
+2026WTAAdana125,wta,2026-09-28,Hard,QF,222045,Antonia Ruzic,CRO,267439,Teodora Kostovic,SRB,4-6 6-4 6-2
 2026WTAAdana125,wta,2026-09-28,Hard,QF,222391,Lois Boisson,FRA,215020,Anna Blinkova,FRA,6-0 6-1
 2026WTAAdana125,wta,2026-09-28,Hard,QF,222965,Erika Andreeva,RUS,239389,Elena Pridankina,RUS,1-6 6-1 6-3
 2026WTAAdana125,wta,2026-09-28,Hard,R16,201666,Cagla Buyukakcay,TUR,220733,Carole Monnet,FRA,2-6 6-3 7-6(5)
