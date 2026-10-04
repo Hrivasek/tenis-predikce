@@ -340,7 +340,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 183465,atp,2026-10-04T11:00Z,China Open,Quarterfinal,Hard,2375,Alexander Zverev,296,Novak Djokovic,2711.2,2776.6,901,1449,0.4013,2026-10-03T16:38+02:00,final,296,4-6 6-4 6-4,v3,
 184339,wta,2026-10-04T11:00Z,China Open,Round 3,Hard,7819,Sara Bejlek,2789,Naomi Osaka,2624.8,2845.6,262,497,0.2716,2026-10-02T18:35+02:00,final,2789,7-6(4) 6-4,v3,
 184340,wta,2026-10-04T12:30Z,China Open,Round 3,Hard,3039,Karolina Muchova,3840,Liudmila Samsonova,2841.4,2626.3,452,526,0.7233,2026-10-02T11:29+02:00,final,3039,4-6 6-4 6-2,v3,
-184152,wta,2026-10-04T15:00Z,Adana Open,Final,Hard,4453,Leolia Jeanjean,6403,Lois Boisson,2407.9,2488.8,419,238,0.4107,2026-10-03T20:01+02:00,live,,,v3,
+184152,wta,2026-10-04T15:00Z,Adana Open,Final,Hard,4453,Leolia Jeanjean,6403,Lois Boisson,2407.9,2488.8,419,238,0.4107,2026-10-03T20:01+02:00,final,4453,7-6(3) 4-6 6-4,v3,
 184337,wta,2026-10-05T03:00Z,China Open,Round 3,Hard,2040,Donna Vekic,3730,Iga Swiatek,2490.0,2980.8,738,527,0.1004,2026-10-03T10:36+02:00,scheduled,,,v3,
 185267,wta,2026-10-05T03:30Z,Suzhou Open,Round 1,Hard,15423,Zhang Ruien,12846,Tatiana Prozorova,1913.5,2484.7,105,290,0.0723,2026-10-04T12:30+02:00,scheduled,,,v3,
 185268,wta,2026-10-05T03:30Z,Suzhou Open,Round 1,Hard,14955,Alevtina Ibragimova,2738,Rebecca Sramkova,2278.4,2401.9,212,615,0.3654,2026-10-04T12:30+02:00,scheduled,,,v3,
@@ -378,7 +378,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185223,wta,2026-10-06T04:00Z,Samsun Open,Round 1,Hard,3184,Emiliana Arango,3185,Ayla Aksu,2308.4,2189.1,420,568,0.6301,2026-10-04T17:43+02:00,scheduled,,,v3,
 185224,wta,2026-10-06T04:00Z,Samsun Open,Round 1,Hard,14946,Elena Pridankina,2902,Anna Blinkova,2305.7,2441.3,290,612,0.3530,2026-10-04T17:43+02:00,scheduled,,,v3,
 185228,wta,2026-10-06T04:00Z,Samsun Open,Round 1,Hard,6816,Antonia Ruzic,10831,Alicia Dudeney,2434.9,2334.3,348,104,0.6105,2026-10-04T17:43+02:00,scheduled,,,v3,1
-185230,wta,2026-10-06T04:00Z,Samsun Open,Round 1,Hard,4453,Leolia Jeanjean,-4,TBD,2407.9,1500.0,419,0,0.9830,2026-10-04T17:43+02:00,scheduled,,,v3,
+185230,wta,2026-10-06T04:00Z,Samsun Open,Round 1,Hard,4453,Leolia Jeanjean,-4,TBD,2417.0,1500.0,420,0,0.9836,2026-10-05T00:57+02:00,scheduled,,,v3,
 185231,wta,2026-10-06T04:00Z,Samsun Open,Round 1,Hard,2979,Bianca Andreescu,-4,TBD,2478.0,1500.0,345,0,0.9875,2026-10-04T17:43+02:00,scheduled,,,v3,
 185232,wta,2026-10-06T04:00Z,Samsun Open,Round 1,Hard,19144,Elvin Egribel,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-04T17:43+02:00,scheduled,,,v3,
 185237,wta,2026-10-06T04:00Z,Samsun Open,Round 1,Hard,8067,Lucrezia Stefanini,5299,Carole Monnet,2349.6,2186.2,582,498,0.6749,2026-10-04T17:43+02:00,scheduled,,,v3,
