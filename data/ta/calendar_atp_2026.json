@@ -1,5 +1,5 @@
 {
-"fetched": "2026-09-29T20:00:06",
+"fetched": "2026-10-05T20:00:08",
 "events": [
 {
 "week": "2026-01-05",
@@ -1600,6 +1600,46 @@
 "country": "Italy",
 "surface": "Clay",
 "nth": 1
+},
+{
+"week": "2026-10-05",
+"name": "Ferrero Challenger",
+"city": "Villena",
+"country": "Spain",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-05",
+"name": "Antofagasta Challenger",
+"city": "Antofagasta",
+"country": "Chile",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-05",
+"name": "Braga Open",
+"city": "Braga",
+"country": "Portugal",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-05",
+"name": "Internazionali di Sicilia",
+"city": "Palermo",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-05",
+"name": "Wuning Challenger III",
+"city": "Wuning",
+"country": "China",
+"surface": "Hard",
+"nth": 3
 },
 {
 "week": "2026-10-19",

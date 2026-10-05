@@ -1,4 +1,15 @@
 {
+ "2026AntofagastaChallenger": {
+  "city": "Antofagasta",
+  "complete": false,
+  "country": "Chile",
+  "fetched": "2026-10-05T20:01:11",
+  "n": 13,
+  "source": "home",
+  "start": "2026-10-05",
+  "surface": "Clay",
+  "tour": "atp"
+ },
  "2026AstanaChallenger": {
   "city": "Astana",
   "complete": true,
@@ -51,10 +62,10 @@
  },
  "2026BariChallenger": {
   "city": "Bari",
-  "complete": false,
+  "complete": true,
   "country": "",
-  "fetched": "2026-10-04T20:15:31",
-  "n": 47,
+  "fetched": "2026-10-05T20:00:28",
+  "n": 48,
   "source": "home",
   "start": "2026-09-28",
   "surface": "",
@@ -112,6 +123,17 @@
   "n": 49,
   "source": "kalendář",
   "start": "2026-07-27",
+  "surface": "Clay",
+  "tour": "atp"
+ },
+ "2026BragaChallenger": {
+  "city": "Braga",
+  "complete": false,
+  "country": "Portugal",
+  "fetched": "2026-10-05T20:01:17",
+  "n": 18,
+  "source": "home",
+  "start": "2026-10-05",
   "surface": "Clay",
   "tour": "atp"
  },
@@ -265,10 +287,10 @@
  },
  "2026ColumbusChallenger": {
   "city": "Columbus",
-  "complete": false,
+  "complete": true,
   "country": "",
-  "fetched": "2026-10-04T20:24:25",
-  "n": 48,
+  "fetched": "2026-10-05T20:00:34",
+  "n": 49,
   "source": "home",
   "start": "2026-09-28",
   "surface": "",
@@ -298,10 +320,10 @@
  },
  "2026CuritibaChallenger": {
   "city": "Curitiba",
-  "complete": false,
+  "complete": true,
   "country": "",
-  "fetched": "2026-10-04T20:33:25",
-  "n": 45,
+  "fetched": "2026-10-05T20:00:40",
+  "n": 46,
   "source": "home",
   "start": "2026-09-28",
   "surface": "",
@@ -451,7 +473,7 @@
   "city": "Jingshan",
   "complete": false,
   "country": "China",
-  "fetched": "2026-10-04T20:42:26",
+  "fetched": "2026-10-05T20:00:46",
   "n": 36,
   "source": "kalendář",
   "start": "2026-09-28",
@@ -585,10 +607,10 @@
  },
  "2026MouilleronleCaptifChallenger": {
   "city": "MouilleronleCaptif",
-  "complete": false,
+  "complete": true,
   "country": "",
-  "fetched": "2026-10-04T20:42:31",
-  "n": 48,
+  "fetched": "2026-10-05T20:00:52",
+  "n": 49,
   "source": "home",
   "start": "2026-09-28",
   "surface": "",
@@ -625,6 +647,17 @@
   "source": "kalendář",
   "start": "2026-07-06",
   "surface": "Grass",
+  "tour": "atp"
+ },
+ "2026PalermoChallenger": {
+  "city": "Palermo",
+  "complete": false,
+  "country": "Italy",
+  "fetched": "2026-10-05T20:01:22",
+  "n": 17,
+  "source": "home",
+  "start": "2026-10-05",
+  "surface": "Clay",
   "tour": "atp"
  },
  "2026ParmaChallenger": {
@@ -1073,12 +1106,23 @@
   "surface": "Clay",
   "tour": "atp"
  },
+ "2026VillenaChallenger": {
+  "city": "Villena",
+  "complete": false,
+  "country": "Spain",
+  "fetched": "2026-10-05T20:01:29",
+  "n": 19,
+  "source": "home",
+  "start": "2026-10-05",
+  "surface": "Hard",
+  "tour": "atp"
+ },
  "2026WTAAdana125": {
   "city": "Adana",
-  "complete": false,
+  "complete": true,
   "country": "Turkey",
-  "fetched": "2026-10-04T21:00:31",
-  "n": 39,
+  "fetched": "2026-10-05T20:01:05",
+  "n": 40,
   "source": "kalendář",
   "start": "2026-09-28",
   "surface": "Hard",
@@ -1337,7 +1381,7 @@
   "city": "Porto",
   "complete": false,
   "country": "Portugal",
-  "fetched": "2026-10-04T20:15:19",
+  "fetched": "2026-10-05T20:00:15",
   "n": 41,
   "source": "home",
   "start": "2026-09-21",
@@ -1355,6 +1399,28 @@
   "surface": "Clay",
   "tour": "wta"
  },
+ "2026WTASamsun125": {
+  "city": "Samsun",
+  "complete": false,
+  "country": "Turkey",
+  "fetched": "2026-10-05T20:01:35",
+  "n": 16,
+  "source": "home",
+  "start": "2026-10-05",
+  "surface": "Hard",
+  "tour": "wta"
+ },
+ "2026WTASuzhou125": {
+  "city": "Suzhou",
+  "complete": false,
+  "country": "China",
+  "fetched": "2026-10-05T20:01:40",
+  "n": 18,
+  "source": "home",
+  "start": "2026-10-05",
+  "surface": "Hard",
+  "tour": "wta"
+ },
  "2026WTATarguMures125": {
   "city": "Târgu Mureș",
   "complete": true,
@@ -1370,7 +1436,7 @@
   "city": "Tolentino",
   "complete": false,
   "country": "Italy",
-  "fetched": "2026-10-04T20:15:25",
+  "fetched": "2026-10-05T20:00:22",
   "n": 39,
   "source": "home",
   "start": "2026-09-21",
@@ -1418,6 +1484,17 @@
   "n": 48,
   "source": "kalendář",
   "start": "2026-07-20",
+  "surface": "Hard",
+  "tour": "atp"
+ },
+ "2026Wuning3Challenger": {
+  "city": "Wuning",
+  "complete": false,
+  "country": "China",
+  "fetched": "2026-10-05T20:01:46",
+  "n": 22,
+  "source": "home",
+  "start": "2026-10-05",
   "surface": "Hard",
   "tour": "atp"
  },
