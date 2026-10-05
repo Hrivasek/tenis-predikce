@@ -1695,3 +1695,23 @@ match_id,event_id,tourney_name,venue,event_start,tourney_level,round,round_order
 183464,959-2026,China Open,"Beijing, China PR",20260927,A,Quarterfinal,10,0,2026-10-04T08:40Z,final,5,2383,Daniil Medvedev,3700,Francisco Cerundolo,2383,7-6(4) 6-3
 183509,5-2026,Kinoshita Group Japan Open Tennis Championships,"Tokyo, Japan",20260927,A,Quarterfinal,10,0,2026-10-04T09:50Z,final,5,3754,Jiri Lehecka,11396,Adolfo Daniel Vallejo,3754,6-1 6-1
 183465,959-2026,China Open,"Beijing, China PR",20260927,A,Quarterfinal,10,0,2026-10-04T11:10Z,final,5,2375,Alexander Zverev,296,Novak Djokovic,296,4-6 6-4 6-4
+186308,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T04:05Z,final,5,13358,Andre Ilagan,2498,Nikoloz Basilashvili,2498,6-3 6-7(1) 7-5
+186309,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T04:10Z,final,5,3375,Hugo Gaston,3778,Liam Draxl,3778,7-5 6-4
+186312,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T04:10Z,final,5,1837,Taro Daniel,7608,Shintaro Mochizuki,7608,2-6 6-2 6-2
+186313,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T04:10Z,final,5,2636,Roman Safiullin,3562,Alexis Galarneau,2636,6-3 6-0
+186314,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T04:10Z,final,5,13482,Xiao Linang,14601,Federico Cina,14601,2-6 6-3 6-2
+186315,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T04:10Z,final,5,3052,Lorenzo Sonego,2879,Aziz Dougaz,2879,7-6(5) 5-7 6-4
+186292,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T05:40Z,ret,5,3347,Chun-Hsin Tseng,3371,Nicolas Mejia,3371,6-4 0-0 RET
+186303,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T06:20Z,ret,5,10638,Terence Atmane,1317,Bernard Tomic,1317,6-3 4-6 5-3 RET
+186296,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T06:25Z,final,5,14707,Luka Pavlovic,13308,Ilia Simakin,13308,4-6 6-4 6-1
+186305,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T06:30Z,final,5,12932,Michael Zheng,10155,Federico Agustin Gomez,12932,6-7(7) 6-3 6-3
+186302,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T06:45Z,final,5,3818,Timofey Skatov,12284,Stefanos Sakellaridis,3818,6-3 6-2
+186304,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T06:55Z,final,5,3093,Adam Walton,2856,Te Rigele,2856,5-7 6-3 6-4
+183512,5-2026,Kinoshita Group Japan Open Tennis Championships,"Tokyo, Japan",20260927,A,Semifinal,11,0,2026-10-05T07:25Z,final,5,3782,Carlos Alcaraz,2709,Jaume Munar,3782,5-7 6-3 6-1
+186310,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T07:25Z,final,5,2384,SeongChan Hong,13871,Rei Sakamoto,13871,6-3 7-5
+186295,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T08:10Z,final,5,2361,Billy Harris,3812,Dalibor Svrcina,3812,4-6 7-6(6) 7-5
+186299,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T08:25Z,final,5,10130,Martin Damm,3572,Pavel Kotov,3572,7-6(4) 6-7(4) 6-3
+186297,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T08:35Z,final,5,8710,Aleksandr Shevchenko,2226,Yoshihito Nishioka,2226,6-2 6-4
+186294,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T09:10Z,final,5,4030,Dane Sweeny,4029,Tristan Schoolkate,4030,3-6 6-3 6-2
+186311,315-2026,Rolex Shanghai Masters,"Shanghai, China PR",20261005,A,Qualifying 1st Round,0,1,2026-10-05T09:10Z,final,5,7509,Kyrian Jacquet,15462,Zhang Tianhui,7509,6-2 7-6(1)
+183466,959-2026,China Open,"Beijing, China PR",20260927,A,Semifinal,11,0,2026-10-05T09:25Z,ret,5,2651,Alex de Minaur,2726,Hubert Hurkacz,2651,6-4 3-2 RET
