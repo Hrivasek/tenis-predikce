@@ -1,5 +1,5 @@
 {
-"fetched": "2026-09-29T20:00:12",
+"fetched": "2026-10-06T08:00:07",
 "events": [
 {
 "week": "2026-01-05",
@@ -447,6 +447,30 @@
 "city": "Rovereto",
 "country": "Italy",
 "surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-26",
+"name": "Valle D'Aosta Ladies Open",
+"city": "Courmayeur",
+"country": "Italy",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-26",
+"name": "Querétaro Open",
+"city": "Querétaro",
+"country": "Mexico",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-26",
+"name": "Curitiba Open",
+"city": "Curitiba",
+"country": "Brazil",
+"surface": "Clay",
 "nth": 1
 }
 ]
