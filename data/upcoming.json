@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-06T18:04:23+00:00",
+"fetched": "2026-10-06T18:13:15+00:00",
 "matches": [
 {
 "match_id": "186244",
@@ -7226,30 +7226,6 @@
 "tour": "wta"
 },
 {
-"match_id": "185232",
-"event_id": "1036-2026",
-"tourney_name": "Samsun Open",
-"venue": "Samsun, Türkiye",
-"event_start": "20261004",
-"tourney_level": "A",
-"round": "Round 1",
-"round_order": 1,
-"qualifying": 0,
-"date": "2026-10-06T18:00Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "19144",
-"p1_name": "Elvin Egribel",
-"p2_id": "4384",
-"p2_name": "Caroline Werner",
-"winner": "",
-"score": "",
-"p1_country": "Türkiye",
-"p2_country": "Germany",
-"tour": "wta"
-},
-{
 "match_id": "185289",
 "event_id": "1029-2026",
 "tourney_name": "Suzhou Open",
@@ -7730,30 +7706,6 @@
 "tour": "atp"
 },
 {
-"match_id": "185234",
-"event_id": "1036-2026",
-"tourney_name": "Samsun Open",
-"venue": "Samsun, Türkiye",
-"event_start": "20261004",
-"tourney_level": "A",
-"round": "Round 2",
-"round_order": 2,
-"qualifying": 0,
-"date": "2026-10-07T09:30Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "8067",
-"p1_name": "Lucrezia Stefanini",
-"p2_id": "7849",
-"p2_name": "Noma Noha Akugue",
-"winner": "",
-"score": "",
-"p1_country": "Italy",
-"p2_country": "Germany",
-"tour": "wta"
-},
-{
 "match_id": "185226",
 "event_id": "1036-2026",
 "tourney_name": "Samsun Open",
@@ -7775,6 +7727,30 @@
 "score": "",
 "p1_country": "USA",
 "p2_country": "Spain",
+"tour": "wta"
+},
+{
+"match_id": "185234",
+"event_id": "1036-2026",
+"tourney_name": "Samsun Open",
+"venue": "Samsun, Türkiye",
+"event_start": "20261004",
+"tourney_level": "A",
+"round": "Round 2",
+"round_order": 2,
+"qualifying": 0,
+"date": "2026-10-07T09:30Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "8067",
+"p1_name": "Lucrezia Stefanini",
+"p2_id": "7849",
+"p2_name": "Noma Noha Akugue",
+"winner": "",
+"score": "",
+"p1_country": "Italy",
+"p2_country": "Germany",
 "tour": "wta"
 },
 {
@@ -8546,7 +8522,31 @@
 "tour": "wta"
 },
 {
-"match_id": "185246",
+"match_id": "185232",
+"event_id": "1036-2026",
+"tourney_name": "Samsun Open",
+"venue": "Samsun, Türkiye",
+"event_start": "20261004",
+"tourney_level": "A",
+"round": "Round 1",
+"round_order": 1,
+"qualifying": 0,
+"date": "2026-10-08T04:00Z",
+"time_valid": 0,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "19144",
+"p1_name": "Elvin Egribel",
+"p2_id": "4384",
+"p2_name": "Caroline Werner",
+"winner": "",
+"score": "",
+"p1_country": "Türkiye",
+"p2_country": "Germany",
+"tour": "wta"
+},
+{
+"match_id": "185225",
 "event_id": "1036-2026",
 "tourney_name": "Samsun Open",
 "venue": "Samsun, Türkiye",
@@ -8559,14 +8559,14 @@
 "time_valid": 0,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p1_id": "10831",
+"p1_name": "Alicia Dudeney",
+"p2_id": "3185",
+"p2_name": "Ayla Aksu",
 "winner": "",
 "score": "",
-"p1_country": "",
-"p2_country": "",
+"p1_country": "Great Britain",
+"p2_country": "Türkiye",
 "tour": "wta"
 },
 {
@@ -8618,7 +8618,7 @@
 "tour": "wta"
 },
 {
-"match_id": "185225",
+"match_id": "185246",
 "event_id": "1036-2026",
 "tourney_name": "Samsun Open",
 "venue": "Samsun, Türkiye",
@@ -8631,14 +8631,14 @@
 "time_valid": 0,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "10831",
-"p1_name": "Alicia Dudeney",
-"p2_id": "3185",
-"p2_name": "Ayla Aksu",
+"p1_id": "-3",
+"p1_name": "TBD",
+"p2_id": "-4",
+"p2_name": "TBD",
 "winner": "",
 "score": "",
-"p1_country": "Great Britain",
-"p2_country": "Türkiye",
+"p1_country": "",
+"p2_country": "",
 "tour": "wta"
 },
 {
@@ -9530,7 +9530,7 @@
 "tour": "wta"
 },
 {
-"match_id": "185243",
+"match_id": "185247",
 "event_id": "1036-2026",
 "tourney_name": "Samsun Open",
 "venue": "Samsun, Türkiye",
@@ -9578,7 +9578,7 @@
 "tour": "wta"
 },
 {
-"match_id": "185247",
+"match_id": "185243",
 "event_id": "1036-2026",
 "tourney_name": "Samsun Open",
 "venue": "Samsun, Türkiye",
@@ -9698,7 +9698,7 @@
 "tour": "wta"
 },
 {
-"match_id": "185250",
+"match_id": "185249",
 "event_id": "1036-2026",
 "tourney_name": "Samsun Open",
 "venue": "Samsun, Türkiye",
@@ -9722,7 +9722,7 @@
 "tour": "wta"
 },
 {
-"match_id": "185249",
+"match_id": "185250",
 "event_id": "1036-2026",
 "tourney_name": "Samsun Open",
 "venue": "Samsun, Türkiye",

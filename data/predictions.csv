@@ -388,7 +388,6 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185237,wta,2026-10-06T11:30Z,Samsun Open,Round 1,Hard,8067,Lucrezia Stefanini,5299,Carole Monnet,2349.6,2186.2,582,498,0.6749,2026-10-04T17:43+02:00,final,8067,7-5 6-4,v3,
 185241,wta,2026-10-06T12:00Z,Samsun Open,Round 1,Hard,3388,Simona Waltert,14147,Melisa Ercan,2331.8,1993.8,508,153,0.8191,2026-10-04T17:43+02:00,final,3388,6-2 6-2,v3,
 185242,wta,2026-10-06T12:30Z,Samsun Open,Round 1,Hard,1254,Cagla Buyukakcay,7927,Linda Klimovicova,2004.7,2299.1,1034,253,0.2117,2026-10-04T17:43+02:00,other,,,v3,
-185232,wta,2026-10-06T18:00Z,Samsun Open,Round 1,Hard,19144,Elvin Egribel,4384,Caroline Werner,1500.0,1718.1,0,11,0.2740,2026-10-05T20:02+02:00,scheduled,,,v3,
 185285,wta,2026-10-07T02:00Z,Suzhou Open,Round 2,Hard,2738,Rebecca Sramkova,2980,Claire Liu,2414.4,2427.8,616,448,0.4851,2026-10-05T13:20+02:00,scheduled,,,v3,
 185289,wta,2026-10-07T02:00Z,Suzhou Open,Round 2,Hard,6259,Darya Astakhova,2751,Renata Zarazua,2247.3,2414.3,352,678,0.3217,2026-10-06T08:01+02:00,scheduled,,,v3,
 185275,wta,2026-10-07T03:30Z,Suzhou Open,Round 2,Hard,12846,Tatiana Prozorova,2431,Kyoka Okamura,2485.6,2231.2,291,626,0.7569,2026-10-06T13:09+02:00,scheduled,,,v3,
@@ -473,6 +472,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 184353,wta,2026-10-08T04:00Z,China Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-09-27T08:21+02:00,scheduled,,,v3,
 185225,wta,2026-10-08T04:00Z,Samsun Open,Round 2,Hard,10831,Alicia Dudeney,3185,Ayla Aksu,2351.7,2214.0,105,569,0.6490,2026-10-06T20:04+02:00,scheduled,,,v3,1
 185227,wta,2026-10-08T04:00Z,Samsun Open,Round 2,Hard,3388,Simona Waltert,-4,TBD,2339.6,1500.0,509,0,0.9770,2026-10-06T20:04+02:00,scheduled,,,v3,
+185232,wta,2026-10-08T04:00Z,Samsun Open,Round 1,Hard,19144,Elvin Egribel,4384,Caroline Werner,1500.0,1718.1,0,11,0.2740,2026-10-05T20:02+02:00,scheduled,,,v3,
 185245,wta,2026-10-08T04:00Z,Samsun Open,Round 2,Hard,-3,TBD,2979,Bianca Andreescu,1500.0,2483.6,0,346,0.0122,2026-10-06T20:04+02:00,scheduled,,,v3,
 185246,wta,2026-10-08T04:00Z,Samsun Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-01T08:45+02:00,scheduled,,,v3,
 185274,wta,2026-10-08T04:00Z,Suzhou Open,Round 2,Hard,5712,Bai Zhuoxuan,12287,Emerson Jones,2397.8,2385.6,212,146,0.5136,2026-10-06T13:09+02:00,scheduled,,,v3,
