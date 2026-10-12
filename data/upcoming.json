@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-12T10:26:10+00:00",
+"fetched": "2026-10-12T10:28:11+00:00",
 "matches": [
 {
 "match_id": "186254",
@@ -10778,30 +10778,6 @@
 "tour": "wta"
 },
 {
-"match_id": "185495",
-"event_id": "1020-2026",
-"tourney_name": "Vanda Pharmaceuticals Mallorca Women's Championships presented by Ecotrans Group",
-"venue": "Mallorca, Spain",
-"event_start": "20261011",
-"tourney_level": "A",
-"round": "Round 1",
-"round_order": 1,
-"qualifying": 0,
-"date": "2026-10-12T10:35Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "11767",
-"p1_name": "Eva Vedder",
-"p2_id": "13218",
-"p2_name": "Francesca Curmi",
-"winner": "",
-"score": "",
-"p1_country": "Netherlands",
-"p2_country": "Malta",
-"tour": "wta"
-},
-{
 "match_id": "186430",
 "event_id": "1020-2026",
 "tourney_name": "Vanda Pharmaceuticals Mallorca Women's Championships presented by Ecotrans Group",
@@ -10823,6 +10799,30 @@
 "score": "",
 "p1_country": "Bulgaria",
 "p2_country": "Ukraine",
+"tour": "wta"
+},
+{
+"match_id": "185495",
+"event_id": "1020-2026",
+"tourney_name": "Vanda Pharmaceuticals Mallorca Women's Championships presented by Ecotrans Group",
+"venue": "Mallorca, Spain",
+"event_start": "20261011",
+"tourney_level": "A",
+"round": "Round 1",
+"round_order": 1,
+"qualifying": 0,
+"date": "2026-10-12T10:40Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "11767",
+"p1_name": "Eva Vedder",
+"p2_id": "13218",
+"p2_name": "Francesca Curmi",
+"winner": "",
+"score": "",
+"p1_country": "Netherlands",
+"p2_country": "Malta",
 "tour": "wta"
 },
 {
