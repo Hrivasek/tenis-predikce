@@ -220,6 +220,7 @@ table.t th { color: var(--muted); font-weight: 600; font-size: 12px; }
 .list-item .r { text-align: right; white-space: nowrap; }
 .pos { color: var(--good); } .neg { color: var(--bad); }
 
+.stale { margin: 12px 0 0; padding: 9px 12px; border-radius: 10px; background: var(--warn-bg); color: var(--warn-ink); font-size: 13.5px; }
 .empty { text-align: center; color: var(--muted); padding: 40px 10px; }
 
 /* dialog */

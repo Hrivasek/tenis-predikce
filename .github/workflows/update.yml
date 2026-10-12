@@ -6,7 +6,13 @@ on:
     # obě varianty (léto: 4–23 UTC, zima: 5–0 UTC) a přesné okno hlídá job „gate“ níže.
     # Minuta 7 místo celé hodiny: GitHub na začátku hodiny plánované běhy často zpožďuje.
     - cron: "7 0,4-23 * * *"
+  # ruční / vzdálené spuštění (z Macu: scripts/trigger_update.sh – GitHub plánované běhy často vynechává)
   workflow_dispatch:
+    inputs:
+      full:
+        description: "Stáhnout z ESPN 10+ dní zpět (jinak jen poslední 2 dny)"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["data/odds.json", "data/aliases.json", "data/surfaces.json", "data/ta_matches.csv", "data/ta_elo_*.csv",
@@ -40,7 +46,7 @@ jobs:
           else run=false; fi
           # běhy v 6, 12 a 18 h (a ruční spuštění) stáhnou 10+ dní zpět kvůli opravám výsledků, ostatní jen 2 dny
           case "$h" in 6|12|18) full=true ;; *) full=false ;; esac
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then full=true; fi
+          if [ "${{ inputs.full }}" = "true" ]; then full=true; fi
           echo "run=$run" >> "$GITHUB_OUTPUT"; echo "full=$full" >> "$GITHUB_OUTPUT"
           echo "run=$run full=$full"
 

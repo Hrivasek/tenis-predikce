@@ -174,7 +174,11 @@ function renderMatches() {
   const box = $("#matches");
   const all = S.today.matches;
   const days = [...new Set(all.map((m) => m.day))].sort();
-  if (!S.day || !days.includes(S.day)) S.day = days[0];
+  if (!S.day || !days.includes(S.day)) {
+    // výchozí den = dnešek; když v datech není (stará data), nejbližší další den, jinak poslední
+    const today = new Date().toLocaleDateString("sv-SE", { timeZone: TZ });
+    S.day = days.find((d) => d >= today) || days[days.length - 1];
+  }
   const daySeg = $("#day-seg");
   daySeg.innerHTML = days.map((d) => `<button data-v="${d}">${dayLabel(d)}</button>`).join("");
   seg(daySeg, S.day, (v) => { S.day = v; renderMatches(); });
@@ -526,6 +530,14 @@ async function main() {
   }
   const upd = new Date(S.today.data_fetched);
   $("#updated").textContent = "data " + upd.toLocaleString("cs-CZ", { timeZone: TZ, day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit" });
+  const ageH = (Date.now() - upd) / 36e5;
+  if (ageH > 3) {
+    const b = document.createElement("div");
+    b.className = "stale";
+    b.textContent = `Data jsou ${Math.round(ageH)} h stará – automatická aktualizace se zpozdila. ` +
+      "Výsledky a změny rozpisu od té doby tu chybí.";
+    document.querySelector("main").prepend(b);
+  }
   // lokální kurzy, které už jsou na serveru, můžeme zapomenout
   const lo = localOdds();
   for (const m of S.today.matches) { const k = `${m.tour}:${m.id}`; if (lo[k] && m.odds && m.odds.at === lo[k].at) delete lo[k]; }
