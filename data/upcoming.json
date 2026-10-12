@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-12T18:01:38+00:00",
+"fetched": "2026-10-12T19:15:25+00:00",
 "matches": [
 {
 "match_id": "186254",
@@ -11197,14 +11197,14 @@
 "qualifying": 0,
 "date": "2026-10-12T16:20Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "10676",
 "p1_name": "Leyre Romero Gormaz",
 "p2_id": "4691",
 "p2_name": "Alice Rame",
-"winner": "",
-"score": "",
+"winner": "10676",
+"score": "4-6 6-2 7-5",
 "p1_country": "Spain",
 "p2_country": "France",
 "tour": "wta"
@@ -13359,13 +13359,13 @@
 "time_valid": 0,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "10676",
+"p1_name": "Leyre Romero Gormaz",
 "p2_id": "-4",
 "p2_name": "TBD",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Spain",
 "p2_country": "",
 "tour": "wta"
 },
