@@ -485,7 +485,7 @@
   "city": "Jinan",
   "complete": false,
   "country": "China",
-  "fetched": "2026-10-12T12:29:03",
+  "fetched": "2026-10-12T20:00:32",
   "n": 11,
   "source": "kalendář",
   "start": "2026-10-12",
@@ -496,7 +496,7 @@
   "city": "Jingshan",
   "complete": false,
   "country": "China",
-  "fetched": "2026-10-12T12:28:19",
+  "fetched": "2026-10-12T20:00:21",
   "n": 36,
   "source": "kalendář",
   "start": "2026-09-28",
@@ -607,12 +607,11 @@
   "tour": "atp"
  },
  "2026MaiaChallenger": {
-  "candidates": [
-   "2026MaiaChallenger"
-  ],
   "city": "Maia",
   "complete": false,
   "country": "Portugal",
+  "fetched": "2026-10-12T20:00:38",
+  "n": 12,
   "source": "kalendář",
   "start": "2026-10-12",
   "surface": "Clay",
@@ -688,8 +687,8 @@
   "city": "Olbia",
   "complete": false,
   "country": "Italy",
-  "fetched": "2026-10-12T12:29:08",
-  "n": 10,
+  "fetched": "2026-10-12T20:00:43",
+  "n": 13,
   "source": "kalendář",
   "start": "2026-10-12",
   "surface": "Hard",
@@ -898,12 +897,11 @@
   "tour": "atp"
  },
  "2026RoanneChallenger": {
-  "candidates": [
-   "2026RoanneChallenger"
-  ],
   "city": "Roanne",
   "complete": false,
   "country": "France",
+  "fetched": "2026-10-12T20:00:49",
+  "n": 14,
   "source": "kalendář",
   "start": "2026-10-12",
   "surface": "Hard",
@@ -977,6 +975,17 @@
   "surface": "Hard",
   "tour": "atp"
  },
+ "2026SanGregoriodiCataniaChallenger": {
+  "city": "SanGregoriodiCatania",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-10-12T20:01:16",
+  "n": 15,
+  "source": "home",
+  "start": "2026-10-12",
+  "surface": "",
+  "tour": "atp"
+ },
  "2026SanMarinoChallenger": {
   "city": "San Marino",
   "complete": true,
@@ -1000,12 +1009,11 @@
   "tour": "atp"
  },
  "2026SantaCruzdelaSierra2Challenger": {
-  "candidates": [
-   "2026SantaCruzdelaSierra2Challenger"
-  ],
   "city": "Santa Cruz de la Sierra",
   "complete": false,
   "country": "Bolivia",
+  "fetched": "2026-10-12T20:00:54",
+  "n": 8,
   "source": "kalendář",
   "start": "2026-10-12",
   "surface": "Clay",
@@ -1375,8 +1383,8 @@
   "city": "Lisbon",
   "complete": false,
   "country": "Portugal",
-  "fetched": "2026-10-12T12:29:40",
-  "n": 8,
+  "fetched": "2026-10-12T20:01:00",
+  "n": 14,
   "source": "kalendář",
   "start": "2026-10-12",
   "surface": "Clay",
@@ -1408,8 +1416,8 @@
   "city": "Mallorca",
   "complete": false,
   "country": "Spain",
-  "fetched": "2026-10-12T12:29:35",
-  "n": 9,
+  "fetched": "2026-10-12T20:01:05",
+  "n": 10,
   "source": "kalendář",
   "start": "2026-10-12",
   "surface": "Clay",
@@ -1474,7 +1482,7 @@
   "city": "Porto",
   "complete": false,
   "country": "Portugal",
-  "fetched": "2026-10-12T12:28:08",
+  "fetched": "2026-10-12T20:00:10",
   "n": 41,
   "source": "home",
   "start": "2026-09-21",
@@ -1496,8 +1504,8 @@
   "city": "Rovereto",
   "complete": false,
   "country": "Italy",
-  "fetched": "2026-10-12T12:29:46",
-  "n": 7,
+  "fetched": "2026-10-12T20:01:10",
+  "n": 14,
   "source": "kalendář",
   "start": "2026-10-12",
   "surface": "Hard",
@@ -1540,7 +1548,7 @@
   "city": "Tolentino",
   "complete": false,
   "country": "Italy",
-  "fetched": "2026-10-12T12:28:13",
+  "fetched": "2026-10-12T20:00:16",
   "n": 39,
   "source": "home",
   "start": "2026-09-21",
