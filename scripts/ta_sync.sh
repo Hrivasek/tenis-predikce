@@ -15,6 +15,8 @@ if [ ! -d "$REPO/.git" ]; then
   git clone -q "$REPO_URL" "$REPO"
 fi
 cd "$REPO"
+# zbytky po případném spadlém běhu zahodit (vlastní klon – nic jiného tu není); nepushnuté commity zůstanou
+git checkout -q -- . && git clean -qfd data/
 git pull -q --rebase origin main
 
 python3 tennisabstract.py "$@"

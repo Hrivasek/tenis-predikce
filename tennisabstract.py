@@ -41,11 +41,19 @@ def get(url, host="ta"):
     if wait > 0:
         time.sleep(wait)
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            status, text = r.status, r.read().decode("utf-8", errors="replace")
-    except urllib.error.HTTPError as e:
-        status, text = e.code, ""
+    for attempt in range(2):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                status, text = r.status, r.read().decode("utf-8", errors="replace")
+            break
+        except urllib.error.HTTPError as e:
+            status, text = e.code, ""
+            break
+        except (urllib.error.URLError, OSError) as e:
+            # výpadek sítě (např. hned po probuzení Macu) – jednou zkusit znovu, pak stránku přeskočit
+            status, text = f"chyba sítě: {e}", ""
+            if attempt == 0:
+                time.sleep(30)
     _last[host] = time.time()
     return status, text
 
