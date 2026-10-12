@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-05T20:00:08",
+"fetched": "2026-10-12T12:27:56",
 "events": [
 {
 "week": "2026-01-05",
@@ -1640,6 +1640,54 @@
 "country": "China",
 "surface": "Hard",
 "nth": 3
+},
+{
+"week": "2026-10-12",
+"name": "Jinan Open",
+"city": "Jinan",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-12",
+"name": "Olbia Challenger",
+"city": "Olbia",
+"country": "Italy",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-12",
+"name": "Maia Challenger",
+"city": "Maia",
+"country": "Portugal",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-12",
+"name": "Open de Roanne",
+"city": "Roanne",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-12",
+"name": "Santa Cruz Challenger II",
+"city": "Santa Cruz de la Sierra",
+"country": "Bolivia",
+"surface": "Clay",
+"nth": 2
+},
+{
+"week": "2026-10-12",
+"name": "Trofeo Città di San Gregorio",
+"city": "Catania",
+"country": "Italy",
+"surface": "Clay",
+"nth": 1
 },
 {
 "week": "2026-10-19",

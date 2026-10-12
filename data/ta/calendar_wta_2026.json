@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-06T08:00:07",
+"fetched": "2026-10-12T12:28:02",
 "events": [
 {
 "week": "2026-01-05",
@@ -470,6 +470,22 @@
 "name": "Curitiba Open",
 "city": "Curitiba",
 "country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-11-02",
+"name": "Angola Ladies Open",
+"city": "Luanda",
+"country": "Angola",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-02",
+"name": "Cali Open",
+"city": "Cali",
+"country": "Colombia",
 "surface": "Clay",
 "nth": 1
 }
