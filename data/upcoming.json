@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-14T17:36:05+00:00",
+"fetched": "2026-10-14T19:15:39+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -6805,14 +6805,14 @@
 "qualifying": 0,
 "date": "2026-10-14T17:40Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "final",
 "best_of": 3,
 "p1_id": "8411",
 "p1_name": "Lisa Pigato",
 "p2_id": "7434",
 "p2_name": "Lucie Havlickova",
-"winner": "",
-"score": "",
+"winner": "7434",
+"score": "6-0 6-1",
 "p1_country": "Italy",
 "p2_country": "Czechia",
 "tour": "wta"
@@ -7647,13 +7647,13 @@
 "time_valid": 0,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "7434",
+"p1_name": "Lucie Havlickova",
 "p2_id": "2617",
 "p2_name": "Jil Teichmann",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Czechia",
 "p2_country": "Switzerland",
 "tour": "wta"
 },

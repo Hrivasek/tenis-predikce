@@ -659,7 +659,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185457,wta,2026-10-14T14:10Z,RoveretOpen Città della Pace,Round 2,Hard,2617,Jil Teichmann,4666,Lucia Bronzetti,2399.0,2255.2,567,560,0.6553,2026-10-13T13:37+02:00,final,2617,6-4 7-5,v3,
 185442,wta,2026-10-14T15:30Z,RoveretOpen Città della Pace,Round 2,Hard,3330,Harmony Tan,8067,Lucrezia Stefanini,2328.8,2400.4,610,588,0.4206,2026-10-13T19:31+02:00,final,8067,6-2 6-3,v3,
 185410,wta,2026-10-14T16:20Z,Lisboa Belem Open,Round 2,Hard,13760,Martha Matoula,12957,Guiomar Maristany Zuleta De Reales,1963.1,2272.6,338,470,0.2006,2026-10-13T18:18+02:00,live,,,v3,
-185455,wta,2026-10-14T17:40Z,RoveretOpen Città della Pace,Round 2,Hard,8411,Lisa Pigato,7434,Lucie Havlickova,2350.3,2387.4,345,198,0.4586,2026-10-12T20:01+02:00,scheduled,,,v3,
+185455,wta,2026-10-14T17:40Z,RoveretOpen Città della Pace,Round 2,Hard,8411,Lisa Pigato,7434,Lucie Havlickova,2350.3,2387.4,345,198,0.4586,2026-10-12T20:01+02:00,final,7434,6-0 6-1,v3,
 185365,wta,2026-10-15T03:00Z,Dongfeng Voyah Wuhan Open,Round 3,Hard,16296,Mia Pohankova,3018,Maria Sakkari,2531.1,2649.1,65,838,0.3712,2026-10-13T18:18+02:00,scheduled,,,v3,1
 185368,wta,2026-10-15T03:00Z,Dongfeng Voyah Wuhan Open,Round 3,Hard,3039,Karolina Muchova,8017,Diana Shnaider,2811.3,2804.0,456,315,0.5082,2026-10-14T10:15+02:00,scheduled,,,v3,
 185363,wta,2026-10-15T04:00Z,Dongfeng Voyah Wuhan Open,Round 3,Hard,14311,Iva Jovic,3417,Maja Chwalinska,2789.7,2576.9,167,377,0.7212,2026-10-14T09:15+02:00,scheduled,,,v3,
@@ -693,7 +693,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185414,wta,2026-10-16T04:00Z,Lisboa Belem Open,Quarterfinal,Hard,-3,TBD,2387,Fiona Ferro,1500.0,2395.1,0,560,0.0180,2026-10-14T14:15+02:00,scheduled,,,v3,
 185415,wta,2026-10-16T04:00Z,Lisboa Belem Open,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-09T07:43+02:00,scheduled,,,v3,
 185461,wta,2026-10-16T04:00Z,RoveretOpen Città della Pace,Quarterfinal,Hard,-3,TBD,8067,Lucrezia Stefanini,1500.0,2415.7,0,589,0.0165,2026-10-14T19:36+02:00,scheduled,,,v3,
-185462,wta,2026-10-16T04:00Z,RoveretOpen Città della Pace,Quarterfinal,Hard,-3,TBD,2617,Jil Teichmann,1500.0,2406.3,0,568,0.0172,2026-10-14T18:15+02:00,scheduled,,,v3,
+185462,wta,2026-10-16T04:00Z,RoveretOpen Città della Pace,Quarterfinal,Hard,7434,Lucie Havlickova,2617,Jil Teichmann,2431.8,2406.3,199,568,0.5284,2026-10-14T21:15+02:00,scheduled,,,v3,
 185463,wta,2026-10-16T04:00Z,RoveretOpen Città della Pace,Quarterfinal,Hard,13314,Gabriela Knutson,-4,TBD,2358.7,1500.0,301,0,0.9789,2026-10-14T16:15+02:00,scheduled,,,v3,
 185464,wta,2026-10-16T04:00Z,RoveretOpen Città della Pace,Quarterfinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-09T07:43+02:00,scheduled,,,v3,
 185503,wta,2026-10-16T04:00Z,Vanda Pharmaceuticals Mallorca Women's Championships,Quarterfinal,Grass,2599,Julia Grabher,14607,Ariana Geerlings,1912.0,1965.5,680,152,0.4405,2026-10-14T16:15+02:00,scheduled,,,v3,
