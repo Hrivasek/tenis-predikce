@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-14T19:15:39+00:00",
+"fetched": "2026-10-14T21:00:42+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -6781,14 +6781,14 @@
 "qualifying": 0,
 "date": "2026-10-14T17:30Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "13760",
 "p1_name": "Martha Matoula",
 "p2_id": "12957",
 "p2_name": "Guiomar Maristany Zuleta De Reales",
-"winner": "",
-"score": "",
+"winner": "12957",
+"score": "6-0 7-6(4)",
 "p1_country": "Greece",
 "p2_country": "Spain",
 "tour": "wta"
@@ -7745,12 +7745,12 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "12957",
+"p2_name": "Guiomar Maristany Zuleta De Reales",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
