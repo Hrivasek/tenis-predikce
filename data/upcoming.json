@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-15T15:17:13+00:00",
+"fetched": "2026-10-15T16:19:38+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -7237,14 +7237,14 @@
 "qualifying": 0,
 "date": "2026-10-15T14:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "3487",
 "p1_name": "Francisca Jorge",
 "p2_id": "7815",
 "p2_name": "Francesca Jones",
-"winner": "",
-"score": "",
+"winner": "7815",
+"score": "6-3 6-4",
 "p1_country": "Portugal",
 "p2_country": "Great Britain",
 "tour": "wta"
@@ -7307,9 +7307,9 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-10-15T15:30Z",
+"date": "2026-10-15T15:50Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "6127",
 "p1_name": "Mathilde Lollia",
@@ -7385,12 +7385,12 @@
 "best_of": 3,
 "p1_id": "2764",
 "p1_name": "Dalma Galfi",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "7815",
+"p2_name": "Francesca Jones",
 "winner": "",
 "score": "",
 "p1_country": "Hungary",
-"p2_country": "",
+"p2_country": "Great Britain",
 "tour": "wta"
 },
 {
