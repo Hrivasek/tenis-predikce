@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-16T17:15:26+00:00",
+"fetched": "2026-10-16T17:55:07+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -7741,14 +7741,14 @@
 "qualifying": 0,
 "date": "2026-10-16T16:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "7434",
 "p1_name": "Lucie Havlickova",
 "p2_id": "2617",
 "p2_name": "Jil Teichmann",
-"winner": "",
-"score": "",
+"winner": "7434",
+"score": "6-2 6-4",
 "p1_country": "Czechia",
 "p2_country": "Switzerland",
 "tour": "wta"
@@ -7763,9 +7763,9 @@
 "round": "Quarterfinal",
 "round_order": 10,
 "qualifying": 0,
-"date": "2026-10-16T17:30Z",
+"date": "2026-10-16T17:40Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "2979",
 "p1_name": "Bianca Andreescu",
@@ -8873,12 +8873,12 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "7434",
+"p2_name": "Lucie Havlickova",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
