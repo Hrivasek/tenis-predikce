@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-16T19:15:28+00:00",
+"fetched": "2026-10-16T20:15:21+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -7765,14 +7765,14 @@
 "qualifying": 0,
 "date": "2026-10-16T17:40Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "2979",
 "p1_name": "Bianca Andreescu",
 "p2_id": "8067",
 "p2_name": "Lucrezia Stefanini",
-"winner": "",
-"score": "",
+"winner": "2979",
+"score": "6-2 7-5",
 "p1_country": "Canada",
 "p2_country": "Italy",
 "tour": "wta"
@@ -8871,13 +8871,13 @@
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "2979",
+"p1_name": "Bianca Andreescu",
 "p2_id": "7434",
 "p2_name": "Lucie Havlickova",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Canada",
 "p2_country": "Czechia",
 "tour": "wta"
 },
