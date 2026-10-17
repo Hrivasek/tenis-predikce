@@ -5325,6 +5325,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026MaiaChallenger,atp,2026-10-12,Clay,R32,210119,Andrej Nedic,BIH,211542,Filippo Romano,ITA,7-6(2) 6-3
 2026MaiaChallenger,atp,2026-10-12,Clay,R32,211639,Alejo Sanchez Quilez,ESP,208024,Max Alcala Gurri,ESP,6-3 6-4
 2026MaiaChallenger,atp,2026-10-12,Clay,R32,212063,Matej Dodig,CRO,124079,Pedro Martinez,ESP,6-2 6-1
+2026MaiaChallenger,atp,2026-10-12,Clay,SF,200436,Zsombor Piros,HUN,211639,Alejo Sanchez Quilez,ESP,6-4 6-4
 2026OlbiaChallenger,atp,2026-10-12,Hard,Q1,106220,Dimitar Kuzmanov,BUL,126106,Ryan Peniston,GBR,6-4 6-3
 2026OlbiaChallenger,atp,2026-10-12,Hard,Q1,106362,Laurent Lokoli,FRA,210562,Marco Dessi,ITA,6-2 6-2
 2026OlbiaChallenger,atp,2026-10-12,Hard,Q1,109054,Daniel Masur,GER,210274,Sebastian Dominko,SLO,7-6(3) 6-1
@@ -5461,6 +5462,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SanGregoriodiCataniaChallenger,atp,2026-10-12,,R32,212241,Carlo Alberto Caniato,ITA,209338,Daniel Siniakov,CZE,6-3 6-2
 2026SanGregoriodiCataniaChallenger,atp,2026-10-12,,R32,212978,Izan Almazan Valiente,ESP,209952,Sean Cuenin,FRA,6-7(4) 6-3 4-3 RET
 2026SanGregoriodiCataniaChallenger,atp,2026-10-12,,R32,213760,Pavel Lagutin,RUS,126107,Michael Geerts,BEL,6-4 6-1
+2026SanGregoriodiCataniaChallenger,atp,2026-10-12,,SF,208457,Radu Mihai Papoe,ROU,208269,Felix Gill,GBR,6-4 7-5
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,Q1,105156,Federico Zeballos,BOL,212831,Samuel Heredia,COL,6-4 3-6 6-3
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,Q1,105868,Wilson Leite,BRA,122081,Luis Britto,BRA,6-1 6-2
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,Q1,202271,Lorenzo Joaquin Rodriguez,ARG,208273,Agustin Eduardo Cuellar Lorberg,BOL,6-4 6-1
@@ -5475,7 +5477,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,Q2,208532,Thiago Cigarran,ARG,202271,Lorenzo Joaquin Rodriguez,ARG,6-4 6-4
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,Q2,211636,Lucio Ratti,ARG,105156,Federico Zeballos,BOL,4-6 6-3 6-0
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,Q2,212784,Maximo Zeitune,ARG,144973,Santiago Fa Rodriguez Taverna,ARG,6-1 6-4
+2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,QF,106198,Hugo Dellien,BOL,213036,Luis Guto Miguel,BRA,6-2 6-4
+2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,QF,205734,Thiago Seyboth Wild,BRA,106044,Nicolas Kicker,ARG,6-1 6-1
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,QF,207681,Francisco Comesana,ARG,144821,Genaro Alberto Olivieri,ARG,3-6 6-3 6-3
+2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,QF,210412,Juan Manuel La Serna,ARG,208364,Franco Roncadelli,URU,6-1 6-7(4) 6-4
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,R16,106044,Nicolas Kicker,ARG,106057,Facundo Mena,ARG,7-6(4) 6-4
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,R16,106198,Hugo Dellien,BOL,210202,Rodrigo Pacheco Mendez,MEX,6-3 7-5
 2026SantaCruzdelaSierra2Challenger,atp,2026-10-12,Clay,R16,144821,Genaro Alberto Olivieri,ARG,209875,Alex Barrena,ARG,3-6 6-3 6-4
@@ -5556,6 +5561,8 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTALisbon125,wta,2026-10-12,Clay,R32,221443,Mathilde Lollia,FRA,221985,Darja Semenistaja,LAT,7-6(5) 5-7 6-2
 2026WTALisbon125,wta,2026-10-12,Clay,R32,221911,Selena Janicijevic,FRA,215909,Adrienn Nagy,HUN,6-3 6-4
 2026WTALisbon125,wta,2026-10-12,Clay,R32,222601,Jessica Bouzas Maneiro,ESP,270481,Milana Ivantsiv,POR,6-2 6-1
+2026WTALisbon125,wta,2026-10-12,Clay,SF,216262,Clara Burel,FRA,222601,Jessica Bouzas Maneiro,ESP,6-4 6-4
+2026WTALisbon125,wta,2026-10-12,Clay,SF,220742,Leyre Romero Gormaz,ESP,213646,Dalma Galfi,HUN,6-2 6-3
 2026WTAMallorca125,wta,2026-10-12,Clay,Q1,215166,Aneta Kladivova,CZE,202688,Isabella Shinikova,BUL,6-1 6-7(1) 6-3
 2026WTAMallorca125,wta,2026-10-12,Clay,Q1,221468,Lucie Nguyen Tan,FRA,267392,Mireia Sagrista Bermejo,ESP,6-1 6-4
 2026WTAMallorca125,wta,2026-10-12,Clay,Q1,225850,Maria Garcia Cid,ESP,203281,Amandine Hesse,FRA,6-1 6-1
@@ -5613,6 +5620,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTAMallorca125,wta,2026-10-12,Clay,R32,260664,Elizara Yaneva,BUL,221411,Jennifer Ruggeri,ITA,1-6 7-6(3) 6-1
 2026WTAMallorca125,wta,2026-10-12,Clay,R32,266671,Laura Samson,CZE,220164,Maria Aran Teixido Garcia,ESP,6-3 2-6 6-3
 2026WTAMallorca125,wta,2026-10-12,Clay,SF,231639,Ariana Geerlings,ESP,221014,Francesca Curmi,MLT,6-2 6-3
+2026WTAMallorca125,wta,2026-10-12,Clay,SF,266671,Laura Samson,CZE,214461,Tamara Zidansek,SLO,6-1 1-6 6-3
 2026WTARovereto125,wta,2026-10-12,Hard,Q1,204431,Anna Lena Friedsam,GER,266558,Lisa Peer,ITA,6-0 6-0
 2026WTARovereto125,wta,2026-10-12,Hard,Q1,211344,Caroline Uebelhoer,GER,216038,Kristina Novak,SLO,6-1 6-1
 2026WTARovereto125,wta,2026-10-12,Hard,Q1,214521,Lea Boskovic,CRO,263808,Alja Senica,SLO,6-1 6-1
@@ -5668,3 +5676,5 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTARovereto125,wta,2026-10-12,Hard,R32,222966,Dominika Salkova,CZE,216085,Elisa Visentin,ITA,6-0 6-1
 2026WTARovereto125,wta,2026-10-12,Hard,R32,222980,Lucie Havlickova,CZE,221626,Linda Klimovicova,CZE,6-4 7-5
 2026WTARovereto125,wta,2026-10-12,Hard,R32,267439,Teodora Kostovic,SRB,221039,Elsa Jacquemot,FRA,7-5 7-6(5)
+2026WTARovereto125,wta,2026-10-12,Hard,SF,215370,Bianca Andreescu,CAN,222980,Lucie Havlickova,CZE,6-3 6-1
+2026WTARovereto125,wta,2026-10-12,Hard,SF,222966,Dominika Salkova,CZE,221243,Martyna Kubka,POL,1-6 7-5 6-3
