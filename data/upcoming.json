@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-17T08:22:28+00:00",
+"fetched": "2026-10-17T08:27:33+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -8437,7 +8437,7 @@
 "qualifying": 1,
 "date": "2026-10-17T08:25Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "2672",
 "p1_name": "Magdalena Frech",
