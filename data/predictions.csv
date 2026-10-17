@@ -710,11 +710,11 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185373,wta,2026-10-17T11:10Z,Dongfeng Voyah Wuhan Open,Semifinal,Hard,3730,Iga Swiatek,3417,Maja Chwalinska,2984.2,2630.9,533,379,0.8289,2026-10-16T15:15+02:00,final,3417,7-5 6-1,v3,
 185419,wta,2026-10-17T11:30Z,Lisboa Belem Open,Semifinal,Hard,6059,Jessica Bouzas Maneiro,3508,Clara Burel,2485.5,2440.9,425,298,0.5496,2026-10-16T15:52+02:00,final,3508,6-4 6-4,v3,
 185465,wta,2026-10-17T13:00Z,RoveretOpen Città della Pace,Semifinal,Hard,2979,Bianca Andreescu,7434,Lucie Havlickova,2504.4,2454.4,351,200,0.5556,2026-10-16T22:15+02:00,final,2979,6-3 6-1,v3,1
-185467,wta,2026-10-18T04:00Z,RoveretOpen Città della Pace,Final,Hard,2979,Bianca Andreescu,7436,Dominika Salkova,2526.5,2336.2,352,296,0.7006,2026-10-17T17:18+02:00,scheduled,,,v3,
 185513,wta,2026-10-18T08:00Z,Vanda Pharmaceuticals Mallorca Women's Championships,Final,Grass,14607,Ariana Geerlings,15069,Laura Samson,2052.8,2102.4,154,137,0.4448,2026-10-17T14:20+02:00,scheduled,,,v3,
 184947,atp,2026-10-18T08:30Z,Rolex Shanghai Masters,Final,Hard,3212,Alejandro Davidovich Fokina,12657,Rafael Jodar,2538.0,2552.6,544,132,0.4776,2026-10-17T16:24+02:00,scheduled,,,v3,
 185421,wta,2026-10-18T10:00Z,Lisboa Belem Open,Final,Hard,3508,Clara Burel,10676,Leyre Romero Gormaz,2458.9,2369.4,299,422,0.5986,2026-10-17T16:24+02:00,scheduled,,,v3,
 185375,wta,2026-10-18T10:30Z,Dongfeng Voyah Wuhan Open,Final,Hard,3417,Maja Chwalinska,7209,Sonay Kartal,2670.0,2755.3,380,243,0.4059,2026-10-17T16:24+02:00,scheduled,,,v3,1
+185467,wta,2026-10-18T12:00Z,RoveretOpen Città della Pace,Final,Hard,2979,Bianca Andreescu,7436,Dominika Salkova,2526.5,2336.2,352,296,0.7006,2026-10-17T17:18+02:00,scheduled,,,v3,
 184991,atp,2026-10-19T04:00Z,Almaty Open,Round 1,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-16T06:20+02:00,scheduled,,,v3,
 184992,atp,2026-10-19T04:00Z,Almaty Open,Round 1,Hard,1266,Adrian Mannarino,3471,Aleksandar Vukic,2266.7,2212.4,1291,606,0.5822,2026-10-17T11:23+02:00,scheduled,,,v3,
 184994,atp,2026-10-19T04:00Z,Almaty Open,Round 1,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-16T06:20+02:00,scheduled,,,v3,
