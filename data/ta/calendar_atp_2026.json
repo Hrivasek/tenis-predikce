@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-12T12:27:56",
+"fetched": "2026-10-18T20:02:48",
 "events": [
 {
 "week": "2026-01-05",
@@ -1694,6 +1694,38 @@
 "name": "Lisboa Belém Open",
 "city": "Lisbon",
 "country": "Portugal",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-19",
+"name": "Cali Open",
+"city": "Cali",
+"country": "Colombia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-19",
+"name": "Fort Worth Challenger",
+"city": "Fort Worth",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-19",
+"name": "Guangzhou International Challenger",
+"city": "Nansha",
+"country": "China",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-19",
+"name": "Florence Challenger",
+"city": "Florence",
+"country": "Italy",
 "surface": "Clay",
 "nth": 1
 }

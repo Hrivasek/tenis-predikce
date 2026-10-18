@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-12T12:28:02",
+"fetched": "2026-10-18T20:02:55",
 "events": [
 {
 "week": "2026-01-05",
@@ -485,6 +485,14 @@
 "week": "2026-11-02",
 "name": "Cali Open",
 "city": "Cali",
+"country": "Colombia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-11-09",
+"name": "Cundinamarca Open",
+"city": "Sopó",
 "country": "Colombia",
 "surface": "Clay",
 "nth": 1
