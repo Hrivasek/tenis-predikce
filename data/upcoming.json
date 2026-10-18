@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-18T15:15:18+00:00",
+"fetched": "2026-10-18T16:15:25+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -9589,14 +9589,14 @@
 "qualifying": 1,
 "date": "2026-10-18T12:00Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "final",
 "best_of": 5,
 "p1_id": "8871",
 "p1_name": "Clement Chidekh",
 "p2_id": "10954",
 "p2_name": "Gauthier Onclin",
-"winner": "",
-"score": "",
+"winner": "8871",
+"score": "6-2 7-6(3)",
 "p1_country": "France",
 "p2_country": "Belgium",
 "tour": "atp"
@@ -9613,14 +9613,14 @@
 "qualifying": 1,
 "date": "2026-10-18T12:00Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "final",
 "best_of": 5,
 "p1_id": "7599",
 "p1_name": "Francesco Maestrelli",
 "p2_id": "3449",
 "p2_name": "Borna Gojo",
-"winner": "",
-"score": "",
+"winner": "3449",
+"score": "4-6 6-3 7-6(6)",
 "p1_country": "Italy",
 "p2_country": "Croatia",
 "tour": "atp"
@@ -10577,12 +10577,12 @@
 "best_of": 5,
 "p1_id": "4026",
 "p1_name": "Vitaliy Sachko",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "3449",
+"p2_name": "Borna Gojo",
 "winner": "",
 "score": "",
 "p1_country": "Ukraine",
-"p2_country": "",
+"p2_country": "Croatia",
 "tour": "atp"
 },
 {
