@@ -713,8 +713,8 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185513,wta,2026-10-18T08:00Z,Vanda Pharmaceuticals Mallorca Women's Championships,Final,Grass,14607,Ariana Geerlings,15069,Laura Samson,2052.8,2102.4,154,137,0.4448,2026-10-17T14:20+02:00,final,14607,6-2 6-2,v3,
 184947,atp,2026-10-18T08:30Z,Rolex Shanghai Masters,Final,Hard,3212,Alejandro Davidovich Fokina,12657,Rafael Jodar,2538.0,2552.6,544,132,0.4776,2026-10-17T16:24+02:00,final,3212,1-6 7-6(5) 6-4,v3,
 185421,wta,2026-10-18T10:00Z,Lisboa Belem Open,Final,Hard,3508,Clara Burel,10676,Leyre Romero Gormaz,2458.9,2369.4,299,422,0.5986,2026-10-17T16:24+02:00,final,3508,6-4 6-3,v3,
-185375,wta,2026-10-18T10:30Z,Dongfeng Voyah Wuhan Open,Final,Hard,3417,Maja Chwalinska,7209,Sonay Kartal,2670.0,2755.3,380,243,0.4059,2026-10-17T16:24+02:00,live,,,v3,1
-185467,wta,2026-10-18T12:00Z,RoveretOpen Città della Pace,Final,Hard,2979,Bianca Andreescu,7436,Dominika Salkova,2526.5,2336.2,352,296,0.7006,2026-10-17T17:18+02:00,live,,,v3,
+185375,wta,2026-10-18T10:30Z,Dongfeng Voyah Wuhan Open,Final,Hard,3417,Maja Chwalinska,7209,Sonay Kartal,2670.0,2755.3,380,243,0.4059,2026-10-17T16:24+02:00,final,3417,2-6 6-4 6-2,v3,1
+185467,wta,2026-10-18T12:00Z,RoveretOpen Città della Pace,Final,Hard,2979,Bianca Andreescu,7436,Dominika Salkova,2526.5,2336.2,352,296,0.7006,2026-10-17T17:18+02:00,final,2979,7-6(2) 6-2,v3,
 185568,wta,2026-10-19T02:30Z,Kinoshita Group Japan Open,Round 1,Hard,6953,Lanlana Tararudee,14460,Kaitlin Quevedo,2497.7,2424.2,291,224,0.5813,2026-10-17T07:19+02:00,scheduled,,,v3,
 185574,wta,2026-10-19T02:30Z,Kinoshita Group Japan Open,Round 1,Hard,10830,Lilli Tagger,3840,Liudmila Samsonova,2519.5,2632.2,128,529,0.3767,2026-10-17T07:19+02:00,scheduled,,,v3,
 185577,wta,2026-10-19T02:30Z,Kinoshita Group Japan Open,Round 1,Hard,2458,Viktorija Golubic,3153,Mai Hontama,2515.2,2243.4,820,494,0.7710,2026-10-17T07:19+02:00,scheduled,,,v3,
@@ -796,7 +796,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185104,atp,2026-10-20T04:00Z,Grand Prix Auvergne-Rhône-Alpes,Round 1,Clay,264,Stan Wawrinka,11640,Martin Landaluce,2249.9,2219.2,1145,237,0.5469,2026-10-17T19:28+02:00,scheduled,,,v3,
 185105,atp,2026-10-20T04:00Z,Grand Prix Auvergne-Rhône-Alpes,Round 1,Clay,8621,Arthur Fery,-4,TBD,2173.9,1500.0,249,0,0.9878,2026-10-17T19:28+02:00,scheduled,,,v3,
 185523,wta,2026-10-20T04:00Z,BNB Ningbo Open,Round 1,Hard,3157,Cristina Bucsa,6413,Polina Kudermetova,2531.2,2448.6,568,377,0.5912,2026-10-18T13:28+02:00,scheduled,,,v3,
-185524,wta,2026-10-20T04:00Z,BNB Ningbo Open,Round 1,Hard,3889,Katarzyna Kawa,3417,Maja Chwalinska,2191.0,2670.0,683,380,0.1053,2026-10-18T13:28+02:00,scheduled,,,v3,1
+185524,wta,2026-10-20T04:00Z,BNB Ningbo Open,Round 1,Hard,3889,Katarzyna Kawa,3417,Maja Chwalinska,2191.0,2682.4,683,381,0.1002,2026-10-18T16:15+02:00,scheduled,,,v3,1
 185525,wta,2026-10-20T04:00Z,BNB Ningbo Open,Round 1,Hard,1802,Yulia Putintseva,8017,Diana Shnaider,2568.2,2791.6,821,317,0.2694,2026-10-18T13:28+02:00,scheduled,,,v3,
 185528,wta,2026-10-20T04:00Z,BNB Ningbo Open,Round 1,Hard,3149,Guo Hanyu,3182,Ekaterina Alexandrova,2324.0,2691.5,323,733,0.1623,2026-10-17T14:52+02:00,scheduled,,,v3,
 185530,wta,2026-10-20T04:00Z,BNB Ningbo Open,Round 1,Hard,2195,Jelena Ostapenko,2183,Belinda Bencic,2645.4,2794.9,652,646,0.3390,2026-10-17T14:52+02:00,scheduled,,,v3,
@@ -808,7 +808,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185575,wta,2026-10-20T04:00Z,Kinoshita Group Japan Open,Round 1,Hard,2980,Claire Liu,1649,Magda Linette,2424.8,2461.9,452,882,0.4587,2026-10-18T10:45+02:00,scheduled,,,v3,
 185578,wta,2026-10-20T04:00Z,Kinoshita Group Japan Open,Round 1,Hard,2731,Paula Badosa,6816,Antonia Ruzic,2686.9,2427.4,568,351,0.7611,2026-10-17T07:19+02:00,scheduled,,,v3,
 185579,wta,2026-10-20T04:00Z,Kinoshita Group Japan Open,Round 1,Hard,3380,Ann Li,12287,Emerson Jones,2611.2,2404.2,461,148,0.7160,2026-10-18T10:45+02:00,scheduled,,,v3,
-185580,wta,2026-10-20T04:00Z,Kinoshita Group Japan Open,Round 1,Hard,7209,Sonay Kartal,2588,Kimberly Birrell,2755.3,2526.8,243,468,0.7351,2026-10-17T14:20+02:00,scheduled,,,v3,
+185580,wta,2026-10-20T04:00Z,Kinoshita Group Japan Open,Round 1,Hard,7209,Sonay Kartal,2588,Kimberly Birrell,2741.9,2526.8,244,468,0.7233,2026-10-18T16:15+02:00,scheduled,,,v3,
 185581,wta,2026-10-20T04:00Z,Kinoshita Group Japan Open,Round 1,Hard,14146,Maya Joint,5604,Zeynep Sonmez,2480.2,2511.5,230,422,0.4651,2026-10-18T10:45+02:00,scheduled,,,v3,
 185582,wta,2026-10-20T04:00Z,Kinoshita Group Japan Open,Round 1,Hard,5705,Oleksandra Oliynykova,13479,Mary Stoiana,2299.9,2444.8,422,137,0.3435,2026-10-18T10:45+02:00,scheduled,,,v3,
 184993,atp,2026-10-21T04:00Z,Almaty Open,Round 2,Hard,-3,TBD,2642,Andrey Rublev,1500.0,2460.9,0,819,0.0016,2026-10-17T11:23+02:00,scheduled,,,v3,
