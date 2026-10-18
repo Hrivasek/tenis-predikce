@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-18T12:15:24+00:00",
+"fetched": "2026-10-18T13:08:22+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -9517,14 +9517,14 @@
 "qualifying": 1,
 "date": "2026-10-18T10:30Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "final",
 "best_of": 5,
 "p1_id": "13747",
 "p1_name": "Maxim Mrva",
 "p2_id": "1769",
 "p2_name": "Dusan Lajovic",
-"winner": "",
-"score": "",
+"winner": "13747",
+"score": "7-6(4) 7-6(5)",
 "p1_country": "Czechia",
 "p2_country": "Serbia",
 "tour": "atp"
@@ -10769,12 +10769,12 @@
 "best_of": 5,
 "p1_id": "1613",
 "p1_name": "Pierre-Hugues Herbert",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "13747",
+"p2_name": "Maxim Mrva",
 "winner": "",
 "score": "",
 "p1_country": "France",
-"p2_country": "",
+"p2_country": "Czechia",
 "tour": "atp"
 },
 {
