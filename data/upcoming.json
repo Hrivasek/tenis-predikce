@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-18T16:15:25+00:00",
+"fetched": "2026-10-18T17:12:29+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -9637,14 +9637,14 @@
 "qualifying": 1,
 "date": "2026-10-18T12:00Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "final",
 "best_of": 5,
 "p1_id": "4022",
 "p1_name": "Valentin Royer",
 "p2_id": "3512",
 "p2_name": "Clement Tabur",
-"winner": "",
-"score": "",
+"winner": "3512",
+"score": "7-6(2) 6-7(3) 6-2",
 "p1_country": "France",
 "p2_country": "France",
 "tour": "atp"
@@ -10647,13 +10647,13 @@
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 5,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "3512",
+"p1_name": "Clement Tabur",
 "p2_id": "-4",
 "p2_name": "TBD",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "France",
 "p2_country": "",
 "tour": "atp"
 },
