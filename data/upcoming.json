@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-18T17:12:29+00:00",
+"fetched": "2026-10-18T18:14:19+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -9757,14 +9757,14 @@
 "qualifying": 1,
 "date": "2026-10-18T14:00Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "final",
 "best_of": 5,
 "p1_id": "10130",
 "p1_name": "Martin Damm",
 "p2_id": "11636",
 "p2_name": "Andrea Guerrieri",
-"winner": "",
-"score": "",
+"winner": "11636",
+"score": "7-6(6) 6-7(5) 6-3",
 "p1_country": "USA",
 "p2_country": "Italy",
 "tour": "atp"
