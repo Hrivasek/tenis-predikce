@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-19T16:53:26+00:00",
+"fetched": "2026-10-19T18:02:06+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -10717,14 +10717,14 @@
 "qualifying": 0,
 "date": "2026-10-19T14:40Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "1141",
 "p1_name": "Mikhail Kukushkin",
 "p2_id": "12284",
 "p2_name": "Stefanos Sakellaridis",
-"winner": "",
-"score": "",
+"winner": "1141",
+"score": "7-6(4) 7-6(3)",
 "p1_country": "Kazakhstan",
 "p2_country": "Greece",
 "tour": "atp"
@@ -10765,7 +10765,7 @@
 "qualifying": 0,
 "date": "2026-10-19T16:55Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "3052",
 "p1_name": "Lorenzo Sonego",
@@ -11945,12 +11945,12 @@
 "best_of": 5,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "1141",
+"p2_name": "Mikhail Kukushkin",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Kazakhstan",
 "tour": "atp"
 },
 {
