@@ -772,7 +772,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185572,wta,2026-10-20T02:30Z,Kinoshita Group Japan Open,Round 1,Hard,8419,Tereza Valentova,707,Zhang Shuai,2618.7,2442.3,163,1037,0.6874,2026-10-17T07:19+02:00,scheduled,,,v3,
 185575,wta,2026-10-20T02:30Z,Kinoshita Group Japan Open,Round 1,Hard,2980,Claire Liu,1649,Magda Linette,2424.8,2461.9,452,882,0.4587,2026-10-18T10:45+02:00,scheduled,,,v3,
 185579,wta,2026-10-20T02:30Z,Kinoshita Group Japan Open,Round 1,Hard,3380,Ann Li,12287,Emerson Jones,2611.2,2404.2,461,148,0.7160,2026-10-18T10:45+02:00,scheduled,,,v3,
-185570,wta,2026-10-20T03:30Z,Kinoshita Group Japan Open,Round 1,Hard,2054,Katie Boulter,11317,Himeno Sakatsume,2532.8,2384.4,563,415,0.6599,2026-10-17T07:19+02:00,scheduled,,,v3,
+185570,wta,2026-10-20T03:30Z,Kinoshita Group Japan Open,Round 1,Hard,2054,Katie Boulter,11317,Himeno Sakatsume,2532.8,2384.4,563,415,0.6599,2026-10-17T07:19+02:00,other,,,v3,
 185578,wta,2026-10-20T04:00Z,Kinoshita Group Japan Open,Round 1,Hard,2731,Paula Badosa,6816,Antonia Ruzic,2686.9,2427.4,568,351,0.7611,2026-10-17T07:19+02:00,scheduled,,,v3,
 185582,wta,2026-10-20T04:00Z,Kinoshita Group Japan Open,Round 1,Hard,5705,Oleksandra Oliynykova,13479,Mary Stoiana,2299.9,2444.8,422,137,0.3435,2026-10-18T10:45+02:00,scheduled,,,v3,
 185525,wta,2026-10-20T05:00Z,BNB Ningbo Open,Round 1,Hard,1802,Yulia Putintseva,8017,Diana Shnaider,2568.2,2791.6,821,317,0.2694,2026-10-18T13:28+02:00,scheduled,,,v3,
