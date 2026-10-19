@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-19T15:15:43+00:00",
+"fetched": "2026-10-19T16:15:32+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -10741,7 +10741,7 @@
 "qualifying": 0,
 "date": "2026-10-19T15:15Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "3793",
 "p1_name": "Matteo Arnaldi",
