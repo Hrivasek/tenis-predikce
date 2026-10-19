@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-19T16:15:32+00:00",
+"fetched": "2026-10-19T16:53:26+00:00",
 "matches": [
 {
 "match_id": "186308",
@@ -10741,14 +10741,14 @@
 "qualifying": 0,
 "date": "2026-10-19T15:15Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "3793",
 "p1_name": "Matteo Arnaldi",
 "p2_id": "3764",
 "p2_name": "Lorenzo Musetti",
-"winner": "",
-"score": "",
+"winner": "3764",
+"score": "6-1 6-4",
 "p1_country": "Italy",
 "p2_country": "Italy",
 "tour": "atp"
@@ -10763,7 +10763,7 @@
 "round": "Round 1",
 "round_order": 1,
 "qualifying": 0,
-"date": "2026-10-19T16:30Z",
+"date": "2026-10-19T16:55Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 5,
@@ -12209,12 +12209,12 @@
 "best_of": 5,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "3764",
+"p2_name": "Lorenzo Musetti",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Italy",
 "tour": "atp"
 },
 {
