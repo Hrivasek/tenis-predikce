@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-20T09:19:24+00:00",
+"fetched": "2026-10-20T09:26:56+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -2666,30 +2666,6 @@
 "tour": "atp"
 },
 {
-"match_id": "185530",
-"event_id": "963-2026",
-"tourney_name": "BNB Ningbo Open",
-"venue": "Ningbo, China PR",
-"event_start": "20261016",
-"tourney_level": "A",
-"round": "Round 1",
-"round_order": 1,
-"qualifying": 0,
-"date": "2026-10-20T09:20Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "2195",
-"p1_name": "Jelena Ostapenko",
-"p2_id": "2183",
-"p2_name": "Belinda Bencic",
-"winner": "",
-"score": "",
-"p1_country": "Latvia",
-"p2_country": "Switzerland",
-"tour": "wta"
-},
-{
 "match_id": "185038",
 "event_id": "440-2026",
 "tourney_name": "BNP Paribas Fortis European Open",
@@ -2760,6 +2736,30 @@
 "p1_country": "Hungary",
 "p2_country": "Kazakhstan",
 "tour": "atp"
+},
+{
+"match_id": "185530",
+"event_id": "963-2026",
+"tourney_name": "BNB Ningbo Open",
+"venue": "Ningbo, China PR",
+"event_start": "20261016",
+"tourney_level": "A",
+"round": "Round 1",
+"round_order": 1,
+"qualifying": 0,
+"date": "2026-10-20T09:40Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "2195",
+"p1_name": "Jelena Ostapenko",
+"p2_id": "2183",
+"p2_name": "Belinda Bencic",
+"winner": "",
+"score": "",
+"p1_country": "Latvia",
+"p2_country": "Switzerland",
+"tour": "wta"
 },
 {
 "match_id": "185092",
