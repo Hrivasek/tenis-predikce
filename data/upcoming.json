@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-20T22:14:44+00:00",
+"fetched": "2026-10-20T23:15:25+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -3133,14 +3133,14 @@
 "qualifying": 0,
 "date": "2026-10-20T20:25Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "8325",
 "p1_name": "Hamad Medjedovic",
 "p2_id": "3774",
 "p2_name": "Brandon Nakashima",
-"winner": "",
-"score": "",
+"winner": "3774",
+"score": "7-6(4) 6-7(4) 6-2",
 "p1_country": "Serbia",
 "p2_country": "USA",
 "tour": "atp"
@@ -3929,12 +3929,12 @@
 "best_of": 5,
 "p1_id": "7509",
 "p1_name": "Kyrian Jacquet",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "3774",
+"p2_name": "Brandon Nakashima",
 "winner": "",
 "score": "",
 "p1_country": "France",
-"p2_country": "",
+"p2_country": "USA",
 "tour": "atp"
 },
 {
