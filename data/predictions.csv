@@ -805,7 +805,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185096,atp,2026-10-20T16:30Z,Grand Prix Auvergne-Rhône-Alpes,Round 1,Clay,8814,Luca Van Assche,3512,Clement Tabur,2343.9,2157.7,383,486,0.7591,2026-10-19T16:15+02:00,final,8814,7-6(3) 6-3,v3,
 185089,atp,2026-10-20T17:15Z,Grand Prix Auvergne-Rhône-Alpes,Round 1,Clay,2622,Matteo Berrettini,7509,Kyrian Jacquet,2487.0,2236.2,540,383,0.8257,2026-10-19T16:15+02:00,final,7509,7-6(4) 7-5,v3,
 185043,atp,2026-10-20T17:30Z,BNP Paribas Fortis European Open,Round 1,Hard,11083,Nishesh Basavareddy,11222,Raphael Collignon,2300.8,2369.7,183,344,0.3959,2026-10-18T21:15+02:00,final,11222,3-6 6-3 6-4,v3,
-185091,atp,2026-10-20T20:25Z,Grand Prix Auvergne-Rhône-Alpes,Round 1,Clay,8325,Hamad Medjedovic,3774,Brandon Nakashima,2410.7,2419.1,294,469,0.4871,2026-10-17T19:28+02:00,scheduled,,,v3,
+185091,atp,2026-10-20T20:25Z,Grand Prix Auvergne-Rhône-Alpes,Round 1,Clay,8325,Hamad Medjedovic,3774,Brandon Nakashima,2410.7,2419.1,294,469,0.4871,2026-10-17T19:28+02:00,live,,,v3,
 185586,wta,2026-10-21T02:30Z,Kinoshita Group Japan Open,Round 2,Hard,6708,Talia Gibson,7797,Sinja Kraus,2503.4,2422.2,345,486,0.5898,2026-10-19T09:15+02:00,scheduled,,,v3,
 185587,wta,2026-10-21T02:30Z,Kinoshita Group Japan Open,Round 2,Hard,6953,Lanlana Tararudee,6724,Ashlyn Krueger,2510.3,2542.7,292,333,0.4639,2026-10-19T09:15+02:00,scheduled,,,v3,
 185585,wta,2026-10-21T04:00Z,Kinoshita Group Japan Open,Round 2,Hard,8419,Tereza Valentova,10830,Lilli Tagger,2624.2,2559.4,164,129,0.5719,2026-10-20T11:19+02:00,scheduled,,,v3,
