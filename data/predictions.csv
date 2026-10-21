@@ -817,7 +817,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185634,wta,2026-10-21T04:00Z,Río Ladies Open by MundoTênis Tours,Round 2,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-16T06:20+02:00,scheduled,,,v3,
 185635,wta,2026-10-21T04:00Z,Río Ladies Open by MundoTênis Tours,Round 2,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-16T06:20+02:00,scheduled,,,v3,
 185636,wta,2026-10-21T04:00Z,Río Ladies Open by MundoTênis Tours,Round 2,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-16T06:20+02:00,scheduled,,,v3,
-185542,wta,2026-10-21T05:00Z,BNB Ningbo Open,Round 2,Hard,2392,Marie Bouzkova,5775,Anastasia Zakharova,2637.2,2425.4,615,474,0.7203,2026-10-20T11:19+02:00,scheduled,,,v3,
+185542,wta,2026-10-21T05:00Z,BNB Ningbo Open,Round 2,Hard,2392,Marie Bouzkova,5775,Anastasia Zakharova,2637.2,2425.4,615,474,0.7203,2026-10-20T11:19+02:00,live,,,v3,
 185589,wta,2026-10-21T05:30Z,Kinoshita Group Japan Open,Round 2,Hard,2054,Katie Boulter,2458,Viktorija Golubic,2545.2,2521.9,564,821,0.5260,2026-10-20T11:19+02:00,scheduled,,,v3,
 184998,atp,2026-10-21T06:30Z,Almaty Open,Round 2,Hard,1857,James Duckworth,7833,Luciano Darderi,2259.2,2332.4,895,401,0.3896,2026-10-19T10:15+02:00,scheduled,,,v3,
 185009,atp,2026-10-21T06:30Z,Almaty Open,Round 1,Hard,10153,Mattia Bellucci,3739,Tomas Martin Etcheverry,2335.3,2320.0,413,607,0.5234,2026-10-17T13:05+02:00,scheduled,,,v3,
