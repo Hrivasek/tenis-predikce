@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-21T20:59:15+00:00",
+"fetched": "2026-10-21T22:15:21+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -3709,14 +3709,14 @@
 "qualifying": 0,
 "date": "2026-10-21T19:20Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "2355",
 "p1_name": "Benjamin Bonzi",
 "p2_id": "2964",
 "p2_name": "Tommy Paul",
-"winner": "",
-"score": "",
+"winner": "2964",
+"score": "6-4 6-7(4) 6-3",
 "p1_country": "France",
 "p2_country": "USA",
 "tour": "atp"
@@ -4457,12 +4457,12 @@
 "best_of": 5,
 "p1_id": "2886",
 "p1_name": "Corentin Moutet",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "2964",
+"p2_name": "Tommy Paul",
 "winner": "",
 "score": "",
 "p1_country": "France",
-"p2_country": "",
+"p2_country": "USA",
 "tour": "atp"
 },
 {
