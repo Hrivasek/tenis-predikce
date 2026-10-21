@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-21T05:22:36+00:00",
+"fetched": "2026-10-21T06:22:59+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -3205,14 +3205,14 @@
 "qualifying": 0,
 "date": "2026-10-21T04:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "8419",
 "p1_name": "Tereza Valentova",
 "p2_id": "10830",
 "p2_name": "Lilli Tagger",
-"winner": "",
-"score": "",
+"winner": "10830",
+"score": "7-5 6-3",
 "p1_country": "Czechia",
 "p2_country": "Austria",
 "tour": "wta"
@@ -3251,9 +3251,9 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-10-21T05:30Z",
+"date": "2026-10-21T06:10Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "2054",
 "p1_name": "Katie Boulter",
@@ -4553,12 +4553,12 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "10830",
+"p2_name": "Lilli Tagger",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Austria",
 "tour": "wta"
 },
 {
