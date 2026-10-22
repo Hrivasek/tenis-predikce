@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-22T05:15:22+00:00",
+"fetched": "2026-10-22T06:16:49+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -3842,30 +3842,6 @@
 "tour": "wta"
 },
 {
-"match_id": "185592",
-"event_id": "345-2026",
-"tourney_name": "Kinoshita Group Japan Open",
-"venue": "Osaka, Japan",
-"event_start": "20261016",
-"tourney_level": "A",
-"round": "Round 2",
-"round_order": 2,
-"qualifying": 0,
-"date": "2026-10-22T05:30Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "1649",
-"p1_name": "Magda Linette",
-"p2_id": "2248",
-"p2_name": "Katerina Siniakova",
-"winner": "",
-"score": "",
-"p1_country": "Poland",
-"p2_country": "Czechia",
-"tour": "wta"
-},
-{
 "match_id": "185000",
 "event_id": "708-2026",
 "tourney_name": "Almaty Open",
@@ -3911,6 +3887,30 @@
 "score": "",
 "p1_country": "Poland",
 "p2_country": "Switzerland",
+"tour": "wta"
+},
+{
+"match_id": "185592",
+"event_id": "345-2026",
+"tourney_name": "Kinoshita Group Japan Open",
+"venue": "Osaka, Japan",
+"event_start": "20261016",
+"tourney_level": "A",
+"round": "Round 2",
+"round_order": 2,
+"qualifying": 0,
+"date": "2026-10-22T06:35Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "1649",
+"p1_name": "Magda Linette",
+"p2_id": "2248",
+"p2_name": "Katerina Siniakova",
+"winner": "",
+"score": "",
+"p1_country": "Poland",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
