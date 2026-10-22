@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-22T14:59:58+00:00",
+"fetched": "2026-10-22T16:15:24+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -4117,14 +4117,14 @@
 "qualifying": 0,
 "date": "2026-10-22T14:35Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "1613",
 "p1_name": "Pierre-Hugues Herbert",
 "p2_id": "2946",
 "p2_name": "Taylor Fritz",
-"winner": "",
-"score": "",
+"winner": "2946",
+"score": "6-2 7-5",
 "p1_country": "France",
 "p2_country": "USA",
 "tour": "atp"
@@ -4163,9 +4163,9 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-10-22T15:10Z",
+"date": "2026-10-22T15:25Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "1842",
 "p1_name": "Damir Dzumhur",
@@ -4553,12 +4553,12 @@
 "best_of": 5,
 "p1_id": "3203",
 "p1_name": "Daniel Altmaier",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "2946",
+"p2_name": "Taylor Fritz",
 "winner": "",
 "score": "",
 "p1_country": "Germany",
-"p2_country": "",
+"p2_country": "USA",
 "tour": "atp"
 },
 {
