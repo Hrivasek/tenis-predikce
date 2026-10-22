@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-22T16:15:24+00:00",
+"fetched": "2026-10-22T18:17:18+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -4165,14 +4165,14 @@
 "qualifying": 0,
 "date": "2026-10-22T15:25Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "1842",
 "p1_name": "Damir Dzumhur",
 "p2_id": "3356",
 "p2_name": "Zizou Bergs",
-"winner": "",
-"score": "",
+"winner": "3356",
+"score": "6-2 6-4",
 "p1_country": "Bosnia and Herzegovina",
 "p2_country": "Belgium",
 "tour": "atp"
@@ -4187,9 +4187,9 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-10-22T17:00Z",
+"date": "2026-10-22T17:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "7602",
 "p1_name": "Flavio Cobolli",
@@ -4673,12 +4673,12 @@
 "best_of": 5,
 "p1_id": "2337",
 "p1_name": "Jan-Lennard Struff",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "3356",
+"p2_name": "Zizou Bergs",
 "winner": "",
 "score": "",
 "p1_country": "Germany",
-"p2_country": "",
+"p2_country": "Belgium",
 "tour": "atp"
 },
 {
