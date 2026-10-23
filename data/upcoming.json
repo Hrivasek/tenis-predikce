@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-23T14:15:29+00:00",
+"fetched": "2026-10-23T14:50:52+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -4571,9 +4571,9 @@
 "round": "Quarterfinal",
 "round_order": 10,
 "qualifying": 0,
-"date": "2026-10-23T14:30Z",
+"date": "2026-10-23T14:35Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "2865",
 "p1_name": "Alexander Bublik",
@@ -4595,7 +4595,7 @@
 "round": "Quarterfinal",
 "round_order": 10,
 "qualifying": 0,
-"date": "2026-10-23T14:30Z",
+"date": "2026-10-23T15:00Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 5,
