@@ -894,7 +894,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185019,atp,2026-10-24T13:15Z,Almaty Open,Semifinal,Hard,2383,Daniil Medvedev,2865,Alexander Bublik,2606.3,2490.2,848,686,0.6709,2026-10-23T19:15+02:00,ret,2383,6-3 RET,v3,
 185066,atp,2026-10-24T14:00Z,BNP Paribas Fortis European Open,Semifinal,Hard,3700,Francisco Cerundolo,3319,Tallon Griekspoor,2498.2,2375.3,537,656,0.6802,2026-10-23T19:15+02:00,final,3319,2-6 6-3 7-6(4),v3,
 185111,atp,2026-10-24T14:00Z,Grand Prix Auvergne-Rhône-Alpes,Semifinal,Clay,7602,Flavio Cobolli,3764,Lorenzo Musetti,2465.2,2592.9,430,465,0.3134,2026-10-24T06:23+02:00,final,3764,4-6 6-2 7-5,v3,
-185065,atp,2026-10-24T16:30Z,BNP Paribas Fortis European Open,Semifinal,Hard,10052,Arthur Fils,2337,Jan-Lennard Struff,2615.2,2330.5,325,1045,0.8546,2026-10-23T23:15+02:00,live,,,v3,
+185065,atp,2026-10-24T16:30Z,BNP Paribas Fortis European Open,Semifinal,Hard,10052,Arthur Fils,2337,Jan-Lennard Struff,2615.2,2330.5,325,1045,0.8546,2026-10-23T23:15+02:00,other,,,v3,
 185067,atp,2026-10-25T04:00Z,BNP Paribas Fortis European Open,Final,Hard,-3,TBD,3319,Tallon Griekspoor,1500.0,2385.1,0,657,0.0028,2026-10-24T19:18+02:00,scheduled,,,v3,
 185643,wta,2026-10-25T04:00Z,Río Ladies Open by MundoTênis Tours,Final,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-16T06:20+02:00,scheduled,,,v3,
 185593,wta,2026-10-25T04:30Z,Kinoshita Group Japan Open,Final,Hard,6724,Ashlyn Krueger,2248,Katerina Siniakova,2602.7,2681.9,336,704,0.4125,2026-10-24T12:15+02:00,scheduled,,,v3,

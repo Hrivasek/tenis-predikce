@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-24T17:18:58+00:00",
+"fetched": "2026-10-24T18:17:00+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -5893,7 +5893,7 @@
 "qualifying": 0,
 "date": "2026-10-24T16:40Z",
 "time_valid": 1,
-"status": "live",
+"status": "other",
 "best_of": 5,
 "p1_id": "10052",
 "p1_name": "Arthur Fils",
