@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-24T20:33:14+00:00",
+"fetched": "2026-10-24T21:22:56+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -6543,14 +6543,14 @@
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p1_id": "19256",
+"p1_name": "Lourdes Ayala",
+"p2_id": "19257",
+"p2_name": "Georgia Gulin",
 "winner": "",
 "score": "",
-"p1_country": "",
-"p2_country": "",
+"p1_country": "Argentina",
+"p2_country": "Brazil",
 "tour": "wta"
 },
 {
@@ -6569,12 +6569,12 @@
 "best_of": 3,
 "p1_id": "17421",
 "p1_name": "Luna Maria Cinalli",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "19255",
+"p2_name": "Jennifer Dourado",
 "winner": "",
 "score": "",
 "p1_country": "Argentina",
-"p2_country": "",
+"p2_country": "Brazil",
 "tour": "wta"
 },
 {
@@ -6641,12 +6641,12 @@
 "best_of": 3,
 "p1_id": "17419",
 "p1_name": "Berta Bonardi",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "19254",
+"p2_name": "Catarina Mellei Ibiaraba Melleiro",
 "winner": "",
 "score": "",
 "p1_country": "Argentina",
-"p2_country": "",
+"p2_country": "Brazil",
 "tour": "wta"
 },
 {
@@ -6665,12 +6665,12 @@
 "best_of": 3,
 "p1_id": "11971",
 "p1_name": "Fernanda Labrana",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "19253",
+"p2_name": "Bianca Mendonca Bernardes",
 "winner": "",
 "score": "",
 "p1_country": "Chile",
-"p2_country": "",
+"p2_country": "Brazil",
 "tour": "wta"
 },
 {
