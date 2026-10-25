@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-25T11:19:16+00:00",
+"fetched": "2026-10-25T12:15:22+00:00",
 "matches": [
 {
 "match_id": "186929",
@@ -6253,14 +6253,14 @@
 "qualifying": 0,
 "date": "2026-10-25T10:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "2383",
 "p1_name": "Daniil Medvedev",
 "p2_id": "2498",
 "p2_name": "Nikoloz Basilashvili",
-"winner": "",
-"score": "",
+"winner": "2383",
+"score": "6-7(6) 6-1 6-3",
 "p1_country": "Russia",
 "p2_country": "Georgia",
 "tour": "atp"
