@@ -899,7 +899,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185593,wta,2026-10-25T04:30Z,Kinoshita Group Japan Open,Final,Hard,6724,Ashlyn Krueger,2248,Katerina Siniakova,2602.7,2681.9,336,704,0.4125,2026-10-24T12:15+02:00,final,2248,6-1 6-0,v3,
 185550,wta,2026-10-25T09:10Z,BNB Ningbo Open,Final,Hard,3126,Elena Rybakina,3641,Leylah Fernandez,3069.0,2720.0,569,401,0.8262,2026-10-24T14:19+02:00,final,3126,6-2 6-2,v3,
 185021,atp,2026-10-25T10:00Z,Almaty Open,Final,Hard,2383,Daniil Medvedev,2498,Nikoloz Basilashvili,2606.3,2313.3,848,908,0.8612,2026-10-24T16:18+02:00,final,2383,6-7(6) 6-1 6-3,v3,
-185113,atp,2026-10-25T13:30Z,Grand Prix Auvergne-Rhône-Alpes,Final,Clay,3764,Lorenzo Musetti,2946,Taylor Fritz,2599.7,2524.4,466,754,0.6132,2026-10-24T19:18+02:00,scheduled,,,v3,
+185113,atp,2026-10-25T13:35Z,Grand Prix Auvergne-Rhône-Alpes,Final,Clay,3764,Lorenzo Musetti,2946,Taylor Fritz,2599.7,2524.4,466,754,0.6132,2026-10-24T19:18+02:00,scheduled,,,v3,
 185067,atp,2026-10-25T15:30Z,BNP Paribas Fortis European Open,Final,Hard,2337,Jan-Lennard Struff,3319,Tallon Griekspoor,2343.0,2385.1,1046,657,0.4358,2026-10-24T22:19+02:00,scheduled,,,v3,
 185663,wta,2026-10-26T01:30Z,Toray Pan Pacific Open Tennis,Round 1,Hard,3387,Wang Xinyu,5309,Alycia Parks,2500.3,2346.9,444,436,0.6648,2026-10-25T11:20+01:00,scheduled,,,v3,
 185668,wta,2026-10-26T02:00Z,Toray Pan Pacific Open Tennis,Round 1,Hard,1809,Aliaksandra Sasnovich,7804,Nikola Bartunkova,2552.4,2695.1,780,248,0.3459,2026-10-25T11:20+01:00,scheduled,,,v3,
