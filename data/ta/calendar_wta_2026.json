@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-18T20:02:55",
+"fetched": "2026-10-25T08:01:32",
 "events": [
 {
 "week": "2026-01-05",
@@ -494,6 +494,14 @@
 "name": "Cundinamarca Open",
 "city": "Sopó",
 "country": "Colombia",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-11-16",
+"name": "LP Open by IND",
+"city": "Colina",
+"country": "Chile",
 "surface": "Clay",
 "nth": 1
 }

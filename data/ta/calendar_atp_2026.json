@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-18T20:02:48",
+"fetched": "2026-10-25T08:01:26",
 "events": [
 {
 "week": "2026-01-05",
@@ -1727,6 +1727,46 @@
 "city": "Florence",
 "country": "Italy",
 "surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-26",
+"name": "Seoul Open Challenger",
+"city": "Seoul",
+"country": "South Korea",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-26",
+"name": "Brest Challenger",
+"city": "Brest",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-26",
+"name": "Sioux Falls Challenger",
+"city": "Sioux Falls",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-10-26",
+"name": "Challenger Ciudad de Guayaquil",
+"city": "Guayaquil",
+"country": "Ecuador",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-10-26",
+"name": "Ningbo Challenger",
+"city": "Ningbo",
+"country": "China",
+"surface": "Hard",
 "nth": 1
 }
 ]
