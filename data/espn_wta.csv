@@ -3416,5 +3416,7 @@ match_id,event_id,tourney_name,venue,event_start,tourney_level,round,round_order
 187145,232-2026,Guangzhou Open,"Guangzhou, China PR",20261023,A,Qualifying Final,0,1,2026-10-25T07:25Z,final,3,5775,Anastasia Zakharova,16002,Teodora Kostovic,16002,6-3 6-2
 187125,264-2026,Toray Pan Pacific Open Tennis,"Tokyo, Japan",20261023,A,Qualifying Final,0,1,2026-10-25T08:10Z,final,3,8419,Tereza Valentova,707,Zhang Shuai,8419,7-5 6-2
 185550,963-2026,BNB Ningbo Open,"Ningbo, China PR",20261016,A,Final,13,0,2026-10-25T09:20Z,final,3,3126,Elena Rybakina,3641,Leylah Fernandez,3126,6-2 6-2
-187272,1081-2026,Valle D'Aosta Ladies Open,"Centre Court, Courmayeur, Italy",20261025,A,Qualifying 1st Round,0,1,2026-10-25T11:05Z,final,3,3285,Tayisiya Morderger,15354,Alja Senica,15354,7-6(4) 0-6 7-6(8)
-187266,1081-2026,Valle D'Aosta Ladies Open,"Centre Court, Courmayeur, Italy",20261025,A,Qualifying 1st Round,0,1,2026-10-25T14:10Z,final,3,19252,Finja Matuella,18271,Gaia Maduzzi,18271,6-1 6-1
+187272,1081-2026,Valle D'Aosta Ladies Open,"Courmayeur, Italy",20261025,A,Qualifying 1st Round,0,1,2026-10-25T11:05Z,final,3,3285,Tayisiya Morderger,15354,Alja Senica,15354,7-6(4) 0-6 7-6(8)
+187280,1080-2026,Curitiba Open,"Curitiba, Brazil",20261025,A,Qualifying Final,0,1,2026-10-25T14:05Z,final,3,17421,Luna Maria Cinalli,19255,Jennifer Dourado,17421,6-1 6-1
+187281,1080-2026,Curitiba Open,"Curitiba, Brazil",20261025,A,Qualifying Final,0,1,2026-10-25T14:05Z,final,3,19256,Lourdes Ayala,19257,Georgia Gulin,19256,7-6(7) 6-3
+187266,1081-2026,Valle D'Aosta Ladies Open,"Courmayeur, Italy",20261025,A,Qualifying 1st Round,0,1,2026-10-25T14:10Z,final,3,19252,Finja Matuella,18271,Gaia Maduzzi,18271,6-1 6-1
