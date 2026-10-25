@@ -170,6 +170,17 @@
   "surface": "Clay",
   "tour": "atp"
  },
+ "2026BrestChallenger": {
+  "city": "Brest",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-10-25T20:01:04",
+  "n": 7,
+  "source": "home",
+  "start": "2026-10-19",
+  "surface": "",
+  "tour": "atp"
+ },
  "2026BrownsburgChallenger": {
   "candidates": [
    "2026BrownsburgChallenger"
@@ -209,8 +220,8 @@
   "city": "Cali",
   "complete": false,
   "country": "Colombia",
-  "fetched": "2026-10-25T08:02:00",
-  "n": 46,
+  "fetched": "2026-10-25T20:00:32",
+  "n": 48,
   "source": "home",
   "start": "2026-10-19",
   "surface": "Clay",
@@ -366,10 +377,10 @@
  },
  "2026FlorenceChallenger": {
   "city": "Florence",
-  "complete": false,
+  "complete": true,
   "country": "Italy",
-  "fetched": "2026-10-25T08:02:05",
-  "n": 43,
+  "fetched": "2026-10-25T20:00:37",
+  "n": 47,
   "source": "home",
   "start": "2026-10-19",
   "surface": "Clay",
@@ -379,8 +390,8 @@
   "city": "Fort Worth",
   "complete": false,
   "country": "United States",
-  "fetched": "2026-10-25T08:20:59",
-  "n": 46,
+  "fetched": "2026-10-25T20:00:42",
+  "n": 48,
   "source": "home",
   "start": "2026-10-19",
   "surface": "Hard",
@@ -447,10 +458,21 @@
  },
  "2026GuangzhouNanshaChallenger": {
   "city": "GuangzhouNansha",
+  "complete": true,
+  "country": "",
+  "fetched": "2026-10-25T20:00:48",
+  "n": 49,
+  "source": "home",
+  "start": "2026-10-19",
+  "surface": "",
+  "tour": "atp"
+ },
+ "2026GuayaquilChallenger": {
+  "city": "Guayaquil",
   "complete": false,
   "country": "",
-  "fetched": "2026-10-25T08:21:05",
-  "n": 48,
+  "fetched": "2026-10-25T20:01:09",
+  "n": 0,
   "source": "home",
   "start": "2026-10-19",
   "surface": "",
@@ -530,7 +552,7 @@
   "city": "Jinan",
   "complete": false,
   "country": "China",
-  "fetched": "2026-10-25T08:01:54",
+  "fetched": "2026-10-25T20:00:26",
   "n": 42,
   "source": "kalendář",
   "start": "2026-10-12",
@@ -541,7 +563,7 @@
   "city": "Jingshan",
   "complete": false,
   "country": "China",
-  "fetched": "2026-10-25T08:01:48",
+  "fetched": "2026-10-25T20:00:21",
   "n": 36,
   "source": "kalendář",
   "start": "2026-09-28",
@@ -630,10 +652,10 @@
  },
  "2026LisbonChallenger": {
   "city": "Lisbon",
-  "complete": false,
+  "complete": true,
   "country": "Portugal",
-  "fetched": "2026-10-25T08:21:10",
-  "n": 45,
+  "fetched": "2026-10-25T20:00:53",
+  "n": 48,
   "source": "home",
   "start": "2026-10-19",
   "surface": "Clay",
@@ -727,6 +749,17 @@
   "source": "kalendář",
   "start": "2026-07-06",
   "surface": "Grass",
+  "tour": "atp"
+ },
+ "2026NingboChallenger": {
+  "city": "Ningbo",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-10-25T20:01:15",
+  "n": 10,
+  "source": "home",
+  "start": "2026-10-19",
+  "surface": "",
   "tour": "atp"
  },
  "2026Nottingham2Challenger": {
@@ -1098,6 +1131,17 @@
   "surface": "Hard",
   "tour": "atp"
  },
+ "2026SeoulChallenger": {
+  "city": "Seoul",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-10-25T20:01:20",
+  "n": 12,
+  "source": "home",
+  "start": "2026-10-19",
+  "surface": "",
+  "tour": "atp"
+ },
  "2026SevilleChallenger": {
   "city": "Seville",
   "complete": true,
@@ -1129,6 +1173,17 @@
   "source": "kalendář",
   "start": "2026-08-10",
   "surface": "Clay",
+  "tour": "atp"
+ },
+ "2026SiouxFallsChallenger": {
+  "city": "SiouxFalls",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-10-25T20:01:26",
+  "n": 0,
+  "source": "home",
+  "start": "2026-10-19",
+  "surface": "",
   "tour": "atp"
  },
  "2026SzczecinChallenger": {
@@ -1550,7 +1605,7 @@
   "city": "Porto",
   "complete": false,
   "country": "Portugal",
-  "fetched": "2026-10-25T08:01:38",
+  "fetched": "2026-10-25T20:00:10",
   "n": 41,
   "source": "home",
   "start": "2026-09-21",
@@ -1616,7 +1671,7 @@
   "city": "Tolentino",
   "complete": false,
   "country": "Italy",
-  "fetched": "2026-10-25T08:01:43",
+  "fetched": "2026-10-25T20:00:15",
   "n": 39,
   "source": "home",
   "start": "2026-09-21",
