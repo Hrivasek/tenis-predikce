@@ -5694,6 +5694,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTARovereto125,wta,2026-10-12,Hard,R32,267439,Teodora Kostovic,SRB,221039,Elsa Jacquemot,FRA,7-5 7-6(5)
 2026WTARovereto125,wta,2026-10-12,Hard,SF,215370,Bianca Andreescu,CAN,222980,Lucie Havlickova,CZE,6-3 6-1
 2026WTARovereto125,wta,2026-10-12,Hard,SF,222966,Dominika Salkova,CZE,221243,Martyna Kubka,POL,1-6 7-5 6-3
+2026CaliChallenger,atp,2026-10-19,Clay,F,207799,Matheus Pucinelli De Almeida,BRA,209254,Valerio Aboian,ARG,7-6(1) 6-3
 2026CaliChallenger,atp,2026-10-19,Clay,Q1,105700,Jose Pereira,BRA,207657,Tristan Mccormick,USA,6-1 6-4
 2026CaliChallenger,atp,2026-10-19,Clay,Q1,105944,Juan Sebastian Gomez,COL,210182,Mateo Del Pino,ARG,6-4 6-4
 2026CaliChallenger,atp,2026-10-19,Clay,Q1,127123,Mateus Alves,BRA,212827,Bernardo Munk Mesa,ESP,6-4 6-3
@@ -5789,6 +5790,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026FlorenceChallenger,atp,2026-10-19,Clay,R32,212978,Izan Almazan Valiente,ESP,129814,Ivan Ivanov,BUL,6-3 3-0 RET
 2026FlorenceChallenger,atp,2026-10-19,Clay,SF,211542,Filippo Romano,ITA,207491,Sandro Kopp,AUT,6-3 5-7 6-3
 2026FlorenceChallenger,atp,2026-10-19,Clay,SF,212020,Michele Ribecai,ITA,106177,Oriol Roca Batalla,ESP,7-5 6-4
+2026FortWorthChallenger,atp,2026-10-19,Hard,F,202385,Jenson Brooksby,USA,210464,Darwin Blanch,USA,6-1 6-4
 2026FortWorthChallenger,atp,2026-10-19,Hard,Q1,126206,Alex Rybakov,USA,207202,Karl Poling,USA,6-4 6-4
 2026FortWorthChallenger,atp,2026-10-19,Hard,Q1,200452,Patrick Zahraj,GER,210034,Shunsuke Mitsui,JPN,6-3 6-4
 2026FortWorthChallenger,atp,2026-10-19,Hard,Q1,202420,Aidan Mchugh,GBR,208586,Joshua Sheehy,USA,6-2 6-2
@@ -5937,20 +5939,40 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026BrestChallenger,atp,2026-10-26,Hard,Q1,121411,Moez Echargui,TUN,213174,Mickael Kaouk,FRA,6-3 6-2
 2026BrestChallenger,atp,2026-10-26,Hard,Q1,123921,Calvin Hemery,FRA,210254,Adrien Gobat,FRA,6-3 6-4
 2026BrestChallenger,atp,2026-10-26,Hard,Q1,126107,Michael Geerts,BEL,210447,Leo Raquillet,FRA,6-0 6-1
+2026BrestChallenger,atp,2026-10-26,Hard,Q1,131911,Lucas Poullain,FRA,212770,Timeo Trufelli,FRA,6-3 6-1
+2026BrestChallenger,atp,2026-10-26,Hard,Q1,133975,Benjamin Hassan,LBN,126106,Ryan Peniston,GBR,6-3 6-0
 2026BrestChallenger,atp,2026-10-26,Hard,Q1,134068,Vadym Ursu,UKR,207676,Adan Freire Da Silva,FRA,6-3 3-6 6-4
 2026BrestChallenger,atp,2026-10-26,Hard,Q1,200259,Ugo Blanchet,FRA,209360,Samir Hamza Reguig,ALG,6-3 6-1
+2026BrestChallenger,atp,2026-10-26,Hard,Q1,209512,Tom Paris,FRA,209940,Romain Faucon,BEL,6-7(4) 6-2 7-5
+2026BrestChallenger,atp,2026-10-26,Hard,Q1,210005,Kilian Feldbausch,SUI,207884,Arthur Bouquier,FRA,6-0 6-3
 2026BrestChallenger,atp,2026-10-26,Hard,Q1,210714,Robin Catry,FRA,106220,Dimitar Kuzmanov,BUL,6-3 6-2
+2026BrestChallenger,atp,2026-10-26,Hard,Q1,212969,Matisse Bobichon,FRA,212025,Yannik Kelm,GER,3-6 6-3 7-5
 2026BrestChallenger,atp,2026-10-26,Hard,Q1,213360,Niels Mcdonald,GER,208265,Pierre Delage,FRA,6-3 6-1
+2026GuayaquilChallenger,atp,2026-10-26,Clay,Q1,101495,Miguel Tobon,COL,105156,Federico Zeballos,BOL,6-1 6-4
+2026GuayaquilChallenger,atp,2026-10-26,Clay,Q1,123755,Daniel Elahi Galan,COL,106262,Boris Arias,BOL,6-1 1-0 RET
+2026GuayaquilChallenger,atp,2026-10-26,Clay,Q1,202369,Daniel Salazar Martinez,COL,207794,Younes Lalami Laaroussi,MAR,4-6 6-3 6-3
+2026GuayaquilChallenger,atp,2026-10-26,Clay,Q1,207657,Tristan Mccormick,USA,212827,Bernardo Munk Mesa,ESP,7-5 6-3
+2026GuayaquilChallenger,atp,2026-10-26,Clay,Q1,207764,Ryan Nijboer,NED,126183,Mariano Kestelboim,ARG,7-6(6) 1-0 RET
+2026GuayaquilChallenger,atp,2026-10-26,Clay,Q1,207834,Juan Alejandro Hernandez Serrano,MEX,105700,Jose Pereira,BRA,6-1 1-0 RET
+2026GuayaquilChallenger,atp,2026-10-26,Clay,Q1,209246,Alan Magadan,MEX,214525,Mario Andre Galarraga,ECU,6-3 6-4
+2026GuayaquilChallenger,atp,2026-10-26,Clay,Q1,209936,Lorenzo Claverie,ITA,207736,Arklon Huertas Del Pino,PER,7-6(5) 6-4
+2026GuayaquilChallenger,atp,2026-10-26,Clay,Q1,210182,Mateo Del Pino,ARG,105868,Wilson Leite,BRA,5-7 6-3 1-0 RET
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,105655,Hiroki Moriya,JPN,207383,Taisei Ichikawa,JPN,6-4 6-4
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,106290,Filip Peliwo,POL,208182,Saba Purtseladze,GEO,6-2 6-3
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,126939,Khumoyun Sultanov,UZB,212909,Dingzheng Nima,CHN,6-1 6-1
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,132573,Luca Castelnuovo,SUI,211550,Yusuke Kusuhara,JPN,6-2 6-4
+2026NingboChallenger,atp,2026-10-26,Hard,Q1,208229,Qian Sun,CHN,211324,Mitsuki Wei Kang Leong,MAS,6-4 7-5
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,208240,Alexandr Binda,ITA,213165,Jia Hu,CHN,6-4 6-2
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,208431,Semen Pankin,RUS,210393,Maxim Zhukov,RUS,6-4 7-6(5)
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,209140,Millen Hurrion,GBR,214011,Kaigaoge Kang,CHN,6-4 6-0
+2026NingboChallenger,atp,2026-10-26,Hard,Q1,211596,Yaroslav Demin,RUS,200456,Martin Borisiouk,BLR,7-6(6) 6-3
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,211897,Naoya Honda,JPN,207987,Ryuki Matsuda,JPN,6-3 6-3
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,212157,Timofei Derepasko,RUS,212466,Xiaoyin Yang,CHN,6-4 6-2
 2026NingboChallenger,atp,2026-10-26,Hard,Q1,212574,Egor Pleshivtsev,RUS,208158,Dominik Palan,CZE,3-6 6-1 7-6(7)
+2026NingboChallenger,atp,2026-10-26,Hard,Q2,105655,Hiroki Moriya,JPN,212157,Timofei Derepasko,RUS,7-6(2) 6-2
+2026NingboChallenger,atp,2026-10-26,Hard,Q2,208240,Alexandr Binda,ITA,209140,Millen Hurrion,GBR,3-6 6-3 6-4
+2026NingboChallenger,atp,2026-10-26,Hard,Q2,208431,Semen Pankin,RUS,212574,Egor Pleshivtsev,RUS,6-3 6-4
+2026NingboChallenger,atp,2026-10-26,Hard,Q2,211897,Naoya Honda,JPN,126939,Khumoyun Sultanov,UZB,3-6 7-5 6-4
 2026SeoulChallenger,atp,2026-10-26,Hard,Q1,117357,Omar Jasika,AUS,214275,Tae Woo Kim,KOR,6-3 6-4
 2026SeoulChallenger,atp,2026-10-26,Hard,Q1,122495,Shintaro Imai,JPN,210121,Kokoro Isomura,JPN,6-2 2-6 6-3
 2026SeoulChallenger,atp,2026-10-26,Hard,Q1,126283,Yunseong Chung,KOR,200574,Alexander Donski,BUL,6-3 6-4
@@ -5963,3 +5985,27 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SeoulChallenger,atp,2026-10-26,Hard,Q1,209959,Woobin Shin,KOR,126573,Thomas Fancutt,AUS,6-0 6-7(3) 6-3
 2026SeoulChallenger,atp,2026-10-26,Hard,Q1,211628,Koki Matsuda,JPN,208130,Geun Jun Kim,KOR,7-6(3) 6-4
 2026SeoulChallenger,atp,2026-10-26,Hard,Q1,212232,Yeonsu Jeong,KOR,200632,Evan Zhu,USA,6-4 6-4
+2026SeoulChallenger,atp,2026-10-26,Hard,Q2,117357,Omar Jasika,AUS,209043,Yuta Kikuchi,JPN,6-2 6-4
+2026SeoulChallenger,atp,2026-10-26,Hard,Q2,122495,Shintaro Imai,JPN,202154,Uisung Park,KOR,6-4 7-6(2)
+2026SeoulChallenger,atp,2026-10-26,Hard,Q2,126283,Yunseong Chung,KOR,212232,Yeonsu Jeong,KOR,3-6 6-3 7-6(3)
+2026SeoulChallenger,atp,2026-10-26,Hard,Q2,132052,Christian Langmo,USA,200321,San Hui Sin,KOR,6-2 3-6 6-3
+2026SeoulChallenger,atp,2026-10-26,Hard,Q2,202320,Beibit Zhukayev,KAZ,211628,Koki Matsuda,JPN,6-4 7-6(1)
+2026SeoulChallenger,atp,2026-10-26,Hard,Q2,208230,Alibek Kachmazov,RUS,209959,Woobin Shin,KOR,6-0 4-6 6-3
+2026SeoulChallenger,atp,2026-10-26,Hard,R32,111190,Zhizhen Zhang,CHN,105227,Marin Cilic,CRO,7-6(3) 2-6 6-3
+2026SeoulChallenger,atp,2026-10-26,Hard,R32,144750,Lloyd Harris,RSA,209992,Juncheng Shang,CHN,6-4 6-3
+2026SeoulChallenger,atp,2026-10-26,Hard,R32,207352,Bu Yunchaokete,CHN,214713,Min Hyuk Cho,KOR,6-1 6-0
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,200452,Patrick Zahraj,GER,207181,Govind Nanda,USA,7-6(1) 7-6(4)
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,207202,Karl Poling,USA,212142,Maxwell Exsted,USA,6-3 6-2
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,208389,James Trotter,JPN,212216,Trevor Svajda,USA,4-6 6-3 6-4
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,208649,Andrew Fenty,USA,212857,Cooper Woestendick,USA,7-5 6-2
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,209355,Timo Legout,FRA,207893,Daniel De Jonge,NED,7-6(6) 6-2
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,209867,Daniil Ostapenkov,BLR,209088,Quinn Vandecasteele,USA,6-4 6-4
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,210028,Ozan Baris,USA,209067,Hunter Heck,USA,6-3 6-4
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,210274,Sebastian Dominko,SLO,207993,Justin Boulais,CAN,5-7 6-3 6-4
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,211530,Tomasz Berkieta,POL,210250,Erik Arutiunian,BLR,6-2 7-5
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,212405,Gavin Young,USA,211501,Kenta Miyoshi,JPN,7-5 7-5
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,212958,Spencer Johnson,USA,211738,Jonah Braswell,USA,6-1 6-4
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,Q1,213653,Benjamin Willwerth,USA,211673,Duncan Chan,CAN,7-6(5) 7-5
+2026WTACourmayeur125,wta,2026-10-26,Hard,Q1,220496,Enola Chiesa,ITA,211779,Yana Morderger,GER,7-5 6-2
+2026WTACourmayeur125,wta,2026-10-26,Hard,Q1,263808,Alja Senica,SLO,211285,Tayisiya Morderger,GER,7-6(4) 0-6 7-6(8)
+2026WTACourmayeur125,wta,2026-10-26,Hard,Q1,266431,Gaia Maduzzi,ITA,266515,Finja Matuella,ITA,6-1 6-1
