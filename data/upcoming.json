@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-27T09:15:25+00:00",
+"fetched": "2026-10-27T09:43:11+00:00",
 "matches": [
 {
 "match_id": "187120",
@@ -3109,14 +3109,14 @@
 "qualifying": 0,
 "date": "2026-10-27T08:25Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "8419",
 "p1_name": "Tereza Valentova",
 "p2_id": "16296",
 "p2_name": "Mia Pohankova",
-"winner": "",
-"score": "",
+"winner": "16296",
+"score": "6-1 6-4",
 "p1_country": "Czechia",
 "p2_country": "Slovakia",
 "tour": "wta"
@@ -5897,12 +5897,12 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "16296",
+"p2_name": "Mia Pohankova",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Slovakia",
 "tour": "wta"
 },
 {
