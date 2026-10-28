@@ -5954,15 +5954,20 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026BrestChallenger,atp,2026-10-26,Hard,Q2,209512,Tom Paris,FRA,210005,Kilian Feldbausch,SUI,7-6(4) 7-6(13)
 2026BrestChallenger,atp,2026-10-26,Hard,Q2,210714,Robin Catry,FRA,123921,Calvin Hemery,FRA,6-7(2) 6-3 6-4
 2026BrestChallenger,atp,2026-10-26,Hard,Q2,212969,Matisse Bobichon,FRA,131911,Lucas Poullain,FRA,6-3 1-6 7-6(2)
+2026BrestChallenger,atp,2026-10-26,Hard,R16,209976,Dino Prizmic,CRO,127339,Borna Gojo,CRO,6-4 6-3
+2026BrestChallenger,atp,2026-10-26,Hard,R16,210748,Federico Cina,ITA,149282,Nicolai Budkov Kjaer,NOR,6-3 6-3
 2026BrestChallenger,atp,2026-10-26,Hard,R32,102093,Martin Damm,USA,209849,Sascha Gueymard Wayenburg,FRA,6-4 6-4
+2026BrestChallenger,atp,2026-10-26,Hard,R32,105882,Stefano Travaglia,ITA,105732,Pierre Hugues Herbert,FRA,6-7(3) 7-6(6) 7-6(5)
 2026BrestChallenger,atp,2026-10-26,Hard,R32,111513,Laslo Djere,SRB,200436,Zsombor Piros,HUN,6-2 6-4
 2026BrestChallenger,atp,2026-10-26,Hard,R32,127339,Borna Gojo,CRO,209512,Tom Paris,FRA,6-7(5) 6-4 6-4
 2026BrestChallenger,atp,2026-10-26,Hard,R32,149282,Nicolai Budkov Kjaer,NOR,210005,Kilian Feldbausch,SUI,6-7(6) 6-3 6-4
 2026BrestChallenger,atp,2026-10-26,Hard,R32,200259,Ugo Blanchet,FRA,213149,Felix Balshaw,FRA,3-6 6-3 6-4
+2026BrestChallenger,atp,2026-10-26,Hard,R32,202127,Clement Tabur,FRA,211542,Filippo Romano,ITA,6-3 6-4
 2026BrestChallenger,atp,2026-10-26,Hard,R32,202261,Otto Virtanen,FIN,200188,Matteo Martineau,FRA,7-6(4) 6-4
 2026BrestChallenger,atp,2026-10-26,Hard,R32,208353,Francesco Maestrelli,ITA,121411,Moez Echargui,TUN,7-6(3) 6-3
 2026BrestChallenger,atp,2026-10-26,Hard,R32,209113,Gabriel Diallo,CAN,210460,Nishesh Basavareddy,USA,6-3 7-5
 2026BrestChallenger,atp,2026-10-26,Hard,R32,209976,Dino Prizmic,CRO,210714,Robin Catry,FRA,6-4 6-3
+2026BrestChallenger,atp,2026-10-26,Hard,R32,210389,Toby Samuel,GBR,208540,Inaki Montes De La Torre,ESP,6-4 6-3
 2026BrestChallenger,atp,2026-10-26,Hard,R32,210748,Federico Cina,ITA,208278,Shintaro Mochizuki,JPN,6-0 4-6 6-3
 2026BrestChallenger,atp,2026-10-26,Hard,R32,212969,Matisse Bobichon,FRA,126107,Michael Geerts,BEL,7-6(3) 6-3
 2026BrestChallenger,atp,2026-10-26,Hard,R32,213608,Moise Kouame,FRA,126409,Hugo Grenier,FRA,6-4 7-6(1)
@@ -5982,7 +5987,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026GuayaquilChallenger,atp,2026-10-26,Clay,Q2,209936,Lorenzo Claverie,ITA,207764,Ryan Nijboer,NED,7-5 6-3
 2026GuayaquilChallenger,atp,2026-10-26,Clay,Q2,210182,Mateo Del Pino,ARG,211636,Lucio Ratti,ARG,7-5 2-6 7-5
 2026GuayaquilChallenger,atp,2026-10-26,Clay,R32,106198,Hugo Dellien,BOL,111797,Nicolas Jarry,CHI,6-1 6-3
+2026GuayaquilChallenger,atp,2026-10-26,Clay,R32,144642,Tomas Barrios Vera,CHI,211661,Juan Estevez,ARG,6-2 7-6(12)
 2026GuayaquilChallenger,atp,2026-10-26,Clay,R32,200116,Camilo Ugo Carabelli,ARG,105948,Federico Coria,ARG,7-5 6-2
+2026GuayaquilChallenger,atp,2026-10-26,Clay,R32,200572,Nick Hardt,DOM,210412,Juan Manuel La Serna,ARG,6-3 3-6 6-1
+2026GuayaquilChallenger,atp,2026-10-26,Clay,R32,208293,Gonzalo Bueno,PER,209875,Alex Barrena,ARG,7-6(1) 6-3
 2026GuayaquilChallenger,atp,2026-10-26,Clay,R32,209254,Valerio Aboian,ARG,208364,Franco Roncadelli,URU,6-3 2-6 6-2
 2026GuayaquilChallenger,atp,2026-10-26,Clay,R32,210178,Juan Carlos Prado Angelo,BOL,208046,Pedro Boscardin Dias,BRA,6-3 6-2
 2026GuayaquilChallenger,atp,2026-10-26,Clay,R32,210202,Rodrigo Pacheco Mendez,MEX,122669,Juan Pablo Varillas,PER,6-2 6-3
@@ -6006,6 +6014,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026NingboChallenger,atp,2026-10-26,Hard,Q2,208431,Semen Pankin,RUS,212574,Egor Pleshivtsev,RUS,6-3 6-4
 2026NingboChallenger,atp,2026-10-26,Hard,Q2,211596,Yaroslav Demin,RUS,208229,Qian Sun,CHN,6-0 6-4
 2026NingboChallenger,atp,2026-10-26,Hard,Q2,211897,Naoya Honda,JPN,126939,Khumoyun Sultanov,UZB,3-6 7-5 6-4
+2026NingboChallenger,atp,2026-10-26,Hard,R16,200318,Yu Hsiou Hsu,TPE,202122,Yuta Shimizu,JPN,7-5 3-6 6-4
+2026NingboChallenger,atp,2026-10-26,Hard,R16,207368,Mert Alkaya,TUR,105655,Hiroki Moriya,JPN,6-3 3-6 6-4
+2026NingboChallenger,atp,2026-10-26,Hard,R16,208004,Harold Mayot,FRA,111187,Kaichi Uchida,JPN,6-2 6-3
+2026NingboChallenger,atp,2026-10-26,Hard,R16,211596,Yaroslav Demin,RUS,200277,Charles Broom,GBR,6-1 6-3
 2026NingboChallenger,atp,2026-10-26,Hard,R32,105655,Hiroki Moriya,JPN,210317,James Mccabe,AUS,6-1 2-6 7-6(1)
 2026NingboChallenger,atp,2026-10-26,Hard,R32,106281,Liam Broady,GBR,200672,Sergey Fomin,UZB,5-7 7-6(4) 6-2
 2026NingboChallenger,atp,2026-10-26,Hard,R32,111187,Kaichi Uchida,JPN,212207,Ognjen Milic,SRB,7-6(4) 6-2
@@ -6040,6 +6052,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SeoulChallenger,atp,2026-10-26,Hard,Q2,132052,Christian Langmo,USA,200321,San Hui Sin,KOR,6-2 3-6 6-3
 2026SeoulChallenger,atp,2026-10-26,Hard,Q2,202320,Beibit Zhukayev,KAZ,211628,Koki Matsuda,JPN,6-4 7-6(1)
 2026SeoulChallenger,atp,2026-10-26,Hard,Q2,208230,Alibek Kachmazov,RUS,209959,Woobin Shin,KOR,6-0 4-6 6-3
+2026SeoulChallenger,atp,2026-10-26,Hard,R16,117357,Omar Jasika,AUS,144750,Lloyd Harris,RSA,6-3 6-1
+2026SeoulChallenger,atp,2026-10-26,Hard,R16,126129,Billy Harris,GBR,126846,Aleksandar Vukic,AUS,6-2 6-4
+2026SeoulChallenger,atp,2026-10-26,Hard,R16,126283,Yunseong Chung,KOR,207352,Bu Yunchaokete,CHN,7-5 6-4
+2026SeoulChallenger,atp,2026-10-26,Hard,R16,210536,Rei Sakamoto,JPN,111190,Zhizhen Zhang,CHN,6-0 6-4
 2026SeoulChallenger,atp,2026-10-26,Hard,R32,106121,Taro Daniel,JPN,210318,Andre Ilagan,USA,6-3 6-1
 2026SeoulChallenger,atp,2026-10-26,Hard,R32,111190,Zhizhen Zhang,CHN,105227,Marin Cilic,CRO,7-6(3) 2-6 6-3
 2026SeoulChallenger,atp,2026-10-26,Hard,R32,111805,Seong Chan Hong,KOR,200059,Yibing Wu,CHN,7-5 6-1
@@ -6079,10 +6095,14 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,200670,J J Wolf,USA,209406,Abedallah Shelbayh,JOR,6-3 6-1
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,202385,Jenson Brooksby,USA,210416,Bryce Nakashima,USA,6-3 6-3
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,208119,Liam Draxl,CAN,211530,Tomasz Berkieta,POL,7-6(8) 7-6(1)
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,208316,Valentin Royer,FRA,209355,Timo Legout,FRA,6-3 7-6(6)
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,208819,Max Hans Rehberg,GER,211711,Braden Shick,USA,6-3 6-3
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,208854,Aidan Mayo,USA,210558,Hynek Barton,CZE,6-2 6-3
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,209867,Daniil Ostapenkov,BLR,210028,Ozan Baris,USA,6-1 6-1
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,209874,Maks Kasnikowski,POL,208389,James Trotter,JPN,6-1 6-2
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,210157,Dylan Dietrich,SUI,212256,Colton Smith,USA,6-3 7-5
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,210274,Sebastian Dominko,SLO,207202,Karl Poling,USA,6-4 7-6(1)
+2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,210464,Darwin Blanch,USA,210478,Sebastian Gorzny,USA,6-4 6-2
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,210744,Kaylan Bigun,USA,211346,Andres Martin,USA,6-3 6-4
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,212219,Mees Rottgering,NED,200008,Alexis Galarneau,CAN,6-3 6-4
 2026SiouxFallsChallenger,atp,2026-10-26,Hard,R32,212251,Daniel Milavsky,USA,207784,Harry Wendelken,GBR,6-4 4-6 6-3
@@ -6101,18 +6121,38 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,215453,Marina Bassols Ribera,ESP,223286,Victoria Jimenez Kasintseva,AND,6-3 6-3
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221243,Martyna Kubka,POL,239392,Mia Ristic,SRB,6-3 7-6(4)
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221406,Alina Charaeva,ARM,220496,Enola Chiesa,ITA,6-4 6-1
+2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221406,Alina Charaeva,ARM,213873,Gabriela Andrea Knutson,CZE,1-6 6-2 6-3
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221407,Oksana Selekhmeteva,RUS,215909,Adrienn Nagy,HUN,6-4 6-2
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221626,Linda Klimovicova,CZE,266431,Gaia Maduzzi,ITA,6-4 6-2
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,223333,Noma Noha Akugue,GER,203575,Danka Kovinic,MNE,7-6(4) 6-1
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,260664,Elizara Yaneva,BUL,213620,Jessica Pieri,ITA,6-2 6-2
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,213767,Ayla Aksu,USA,221369,Lisa Zaar,SWE,6-4 6-3
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,213873,Gabriela Andrea Knutson,CZE,259913,Rositsa Dencheva,BUL,7-5 3-6 6-0
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,214593,Lucrezia Stefanini,ITA,265197,Isabella Maria Serban,ROU,6-3 6-2
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,214826,Susan Bandecchi,SUI,222506,Anastasiya Soboleva,UKR,6-3 6-2
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,215020,Anna Blinkova,FRA,213646,Dalma Galfi,HUN,6-3 6-2
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,215290,Katarina Zavatska,UKR,220827,Laura Mair,ITA,6-3 6-4
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,215453,Marina Bassols Ribera,ESP,223286,Victoria Jimenez Kasintseva,AND,6-3 6-3
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,221039,Elsa Jacquemot,FRA,211344,Caroline Uebelhoer,GER,2-6 7-5 7-5
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,221243,Martyna Kubka,POL,239392,Mia Ristic,SRB,6-3 7-6(4)
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,221354,Lisa Pigato,ITA,221905,Robin Montgomery,USA,6-0 7-6(7)
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,221406,Alina Charaeva,ARM,220496,Enola Chiesa,ITA,6-4 6-1
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,221407,Oksana Selekhmeteva,RUS,215909,Adrienn Nagy,HUN,6-4 6-2
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,221626,Linda Klimovicova,CZE,266431,Gaia Maduzzi,ITA,6-4 6-2
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,222965,Erika Andreeva,RUS,245077,Yelyzaveta Kotliar,UKR,7-6(2) 6-2
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,223333,Noma Noha Akugue,GER,203575,Danka Kovinic,MNE,7-6(4) 6-1
+2026WTACourmayeur125,wta,2026-10-26,Hard,R32,260664,Elizara Yaneva,BUL,213620,Jessica Pieri,ITA,6-2 6-2
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,206194,Gabriela Ce,BRA,219625,Fernanda Labrana,CHI,6-4 6-0
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,211814,Julia Grabher,AUT,206430,Carolina Alves,BRA,7-5 7-6(1)
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,214604,Maria Lourdes Carle,ARG,206007,Laura Pigossi,BRA,7-5 6-0
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,215936,Francesca Jones,GBR,220447,Maria Florencia Urrutia,ARG,7-5 6-1
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,220446,Jazmin Ortenzi,ARG,206345,Victoria Bosio,ARG,7-5 6-2
+2026WTACuritiba125,wta,2026-10-26,Clay,R16,220446,Jazmin Ortenzi,ARG,236968,Lourdes Ayala,ARG,6-0 6-2
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,220554,Alice Tubello,FRA,266671,Laura Samson,CZE,6-0 6-4
+2026WTACuritiba125,wta,2026-10-26,Clay,R16,220554,Alice Tubello,FRA,260711,Luna Maria Cinalli,ARG,6-4 6-3
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,220699,Julia Riera,ARG,214119,Rebeka Masarova,ESP,1-6 6-4 6-1
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,220742,Leyre Romero Gormaz,ESP,220578,Julia Konishi Camargo Silva,BRA,6-2 6-1
+2026WTACuritiba125,wta,2026-10-26,Clay,R16,220742,Leyre Romero Gormaz,ESP,254733,Antonia Vergara Rivera,CHI,7-5 6-2
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,221333,Solana Sierra,ARG,260708,Justina Maria Gonzalez Daniele,ARG,6-3 6-1
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,236956,Yasmine Kabbaj,MAR,215721,Rebeca Pereira,BRA,6-1 6-2
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,236968,Lourdes Ayala,ARG,220351,Luiza Fullana,BRA,6-4 7-6(6)
@@ -6121,6 +6161,22 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,260455,Marjorie Souza,BRA,206406,Berta Bonardi,ARG,6-1 7-5
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,260711,Luna Maria Cinalli,ARG,252488,Ana Candiotto,BRA,6-2 6-3
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,267382,Nauhany Vitoria Leme Da Silva,BRA,202604,Despina Papamichail,GRE,7-5 1-6 6-3
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,206194,Gabriela Ce,BRA,219625,Fernanda Labrana,CHI,6-4 6-0
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,211814,Julia Grabher,AUT,206430,Carolina Alves,BRA,7-5 7-6(1)
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,214604,Maria Lourdes Carle,ARG,206007,Laura Pigossi,BRA,7-5 6-0
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,215936,Francesca Jones,GBR,220447,Maria Florencia Urrutia,ARG,7-5 6-1
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,220446,Jazmin Ortenzi,ARG,206345,Victoria Bosio,ARG,7-5 6-2
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,220554,Alice Tubello,FRA,266671,Laura Samson,CZE,6-0 6-4
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,220699,Julia Riera,ARG,214119,Rebeka Masarova,ESP,1-6 6-4 6-1
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,220742,Leyre Romero Gormaz,ESP,220578,Julia Konishi Camargo Silva,BRA,6-2 6-1
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,221333,Solana Sierra,ARG,260708,Justina Maria Gonzalez Daniele,ARG,6-3 6-1
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,236956,Yasmine Kabbaj,MAR,215721,Rebeca Pereira,BRA,6-1 6-2
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,236968,Lourdes Ayala,ARG,220351,Luiza Fullana,BRA,6-4 7-6(6)
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,236972,Luisina Giovannini,ARG,214459,Lucia Bronzetti,ITA,7-6(6) 1-6 6-2
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,254733,Antonia Vergara Rivera,CHI,270667,Eduarda Gomes,BRA,6-3 6-4
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,260455,Marjorie Souza,BRA,206406,Berta Bonardi,ARG,6-1 7-5
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,260711,Luna Maria Cinalli,ARG,252488,Ana Candiotto,BRA,6-2 6-3
+2026WTACuritiba125,wta,2026-10-26,Clay,R32,267382,Nauhany Vitoria Leme Da Silva,BRA,202604,Despina Papamichail,GRE,7-5 1-6 6-3
 2026WTAQueretaro125,wta,2026-10-26,Clay,Q1,211063,Valeriya Strakhova,UKR,266661,Gabriela Vilar,USA,6-0 6-0
 2026WTAQueretaro125,wta,2026-10-26,Clay,Q1,211874,Victoria Rodriguez,MEX,211864,Maria Fernanda Herazo Gonzalez,COL,6-7(5) 6-1 6-4
 2026WTAQueretaro125,wta,2026-10-26,Clay,Q1,213739,Jessica Hinojosa Gomez,MEX,213541,Alexandra Osborne,AUS,6-0 7-6(4)
