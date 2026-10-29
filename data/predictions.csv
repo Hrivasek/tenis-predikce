@@ -1042,7 +1042,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185672,wta,2026-10-29T05:30Z,Toray Pan Pacific Open Tennis,Round 2,Hard,2789,Naomi Osaka,16296,Mia Pohankova,2852.8,2557.1,500,67,0.7893,2026-10-27T11:00+01:00,final,16296,6-3 7-5,v3,
 185722,wta,2026-10-29T07:20Z,Guangzhou Open,Round 2,Hard,10501,Maria Timofeeva,17886,Xinran Sun,2555.2,2253.7,350,29,0.7936,2026-10-27T14:15+01:00,final,17886,6-3 4-6 7-6(3),v3,
 185676,wta,2026-10-29T08:00Z,Toray Pan Pacific Open Tennis,Round 2,Hard,3126,Elena Rybakina,1802,Yulia Putintseva,3074.0,2579.7,570,825,0.9010,2026-10-27T07:16+01:00,final,3126,6-2 6-3,v3,
-185727,wta,2026-10-29T10:15Z,Guangzhou Open,Round 2,Hard,2734,Anna Bondar,14460,Kaitlin Quevedo,2455.0,2419.1,705,226,0.5401,2026-10-27T07:16+01:00,scheduled,,,v3,
+185727,wta,2026-10-29T10:15Z,Guangzhou Open,Round 2,Hard,2734,Anna Bondar,14460,Kaitlin Quevedo,2455.0,2419.1,705,226,0.5401,2026-10-27T07:16+01:00,live,,,v3,
 185147,atp,2026-10-29T11:00Z,Swiss Indoors Basel,Round 2,Hard,9376,Valentin Vacherot,12657,Rafael Jodar,2429.3,2556.8,400,134,0.3136,2026-10-27T16:15+01:00,scheduled,,,v3,
 185719,wta,2026-10-29T11:30Z,Guangzhou Open,Round 2,Hard,10830,Lilli Tagger,1649,Magda Linette,2592.4,2470.5,132,885,0.6328,2026-10-27T13:25+01:00,scheduled,,,v3,
 185187,atp,2026-10-29T12:30Z,Erste Bank Open,Round 2,Hard,2366,Cameron Norrie,2383,Daniil Medvedev,2423.7,2613.4,657,850,0.2368,2026-10-28T15:15+01:00,scheduled,,,v3,
