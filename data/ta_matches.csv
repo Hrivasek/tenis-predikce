@@ -6139,10 +6139,12 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,214593,Lucrezia Stefanini,ITA,265197,Isabella Maria Serban,ROU,6-3 6-2
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,214826,Susan Bandecchi,SUI,222506,Anastasiya Soboleva,UKR,6-3 6-2
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,215020,Anna Blinkova,FRA,213646,Dalma Galfi,HUN,6-3 6-2
+2026WTACourmayeur125,wta,2026-10-26,Hard,R16,215020,Anna Blinkova,FRA,215290,Katarina Zavatska,UKR,6-3 4-6 6-3
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,215453,Marina Bassols Ribera,ESP,223286,Victoria Jimenez Kasintseva,AND,6-3 6-3
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,215453,Marina Bassols Ribera,ESP,222965,Erika Andreeva,RUS,6-4 7-6(7)
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221039,Elsa Jacquemot,FRA,214826,Susan Bandecchi,SUI,6-7(3) 6-2 6-3
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221243,Martyna Kubka,POL,239392,Mia Ristic,SRB,6-3 7-6(4)
+2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221243,Martyna Kubka,POL,221354,Lisa Pigato,ITA,6-2 6-1
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221406,Alina Charaeva,ARM,220496,Enola Chiesa,ITA,6-4 6-1
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221406,Alina Charaeva,ARM,213873,Gabriela Andrea Knutson,CZE,1-6 6-2 6-3
 2026WTACourmayeur125,wta,2026-10-26,Hard,R16,221407,Oksana Selekhmeteva,RUS,215909,Adrienn Nagy,HUN,6-4 6-2
@@ -6169,6 +6171,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTACourmayeur125,wta,2026-10-26,Hard,R32,260664,Elizara Yaneva,BUL,213620,Jessica Pieri,ITA,6-2 6-2
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,206194,Gabriela Ce,BRA,219625,Fernanda Labrana,CHI,6-4 6-0
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,211814,Julia Grabher,AUT,206430,Carolina Alves,BRA,7-5 7-6(1)
+2026WTACuritiba125,wta,2026-10-26,Clay,R16,211814,Julia Grabher,AUT,214604,Maria Lourdes Carle,ARG,7-5 7-5
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,214604,Maria Lourdes Carle,ARG,206007,Laura Pigossi,BRA,7-5 6-0
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,215936,Francesca Jones,GBR,220447,Maria Florencia Urrutia,ARG,7-5 6-1
 2026WTACuritiba125,wta,2026-10-26,Clay,R16,215936,Francesca Jones,GBR,260455,Marjorie Souza,BRA,6-4 6-3
@@ -6220,13 +6223,19 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTAQueretaro125,wta,2026-10-26,Clay,Q2,260142,Carmen Andreea Herea,ROU,214091,Maria Fernanda Navarro Oliva,MEX,6-2 6-1
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,201555,Polona Hercog,SLO,211920,Martina Capurro Taborda,ARG,7-6(4) 7-5
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,206408,Nadia Podoroska,ARG,214254,Alice Rame,FRA,6-4 6-3
+2026WTAQueretaro125,wta,2026-10-26,Clay,R16,206408,Nadia Podoroska,ARG,214480,Miriam Bianca Bulgaru,ROU,6-1 6-1
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,211063,Valeriya Strakhova,UKR,223321,Sofia Costoulas,BEL,6-4 6-3
+2026WTAQueretaro125,wta,2026-10-26,Clay,R16,211063,Valeriya Strakhova,UKR,201555,Polona Hercog,SLO,2-6 6-2 6-2
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,211539,Fiona Ferro,FRA,260338,Sofia Johnson,GBR,7-5 1-6 6-3
+2026WTAQueretaro125,wta,2026-10-26,Clay,R16,211539,Fiona Ferro,FRA,222299,Adriana Reami,USA,6-0 6-0
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,211820,Martina Colmegna,ITA,264187,Zuzanna Pawlikowska,POL,6-4 0-6 6-2
+2026WTAQueretaro125,wta,2026-10-26,Clay,R16,213583,Tatjana Maria,GER,211820,Martina Colmegna,ITA,6-1 7-6(5)
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,214189,Alicia Herrero Linana,ESP,211874,Victoria Rodriguez,MEX,7-6(2) 6-0
+2026WTAQueretaro125,wta,2026-10-26,Clay,R16,214189,Alicia Herrero Linana,ESP,214461,Tamara Zidansek,SLO,6-7(3) 6-2 7-6(3)
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,214461,Tamara Zidansek,SLO,221512,Katrina Scott,USA,6-1 6-2
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,214480,Miriam Bianca Bulgaru,ROU,223203,Dasha Plekhanova,CAN,6-1 6-1
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,215370,Bianca Andreescu,CAN,222866,Katherine Hui,USA,6-3 6-2
+2026WTAQueretaro125,wta,2026-10-26,Clay,R16,215370,Bianca Andreescu,CAN,221000,Diletta Cherubini,ITA,6-2 6-3
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,216097,Elizabeth Mandlik,USA,215306,Emiliana Arango,COL,6-4 6-4
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,216097,Elizabeth Mandlik,USA,221911,Selena Janicijevic,FRA,2-6 6-0 6-4
 2026WTAQueretaro125,wta,2026-10-26,Clay,R16,220733,Carole Monnet,FRA,206417,Leolia Jeanjean,FRA,6-4 6-1
