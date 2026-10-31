@@ -1099,7 +1099,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185813,wta,2026-10-31T00:30Z,Queretaro Open,Quarterfinal,Clay,2387,Fiona Ferro,1955,Elizabeth Mandlik,2430.8,2252.2,563,368,0.6895,2026-10-29T23:15+01:00,final,2387,6-2 6-7(5) 6-4,v3,
 185814,wta,2026-10-31T01:30Z,Queretaro Open,Quarterfinal,Clay,4629,Alicia Herrero Linana,2979,Bianca Andreescu,2328.7,2462.7,237,355,0.3547,2026-10-30T06:15+01:00,final,2979,6-1 6-1,v3,
 185687,wta,2026-10-31T03:00Z,Toray Pan Pacific Open Tennis,Semifinal,Hard,3641,Leylah Fernandez,3908,Kamilla Rakhimova,2732.3,2538.3,404,467,0.7040,2026-10-30T07:38+01:00,final,3641,7-5 6-3,v3,
-185688,wta,2026-10-31T05:15Z,Toray Pan Pacific Open Tennis,Semifinal,Hard,8017,Diana Shnaider,16296,Mia Pohankova,2823.1,2616.0,323,69,0.7161,2026-10-30T20:01+01:00,scheduled,,,v3,1
+185688,wta,2026-10-31T05:15Z,Toray Pan Pacific Open Tennis,Semifinal,Hard,8017,Diana Shnaider,16296,Mia Pohankova,2823.1,2616.0,323,69,0.7161,2026-10-30T20:01+01:00,live,,,v3,1
 185733,wta,2026-10-31T08:30Z,Guangzhou Open,Semifinal,Hard,17886,Xinran Sun,2200,Harriet Dart,2327.9,2436.8,31,665,0.3808,2026-10-30T13:15+01:00,scheduled,,,v3,
 185734,wta,2026-10-31T10:00Z,Guangzhou Open,Semifinal,Hard,14460,Kaitlin Quevedo,10830,Lilli Tagger,2458.2,2623.1,228,134,0.3238,2026-10-30T17:58+01:00,scheduled,,,v3,
 185853,wta,2026-10-31T13:30Z,Valle D'Aosta Ladies Open,Semifinal,Hard,2902,Anna Blinkova,7849,Noma Noha Akugue,2475.1,2360.8,620,367,0.6250,2026-10-30T17:58+01:00,scheduled,,,v3,
