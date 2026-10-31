@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-25T08:01:32",
+"fetched": "2026-10-31T20:00:13",
 "events": [
 {
 "week": "2026-01-05",
@@ -502,6 +502,14 @@
 "name": "LP Open by IND",
 "city": "Colina",
 "country": "Chile",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-11-23",
+"name": "IEB+ Argentina Open",
+"city": "Buenos Aires",
+"country": "Argentina",
 "surface": "Clay",
 "nth": 1
 }

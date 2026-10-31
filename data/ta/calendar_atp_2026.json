@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-25T08:01:26",
+"fetched": "2026-10-31T20:00:06",
 "events": [
 {
 "week": "2026-01-05",
@@ -1767,6 +1767,54 @@
 "city": "Ningbo",
 "country": "China",
 "surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-02",
+"name": "Costa do Sauípe Open",
+"city": "Sauipe",
+"country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-11-02",
+"name": "Slovak Open",
+"city": "Bratislava",
+"country": "Slovakia",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-11-02",
+"name": "Santaizi ATP Challenger",
+"city": "Taipei",
+"country": "Taiwan",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-02",
+"name": "Charlottesville Men's Pro Challenger",
+"city": "Charlottesville",
+"country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-02",
+"name": "Taranto Tennis Cup",
+"city": "Taranto",
+"country": "Italy",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-02",
+"name": "Challenger de Villa María",
+"city": "Villa María",
+"country": "Argentina",
+"surface": "Clay",
 "nth": 1
 }
 ]
