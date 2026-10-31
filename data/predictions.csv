@@ -1099,7 +1099,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185813,wta,2026-10-31T00:30Z,Queretaro Open,Quarterfinal,Clay,2387,Fiona Ferro,1955,Elizabeth Mandlik,2430.8,2252.2,563,368,0.6895,2026-10-29T23:15+01:00,final,2387,6-2 6-7(5) 6-4,v3,
 185814,wta,2026-10-31T01:30Z,Queretaro Open,Quarterfinal,Clay,4629,Alicia Herrero Linana,2979,Bianca Andreescu,2328.7,2462.7,237,355,0.3547,2026-10-30T06:15+01:00,final,2979,6-1 6-1,v3,
 185687,wta,2026-10-31T03:00Z,Toray Pan Pacific Open Tennis,Semifinal,Hard,3641,Leylah Fernandez,3908,Kamilla Rakhimova,2732.3,2538.3,404,467,0.7040,2026-10-30T07:38+01:00,final,3641,7-5 6-3,v3,
-185688,wta,2026-10-31T05:15Z,Toray Pan Pacific Open Tennis,Semifinal,Hard,8017,Diana Shnaider,16296,Mia Pohankova,2823.1,2616.0,323,69,0.7161,2026-10-30T20:01+01:00,live,,,v3,1
+185688,wta,2026-10-31T05:15Z,Toray Pan Pacific Open Tennis,Semifinal,Hard,8017,Diana Shnaider,16296,Mia Pohankova,2823.1,2616.0,323,69,0.7161,2026-10-30T20:01+01:00,final,8017,6-4 7-6(7),v3,1
 185733,wta,2026-10-31T08:30Z,Guangzhou Open,Semifinal,Hard,17886,Xinran Sun,2200,Harriet Dart,2327.9,2436.8,31,665,0.3808,2026-10-30T13:15+01:00,scheduled,,,v3,
 185734,wta,2026-10-31T10:00Z,Guangzhou Open,Semifinal,Hard,14460,Kaitlin Quevedo,10830,Lilli Tagger,2458.2,2623.1,228,134,0.3238,2026-10-30T17:58+01:00,scheduled,,,v3,
 185853,wta,2026-10-31T13:30Z,Valle D'Aosta Ladies Open,Semifinal,Hard,2902,Anna Blinkova,7849,Noma Noha Akugue,2475.1,2360.8,620,367,0.6250,2026-10-30T17:58+01:00,scheduled,,,v3,
@@ -1112,9 +1112,9 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185157,atp,2026-10-31T16:00Z,Swiss Indoors Basel,Semifinal,Hard,3754,Jiri Lehecka,2337,Jan-Lennard Struff,2539.9,2377.8,445,1050,0.7306,2026-10-30T22:15+01:00,scheduled,,,v3,
 185817,wta,2026-11-01T00:00Z,Queretaro Open,Semifinal,Clay,2346,Tatjana Maria,2387,Fiona Ferro,2404.1,2436.4,1227,564,0.4641,2026-10-31T06:15+01:00,scheduled,,,v3,
 185818,wta,2026-11-01T01:30Z,Queretaro Open,Semifinal,Clay,2979,Bianca Andreescu,5299,Carole Monnet,2496.4,2308.0,356,504,0.6988,2026-10-31T06:15+01:00,scheduled,,,v3,
+185689,wta,2026-11-01T03:00Z,Toray Pan Pacific Open Tennis,Final,Hard,3641,Leylah Fernandez,8017,Diana Shnaider,2739.4,2828.9,405,324,0.4014,2026-10-31T09:15+01:00,scheduled,,,v3,
 185159,atp,2026-11-01T04:00Z,Swiss Indoors Basel,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-23T20:01+02:00,scheduled,,,v3,
 185205,atp,2026-11-01T04:00Z,Erste Bank Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-23T06:24+02:00,scheduled,,,v3,
-185689,wta,2026-11-01T04:00Z,Toray Pan Pacific Open Tennis,Final,Hard,3641,Leylah Fernandez,-4,TBD,2739.4,1500.0,405,0,0.9961,2026-10-31T06:15+01:00,scheduled,,,v3,
 185735,wta,2026-11-01T04:00Z,Guangzhou Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-23T06:24+02:00,scheduled,,,v3,
 185781,wta,2026-11-01T04:00Z,Curitiba Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-23T06:24+02:00,scheduled,,,v3,
 185819,wta,2026-11-01T04:00Z,Queretaro Open,Final,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-23T06:24+02:00,scheduled,,,v3,
