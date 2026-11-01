@@ -1110,7 +1110,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185779,wta,2026-10-31T15:30Z,Curitiba Open,Semifinal,Hard,17009,Nauhany Vitoria Leme Da Silva,5161,Alice Tubello,1946.1,2226.7,32,332,0.2221,2026-10-30T23:24+01:00,final,5161,6-0 6-1,v3,
 185157,atp,2026-10-31T16:05Z,Swiss Indoors Basel,Semifinal,Hard,3754,Jiri Lehecka,2337,Jan-Lennard Struff,2539.9,2377.8,445,1050,0.7306,2026-10-30T22:15+01:00,final,3754,3-6 7-5 6-4,v3,
 185203,atp,2026-10-31T16:05Z,Erste Bank Open,Semifinal,Hard,2375,Alexander Zverev,2651,Alex de Minaur,2707.8,2593.9,910,676,0.6679,2026-10-30T22:15+01:00,final,2651,6-4 1-6 7-6(4),v3,
-185817,wta,2026-11-01T00:00Z,Queretaro Open,Semifinal,Clay,2346,Tatjana Maria,2387,Fiona Ferro,2404.1,2436.4,1227,564,0.4641,2026-10-31T06:15+01:00,scheduled,,,v3,
+185817,wta,2026-11-01T00:00Z,Queretaro Open,Semifinal,Clay,2346,Tatjana Maria,2387,Fiona Ferro,2404.1,2436.4,1227,564,0.4641,2026-10-31T06:15+01:00,live,,,v3,
 185818,wta,2026-11-01T01:30Z,Queretaro Open,Semifinal,Clay,2979,Bianca Andreescu,5299,Carole Monnet,2496.4,2308.0,356,504,0.6988,2026-10-31T06:15+01:00,scheduled,,,v3,
 185689,wta,2026-11-01T03:00Z,Toray Pan Pacific Open Tennis,Final,Hard,3641,Leylah Fernandez,8017,Diana Shnaider,2739.4,2828.9,405,324,0.4014,2026-10-31T09:15+01:00,scheduled,,,v3,
 185819,wta,2026-11-01T04:00Z,Queretaro Open,Final,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-23T06:24+02:00,scheduled,,,v3,
