@@ -1114,7 +1114,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 185818,wta,2026-11-01T01:30Z,Queretaro Open,Semifinal,Clay,2979,Bianca Andreescu,5299,Carole Monnet,2496.4,2308.0,356,504,0.6988,2026-10-31T06:15+01:00,final,2979,6-3 7-5,v3,
 185689,wta,2026-11-01T03:00Z,Toray Pan Pacific Open Tennis,Final,Hard,3641,Leylah Fernandez,8017,Diana Shnaider,2739.4,2828.9,405,324,0.4014,2026-10-31T09:15+01:00,final,8017,6-4 5-7 6-2,v3,
 185735,wta,2026-11-01T08:30Z,Guangzhou Open,Final,Hard,10830,Lilli Tagger,2200,Harriet Dart,2652.1,2443.4,135,666,0.7175,2026-10-31T14:15+01:00,final,2200,4-6 6-3 6-4,v3,
-185205,atp,2026-11-01T13:00Z,Erste Bank Open,Final,Hard,2651,Alex de Minaur,3782,Carlos Alcaraz,2600.9,2858.0,677,466,0.1687,2026-10-31T20:01+01:00,scheduled,,,v3,
+185205,atp,2026-11-01T13:05Z,Erste Bank Open,Final,Hard,2651,Alex de Minaur,3782,Carlos Alcaraz,2600.9,2858.0,677,466,0.1687,2026-10-31T20:01+01:00,scheduled,,,v3,
 185781,wta,2026-11-01T14:00Z,Curitiba Open,Final,Hard,5161,Alice Tubello,2599,Julia Grabher,2242.0,2322.8,333,685,0.4108,2026-10-31T18:15+01:00,scheduled,,,v3,
 185865,wta,2026-11-01T14:00Z,Valle D'Aosta Ladies Open,Final,Hard,7849,Noma Noha Akugue,6570,Alina Charaeva,2384.7,2443.0,368,324,0.4353,2026-10-31T18:15+01:00,scheduled,,,v3,
 185159,atp,2026-11-01T14:30Z,Swiss Indoors Basel,Final,Hard,3754,Jiri Lehecka,9376,Valentin Vacherot,2544.1,2472.8,446,403,0.6075,2026-10-31T19:15+01:00,scheduled,,,v3,
