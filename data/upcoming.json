@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-01T05:20:55+00:00",
+"fetched": "2026-11-01T05:37:46+00:00",
 "matches": [
 {
 "match_id": "187120",
@@ -7741,14 +7741,14 @@
 "qualifying": 0,
 "date": "2026-11-01T03:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "3641",
 "p1_name": "Leylah Fernandez",
 "p2_id": "8017",
 "p2_name": "Diana Shnaider",
-"winner": "",
-"score": "",
+"winner": "8017",
+"score": "6-4 5-7 6-2",
 "p1_country": "Canada",
 "p2_country": "Russia",
 "tour": "wta"
