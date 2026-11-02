@@ -1154,7 +1154,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186712,wta,2026-11-02T17:30Z,Reto Win Tennis Cali Open,Round 1,Hard,3839,Selena Janicijevic,6500,Solana Sierra,1985.6,2258.6,371,329,0.2281,2026-11-01T23:15+01:00,final,6500,6-4 6-2,v3,
 186466,atp,2026-11-02T18:00Z,Rolex Paris Masters,Round 1,Hard,2860,Denis Shapovalov,2367,Karen Khachanov,2453.0,2470.5,569,750,0.4733,2026-10-30T20:01+01:00,ret,2367,6-3 6-7(6) 1-4 RET,v3,
 186715,wta,2026-11-02T19:00Z,Reto Win Tennis Cali Open,Round 1,Hard,15069,Laura Samson,2146,Yuliana Lizarazo,2206.9,1916.8,139,435,0.7851,2026-11-01T19:15+01:00,final,15069,6-4 6-3,v3,
-186713,wta,2026-11-02T20:30Z,Reto Win Tennis Cali Open,Round 1,Hard,1095,Polona Hercog,10676,Leyre Romero Gormaz,2246.3,2349.3,851,426,0.3870,2026-11-01T23:15+01:00,live,,,v3,
+186713,wta,2026-11-02T20:30Z,Reto Win Tennis Cali Open,Round 1,Hard,1095,Polona Hercog,10676,Leyre Romero Gormaz,2246.3,2349.3,851,426,0.3870,2026-11-01T23:15+01:00,final,10676,6-0 6-1,v3,
 186453,atp,2026-11-02T20:45Z,Rolex Paris Masters,Round 1,Hard,3085,Ugo Humbert,3310,Botic Van De Zandschulp,2437.2,2410.2,608,619,0.5411,2026-10-30T20:01+01:00,live,,,v3,
 186577,wta,2026-11-03T05:30Z,Chennai Open,Round 1,Hard,3000,Panna Udvardy,6723,Robin Montgomery,2299.1,2425.3,577,251,0.3626,2026-10-31T13:15+01:00,scheduled,,,v3,
 186581,wta,2026-11-03T05:30Z,Chennai Open,Round 1,Hard,6571,Oksana Selekhmeteva,16002,Teodora Kostovic,2343.4,2370.8,351,126,0.4694,2026-10-31T13:15+01:00,scheduled,,,v3,
@@ -1257,7 +1257,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186683,wta,2026-11-04T05:00Z,Angola Ladies Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
 186722,wta,2026-11-04T05:00Z,Reto Win Tennis Cali Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
 186723,wta,2026-11-04T05:00Z,Reto Win Tennis Cali Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
-186724,wta,2026-11-04T05:00Z,Reto Win Tennis Cali Open,Round 2,Hard,-3,TBD,6500,Solana Sierra,1500.0,2268.9,0,330,0.0312,2026-11-02T22:19+01:00,scheduled,,,v3,
+186724,wta,2026-11-04T05:00Z,Reto Win Tennis Cali Open,Round 2,Hard,10676,Leyre Romero Gormaz,6500,Solana Sierra,2382.1,2268.9,427,330,0.6238,2026-11-02T23:15+01:00,scheduled,,,v3,
 186725,wta,2026-11-04T05:00Z,Reto Win Tennis Cali Open,Round 2,Hard,15069,Laura Samson,-4,TBD,2217.6,1500.0,140,0,0.9610,2026-11-02T22:19+01:00,scheduled,,,v3,
 186726,wta,2026-11-04T05:00Z,Reto Win Tennis Cali Open,Round 2,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
 186731,wta,2026-11-04T05:00Z,Reto Win Tennis Cali Open,Round 2,Hard,-3,TBD,13950,Luisina Giovannini,1500.0,1999.6,0,209,0.0970,2026-11-02T20:18+01:00,scheduled,,,v3,1

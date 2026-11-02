@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-02T21:19:19+00:00",
+"fetched": "2026-11-02T22:15:28+00:00",
 "matches": [
 {
 "match_id": "187120",
@@ -9109,14 +9109,14 @@
 "qualifying": 0,
 "date": "2026-11-02T21:00Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "1095",
 "p1_name": "Polona Hercog",
 "p2_id": "10676",
 "p2_name": "Leyre Romero Gormaz",
-"winner": "",
-"score": "",
+"winner": "10676",
+"score": "6-0 6-1",
 "p1_country": "Slovenia",
 "p2_country": "Spain",
 "tour": "wta"
@@ -11439,13 +11439,13 @@
 "time_valid": 0,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "10676",
+"p1_name": "Leyre Romero Gormaz",
 "p2_id": "6500",
 "p2_name": "Solana Sierra",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Spain",
 "p2_country": "Argentina",
 "tour": "wta"
 },
