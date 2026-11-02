@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-02T00:15:20+00:00",
+"fetched": "2026-11-02T05:24:06+00:00",
 "matches": [
 {
 "match_id": "187120",
@@ -8341,14 +8341,14 @@
 "qualifying": 0,
 "date": "2026-11-01T22:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "2346",
 "p1_name": "Tatjana Maria",
 "p2_id": "2979",
 "p2_name": "Bianca Andreescu",
-"winner": "",
-"score": "",
+"winner": "2979",
+"score": "6-1 2-6 6-3",
 "p1_country": "Germany",
 "p2_country": "Canada",
 "tour": "wta"
