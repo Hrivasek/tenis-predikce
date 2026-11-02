@@ -1170,7 +1170,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186455,atp,2026-11-03T05:00Z,Rolex Paris Masters,Round 1,Hard,3774,Brandon Nakashima,2622,Matteo Berrettini,2479.9,2439.7,473,543,0.5611,2026-10-30T22:15+01:00,scheduled,,,v3,
 186457,atp,2026-11-03T05:00Z,Rolex Paris Masters,Round 1,Hard,2355,Benjamin Bonzi,2946,Taylor Fritz,2370.7,2557.7,771,758,0.2400,2026-11-01T17:15+01:00,scheduled,,,v3,
 186458,atp,2026-11-03T05:00Z,Rolex Paris Masters,Round 1,Hard,296,Novak Djokovic,9376,Valentin Vacherot,2758.4,2486.4,1454,404,0.8442,2026-11-01T18:17+01:00,scheduled,,,v3,
-186467,atp,2026-11-03T05:00Z,Rolex Paris Masters,Round 1,Hard,3212,Alejandro Davidovich Fokina,15473,Moise Kouame,2543.9,2190.3,545,83,0.9018,2026-11-01T08:16+01:00,scheduled,,,v3,1
+186467,atp,2026-11-03T05:00Z,Rolex Paris Masters,Round 1,Hard,3212,Alejandro Davidovich Fokina,15473,Moise Kouame,2543.9,2213.9,545,84,0.8873,2026-11-02T08:06+01:00,scheduled,,,v3,1
 186470,atp,2026-11-03T05:00Z,Rolex Paris Masters,Round 1,Hard,2337,Jan-Lennard Struff,10427,Arthur Gea,2374.7,2464.2,1051,257,0.3663,2026-10-31T19:15+01:00,scheduled,,,v3,
 186473,atp,2026-11-03T05:00Z,Rolex Paris Masters,Round 1,Hard,2869,Stefanos Tsitsipas,10386,Learner Tien,2487.2,2504.9,793,252,0.4730,2026-10-30T20:01+01:00,scheduled,,,v3,
 186474,atp,2026-11-03T05:00Z,Rolex Paris Masters,Round 1,Hard,2362,Quentin Halys,8621,Arthur Fery,2364.3,2329.5,797,252,0.5529,2026-10-30T20:01+01:00,scheduled,,,v3,
