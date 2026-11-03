@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-03T19:01:38+00:00",
+"fetched": "2026-11-03T19:22:28+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -3266,30 +3266,6 @@
 "tour": "wta"
 },
 {
-"match_id": "186484",
-"event_id": "13-2026",
-"tourney_name": "Rolex Paris Masters",
-"venue": "Paris, France",
-"event_start": "20261031",
-"tourney_level": "A",
-"round": "Round 2",
-"round_order": 2,
-"qualifying": 0,
-"date": "2026-11-03T19:30Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 5,
-"p1_id": "2989",
-"p1_name": "Casper Ruud",
-"p2_id": "12657",
-"p2_name": "Rafael Jodar",
-"winner": "",
-"score": "",
-"p1_country": "Norway",
-"p2_country": "Spain",
-"tour": "atp"
-},
-{
 "match_id": "186706",
 "event_id": "1007-2026",
 "tourney_name": "Reto Win Tennis Cali Open",
@@ -3336,6 +3312,30 @@
 "p1_country": "Austria",
 "p2_country": "Brazil",
 "tour": "wta"
+},
+{
+"match_id": "186484",
+"event_id": "13-2026",
+"tourney_name": "Rolex Paris Masters",
+"venue": "Paris, France",
+"event_start": "20261031",
+"tourney_level": "A",
+"round": "Round 2",
+"round_order": 2,
+"qualifying": 0,
+"date": "2026-11-03T19:45Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 5,
+"p1_id": "2989",
+"p1_name": "Casper Ruud",
+"p2_id": "12657",
+"p2_name": "Rafael Jodar",
+"winner": "",
+"score": "",
+"p1_country": "Norway",
+"p2_country": "Spain",
+"tour": "atp"
 },
 {
 "match_id": "186708",
