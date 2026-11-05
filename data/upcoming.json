@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-05T05:17:50+00:00",
+"fetched": "2026-11-05T06:15:34+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -4259,9 +4259,9 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-11-05T06:00Z",
+"date": "2026-11-05T06:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "14946",
 "p1_name": "Elena Pridankina",
@@ -4283,9 +4283,9 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-11-05T06:00Z",
+"date": "2026-11-05T06:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "3387",
 "p1_name": "Wang Xinyu",

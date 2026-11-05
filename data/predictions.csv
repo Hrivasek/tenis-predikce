@@ -1250,8 +1250,8 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186724,wta,2026-11-04T19:40Z,Reto Win Tennis Cali Open,Round 2,Hard,10676,Leyre Romero Gormaz,6500,Solana Sierra,2382.1,2268.9,427,330,0.6238,2026-11-02T23:15+01:00,final,10676,6-4 6-1,v3,
 186491,atp,2026-11-04T19:45Z,Rolex Paris Masters,Round 2,Hard,10052,Arthur Fils,3811,Tomas Machac,2604.4,2424.6,328,428,0.7518,2026-11-02T20:18+01:00,final,10052,6-3 7-6(4),v3,
 186726,wta,2026-11-04T22:00Z,Reto Win Tennis Cali Open,Round 2,Hard,5746,Jazmin Ortenzi,2979,Bianca Andreescu,2099.6,2559.7,361,359,0.1135,2026-11-03T21:15+01:00,final,2979,6-2 6-3,v3,
-186631,wta,2026-11-05T06:00Z,Prudential Hong Kong Tennis Open,Round 2,Hard,3387,Wang Xinyu,6816,Antonia Ruzic,2482.4,2439.6,446,355,0.5477,2026-11-04T10:15+01:00,scheduled,,,v3,
-186640,wta,2026-11-05T06:00Z,Prudential Hong Kong Tennis Open,Round 2,Hard,14946,Elena Pridankina,10858,Alexandra Shubladze,2296.0,2527.4,295,217,0.2624,2026-11-03T16:15+01:00,scheduled,,,v3,1
+186631,wta,2026-11-05T06:00Z,Prudential Hong Kong Tennis Open,Round 2,Hard,3387,Wang Xinyu,6816,Antonia Ruzic,2482.4,2439.6,446,355,0.5477,2026-11-04T10:15+01:00,live,,,v3,
+186640,wta,2026-11-05T06:00Z,Prudential Hong Kong Tennis Open,Round 2,Hard,14946,Elena Pridankina,10858,Alexandra Shubladze,2296.0,2527.4,295,217,0.2624,2026-11-03T16:15+01:00,live,,,v3,1
 186639,wta,2026-11-05T07:30Z,Prudential Hong Kong Tennis Open,Round 2,Hard,14877,Mika Stojsavljevic,5604,Zeynep Sonmez,2232.9,2511.3,78,427,0.2238,2026-11-04T10:15+01:00,scheduled,,,v3,
 186681,wta,2026-11-05T09:00Z,Angola Ladies Open,Round 2,Hard,19308,Kristina Kroitor,13737,Ksenia Zaytseva,2162.9,2081.5,92,156,0.5900,2026-11-04T14:15+01:00,scheduled,,,v3,
 186683,wta,2026-11-05T09:00Z,Angola Ladies Open,Round 2,Hard,2902,Anna Blinkova,13680,Li Zongyu,2458.0,2097.7,622,273,0.8333,2026-11-03T19:15+01:00,scheduled,,,v3,
