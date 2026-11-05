@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-05T22:15:27+00:00",
+"fetched": "2026-11-05T23:15:22+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -4789,14 +4789,14 @@
 "qualifying": 0,
 "date": "2026-11-05T19:25Z",
 "time_valid": 1,
-"status": "other",
+"status": "final",
 "best_of": 3,
 "p1_id": "13950",
 "p1_name": "Luisina Giovannini",
 "p2_id": "2979",
 "p2_name": "Bianca Andreescu",
-"winner": "",
-"score": "",
+"winner": "2979",
+"score": "6-1 6-3",
 "p1_country": "Argentina",
 "p2_country": "Canada",
 "tour": "wta"
@@ -4837,7 +4837,7 @@
 "qualifying": 0,
 "date": "2026-11-05T20:25Z",
 "time_valid": 1,
-"status": "other",
+"status": "live",
 "best_of": 3,
 "p1_id": "4453",
 "p1_name": "Leolia Jeanjean",
@@ -4889,12 +4889,12 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "2979",
+"p2_name": "Bianca Andreescu",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Canada",
 "tour": "wta"
 },
 {
