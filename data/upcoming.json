@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-05T17:15:30+00:00",
+"fetched": "2026-11-05T18:15:24+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -4669,14 +4669,14 @@
 "qualifying": 0,
 "date": "2026-11-05T16:10Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "4115",
 "p1_name": "Nuno Borges",
 "p2_id": "11226",
 "p2_name": "Ignacio Buse",
-"winner": "",
-"score": "",
+"winner": "4115",
+"score": "6-0 6-2",
 "p1_country": "Portugal",
 "p2_country": "Peru",
 "tour": "atp"
@@ -4763,7 +4763,7 @@
 "round": "Round 3",
 "round_order": 3,
 "qualifying": 0,
-"date": "2026-11-05T18:00Z",
+"date": "2026-11-05T18:15Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 5,
@@ -5273,12 +5273,12 @@
 "best_of": 5,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "4115",
+"p2_name": "Nuno Borges",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Portugal",
 "tour": "atp"
 },
 {
