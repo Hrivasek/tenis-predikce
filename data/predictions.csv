@@ -1271,9 +1271,9 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186727,wta,2026-11-05T17:00Z,Reto Win Tennis Cali Open,Quarterfinal,Hard,5749,Julia Riera,2751,Renata Zarazua,2241.2,2419.9,388,682,0.3103,2026-11-04T23:15+01:00,live,,,v3,
 186728,wta,2026-11-05T17:00Z,Reto Win Tennis Cali Open,Quarterfinal,Hard,5299,Carole Monnet,10676,Leyre Romero Gormaz,2210.7,2399.0,507,428,0.3012,2026-11-04T22:15+01:00,live,,,v3,
 186502,atp,2026-11-05T18:00Z,Rolex Paris Masters,Round 3,Hard,2622,Matteo Berrettini,3782,Carlos Alcaraz,2458.5,2865.3,545,468,0.0713,2026-11-04T22:15+01:00,wo,3782,,v3,
-186503,atp,2026-11-05T18:15Z,Rolex Paris Masters,Round 3,Hard,10052,Arthur Fils,2946,Taylor Fritz,2611.0,2563.3,329,760,0.5725,2026-11-04T23:15+01:00,scheduled,,,v3,
-186730,wta,2026-11-05T18:30Z,Reto Win Tennis Cali Open,Quarterfinal,Hard,4453,Leolia Jeanjean,5161,Alice Tubello,2382.6,2338.1,424,336,0.5495,2026-11-04T20:38+01:00,scheduled,,,v3,1
-186729,wta,2026-11-05T19:00Z,Reto Win Tennis Cali Open,Quarterfinal,Hard,13950,Luisina Giovannini,2979,Bianca Andreescu,2090.6,2562.7,210,360,0.1082,2026-11-05T01:15+01:00,scheduled,,,v3,1
+186503,atp,2026-11-05T18:15Z,Rolex Paris Masters,Round 3,Hard,10052,Arthur Fils,2946,Taylor Fritz,2611.0,2563.3,329,760,0.5725,2026-11-04T23:15+01:00,live,,,v3,
+186729,wta,2026-11-05T19:10Z,Reto Win Tennis Cali Open,Quarterfinal,Hard,13950,Luisina Giovannini,2979,Bianca Andreescu,2090.6,2562.7,210,360,0.1082,2026-11-05T01:15+01:00,scheduled,,,v3,1
+186730,wta,2026-11-05T19:10Z,Reto Win Tennis Cali Open,Quarterfinal,Hard,4453,Leolia Jeanjean,5161,Alice Tubello,2382.6,2338.1,424,336,0.5495,2026-11-04T20:38+01:00,scheduled,,,v3,1
 186495,atp,2026-11-05T19:30Z,Rolex Paris Masters,Round 3,Hard,2337,Jan-Lennard Struff,2989,Casper Ruud,2391.9,2540.7,1053,690,0.2860,2026-11-04T22:15+01:00,scheduled,,,v3,
 186734,wta,2026-11-06T05:00Z,Reto Win Tennis Cali Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
 186735,wta,2026-11-06T05:00Z,Reto Win Tennis Cali Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
@@ -1285,7 +1285,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186597,wta,2026-11-06T11:00Z,Chennai Open,Quarterfinal,Hard,6723,Robin Montgomery,15999,Maaya Rajeshwaran Revathi,2442.4,1941.2,253,25,0.9037,2026-11-04T18:15+01:00,scheduled,,,v3,
 186687,wta,2026-11-06T11:00Z,Angola Ladies Open,Quarterfinal,Hard,13737,Ksenia Zaytseva,13369,Gina Feistel,2120.2,2132.8,157,203,0.4859,2026-11-05T12:15+01:00,scheduled,,,v3,
 186634,wta,2026-11-06T12:00Z,Prudential Hong Kong Tennis Open,Quarterfinal,Hard,6816,Antonia Ruzic,7759,Alexandra Eala,2454.6,2701.9,356,368,0.2489,2026-11-05T14:15+01:00,scheduled,,,v3,
-186686,wta,2026-11-06T12:00Z,Angola Ladies Open,Quarterfinal,Hard,2441,Justina Mikulskyte,7849,Noma Noha Akugue,2092.6,2368.7,495,371,0.2256,2026-11-05T16:15+01:00,scheduled,,,v3,
+186686,wta,2026-11-06T12:00Z,Angola Ladies Open,Quarterfinal,Hard,2441,Justina Mikulskyte,7849,Noma Noha Akugue,2106.8,2368.7,496,371,0.2368,2026-11-05T20:01+01:00,scheduled,,,v3,
 186596,wta,2026-11-06T12:30Z,Chennai Open,Quarterfinal,Hard,3153,Mai Hontama,1649,Magda Linette,2275.3,2474.6,499,888,0.2911,2026-11-05T14:15+01:00,scheduled,,,v3,
 186500,atp,2026-11-06T13:00Z,Rolex Paris Masters,Quarterfinal,Hard,9250,Ben Shelton,2964,Tommy Paul,2616.3,2578.8,309,713,0.5572,2026-11-05T15:25+01:00,scheduled,,,v3,
 186595,wta,2026-11-06T14:00Z,Chennai Open,Quarterfinal,Hard,5775,Anastasia Zakharova,8067,Lucrezia Stefanini,2406.3,2417.9,480,594,0.4871,2026-11-05T16:15+01:00,scheduled,,,v3,
