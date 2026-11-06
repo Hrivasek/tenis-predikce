@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-06T19:01:27+00:00",
+"fetched": "2026-11-06T19:12:05+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5197,7 +5197,7 @@
 "qualifying": 0,
 "date": "2026-11-06T19:00Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "2946",
 "p1_name": "Taylor Fritz",
@@ -5219,7 +5219,7 @@
 "round": "Semifinal",
 "round_order": 11,
 "qualifying": 0,
-"date": "2026-11-06T19:10Z",
+"date": "2026-11-06T19:20Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
