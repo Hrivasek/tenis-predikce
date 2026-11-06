@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-06T08:15:26+00:00",
+"fetched": "2026-11-06T09:15:25+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -4883,9 +4883,9 @@
 "round": "Quarterfinal",
 "round_order": 10,
 "qualifying": 0,
-"date": "2026-11-06T08:30Z",
+"date": "2026-11-06T08:55Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "1774",
 "p1_name": "Sorana Cirstea",
