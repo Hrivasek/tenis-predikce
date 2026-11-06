@@ -1291,7 +1291,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186688,wta,2026-11-06T15:30Z,Angola Ladies Open,Quarterfinal,Hard,2902,Anna Blinkova,8318,Yasmine Kabbaj,2460.5,2066.0,623,184,0.8535,2026-11-05T12:15+01:00,scheduled,,,v3,
 186734,wta,2026-11-06T17:00Z,Reto Win Tennis Cali Open,Semifinal,Hard,10676,Leyre Romero Gormaz,5749,Julia Riera,2404.0,2255.3,429,389,0.6602,2026-11-05T22:15+01:00,scheduled,,,v3,
 186492,atp,2026-11-06T18:00Z,Rolex Paris Masters,Quarterfinal,Hard,2946,Taylor Fritz,3782,Carlos Alcaraz,2577.0,2865.3,761,468,0.1426,2026-11-05T20:51+01:00,scheduled,,,v3,
-186735,wta,2026-11-06T18:30Z,Reto Win Tennis Cali Open,Semifinal,Hard,5161,Alice Tubello,2979,Bianca Andreescu,2368.2,2568.0,337,361,0.2906,2026-11-06T01:15+01:00,scheduled,,,v3,1
+186735,wta,2026-11-06T18:30Z,Reto Win Tennis Cali Open,Semifinal,Hard,5161,Alice Tubello,2979,Bianca Andreescu,2368.2,2568.0,337,361,0.2906,2026-11-06T08:09+01:00,scheduled,,,v3,
 186493,atp,2026-11-06T19:30Z,Rolex Paris Masters,Quarterfinal,Hard,2989,Casper Ruud,4115,Nuno Borges,2548.7,2427.3,691,520,0.6781,2026-11-05T22:15+01:00,scheduled,,,v3,
 186504,atp,2026-11-07T05:00Z,Rolex Paris Masters,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T17:58+01:00,scheduled,,,v3,
 186505,atp,2026-11-07T05:00Z,Rolex Paris Masters,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T17:58+01:00,scheduled,,,v3,
