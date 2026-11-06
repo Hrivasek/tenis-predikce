@@ -1277,7 +1277,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186730,wta,2026-11-05T20:00Z,Reto Win Tennis Cali Open,Quarterfinal,Hard,4453,Leolia Jeanjean,5161,Alice Tubello,2382.6,2338.1,424,336,0.5495,2026-11-04T20:38+01:00,final,5161,6-3 6-2,v3,1
 186636,wta,2026-11-06T06:00Z,Prudential Hong Kong Tennis Open,Quarterfinal,Hard,5604,Zeynep Sonmez,2980,Claire Liu,2514.9,2444.7,428,457,0.5778,2026-11-05T12:15+01:00,final,2980,6-1 6-4,v3,
 186637,wta,2026-11-06T08:30Z,Prudential Hong Kong Tennis Open,Quarterfinal,Hard,1774,Sorana Cirstea,10858,Alexandra Shubladze,2738.6,2535.8,1037,218,0.7121,2026-11-05T16:15+01:00,live,,,v3,1
-186592,wta,2026-11-06T09:30Z,Chennai Open,Quarterfinal,Hard,6368,Janice Tjen,6413,Polina Kudermetova,2526.3,2469.8,190,381,0.5628,2026-11-04T16:15+01:00,scheduled,,,v3,
+186592,wta,2026-11-06T09:30Z,Chennai Open,Quarterfinal,Hard,6368,Janice Tjen,6413,Polina Kudermetova,2526.3,2469.8,190,381,0.5628,2026-11-04T16:15+01:00,live,,,v3,
 186635,wta,2026-11-06T10:30Z,Prudential Hong Kong Tennis Open,Quarterfinal,Hard,1809,Aliaksandra Sasnovich,3018,Maria Sakkari,2596.9,2648.9,786,843,0.4422,2026-11-04T14:15+01:00,scheduled,,,v3,
 186689,wta,2026-11-06T10:30Z,Angola Ladies Open,Quarterfinal,Hard,3401,Sofya Lansere,6419,Martyna Kubka,2211.9,2331.4,344,338,0.3696,2026-11-04T14:15+01:00,scheduled,,,v3,
 186597,wta,2026-11-06T11:00Z,Chennai Open,Quarterfinal,Hard,6723,Robin Montgomery,15999,Maaya Rajeshwaran Revathi,2442.4,1941.2,253,25,0.9037,2026-11-04T18:15+01:00,scheduled,,,v3,
