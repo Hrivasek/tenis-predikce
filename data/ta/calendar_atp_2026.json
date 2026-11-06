@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-31T20:00:06",
+"fetched": "2026-11-06T20:00:09",
 "events": [
 {
 "week": "2026-01-05",
@@ -319,14 +319,6 @@
 "city": "Kigali",
 "country": "Rwanda",
 "surface": "Clay",
-"nth": 1
-},
-{
-"week": "2026-03-02",
-"name": "Fujairah Open",
-"city": "Fujairah",
-"country": "United Arab Emirates",
-"surface": "Hard",
 "nth": 1
 },
 {
