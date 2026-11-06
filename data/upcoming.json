@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-06T07:09:30+00:00",
+"fetched": "2026-11-06T08:15:26+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -4861,14 +4861,14 @@
 "qualifying": 0,
 "date": "2026-11-06T06:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "5604",
 "p1_name": "Zeynep Sonmez",
 "p2_id": "2980",
 "p2_name": "Claire Liu",
-"winner": "",
-"score": "",
+"winner": "2980",
+"score": "6-1 6-4",
 "p1_country": "Türkiye",
 "p2_country": "USA",
 "tour": "wta"
@@ -5345,12 +5345,12 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "2980",
+"p2_name": "Claire Liu",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "USA",
 "tour": "wta"
 },
 {

@@ -1275,7 +1275,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186729,wta,2026-11-05T19:10Z,Reto Win Tennis Cali Open,Quarterfinal,Hard,13950,Luisina Giovannini,2979,Bianca Andreescu,2090.6,2562.7,210,360,0.1082,2026-11-05T01:15+01:00,final,2979,6-1 6-3,v3,1
 186495,atp,2026-11-05T19:50Z,Rolex Paris Masters,Round 3,Hard,2337,Jan-Lennard Struff,2989,Casper Ruud,2391.9,2540.7,1053,690,0.2860,2026-11-04T22:15+01:00,final,2989,6-3 6-3,v3,
 186730,wta,2026-11-05T20:00Z,Reto Win Tennis Cali Open,Quarterfinal,Hard,4453,Leolia Jeanjean,5161,Alice Tubello,2382.6,2338.1,424,336,0.5495,2026-11-04T20:38+01:00,final,5161,6-3 6-2,v3,1
-186636,wta,2026-11-06T06:00Z,Prudential Hong Kong Tennis Open,Quarterfinal,Hard,5604,Zeynep Sonmez,2980,Claire Liu,2514.9,2444.7,428,457,0.5778,2026-11-05T12:15+01:00,live,,,v3,
+186636,wta,2026-11-06T06:00Z,Prudential Hong Kong Tennis Open,Quarterfinal,Hard,5604,Zeynep Sonmez,2980,Claire Liu,2514.9,2444.7,428,457,0.5778,2026-11-05T12:15+01:00,final,2980,6-1 6-4,v3,
 186637,wta,2026-11-06T08:30Z,Prudential Hong Kong Tennis Open,Quarterfinal,Hard,1774,Sorana Cirstea,10858,Alexandra Shubladze,2738.6,2535.8,1037,218,0.7121,2026-11-05T16:15+01:00,scheduled,,,v3,1
 186592,wta,2026-11-06T09:30Z,Chennai Open,Quarterfinal,Hard,6368,Janice Tjen,6413,Polina Kudermetova,2526.3,2469.8,190,381,0.5628,2026-11-04T16:15+01:00,scheduled,,,v3,
 186635,wta,2026-11-06T10:30Z,Prudential Hong Kong Tennis Open,Quarterfinal,Hard,1809,Aliaksandra Sasnovich,3018,Maria Sakkari,2596.9,2648.9,786,843,0.4422,2026-11-04T14:15+01:00,scheduled,,,v3,
@@ -1298,7 +1298,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186593,wta,2026-11-07T05:00Z,Chennai Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
 186594,wta,2026-11-07T05:00Z,Chennai Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
 186643,wta,2026-11-07T05:00Z,Prudential Hong Kong Tennis Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
-186644,wta,2026-11-07T05:00Z,Prudential Hong Kong Tennis Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
+186644,wta,2026-11-07T05:00Z,Prudential Hong Kong Tennis Open,Semifinal,Hard,-3,TBD,2980,Claire Liu,1500.0,2469.3,0,458,0.0130,2026-11-06T09:15+01:00,scheduled,,,v3,
 186684,wta,2026-11-07T05:00Z,Angola Ladies Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
 186685,wta,2026-11-07T05:00Z,Angola Ladies Open,Semifinal,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
 186741,wta,2026-11-07T05:00Z,Reto Win Tennis Cali Open,Final,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-10-30T01:15+01:00,scheduled,,,v3,
