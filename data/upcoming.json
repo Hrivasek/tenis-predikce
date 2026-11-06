@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-06T19:12:05+00:00",
+"fetched": "2026-11-06T20:15:22+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5173,14 +5173,14 @@
 "qualifying": 0,
 "date": "2026-11-06T17:10Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "10676",
 "p1_name": "Leyre Romero Gormaz",
 "p2_id": "5749",
 "p2_name": "Julia Riera",
-"winner": "",
-"score": "",
+"winner": "10676",
+"score": "3-6 7-5 6-4",
 "p1_country": "Spain",
 "p2_country": "Argentina",
 "tour": "wta"
@@ -5219,7 +5219,7 @@
 "round": "Semifinal",
 "round_order": 11,
 "qualifying": 0,
-"date": "2026-11-06T19:20Z",
+"date": "2026-11-06T20:10Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
@@ -5273,12 +5273,12 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "10676",
+"p2_name": "Leyre Romero Gormaz",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
