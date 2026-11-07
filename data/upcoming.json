@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-07T05:36:56+00:00",
+"fetched": "2026-11-07T07:13:17+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5243,9 +5243,9 @@
 "round": "Semifinal",
 "round_order": 11,
 "qualifying": 0,
-"date": "2026-11-07T06:00Z",
+"date": "2026-11-07T06:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "10858",
 "p1_name": "Alexandra Shubladze",
