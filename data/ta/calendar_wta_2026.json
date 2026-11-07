@@ -1,5 +1,5 @@
 {
-"fetched": "2026-10-31T20:00:13",
+"fetched": "2026-11-07T08:11:58",
 "events": [
 {
 "week": "2026-01-05",
@@ -483,7 +483,7 @@
 },
 {
 "week": "2026-11-02",
-"name": "Cali Open",
+"name": "Reto Win Tennis Cali Open",
 "city": "Cali",
 "country": "Colombia",
 "surface": "Clay",
@@ -491,7 +491,7 @@
 },
 {
 "week": "2026-11-09",
-"name": "Cundinamarca Open",
+"name": "DirecTV Open",
 "city": "Sopó",
 "country": "Colombia",
 "surface": "Clay",
@@ -511,6 +511,22 @@
 "city": "Buenos Aires",
 "country": "Argentina",
 "surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-11-30",
+"name": "Quito Open",
+"city": "Quito",
+"country": "Ecuador",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-11-30",
+"name": "Open Angers Loire Trélazé",
+"city": "Angers",
+"country": "France",
+"surface": "Hard",
 "nth": 1
 }
 ]
