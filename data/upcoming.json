@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-07T00:01:46+00:00",
+"fetched": "2026-11-07T05:36:56+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5210,30 +5210,6 @@
 "tour": "atp"
 },
 {
-"match_id": "186735",
-"event_id": "1007-2026",
-"tourney_name": "Reto Win Tennis Cali Open",
-"venue": "Cali, Colombia",
-"event_start": "20261101",
-"tourney_level": "A",
-"round": "Semifinal",
-"round_order": 11,
-"qualifying": 0,
-"date": "2026-11-06T20:10Z",
-"time_valid": 1,
-"status": "other",
-"best_of": 3,
-"p1_id": "5161",
-"p1_name": "Alice Tubello",
-"p2_id": "2979",
-"p2_name": "Bianca Andreescu",
-"winner": "",
-"score": "",
-"p1_country": "France",
-"p2_country": "Canada",
-"tour": "wta"
-},
-{
 "match_id": "186493",
 "event_id": "13-2026",
 "tourney_name": "Rolex Paris Masters",
@@ -5640,6 +5616,30 @@
 "p1_country": "Great Britain",
 "p2_country": "France",
 "tour": "atp"
+},
+{
+"match_id": "186735",
+"event_id": "1007-2026",
+"tourney_name": "Reto Win Tennis Cali Open",
+"venue": "Cali, Colombia",
+"event_start": "20261101",
+"tourney_level": "A",
+"round": "Semifinal",
+"round_order": 11,
+"qualifying": 0,
+"date": "2026-11-07T15:00Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "5161",
+"p1_name": "Alice Tubello",
+"p2_id": "2979",
+"p2_name": "Bianca Andreescu",
+"winner": "",
+"score": "",
+"p1_country": "France",
+"p2_country": "Canada",
+"tour": "wta"
 },
 {
 "match_id": "186505",
