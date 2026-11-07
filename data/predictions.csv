@@ -1301,7 +1301,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186685,wta,2026-11-07T15:00Z,Angola Ladies Open,Semifinal,Hard,2902,Anna Blinkova,13369,Gina Feistel,2461.9,2161.2,624,204,0.7930,2026-11-07T13:25+01:00,final,2902,5-7 6-4 6-2,v3,
 186735,wta,2026-11-07T15:00Z,Reto Win Tennis Cali Open,Semifinal,Hard,5161,Alice Tubello,2979,Bianca Andreescu,2368.2,2568.0,337,361,0.2906,2026-11-06T08:09+01:00,final,2979,6-0 6-4,v3,
 186505,atp,2026-11-07T16:20Z,Rolex Paris Masters,Semifinal,Hard,2989,Casper Ruud,3782,Carlos Alcaraz,2554.9,2867.8,692,469,0.1243,2026-11-07T01:01+01:00,final,3782,6-4 6-4,v3,
-186741,wta,2026-11-07T16:30Z,Reto Win Tennis Cali Open,Final,Hard,2979,Bianca Andreescu,10676,Leyre Romero Gormaz,2580.2,2409.2,362,430,0.6822,2026-11-07T16:15+01:00,live,,,v3,
+186741,wta,2026-11-07T16:30Z,Reto Win Tennis Cali Open,Final,Hard,2979,Bianca Andreescu,10676,Leyre Romero Gormaz,2580.2,2409.2,362,430,0.6822,2026-11-07T16:15+01:00,final,10676,7-6(4) 6-3,v3,
 186523,atp,2026-11-08T05:00Z,Bybit Stockholm Open,Round 1,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-11-05T01:15+01:00,scheduled,,,v3,
 186524,atp,2026-11-08T05:00Z,Bybit Stockholm Open,Round 1,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-11-05T01:15+01:00,scheduled,,,v3,
 186531,atp,2026-11-08T05:00Z,Bybit Stockholm Open,Round 1,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-11-05T01:15+01:00,scheduled,,,v3,

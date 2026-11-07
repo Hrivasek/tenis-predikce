@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-07T17:58:59+00:00",
+"fetched": "2026-11-07T19:01:24+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5677,14 +5677,14 @@
 "qualifying": 0,
 "date": "2026-11-07T16:35Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "2979",
 "p1_name": "Bianca Andreescu",
 "p2_id": "10676",
 "p2_name": "Leyre Romero Gormaz",
-"winner": "",
-"score": "",
+"winner": "10676",
+"score": "7-6(4) 6-3",
 "p1_country": "Canada",
 "p2_country": "Spain",
 "tour": "wta"
