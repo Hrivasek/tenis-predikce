@@ -1293,7 +1293,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186493,atp,2026-11-06T21:30Z,Rolex Paris Masters,Quarterfinal,Hard,2989,Casper Ruud,4115,Nuno Borges,2548.7,2427.3,691,520,0.6781,2026-11-05T22:15+01:00,final,2989,7-6(5) 6-4,v3,
 186644,wta,2026-11-07T06:00Z,Prudential Hong Kong Tennis Open,Semifinal,Hard,10858,Alexandra Shubladze,2980,Claire Liu,2580.0,2469.3,219,458,0.6212,2026-11-06T12:15+01:00,final,2980,7-5 6-4,v3,1
 186643,wta,2026-11-07T08:15Z,Prudential Hong Kong Tennis Open,Semifinal,Hard,3018,Maria Sakkari,7759,Alexandra Eala,2662.6,2705.9,844,369,0.4518,2026-11-06T17:15+01:00,live,,,v3,
-186688,wta,2026-11-07T10:00Z,Angola Ladies Open,Quarterfinal,Hard,2902,Anna Blinkova,8318,Yasmine Kabbaj,2460.5,2066.0,623,184,0.8535,2026-11-05T12:15+01:00,scheduled,,,v3,
+186688,wta,2026-11-07T10:00Z,Angola Ladies Open,Quarterfinal,Hard,2902,Anna Blinkova,8318,Yasmine Kabbaj,2460.5,2066.0,623,184,0.8535,2026-11-05T12:15+01:00,live,,,v3,
 186594,wta,2026-11-07T12:30Z,Chennai Open,Semifinal,Hard,6368,Janice Tjen,6723,Robin Montgomery,2537.9,2444.9,191,254,0.6023,2026-11-06T15:15+01:00,scheduled,,,v3,
 186684,wta,2026-11-07T12:30Z,Angola Ladies Open,Semifinal,Hard,3401,Sofya Lansere,7849,Noma Noha Akugue,2226.2,2377.1,345,372,0.3376,2026-11-06T16:15+01:00,scheduled,,,v3,
 186504,atp,2026-11-07T13:30Z,Rolex Paris Masters,Semifinal,Hard,8814,Luca Van Assche,9250,Ben Shelton,2387.1,2626.6,391,310,0.1849,2026-11-06T19:15+01:00,scheduled,,,v3,
