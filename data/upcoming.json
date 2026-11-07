@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-06T23:15:30+00:00",
+"fetched": "2026-11-07T00:01:46+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5245,14 +5245,14 @@
 "qualifying": 0,
 "date": "2026-11-06T22:10Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "2989",
 "p1_name": "Casper Ruud",
 "p2_id": "4115",
 "p2_name": "Nuno Borges",
-"winner": "",
-"score": "",
+"winner": "2989",
+"score": "7-6(5) 6-4",
 "p1_country": "Norway",
 "p2_country": "Portugal",
 "tour": "atp"
@@ -5655,13 +5655,13 @@
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 5,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "2989",
+"p1_name": "Casper Ruud",
 "p2_id": "3782",
 "p2_name": "Carlos Alcaraz",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Norway",
 "p2_country": "Spain",
 "tour": "atp"
 },
