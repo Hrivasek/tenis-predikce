@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-08T10:15:23+00:00",
+"fetched": "2026-11-08T11:11:20+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5714,30 +5714,6 @@
 "tour": "wta"
 },
 {
-"match_id": "186690",
-"event_id": "1082-2026",
-"tourney_name": "Angola Ladies Open",
-"venue": "Luanda, Angola",
-"event_start": "20261101",
-"tourney_level": "A",
-"round": "Final",
-"round_order": 13,
-"qualifying": 0,
-"date": "2026-11-08T10:30Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "2902",
-"p1_name": "Anna Blinkova",
-"p2_id": "3401",
-"p2_name": "Sofya Lansere",
-"winner": "",
-"score": "",
-"p1_country": "France",
-"p2_country": "Russia",
-"tour": "wta"
-},
-{
 "match_id": "187457",
 "event_id": "148-2026",
 "tourney_name": "Bybit Stockholm Open",
@@ -5784,6 +5760,30 @@
 "p1_country": "Georgia",
 "p2_country": "Croatia",
 "tour": "atp"
+},
+{
+"match_id": "186690",
+"event_id": "1082-2026",
+"tourney_name": "Angola Ladies Open",
+"venue": "Luanda, Angola",
+"event_start": "20261101",
+"tourney_level": "A",
+"round": "Final",
+"round_order": 13,
+"qualifying": 0,
+"date": "2026-11-08T11:10Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "2902",
+"p1_name": "Anna Blinkova",
+"p2_id": "3401",
+"p2_name": "Sofya Lansere",
+"winner": "",
+"score": "",
+"p1_country": "France",
+"p2_country": "Russia",
+"tour": "wta"
 },
 {
 "match_id": "187455",
