@@ -1307,7 +1307,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186531,atp,2026-11-08T05:00Z,Bybit Stockholm Open,Round 1,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-11-05T01:15+01:00,scheduled,,,v3,
 186532,atp,2026-11-08T05:00Z,Bybit Stockholm Open,Round 1,Hard,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-11-05T01:15+01:00,scheduled,,,v3,
 186642,wta,2026-11-08T08:00Z,Prudential Hong Kong Tennis Open,Final,Hard,2980,Claire Liu,7759,Alexandra Eala,2485.4,2712.2,459,370,0.2664,2026-11-07T13:25+01:00,final,2980,6-3 6-0,v3,
-186690,wta,2026-11-08T11:10Z,Angola Ladies Open,Final,Hard,2902,Anna Blinkova,3401,Sofya Lansere,2464.7,2247.8,625,346,0.7248,2026-11-07T18:59+01:00,scheduled,,,v3,
+186690,wta,2026-11-08T11:10Z,Angola Ladies Open,Final,Hard,2902,Anna Blinkova,3401,Sofya Lansere,2464.7,2247.8,625,346,0.7248,2026-11-07T18:59+01:00,live,,,v3,
 186598,wta,2026-11-08T13:00Z,Chennai Open,Final,Hard,6368,Janice Tjen,1649,Magda Linette,2552.5,2483.8,192,890,0.5761,2026-11-07T18:31+01:00,scheduled,,,v3,
 186507,atp,2026-11-08T14:00Z,Rolex Paris Masters,Final,Hard,9250,Ben Shelton,3782,Carlos Alcaraz,2630.1,2870.2,311,470,0.1843,2026-11-07T18:59+01:00,scheduled,,,v3,
 186534,atp,2026-11-08T15:00Z,Bybit Stockholm Open,Round 1,Hard,2229,Elias Ymer,4008,Juan Manuel Cerundolo,2055.4,2308.8,777,491,0.1720,2026-11-07T12:15+01:00,scheduled,,,v3,
