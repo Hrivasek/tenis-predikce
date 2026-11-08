@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-08T21:15:23+00:00",
+"fetched": "2026-11-08T21:54:47+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -6013,14 +6013,14 @@
 "qualifying": 0,
 "date": "2026-11-08T20:15Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "3382",
 "p1_name": "Marta Kostyuk",
 "p2_id": "6970",
 "p2_name": "Linda Noskova",
-"winner": "",
-"score": "",
+"winner": "6970",
+"score": "6-2 6-4",
 "p1_country": "Ukraine",
 "p2_country": "Czechia",
 "tour": "wta"
@@ -6035,7 +6035,7 @@
 "round": "Group Stage",
 "round_order": 0,
 "qualifying": 0,
-"date": "2026-11-08T21:30Z",
+"date": "2026-11-08T21:55Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
