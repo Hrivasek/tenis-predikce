@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-08T12:15:27+00:00",
+"fetched": "2026-11-08T13:15:21+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5749,14 +5749,14 @@
 "qualifying": 1,
 "date": "2026-11-08T11:00Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "final",
 "best_of": 5,
 "p1_id": "2498",
 "p1_name": "Nikoloz Basilashvili",
 "p2_id": "3449",
 "p2_name": "Borna Gojo",
-"winner": "",
-"score": "",
+"winner": "3449",
+"score": "6-3 7-6(5)",
 "p1_country": "Georgia",
 "p2_country": "Croatia",
 "tour": "atp"
@@ -5843,7 +5843,7 @@
 "round": "Final",
 "round_order": 13,
 "qualifying": 0,
-"date": "2026-11-08T13:00Z",
+"date": "2026-11-08T13:30Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
