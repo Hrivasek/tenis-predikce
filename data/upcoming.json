@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-08T09:15:20+00:00",
+"fetched": "2026-11-08T10:15:23+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5701,14 +5701,14 @@
 "qualifying": 0,
 "date": "2026-11-08T08:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "2980",
 "p1_name": "Claire Liu",
 "p2_id": "7759",
 "p2_name": "Alexandra Eala",
-"winner": "",
-"score": "",
+"winner": "2980",
+"score": "6-3 6-0",
 "p1_country": "USA",
 "p2_country": "Philippines",
 "tour": "wta"
@@ -5723,7 +5723,7 @@
 "round": "Final",
 "round_order": 13,
 "qualifying": 0,
-"date": "2026-11-08T10:00Z",
+"date": "2026-11-08T10:30Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
