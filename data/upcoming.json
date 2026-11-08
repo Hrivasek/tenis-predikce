@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-08T07:17:28+00:00",
+"fetched": "2026-11-08T08:15:21+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5699,9 +5699,9 @@
 "round": "Final",
 "round_order": 13,
 "qualifying": 0,
-"date": "2026-11-08T08:00Z",
+"date": "2026-11-08T08:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "2980",
 "p1_name": "Claire Liu",
