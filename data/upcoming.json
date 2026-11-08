@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-08T17:15:30+00:00",
+"fetched": "2026-11-08T17:50:36+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5917,14 +5917,14 @@
 "qualifying": 0,
 "date": "2026-11-08T15:40Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "2229",
 "p1_name": "Elias Ymer",
 "p2_id": "4008",
 "p2_name": "Juan Manuel Cerundolo",
-"winner": "",
-"score": "",
+"winner": "4008",
+"score": "6-1 7-6(4)",
 "p1_country": "Sweden",
 "p2_country": "Argentina",
 "tour": "atp"
@@ -5987,9 +5987,9 @@
 "round": "Round 1",
 "round_order": 1,
 "qualifying": 0,
-"date": "2026-11-08T17:20Z",
+"date": "2026-11-08T17:35Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "4010",
 "p1_name": "Thiago Agustin Tirante",
@@ -6929,12 +6929,12 @@
 "best_of": 5,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "4008",
+"p2_name": "Juan Manuel Cerundolo",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Argentina",
 "tour": "atp"
 },
 {
