@@ -1312,7 +1312,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186534,atp,2026-11-08T15:30Z,Bybit Stockholm Open,Round 1,Hard,2229,Elias Ymer,4008,Juan Manuel Cerundolo,2055.4,2308.8,777,491,0.1720,2026-11-07T12:15+01:00,final,4008,6-1 7-6(4),v3,
 186528,atp,2026-11-08T17:20Z,Bybit Stockholm Open,Round 1,Hard,4010,Thiago Agustin Tirante,2709,Jaume Munar,2272.1,2416.2,468,717,0.2920,2026-11-07T12:15+01:00,final,4010,7-6(3) 6-3,v3,
 187373,wta,2026-11-08T20:15Z,FAGE WTA Finals Indian Wells,Group Stage,Hard,3382,Marta Kostyuk,6970,Linda Noskova,2835.8,2770.3,427,325,0.5726,2026-11-07T21:15+01:00,final,6970,6-2 6-4,v3,
-187374,wta,2026-11-08T21:55Z,FAGE WTA Finals Indian Wells,Group Stage,Hard,3626,Coco Gauff,2113,Jessica Pegula,2968.9,2915.0,438,749,0.5599,2026-11-05T01:15+01:00,scheduled,,,v3,
+187374,wta,2026-11-08T21:55Z,FAGE WTA Finals Indian Wells,Group Stage,Hard,3626,Coco Gauff,2113,Jessica Pegula,2968.9,2915.0,438,749,0.5599,2026-11-05T01:15+01:00,live,,,v3,
 186598,wta,2026-11-09T05:30Z,Chennai Open,Final,Hard,6368,Janice Tjen,1649,Magda Linette,2552.5,2483.8,192,890,0.5761,2026-11-07T18:31+01:00,scheduled,,,v3,
 186535,atp,2026-11-09T11:30Z,Bybit Stockholm Open,Round 1,Hard,11400,Alex Michelsen,3322,Yannick Hanfmann,2495.7,2334.0,315,689,0.7300,2026-11-07T12:15+01:00,scheduled,,,v3,
 186529,atp,2026-11-09T12:00Z,Bybit Stockholm Open,Round 1,Hard,1857,James Duckworth,2366,Cameron Norrie,2250.0,2418.6,899,660,0.2616,2026-11-07T12:15+01:00,scheduled,,,v3,
