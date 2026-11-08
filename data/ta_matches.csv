@@ -6380,6 +6380,18 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026Bratislava2Challenger,atp,2026-11-02,Hard,R32,212063,Matej Dodig,CRO,211756,Michal Krajci,SVK,6-3 7-6(2)
 2026Bratislava2Challenger,atp,2026-11-02,Hard,SF,200514,Jurij Rodionov,AUT,207494,Dalibor Svrcina,CZE,6-3 6-7(6) 6-2
 2026Bratislava2Challenger,atp,2026-11-02,Hard,SF,208843,Jerome Kym,SUI,212063,Matej Dodig,CRO,6-4 6-2
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,105655,Hiroki Moriya,JPN,214190,Nikolas Baker,AUS,6-4 6-3
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,126573,Thomas Fancutt,AUS,200632,Evan Zhu,USA,6-3 1-6 6-4
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,132052,Christian Langmo,USA,200166,Stefan Vujic,AUS,3-6 7-5 6-3
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,207728,Moerani Bouzige,AUS,202334,Jesse Delaney,AUS,4-6 6-1 6-1
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,207994,Chase Ferguson,AUS,206736,Benjamin Oconnell,AUS,4-6 6-2 6-2
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,208158,Dominik Palan,CZE,206923,Shinji Hazawa,JPN,6-4 6-7(2) 7-6(5)
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,208160,Sam Ryan Ziegann,AUS,211574,Ethan Cook,AUS,5-7 6-4 6-2
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,208653,Isaac Becroft,NZL,213802,Mustafa Ege Sik,TUR,6-7(4) 6-3 6-3
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,209394,Anton Shepp,NZL,210436,Hayden Jones,AUS,6-1 6-7(4) 6-4
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,210121,Kokoro Isomura,JPN,208382,Herman Hoeyeraal,NOR,7-6(5) 6-4
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,210470,Tai Sach,AUS,213204,Zane Stevens,AUS,6-4 6-4
+2026Brisbane3Challenger,atp,2026-11-02,,Q1,211727,Pavle Marinkov,AUS,210613,Derek Pham,AUS,6-3 1-6 6-3
 2026CharlottesvilleChallenger,atp,2026-11-02,Hard,Q1,106283,Mitchell Krueger,USA,214269,Marcel Latak,USA,6-1 6-0
 2026CharlottesvilleChallenger,atp,2026-11-02,Hard,Q1,148677,Stiles Brockett,USA,209163,Emile Hudd,GBR,6-3 5-7 6-4
 2026CharlottesvilleChallenger,atp,2026-11-02,Hard,Q1,207993,Justin Boulais,CAN,208586,Joshua Sheehy,USA,1-6 6-2 6-0
@@ -6426,6 +6438,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026CharlottesvilleChallenger,atp,2026-11-02,Hard,R32,212251,Daniel Milavsky,USA,200008,Alexis Galarneau,CAN,7-6(3) 6-3
 2026CharlottesvilleChallenger,atp,2026-11-02,Hard,R32,213605,Jack Kennedy,USA,210558,Hynek Barton,CZE,7-5 1-6 6-3
 2026CharlottesvilleChallenger,atp,2026-11-02,Hard,R32,214004,Michael Antonius,USA,209406,Abedallah Shelbayh,JOR,6-4 4-6 6-4
+2026CharlottesvilleChallenger,atp,2026-11-02,Hard,SF,111578,Stefan Kozlov,USA,206889,Clement Chidekh,FRA,6-2 1-6 6-4
 2026CharlottesvilleChallenger,atp,2026-11-02,Hard,SF,208854,Aidan Mayo,USA,200748,Andres Andrade,ECU,6-1 3-1 RET
 2026CostadoSauipeChallenger,atp,2026-11-02,,Q1,101495,Miguel Tobon,COL,109732,Enrique Bogo,BRA,6-1 6-0
 2026CostadoSauipeChallenger,atp,2026-11-02,,Q1,105868,Wilson Leite,BRA,214328,Andre Souza,BRA,7-5 6-1
@@ -6469,6 +6482,20 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026CostadoSauipeChallenger,atp,2026-11-02,,R32,210178,Juan Carlos Prado Angelo,BOL,208046,Pedro Boscardin Dias,BRA,6-1 6-4
 2026CostadoSauipeChallenger,atp,2026-11-02,,R32,210510,Lautaro Midon,ARG,212455,Lucas Andrade Da Silva,BRA,7-6(3) 6-3
 2026CostadoSauipeChallenger,atp,2026-11-02,,SF,200116,Camilo Ugo Carabelli,ARG,208293,Gonzalo Bueno,PER,6-3 6-1
+2026CostadoSauipeChallenger,atp,2026-11-02,,SF,205734,Thiago Seyboth Wild,BRA,207680,Facundo Diaz Acosta,ARG,7-6(5) 6-4
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,105335,Sho Katayama,JPN,210382,Maximus Jones,THA,6-3 6-7(5) 6-4
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,122495,Shintaro Imai,JPN,144970,Constantin Bittoun Kouzmine,FRA,6-2 6-2
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,126337,Renta Tokuda,JPN,212029,Dimitris Sakellaridis,GRE,4-6 7-6(6) 6-1
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,133794,S D Prajwal Dev,IND,144925,Nitin Kumar Sinha,IND,6-1 6-2
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,201987,Masamichi Imamura,JPN,214696,Kazushi Idogaki,JPN,6-3 6-2
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,202113,Hikaru Shiraishi,JPN,212078,Riku Takahata,JPN,6-1 6-4
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,202124,Kosuke Ogura,JPN,133975,Benjamin Hassan,LBN,6-1 6-3
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,207664,Luca Staeheli,SUI,213830,Saki Tange,JPN,6-4 6-3
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,207987,Ryuki Matsuda,JPN,207383,Taisei Ichikawa,JPN,6-3 6-2
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,207998,Takuya Kumasaka,JPN,212616,Yuta Tomida,JPN,6-3 6-3
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,208861,Keisuke Saitoh,JPN,126208,Yusuke Takahashi,JPN,7-5 7-6(2)
+2026MatsuyamaChallenger,atp,2026-11-02,,Q1,211628,Koki Matsuda,JPN,200661,Yuki Mochizuki,JPN,6-2 5-7 6-4
+2026TaipeiChallenger,atp,2026-11-02,Hard,F,133297,Yosuke Watanuki,JPN,211618,Jan Kumstat,CZE,7-6(2) 7-5
 2026TaipeiChallenger,atp,2026-11-02,Hard,Q1,111187,Kaichi Uchida,JPN,200366,Olukayode Alafia Damina Ayeni,USA,6-1 4-0 RET
 2026TaipeiChallenger,atp,2026-11-02,Hard,Q1,117357,Omar Jasika,AUS,200574,Alexander Donski,BUL,3-6 7-6(4) 6-4
 2026TaipeiChallenger,atp,2026-11-02,Hard,Q1,117359,Jake Delaney,AUS,212459,Kai I Wang,TPE,6-4 6-1
@@ -6658,6 +6685,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTACali125,wta,2026-11-02,Clay,R32,266671,Laura Samson,CZE,202464,Yuliana Lizarazo,COL,6-4 6-3
 2026WTACali125,wta,2026-11-02,Clay,SF,215370,Bianca Andreescu,CAN,220554,Alice Tubello,FRA,6-0 6-4
 2026WTACali125,wta,2026-11-02,Clay,SF,220742,Leyre Romero Gormaz,ESP,220699,Julia Riera,ARG,3-6 7-5 6-4
+2026WTALuanda125,wta,2026-11-02,Hard,F,216139,Sofya Lansere,RUS,215020,Anna Blinkova,FRA,5-7 6-1 6-4
 2026WTALuanda125,wta,2026-11-02,Hard,Q1,222161,Prathyusha Rachapudi,IND,205492,Ashmitha Easwaramurthi,IND,6-2 7-5
 2026WTALuanda125,wta,2026-11-02,Hard,Q1,266714,Abigayel Vosloo,RSA,215222,Saumya Vig,IND,6-2 6-0
 2026WTALuanda125,wta,2026-11-02,Hard,Q2,204419,Ana Sofia Sanchez,MEX,266714,Abigayel Vosloo,RSA,6-1 6-1
