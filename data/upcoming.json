@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-09T08:28:44+00:00",
+"fetched": "2026-11-09T09:27:23+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5245,14 +5245,14 @@
 "qualifying": 0,
 "date": "2026-11-09T05:35Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "6368",
 "p1_name": "Janice Tjen",
 "p2_id": "1649",
 "p2_name": "Magda Linette",
-"winner": "",
-"score": "",
+"winner": "1649",
+"score": "5-7 6-1 6-4",
 "p1_country": "Indonesia",
 "p2_country": "Poland",
 "tour": "wta"
