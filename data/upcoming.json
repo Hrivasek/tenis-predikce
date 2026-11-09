@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-09T22:15:26+00:00",
+"fetched": "2026-11-09T22:56:26+00:00",
 "matches": [
 {
 "match_id": "187314",
@@ -5627,9 +5627,9 @@
 "round": "Group Stage",
 "round_order": 0,
 "qualifying": 0,
-"date": "2026-11-09T22:20Z",
+"date": "2026-11-09T22:30Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "9820",
 "p1_name": "Mirra Andreeva",
@@ -5873,12 +5873,12 @@
 "best_of": 3,
 "p1_id": "5746",
 "p1_name": "Jazmin Ortenzi",
-"p2_id": "4453",
-"p2_name": "Leolia Jeanjean",
+"p2_id": "-4",
+"p2_name": "TBD",
 "winner": "",
 "score": "",
 "p1_country": "Argentina",
-"p2_country": "France",
+"p2_country": "",
 "tour": "wta"
 },
 {
