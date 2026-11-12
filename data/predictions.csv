@@ -1362,7 +1362,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186544,atp,2026-11-11T19:40Z,Bybit Stockholm Open,Round 2,Hard,2874,Miomir Kecmanovic,3659,Holger Rune,2270.1,2480.6,594,418,0.2141,2026-11-10T21:45+01:00,final,3659,2-6 6-1 6-4,v3,
 187385,wta,2026-11-11T20:00Z,FAGE WTA Finals Indian Wells,Group Stage,Hard,1797,Elina Svitolina,3039,Karolina Muchova,2841.2,2793.0,838,458,0.5537,2026-11-10T01:15+01:00,final,1797,3-6 6-2 6-2,v3,
 187378,wta,2026-11-11T22:20Z,FAGE WTA Finals Indian Wells,Group Stage,Hard,3038,Aryna Sabalenka,9820,Mirra Andreeva,3055.9,2904.2,711,259,0.6631,2026-11-10T01:15+01:00,final,9820,6-4 6-0,v3,
-186549,atp,2026-11-12T12:00Z,Bybit Stockholm Open,Quarterfinal,Hard,11400,Alex Michelsen,2970,Alejandro Tabilo,2514.1,2390.9,317,630,0.6806,2026-11-11T16:22+01:00,scheduled,,,v3,
+186549,atp,2026-11-12T12:00Z,Bybit Stockholm Open,Quarterfinal,Hard,11400,Alex Michelsen,2970,Alejandro Tabilo,2514.1,2390.9,317,630,0.6806,2026-11-11T16:22+01:00,live,,,v3,
 186548,atp,2026-11-12T14:00Z,Bybit Stockholm Open,Quarterfinal,Hard,4010,Thiago Agustin Tirante,8710,Aleksandr Shevchenko,2294.3,2275.0,469,493,0.5295,2026-11-11T20:28+01:00,scheduled,,,v3,
 186770,wta,2026-11-12T15:00Z,DIRECTV Open Presentado por Compesar,Quarterfinal,Hard,1955,Elizabeth Mandlik,4291,Andrea Lazaro Garcia,2246.3,2329.5,373,497,0.4082,2026-11-11T20:01+01:00,scheduled,,,v3,
 186771,wta,2026-11-12T15:00Z,DIRECTV Open Presentado por Compesar,Quarterfinal,Hard,15069,Laura Samson,4546,Irene Burillo,2263.4,2110.9,143,645,0.6641,2026-11-11T21:15+01:00,scheduled,,,v3,
