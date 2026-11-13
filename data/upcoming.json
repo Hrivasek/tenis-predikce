@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-13T18:15:30+00:00",
+"fetched": "2026-11-13T19:10:25+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -1985,12 +1985,12 @@
 "best_of": 3,
 "p1_id": "9820",
 "p1_name": "Mirra Andreeva",
-"p2_id": "3039",
-"p2_name": "Karolina Muchova",
+"p2_id": "8017",
+"p2_name": "Diana Shnaider",
 "winner": "",
 "score": "",
 "p1_country": "Russia",
-"p2_country": "Czechia",
+"p2_country": "Russia",
 "tour": "wta"
 },
 {
@@ -2066,30 +2066,6 @@
 "tour": "wta"
 },
 {
-"match_id": "186772",
-"event_id": "1084-2026",
-"tourney_name": "DIRECTV Open Presentado por Compesar",
-"venue": "Sopo, Colombia",
-"event_start": "20261108",
-"tourney_level": "A",
-"round": "Final",
-"round_order": 13,
-"qualifying": 0,
-"date": "2026-11-14T05:00Z",
-"time_valid": 0,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "2979",
-"p1_name": "Bianca Andreescu",
-"p2_id": "1955",
-"p2_name": "Elizabeth Mandlik",
-"winner": "",
-"score": "",
-"p1_country": "Canada",
-"p2_country": "USA",
-"tour": "wta"
-},
-{
 "match_id": "186552",
 "event_id": "148-2026",
 "tourney_name": "Bybit Stockholm Open",
@@ -2112,6 +2088,30 @@
 "p1_country": "USA",
 "p2_country": "Argentina",
 "tour": "atp"
+},
+{
+"match_id": "186772",
+"event_id": "1084-2026",
+"tourney_name": "DIRECTV Open Presentado por Compesar",
+"venue": "Sopo, Colombia",
+"event_start": "20261108",
+"tourney_level": "A",
+"round": "Final",
+"round_order": 13,
+"qualifying": 0,
+"date": "2026-11-14T17:00Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "2979",
+"p1_name": "Bianca Andreescu",
+"p2_id": "1955",
+"p2_name": "Elizabeth Mandlik",
+"winner": "",
+"score": "",
+"p1_country": "Canada",
+"p2_country": "USA",
+"tour": "wta"
 },
 {
 "match_id": "187442",
