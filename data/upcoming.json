@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-13T20:15:28+00:00",
+"fetched": "2026-11-13T21:15:30+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -1981,14 +1981,14 @@
 "qualifying": 0,
 "date": "2026-11-13T20:10Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "9820",
 "p1_name": "Mirra Andreeva",
 "p2_id": "8017",
 "p2_name": "Diana Shnaider",
-"winner": "",
-"score": "",
+"winner": "9820",
+"score": "6-2 6-1",
 "p1_country": "Russia",
 "p2_country": "Russia",
 "tour": "wta"
