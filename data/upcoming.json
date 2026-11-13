@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-13T12:01:42+00:00",
+"fetched": "2026-11-13T13:15:23+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -1883,9 +1883,9 @@
 "round": "Semifinal",
 "round_order": 11,
 "qualifying": 0,
-"date": "2026-11-13T13:00Z",
+"date": "2026-11-13T13:10Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "2970",
 "p1_name": "Alejandro Tabilo",
