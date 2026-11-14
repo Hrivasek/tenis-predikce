@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-14T14:21:03+00:00",
+"fetched": "2026-11-14T15:15:25+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -2029,14 +2029,14 @@
 "qualifying": 0,
 "date": "2026-11-14T12:10Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "2946",
 "p1_name": "Taylor Fritz",
 "p2_id": "4010",
 "p2_name": "Thiago Agustin Tirante",
-"winner": "",
-"score": "",
+"winner": "2946",
+"score": "6-2 4-6 7-6(3)",
 "p1_country": "USA",
 "p2_country": "Argentina",
 "tour": "atp"
