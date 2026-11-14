@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-14T17:52:04+00:00",
+"fetched": "2026-11-14T19:01:23+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -2053,14 +2053,14 @@
 "qualifying": 0,
 "date": "2026-11-14T17:10Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "2979",
 "p1_name": "Bianca Andreescu",
 "p2_id": "1955",
 "p2_name": "Elizabeth Mandlik",
-"winner": "",
-"score": "",
+"winner": "2979",
+"score": "6-3 6-3",
 "p1_country": "Canada",
 "p2_country": "USA",
 "tour": "wta"
