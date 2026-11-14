@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-14T16:15:22+00:00",
+"fetched": "2026-11-14T17:15:26+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -2051,9 +2051,9 @@
 "round": "Final",
 "round_order": 13,
 "qualifying": 0,
-"date": "2026-11-14T17:00Z",
+"date": "2026-11-14T17:10Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "2979",
 "p1_name": "Bianca Andreescu",
