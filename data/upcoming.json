@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-13T23:15:20+00:00",
+"fetched": "2026-11-14T00:15:33+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -2005,14 +2005,14 @@
 "qualifying": 0,
 "date": "2026-11-13T21:30Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "3038",
 "p1_name": "Aryna Sabalenka",
 "p2_id": "1797",
 "p2_name": "Elina Svitolina",
-"winner": "",
-"score": "",
+"winner": "1797",
+"score": "6-3 3-6 6-1",
 "p1_country": "Belarus",
 "p2_country": "Ukraine",
 "tour": "wta"
@@ -2033,12 +2033,12 @@
 "best_of": 3,
 "p1_id": "6970",
 "p1_name": "Linda Noskova",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "1797",
+"p2_name": "Elina Svitolina",
 "winner": "",
 "score": "",
 "p1_country": "Czechia",
-"p2_country": "",
+"p2_country": "Ukraine",
 "tour": "wta"
 },
 {
