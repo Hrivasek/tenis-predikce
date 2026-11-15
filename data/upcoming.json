@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-15T18:42:51+00:00",
+"fetched": "2026-11-15T19:02:05+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -2197,14 +2197,14 @@
 "qualifying": 1,
 "date": "2026-11-15T17:35Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "14607",
 "p1_name": "Ariana Geerlings",
 "p2_id": "19372",
 "p2_name": "Camila Rodero Contreras",
-"winner": "",
-"score": "",
+"winner": "14607",
+"score": "6-3 6-1",
 "p1_country": "Spain",
 "p2_country": "Chile",
 "tour": "wta"
