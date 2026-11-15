@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-15T00:15:19+00:00",
+"fetched": "2026-11-15T10:00:53+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -2114,30 +2114,6 @@
 "tour": "wta"
 },
 {
-"match_id": "187442",
-"event_id": "382-2026",
-"tourney_name": "FAGE WTA Finals Indian Wells",
-"venue": "Indian Wells Tennis Garden, Indian Wells, USA",
-"event_start": "20261108",
-"tourney_level": "A",
-"round": "Final",
-"round_order": 13,
-"qualifying": 0,
-"date": "2026-11-15T05:00Z",
-"time_valid": 0,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "1797",
-"p1_name": "Elina Svitolina",
-"p2_id": "9820",
-"p2_name": "Mirra Andreeva",
-"winner": "",
-"score": "",
-"p1_country": "Ukraine",
-"p2_country": "Russia",
-"tour": "wta"
-},
-{
 "match_id": "187505",
 "event_id": "339-2026",
 "tourney_name": "Nitto ATP Finals",
@@ -2280,6 +2256,30 @@
 "p1_country": "USA",
 "p2_country": "France",
 "tour": "atp"
+},
+{
+"match_id": "187442",
+"event_id": "382-2026",
+"tourney_name": "FAGE WTA Finals Indian Wells",
+"venue": "Indian Wells Tennis Garden, Indian Wells, USA",
+"event_start": "20261108",
+"tourney_level": "A",
+"round": "Final",
+"round_order": 13,
+"qualifying": 0,
+"date": "2026-11-15T20:00Z",
+"time_valid": 1,
+"status": "scheduled",
+"best_of": 3,
+"p1_id": "1797",
+"p1_name": "Elina Svitolina",
+"p2_id": "9820",
+"p2_name": "Mirra Andreeva",
+"winner": "",
+"score": "",
+"p1_country": "Ukraine",
+"p2_country": "Russia",
+"tour": "wta"
 },
 {
 "match_id": "187510",
