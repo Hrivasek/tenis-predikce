@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-15T18:15:24+00:00",
+"fetched": "2026-11-15T18:42:51+00:00",
 "matches": [
 {
 "match_id": "187453",
@@ -2173,14 +2173,14 @@
 "qualifying": 1,
 "date": "2026-11-15T17:25Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "1374",
 "p1_name": "Martina Trevisan",
 "p2_id": "19373",
 "p2_name": "Samantha Alvarez",
-"winner": "",
-"score": "",
+"winner": "1374",
+"score": "6-1 6-0",
 "p1_country": "Italy",
 "p2_country": "Chile",
 "tour": "wta"
@@ -2219,9 +2219,9 @@
 "round": "Qualifying Final",
 "round_order": 0,
 "qualifying": 1,
-"date": "2026-11-15T18:30Z",
+"date": "2026-11-15T18:35Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "4926",
 "p1_name": "Zhibek Kulambayeva",
