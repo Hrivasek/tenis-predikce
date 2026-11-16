@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-16T13:15:25+00:00",
+"fetched": "2026-11-16T14:19:10+00:00",
 "matches": [
 {
 "match_id": "187373",
@@ -539,9 +539,9 @@
 "round": "Round 1",
 "round_order": 1,
 "qualifying": 0,
-"date": "2026-11-16T14:00Z",
+"date": "2026-11-16T14:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "7812",
 "p1_name": "Katrina Scott",
@@ -563,9 +563,9 @@
 "round": "Round 1",
 "round_order": 1,
 "qualifying": 0,
-"date": "2026-11-16T14:00Z",
+"date": "2026-11-16T14:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "2984",
 "p1_name": "Rebeka Masarova",
