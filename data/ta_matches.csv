@@ -6822,6 +6822,9 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026ChampaignChallenger,atp,2026-11-09,,Q1,210747,Lui Maxted,GBR,208123,Tom Hands,GBR,6-3 6-4
 2026ChampaignChallenger,atp,2026-11-09,,Q1,212678,David Bakonyi,HUN,208051,Axel Nefve,USA,2-6 6-4 7-6(4)
 2026ChampaignChallenger,atp,2026-11-09,,Q1,214832,Colson Wells,USA,212059,Zach Stephens,GBR,6-4 7-5
+2026ChampaignChallenger,atp,2026-11-09,,Q2,209067,Hunter Heck,USA,214832,Colson Wells,USA,6-4 6-4
+2026ChampaignChallenger,atp,2026-11-09,,Q2,210034,Shunsuke Mitsui,JPN,210416,Bryce Nakashima,USA,6-4 3-6 6-4
+2026ChampaignChallenger,atp,2026-11-09,,Q2,210747,Lui Maxted,GBR,212678,David Bakonyi,HUN,6-3 6-3
 2026DrummondvilleChallenger,atp,2026-11-09,,Q1,109739,Maximilian Marterer,GER,202346,Ben Jones,GBR,7-6(2) 2-6 7-5
 2026DrummondvilleChallenger,atp,2026-11-09,,Q1,132018,Drew Van Orderlain,USA,211355,Oskar Brostrom Poulsen,DEN,6-3 4-0 RET
 2026DrummondvilleChallenger,atp,2026-11-09,,Q1,200457,Jannik Opitz,GER,214450,Jared Horwood,CAN,6-2 6-2
@@ -6831,6 +6834,11 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026DrummondvilleChallenger,atp,2026-11-09,,Q1,212259,Benjamin Thomas George,CAN,208302,Nikola Slavic,SWE,5-7 7-6(3) 6-2
 2026DrummondvilleChallenger,atp,2026-11-09,,Q1,213932,Theodore Dean,USA,200234,Joshua Peck,CAN,6-4 6-3
 2026DrummondvilleChallenger,atp,2026-11-09,,Q1,213987,Vignesh Gogineni,USA,213628,Volodymyr Gurenko,CAN,7-6(4) 6-4
+2026DrummondvilleChallenger,atp,2026-11-09,,Q2,207331,Vladislav Melnic,ROU,109739,Maximilian Marterer,GER,WO
+2026DrummondvilleChallenger,atp,2026-11-09,,Q2,207893,Daniel De Jonge,NED,212259,Benjamin Thomas George,CAN,6-1 6-4
+2026DrummondvilleChallenger,atp,2026-11-09,,Q2,209079,Samir Banerjee,USA,212115,Hoyoung Roh,KOR,6-4 6-2
+2026DrummondvilleChallenger,atp,2026-11-09,,Q2,213932,Theodore Dean,USA,132018,Drew Van Orderlain,USA,6-2 6-0
+2026DrummondvilleChallenger,atp,2026-11-09,,Q2,213987,Vignesh Gogineni,USA,200457,Jannik Opitz,GER,6-1 6-4
 2026HelsinkiChallenger,atp,2026-11-09,,Q1,106293,Kimmer Coppejans,BEL,144907,Adrian Oetzbach,GER,7-5 7-5
 2026HelsinkiChallenger,atp,2026-11-09,,Q1,106310,Alexander Ritschard,SUI,134423,Leevi Saatela,FIN,7-5 6-3
 2026HelsinkiChallenger,atp,2026-11-09,,Q1,111576,Sumit Nagal,IND,209142,Sebastian Gima,ROU,4-6 6-1 6-3
@@ -6843,6 +6851,17 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026HelsinkiChallenger,atp,2026-11-09,,Q1,210425,Svyatoslav Gulin,RUS,213619,Oskari Paldanius,FIN,4-6 6-3 6-3
 2026HelsinkiChallenger,atp,2026-11-09,,Q1,210686,Michael Agwi,IRL,126340,Viktor Durasovic,NOR,3-6 6-4 6-3
 2026HelsinkiChallenger,atp,2026-11-09,,Q1,212241,Carlo Alberto Caniato,ITA,212630,Aaron Funk,GER,6-2 6-3
+2026HelsinkiChallenger,atp,2026-11-09,,Q2,106293,Kimmer Coppejans,BEL,212241,Carlo Alberto Caniato,ITA,7-5 7-6(4)
+2026HelsinkiChallenger,atp,2026-11-09,,Q2,106310,Alexander Ritschard,SUI,132999,Kai Wehnelt,GER,6-2 3-6 6-3
+2026HelsinkiChallenger,atp,2026-11-09,,Q2,111576,Sumit Nagal,IND,202398,Michael Vrbensky,CZE,6-3 7-5
+2026HelsinkiChallenger,atp,2026-11-09,,Q2,206470,Cezar Cretu,ROU,121411,Moez Echargui,TUN,6-3 6-4
+2026HelsinkiChallenger,atp,2026-11-09,,Q2,210053,Luka Mikrut,CRO,210686,Michael Agwi,IRL,6-2 6-2
+2026HelsinkiChallenger,atp,2026-11-09,,Q2,210425,Svyatoslav Gulin,RUS,202345,Arvid Nordquist,SWE,6-3 6-4
+2026HelsinkiChallenger,atp,2026-11-09,,R32,105841,Lorenzo Giustino,ITA,208278,Shintaro Mochizuki,JPN,4-6 6-3 7-6(3)
+2026HelsinkiChallenger,atp,2026-11-09,,R32,149282,Nicolai Budkov Kjaer,NOR,209983,Mika Brunold,SUI,6-7(6) 6-0 6-2
+2026HelsinkiChallenger,atp,2026-11-09,,R32,200462,Andrea Guerrieri,ITA,111200,Elias Ymer,SWE,6-4 7-6(2)
+2026HelsinkiChallenger,atp,2026-11-09,,R32,207985,Jacob Fearnley,GBR,211533,Gianluca Cadenasso,ITA,7-5 6-0
+2026HelsinkiChallenger,atp,2026-11-09,,R32,210389,Toby Samuel,GBR,125802,Ilya Ivashka,BLR,6-7(4) 6-1 6-4
 2026Hersonissos3Challenger,atp,2026-11-09,Hard,F,212020,Michele Ribecai,ITA,202475,Philip Henning,RSA,4-6 6-2 6-0
 2026Hersonissos3Challenger,atp,2026-11-09,Hard,Q1,149117,Lorenzo Angelini,ITA,202065,Petros Tsitsipas,GRE,7-6(3) 0-0 RET
 2026Hersonissos3Challenger,atp,2026-11-09,Hard,Q1,200550,Vladyslav Orlov,UKR,214115,Umberto Giuseppe Capitanio,ITA,6-0 6-0
@@ -6952,6 +6971,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026KobeChallenger,atp,2026-11-09,,Q1,211628,Koki Matsuda,JPN,122495,Shintaro Imai,JPN,6-3 1-6 6-4
 2026KobeChallenger,atp,2026-11-09,,Q1,212029,Dimitris Sakellaridis,GRE,214237,Toya Ishikawa,JPN,4-6 6-2 6-3
 2026KobeChallenger,atp,2026-11-09,,Q1,214871,Kanta Watanabe,JPN,133794,S D Prajwal Dev,IND,6-4 6-4
+2026KobeChallenger,atp,2026-11-09,,Q2,133975,Benjamin Hassan,LBN,126283,Yunseong Chung,KOR,3-6 7-6(10) 6-2
 2026KobeChallenger,atp,2026-11-09,,Q2,201987,Masamichi Imamura,JPN,126208,Yusuke Takahashi,JPN,4-6 6-1 7-5
 2026KobeChallenger,atp,2026-11-09,,Q2,207383,Taisei Ichikawa,JPN,212029,Dimitris Sakellaridis,GRE,6-2 6-3
 2026KobeChallenger,atp,2026-11-09,,Q2,207998,Takuya Kumasaka,JPN,144970,Constantin Bittoun Kouzmine,FRA,6-2 6-4
@@ -6959,6 +6979,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026KobeChallenger,atp,2026-11-09,,Q2,211628,Koki Matsuda,JPN,214871,Kanta Watanabe,JPN,6-3 6-3
 2026KobeChallenger,atp,2026-11-09,,R32,106281,Liam Broady,GBR,211897,Naoya Honda,JPN,6-1 6-4
 2026KobeChallenger,atp,2026-11-09,,R32,111806,Fajing Sun,CHN,207987,Ryuki Matsuda,JPN,6-4 7-5
+2026KobeChallenger,atp,2026-11-09,,R32,133297,Yosuke Watanuki,JPN,200666,Jie Cui,CHN,6-2 6-0
 2026LimaChallenger,atp,2026-11-09,Clay,F,207663,Nikolas Sanchez Izquierdo,ESP,208364,Franco Roncadelli,URU,7-6(4) 7-5
 2026LimaChallenger,atp,2026-11-09,Clay,Q1,105944,Juan Sebastian Gomez,COL,143234,Diego Gomez,HON,6-1 6-4
 2026LimaChallenger,atp,2026-11-09,Clay,Q1,106177,Oriol Roca Batalla,ESP,214868,Emilio Camacho,ECU,6-2 6-4
@@ -7066,6 +7087,15 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026MetzChallenger,atp,2026-11-09,,Q1,210254,Adrien Gobat,FRA,207527,Buvaysar Gadamauri,BEL,6-2 7-5
 2026MetzChallenger,atp,2026-11-09,,Q1,210714,Robin Catry,FRA,208279,Alejandro Moro Canas,ESP,6-4 6-7(5) 7-5
 2026MetzChallenger,atp,2026-11-09,,Q1,211577,Antoine Ghibaudo,FRA,105814,Maximilian Neuchrist,AUT,7-5 7-6(0)
+2026MetzChallenger,atp,2026-11-09,,Q2,123921,Calvin Hemery,FRA,210054,Matthew William Donald,CZE,6-3 3-6 6-3
+2026MetzChallenger,atp,2026-11-09,,Q2,126409,Hugo Grenier,FRA,210254,Adrien Gobat,FRA,7-6(3) 6-3
+2026MetzChallenger,atp,2026-11-09,,Q2,207797,Jonas Forejtek,CZE,210714,Robin Catry,FRA,6-2 6-2
+2026MetzChallenger,atp,2026-11-09,,Q2,208092,Filippo Moroni,ITA,126535,Carlos Taberner,ESP,6-4 6-4
+2026MetzChallenger,atp,2026-11-09,,Q2,208134,Luca Nardi,ITA,207507,Stefan Latinovic,SRB,7-5 3-6 6-3
+2026MetzChallenger,atp,2026-11-09,,Q2,211577,Antoine Ghibaudo,FRA,200259,Ugo Blanchet,FRA,6-3 6-4
+2026MetzChallenger,atp,2026-11-09,,R32,105932,Nikoloz Basilashvili,GEO,208069,Max Houkes,NED,7-6(5) 6-4
+2026MetzChallenger,atp,2026-11-09,,R32,202127,Clement Tabur,FRA,212063,Matej Dodig,CRO,6-4 6-4
+2026MetzChallenger,atp,2026-11-09,,R32,208540,Inaki Montes De La Torre,ESP,129911,Marat Sharipov,RUS,6-4 6-4
 2026MontevideoChallenger,atp,2026-11-09,,Q1,106044,Nicolas Kicker,ARG,106262,Boris Arias,BOL,WO
 2026MontevideoChallenger,atp,2026-11-09,,Q1,106380,Gonzalo Villanueva,ARG,104905,Nicolas Barrientos,COL,6-3 6-4
 2026MontevideoChallenger,atp,2026-11-09,,Q1,126627,Johan Nikles,SUI,207736,Arklon Huertas Del Pino,PER,WO
@@ -7076,6 +7106,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026MontevideoChallenger,atp,2026-11-09,,Q1,208046,Pedro Boscardin Dias,BRA,214270,Tomas Zurmendi,URU,6-1 6-1
 2026MontevideoChallenger,atp,2026-11-09,,Q1,208532,Thiago Cigarran,ARG,202305,Franco Ribero,ARG,3-6 6-2 6-4
 2026MontevideoChallenger,atp,2026-11-09,,Q1,212784,Maximo Zeitune,ARG,212211,Bruno Oliveira,BRA,6-3 6-3
+2026MontevideoChallenger,atp,2026-11-09,,Q2,106044,Nicolas Kicker,ARG,126627,Johan Nikles,SUI,6-1 6-3
+2026MontevideoChallenger,atp,2026-11-09,,Q2,106177,Oriol Roca Batalla,ESP,207764,Ryan Nijboer,NED,7-5 6-3
+2026MontevideoChallenger,atp,2026-11-09,,Q2,106380,Gonzalo Villanueva,ARG,208223,Alvaro Guillen Meza,ECU,6-4 5-7 6-1
+2026MontevideoChallenger,atp,2026-11-09,,Q2,200335,Felipe Meligeni Alves,BRA,212784,Maximo Zeitune,ARG,6-1 6-3
 2026OrleansChallenger,atp,2026-11-09,Hard,F,202261,Otto Virtanen,FIN,210460,Nishesh Basavareddy,USA,6-2 6-3
 2026OrleansChallenger,atp,2026-11-09,Hard,Q1,106310,Alexander Ritschard,SUI,212935,Ferdinand Livet Novkirichka,FRA,7-6(4) 7-6(2)
 2026OrleansChallenger,atp,2026-11-09,Hard,Q1,123921,Calvin Hemery,FRA,211901,Yanis Ghazouani Durand,FRA,6-3 6-2
@@ -7144,6 +7178,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SydneyChallenger,atp,2026-11-09,,Q2,210121,Kokoro Isomura,JPN,105359,Jason Jung,TPE,7-6(3) 4-6 6-3
 2026SydneyChallenger,atp,2026-11-09,,Q2,210613,Derek Pham,AUS,211727,Pavle Marinkov,AUS,7-6(5) 6-2
 2026SydneyChallenger,atp,2026-11-09,,R32,117357,Omar Jasika,AUS,106109,Alex Bolt,AUS,4-6 6-3 7-5
+2026SydneyChallenger,atp,2026-11-09,,R32,212174,Enzo Aguiard,AUS,106331,Christopher Oconnell,AUS,7-6(2) 6-4
 2026WTASopo125,wta,2026-11-09,Clay,F,215370,Bianca Andreescu,CAN,216097,Elizabeth Mandlik,USA,6-3 6-3
 2026WTASopo125,wta,2026-11-09,Clay,QF,201555,Polona Hercog,SLO,220554,Alice Tubello,FRA,6-2 6-3
 2026WTASopo125,wta,2026-11-09,Clay,QF,215370,Bianca Andreescu,CAN,215453,Marina Bassols Ribera,ESP,6-4 4-2 RET
@@ -7189,7 +7224,11 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTASopo125,wta,2026-11-09,Clay,R32,266671,Laura Samson,CZE,206430,Carolina Alves,BRA,6-7(3) 7-6(5) 6-1
 2026WTASopo125,wta,2026-11-09,Clay,SF,215370,Bianca Andreescu,CAN,201555,Polona Hercog,SLO,6-1 6-4
 2026WTASopo125,wta,2026-11-09,Clay,SF,216097,Elizabeth Mandlik,USA,266671,Laura Samson,CZE,6-3 6-3
+2026WTAColina125,wta,2026-11-16,Clay,R16,211063,Valeriya Strakhova,UKR,221073,Anastasia Tikhonova,RUS,6-2 4-6 6-4
 2026WTAColina125,wta,2026-11-16,Clay,R16,214119,Rebeka Masarova,ESP,221000,Diletta Cherubini,ITA,7-5 6-3
 2026WTAColina125,wta,2026-11-16,Clay,R16,215571,Guiomar Maristany Zuleta De Reales,ESP,203354,Martina Trevisan,ITA,6-2 6-3
+2026WTAColina125,wta,2026-11-16,Clay,R16,220733,Carole Monnet,FRA,223286,Victoria Jimenez Kasintseva,AND,7-5 3-6 6-0
+2026WTAColina125,wta,2026-11-16,Clay,R16,220742,Leyre Romero Gormaz,ESP,213998,Ipek Oz,TUR,2-6 7-5 6-1
 2026WTAColina125,wta,2026-11-16,Clay,R16,221209,Anastasia Zolotareva,RUS,221512,Katrina Scott,USA,6-2 6-4
 2026WTAColina125,wta,2026-11-16,Clay,R16,223321,Sofia Costoulas,BEL,215572,Nuria Brancaccio,ITA,6-2 6-4
+2026WTAColina125,wta,2026-11-16,Clay,R16,231639,Ariana Geerlings,ESP,236972,Luisina Giovannini,ARG,6-4 6-0
