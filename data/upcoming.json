@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-17T12:15:25+00:00",
+"fetched": "2026-11-17T13:15:23+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -395,9 +395,9 @@
 "round": "Group Stage",
 "round_order": 0,
 "qualifying": 0,
-"date": "2026-11-17T13:00Z",
+"date": "2026-11-17T13:10Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "10052",
 "p1_name": "Arthur Fils",
