@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-18T00:51:00+00:00",
+"fetched": "2026-11-18T05:15:25+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -613,14 +613,14 @@
 "qualifying": 0,
 "date": "2026-11-18T00:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "11971",
 "p1_name": "Fernanda Labrana",
 "p2_id": "13874",
 "p2_name": "Antonia Vergara Rivera",
-"winner": "",
-"score": "",
+"winner": "11971",
+"score": "6-1 3-6 6-0",
 "p1_country": "Chile",
 "p2_country": "Chile",
 "tour": "wta"
@@ -783,13 +783,13 @@
 "time_valid": 0,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "-3",
-"p1_name": "TBD",
+"p1_id": "11971",
+"p1_name": "Fernanda Labrana",
 "p2_id": "4291",
 "p2_name": "Andrea Lazaro Garcia",
 "winner": "",
 "score": "",
-"p1_country": "",
+"p1_country": "Chile",
 "p2_country": "Spain",
 "tour": "wta"
 },
