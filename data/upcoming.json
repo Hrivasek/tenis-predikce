@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-18T22:15:26+00:00",
+"fetched": "2026-11-18T23:15:33+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -755,9 +755,9 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-11-18T22:30Z",
+"date": "2026-11-18T23:00Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "14607",
 "p1_name": "Ariana Geerlings",

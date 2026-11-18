@@ -1410,7 +1410,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186803,wta,2026-11-18T16:20Z,LP Open by IND,Round 2,Hard,2984,Rebeka Masarova,1095,Polona Hercog,2345.7,2282.3,439,857,0.5703,2026-11-17T20:01+01:00,final,2984,6-4 6-4,v3,
 186807,wta,2026-11-18T18:20Z,LP Open by IND,Round 2,Hard,10676,Leyre Romero Gormaz,3256,Nadia Podoroska,2415.0,2445.7,433,591,0.4658,2026-11-17T17:15+01:00,final,10676,6-3 6-4,v3,
 187514,atp,2026-11-18T19:30Z,Nitto ATP Finals,Group Stage,Hard,7602,Flavio Cobolli,2708,Frances Tiafoe,2386.0,2523.2,433,705,0.3010,2026-11-16T23:15+01:00,final,2708,7-6(6) 6-0,v3,
-186802,wta,2026-11-18T22:30Z,LP Open by IND,Round 2,Hard,14607,Ariana Geerlings,15069,Laura Samson,2148.4,2257.0,157,146,0.3811,2026-11-18T00:15+01:00,scheduled,,,v3,
+186802,wta,2026-11-18T22:30Z,LP Open by IND,Round 2,Hard,14607,Ariana Geerlings,15069,Laura Samson,2148.4,2257.0,157,146,0.3811,2026-11-18T00:15+01:00,live,,,v3,
 187507,atp,2026-11-19T13:00Z,Nitto ATP Finals,Group Stage,Hard,9250,Ben Shelton,12657,Rafael Jodar,2624.8,2504.5,314,139,0.6766,2026-11-17T23:15+01:00,scheduled,,,v3,
 186809,wta,2026-11-19T14:30Z,LP Open by IND,Round 2,Hard,4666,Lucia Bronzetti,5299,Carole Monnet,2247.9,2211.9,566,511,0.5402,2026-11-17T18:31+01:00,scheduled,,,v3,
 186808,wta,2026-11-19T16:00Z,LP Open by IND,Round 2,Hard,3042,Valeriya Strakhova,5878,Veronika Erjavec,1909.6,2219.4,768,458,0.2004,2026-11-17T23:15+01:00,scheduled,,,v3,
