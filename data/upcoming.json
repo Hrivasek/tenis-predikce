@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-17T23:15:27+00:00",
+"fetched": "2026-11-18T00:15:24+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -589,14 +589,14 @@
 "qualifying": 0,
 "date": "2026-11-17T21:30Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "3291",
 "p1_name": "Barbara Gatica",
 "p2_id": "4291",
 "p2_name": "Andrea Lazaro Garcia",
-"winner": "",
-"score": "",
+"winner": "4291",
+"score": "3-6 6-2 6-3",
 "p1_country": "Chile",
 "p2_country": "Spain",
 "tour": "wta"
@@ -611,9 +611,9 @@
 "round": "Round 1",
 "round_order": 1,
 "qualifying": 0,
-"date": "2026-11-17T23:30Z",
+"date": "2026-11-18T00:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "11971",
 "p1_name": "Fernanda Labrana",
@@ -785,12 +785,12 @@
 "best_of": 3,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "4291",
+"p2_name": "Andrea Lazaro Garcia",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
