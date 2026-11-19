@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-19T00:16:00+00:00",
+"fetched": "2026-11-19T05:22:49+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -757,14 +757,14 @@
 "qualifying": 0,
 "date": "2026-11-18T23:00Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "14607",
 "p1_name": "Ariana Geerlings",
 "p2_id": "15069",
 "p2_name": "Laura Samson",
-"winner": "",
-"score": "",
+"winner": "15069",
+"score": "6-3 2-6 6-0",
 "p1_country": "Spain",
 "p2_country": "Czechia",
 "tour": "wta"
@@ -1001,12 +1001,12 @@
 "best_of": 3,
 "p1_id": "2984",
 "p1_name": "Rebeka Masarova",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "15069",
+"p2_name": "Laura Samson",
 "winner": "",
 "score": "",
 "p1_country": "Switzerland",
-"p2_country": "",
+"p2_country": "Czechia",
 "tour": "wta"
 },
 {
