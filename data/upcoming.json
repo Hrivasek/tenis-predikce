@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-19T20:21:21+00:00",
+"fetched": "2026-11-19T21:18:12+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -853,14 +853,14 @@
 "qualifying": 0,
 "date": "2026-11-19T18:35Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "6209",
 "p1_name": "Anastasia Zolotareva",
 "p2_id": "4546",
 "p2_name": "Irene Burillo",
-"winner": "",
-"score": "",
+"winner": "4546",
+"score": "6-4 6-4",
 "p1_country": "Russia",
 "p2_country": "Spain",
 "tour": "wta"
@@ -929,12 +929,12 @@
 "best_of": 3,
 "p1_id": "10676",
 "p1_name": "Leyre Romero Gormaz",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "4546",
+"p2_name": "Irene Burillo",
 "winner": "",
 "score": "",
 "p1_country": "Spain",
-"p2_country": "",
+"p2_country": "Spain",
 "tour": "wta"
 },
 {
