@@ -1419,7 +1419,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186804,wta,2026-11-19T22:00Z,LP Open by IND,Round 2,Hard,11971,Fernanda Labrana,4291,Andrea Lazaro Garcia,1866.1,2310.1,276,499,0.1209,2026-11-18T06:15+01:00,final,4291,6-2 3-6 6-0,v3,
 187510,atp,2026-11-20T13:00Z,Nitto ATP Finals,Group Stage,Hard,3782,Carlos Alcaraz,7602,Flavio Cobolli,2881.2,2375.5,473,434,0.9620,2026-11-18T22:15+01:00,final,3782,6-4 6-1,v3,
 186801,wta,2026-11-20T15:00Z,LP Open by IND,Quarterfinal,Hard,10676,Leyre Romero Gormaz,4546,Irene Burillo,2436.9,2150.1,434,648,0.7826,2026-11-19T22:18+01:00,final,10676,6-4 6-3,v3,
-186800,wta,2026-11-20T17:15Z,LP Open by IND,Quarterfinal,Hard,4666,Lucia Bronzetti,3042,Valeriya Strakhova,2250.9,1927.8,567,769,0.8089,2026-11-19T21:21+01:00,scheduled,,,v3,
+186800,wta,2026-11-20T17:15Z,LP Open by IND,Quarterfinal,Hard,4666,Lucia Bronzetti,3042,Valeriya Strakhova,2250.9,1927.8,567,769,0.8089,2026-11-19T21:21+01:00,live,,,v3,
 187513,atp,2026-11-20T19:30Z,Nitto ATP Finals,Group Stage,Hard,2383,Daniil Medvedev,2708,Frances Tiafoe,2598.7,2531.1,856,706,0.6020,2026-11-18T22:15+01:00,scheduled,,,v3,
 186799,wta,2026-11-20T20:30Z,LP Open by IND,Quarterfinal,Hard,12957,Guiomar Maristany Zuleta De Reales,4291,Andrea Lazaro Garcia,2310.7,2312.7,474,500,0.4978,2026-11-20T01:31+01:00,scheduled,,,v3,
 186798,wta,2026-11-20T22:00Z,LP Open by IND,Quarterfinal,Hard,2984,Rebeka Masarova,15069,Laura Samson,2357.3,2272.9,440,147,0.5932,2026-11-19T06:22+01:00,scheduled,,,v3,
