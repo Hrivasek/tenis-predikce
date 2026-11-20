@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-13T20:08:59",
+"fetched": "2026-11-20T20:00:08",
 "events": [
 {
 "week": "2026-01-05",
@@ -1862,6 +1862,62 @@
 "name": "Monastir Open",
 "city": "Monastir",
 "country": "Tunisia",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-16",
+"name": "HPP Open",
+"city": "Helsinki",
+"country": "Finland",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-16",
+"name": "Open Metz–Grand Est",
+"city": "Metz",
+"country": "France",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-16",
+"name": "Uruguay Open",
+"city": "Montevideo",
+"country": "Uruguay",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-11-16",
+"name": "Kobe Challenger",
+"city": "Kobe",
+"country": "Japan",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-16",
+"name": "Challenger Banque Nationale de Drummondville",
+"city": "Drummondville",
+"country": "Canada",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-16",
+"name": "NSW Open",
+"city": "Sydney",
+"country": "Australia",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-16",
+"name": "Champaign Challenger",
+"city": "Champaign",
+"country": "United States",
 "surface": "Hard",
 "nth": 1
 }
