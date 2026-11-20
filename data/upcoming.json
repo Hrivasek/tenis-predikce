@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-20T19:02:07+00:00",
+"fetched": "2026-11-20T20:15:52+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -973,14 +973,14 @@
 "qualifying": 0,
 "date": "2026-11-20T17:25Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "4666",
 "p1_name": "Lucia Bronzetti",
 "p2_id": "3042",
 "p2_name": "Valeriya Strakhova",
-"winner": "",
-"score": "",
+"winner": "4666",
+"score": "6-4 6-2",
 "p1_country": "Italy",
 "p2_country": "Ukraine",
 "tour": "wta"
@@ -995,9 +995,9 @@
 "round": "Group Stage",
 "round_order": 0,
 "qualifying": 0,
-"date": "2026-11-20T19:30Z",
+"date": "2026-11-20T19:40Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 5,
 "p1_id": "2383",
 "p1_name": "Daniil Medvedev",
@@ -1121,12 +1121,12 @@
 "best_of": 3,
 "p1_id": "10676",
 "p1_name": "Leyre Romero Gormaz",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "4666",
+"p2_name": "Lucia Bronzetti",
 "winner": "",
 "score": "",
 "p1_country": "Spain",
-"p2_country": "",
+"p2_country": "Italy",
 "tour": "wta"
 },
 {
