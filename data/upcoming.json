@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-21T15:21:29+00:00",
+"fetched": "2026-11-21T16:21:28+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -1069,14 +1069,14 @@
 "qualifying": 0,
 "date": "2026-11-21T13:40Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 5,
 "p1_id": "3782",
 "p1_name": "Carlos Alcaraz",
 "p2_id": "9250",
 "p2_name": "Ben Shelton",
-"winner": "",
-"score": "",
+"winner": "3782",
+"score": "3-6 6-3 7-6(1)",
 "p1_country": "Spain",
 "p2_country": "USA",
 "tour": "atp"
@@ -1169,12 +1169,12 @@
 "best_of": 5,
 "p1_id": "-3",
 "p1_name": "TBD",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "3782",
+"p2_name": "Carlos Alcaraz",
 "winner": "",
 "score": "",
 "p1_country": "",
-"p2_country": "",
+"p2_country": "Spain",
 "tour": "atp"
 },
 {
