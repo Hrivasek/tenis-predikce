@@ -1,4 +1,15 @@
 {
+ "2026AnkaraChallenger": {
+  "city": "Ankara",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-11-22T20:01:09",
+  "n": 11,
+  "source": "home",
+  "start": "2026-11-16",
+  "surface": "",
+  "tour": "atp"
+ },
  "2026AntofagastaChallenger": {
   "city": "Antofagasta",
   "complete": true,
@@ -334,8 +345,8 @@
   "city": "Champaign",
   "complete": false,
   "country": "United States",
-  "fetched": "2026-11-22T08:00:10",
-  "n": 39,
+  "fetched": "2026-11-22T20:00:24",
+  "n": 47,
   "source": "kalendář",
   "start": "2026-11-16",
   "surface": "Hard",
@@ -423,8 +434,8 @@
   "city": "Drummondville",
   "complete": false,
   "country": "Canada",
-  "fetched": "2026-11-22T08:00:15",
-  "n": 40,
+  "fetched": "2026-11-22T20:00:29",
+  "n": 45,
   "source": "kalendář",
   "start": "2026-11-16",
   "surface": "Hard",
@@ -450,6 +461,17 @@
   "source": "home",
   "start": "2026-10-19",
   "surface": "Clay",
+  "tour": "atp"
+ },
+ "2026FlorianopolisChallenger": {
+  "city": "Florianopolis",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-11-22T20:01:14",
+  "n": 0,
+  "source": "home",
+  "start": "2026-11-16",
+  "surface": "",
   "tour": "atp"
  },
  "2026FortWorthChallenger": {
@@ -568,10 +590,10 @@
  },
  "2026HelsinkiChallenger": {
   "city": "Helsinki",
-  "complete": false,
+  "complete": true,
   "country": "Finland",
-  "fetched": "2026-11-22T08:00:21",
-  "n": 46,
+  "fetched": "2026-11-22T20:00:35",
+  "n": 49,
   "source": "kalendář",
   "start": "2026-11-16",
   "surface": "Hard",
@@ -584,6 +606,17 @@
   "fetched": "2026-11-15T20:00:31",
   "n": 48,
   "source": "kalendář",
+  "start": "2026-11-09",
+  "surface": "Hard",
+  "tour": "atp"
+ },
+ "2026Hersonissos4Challenger": {
+  "city": "Hersonissos",
+  "complete": false,
+  "country": "Greece",
+  "fetched": "2026-11-22T20:00:12",
+  "n": 8,
+  "source": "home",
   "start": "2026-11-09",
   "surface": "Hard",
   "tour": "atp"
@@ -695,10 +728,10 @@
  },
  "2026KobeChallenger": {
   "city": "Kobe",
-  "complete": false,
+  "complete": true,
   "country": "Japan",
-  "fetched": "2026-11-22T08:00:26",
-  "n": 41,
+  "fetched": "2026-11-22T20:00:40",
+  "n": 49,
   "source": "kalendář",
   "start": "2026-11-16",
   "surface": "Hard",
@@ -840,10 +873,10 @@
  },
  "2026MetzChallenger": {
   "city": "Metz",
-  "complete": false,
+  "complete": true,
   "country": "France",
-  "fetched": "2026-11-22T08:00:32",
-  "n": 47,
+  "fetched": "2026-11-22T20:00:46",
+  "n": 49,
   "source": "kalendář",
   "start": "2026-11-16",
   "surface": "Hard",
@@ -871,6 +904,17 @@
   "surface": "",
   "tour": "atp"
  },
+ "2026Monastir2Challenger": {
+  "city": "Monastir",
+  "complete": false,
+  "country": "Tunisia",
+  "fetched": "2026-11-22T20:00:18",
+  "n": 11,
+  "source": "home",
+  "start": "2026-11-09",
+  "surface": "Hard",
+  "tour": "atp"
+ },
  "2026MonastirChallenger": {
   "candidates": [
    "2026MonastirChallenger"
@@ -888,8 +932,8 @@
   "city": "Montevideo",
   "complete": false,
   "country": "Uruguay",
-  "fetched": "2026-11-22T08:00:37",
-  "n": 44,
+  "fetched": "2026-11-22T20:00:52",
+  "n": 46,
   "source": "kalendář",
   "start": "2026-11-16",
   "surface": "Clay",
@@ -1049,6 +1093,17 @@
   "source": "kalendář",
   "start": "2026-06-22",
   "surface": "Clay",
+  "tour": "atp"
+ },
+ "2026PlayfordChallenger": {
+  "city": "Playford",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-11-22T20:01:20",
+  "n": 10,
+  "source": "home",
+  "start": "2026-11-16",
+  "surface": "",
   "tour": "atp"
  },
  "2026Plovdiv2Challenger": {
@@ -1299,6 +1354,17 @@
   "surface": "Clay",
   "tour": "atp"
  },
+ "2026SanSalvadorChallenger": {
+  "city": "SanSalvador",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-11-22T20:01:26",
+  "n": 0,
+  "source": "home",
+  "start": "2026-11-16",
+  "surface": "",
+  "tour": "atp"
+ },
  "2026SantaCruzdelaSierra2Challenger": {
   "city": "Santa Cruz de la Sierra",
   "complete": true,
@@ -1391,10 +1457,10 @@
  },
  "2026SydneyChallenger": {
   "city": "Sydney",
-  "complete": false,
+  "complete": true,
   "country": "Australia",
-  "fetched": "2026-11-22T08:00:43",
-  "n": 45,
+  "fetched": "2026-11-22T20:00:57",
+  "n": 49,
   "source": "kalendář",
   "start": "2026-11-16",
   "surface": "Hard",
@@ -1645,6 +1711,17 @@
   "surface": "Clay",
   "tour": "wta"
  },
+ "2026WTABuenosAires125": {
+  "city": "BuenosAires",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-11-22T20:01:31",
+  "n": 0,
+  "source": "home",
+  "start": "2026-11-16",
+  "surface": "",
+  "tour": "wta"
+ },
  "2026WTACaldasdaRainha125": {
   "candidates": [
    "2026WTACaldasdaRainha125"
@@ -1675,7 +1752,7 @@
   "city": "Colina",
   "complete": false,
   "country": "Chile",
-  "fetched": "2026-11-22T08:06:57",
+  "fetched": "2026-11-22T20:01:03",
   "n": 30,
   "source": "kalendář",
   "start": "2026-11-16",
@@ -2055,6 +2132,17 @@
   "source": "home",
   "start": "2026-10-05",
   "surface": "Hard",
+  "tour": "atp"
+ },
+ "2026YokohamaChallenger": {
+  "city": "Yokohama",
+  "complete": false,
+  "country": "",
+  "fetched": "2026-11-22T20:01:37",
+  "n": 9,
+  "source": "home",
+  "start": "2026-11-16",
+  "surface": "",
   "tour": "atp"
  },
  "2026ZhangjiagangChallenger": {
