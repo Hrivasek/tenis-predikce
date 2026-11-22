@@ -1428,7 +1428,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186811,wta,2026-11-21T20:05Z,LP Open by IND,Semifinal,Hard,10676,Leyre Romero Gormaz,4666,Lucia Bronzetti,2442.9,2255.4,435,568,0.6979,2026-11-20T21:15+01:00,final,10676,6-3 3-6 7-5,v3,
 186810,wta,2026-11-21T22:40Z,LP Open by IND,Semifinal,Hard,12957,Guiomar Maristany Zuleta De Reales,2984,Rebeka Masarova,2322.8,2374.0,475,441,0.4430,2026-11-21T06:28+01:00,final,2984,6-2 6-4,v3,
 187529,atp,2026-11-22T17:15Z,Nitto ATP Finals,Final,Hard,2375,Alexander Zverev,3782,Carlos Alcaraz,2709.5,2884.5,916,475,0.2538,2026-11-21T23:23+01:00,final,3782,6-2 7-6(7),v3,
-186812,wta,2026-11-22T21:00Z,LP Open by IND,Final,Hard,10676,Leyre Romero Gormaz,2984,Rebeka Masarova,2447.9,2390.1,436,442,0.5642,2026-11-22T06:21+01:00,scheduled,,,v3,
+186812,wta,2026-11-22T21:00Z,LP Open by IND,Final,Hard,10676,Leyre Romero Gormaz,2984,Rebeka Masarova,2447.9,2390.1,436,442,0.5642,2026-11-22T06:21+01:00,live,,,v3,
 186822,wta,2026-11-23T14:00Z,IEB+ Argentina Open,Round 1,Clay,1374,Martina Trevisan,15775,Ayana Akli,2315.2,2123.3,536,127,0.7021,2026-11-22T17:15+01:00,scheduled,,,v3,
 186824,wta,2026-11-23T14:00Z,IEB+ Argentina Open,Round 1,Clay,17419,Berta Bonardi,5299,Carole Monnet,1734.6,2301.5,277,512,0.0736,2026-11-22T17:15+01:00,scheduled,,,v3,
 186816,wta,2026-11-23T15:30Z,IEB+ Argentina Open,Round 1,Clay,1095,Polona Hercog,10197,Ipek Oz,2323.5,2119.6,858,484,0.7131,2026-11-22T17:15+01:00,scheduled,,,v3,
