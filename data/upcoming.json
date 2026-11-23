@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-23T13:15:23+00:00",
+"fetched": "2026-11-23T14:18:16+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -1309,7 +1309,7 @@
 "qualifying": 0,
 "date": "2026-11-23T14:00Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "1374",
 "p1_name": "Martina Trevisan",
@@ -1331,9 +1331,9 @@
 "round": "Round 1",
 "round_order": 1,
 "qualifying": 0,
-"date": "2026-11-23T14:00Z",
+"date": "2026-11-23T14:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "17419",
 "p1_name": "Berta Bonardi",
