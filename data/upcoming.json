@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-23T19:16:50+00:00",
+"fetched": "2026-11-23T20:57:15+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -1453,14 +1453,14 @@
 "qualifying": 0,
 "date": "2026-11-23T19:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "8068",
 "p1_name": "Despina Papamichail",
 "p2_id": "5749",
 "p2_name": "Julia Riera",
-"winner": "",
-"score": "",
+"winner": "5749",
+"score": "6-2 7-5",
 "p1_country": "Greece",
 "p2_country": "Argentina",
 "tour": "wta"
@@ -1769,12 +1769,12 @@
 "best_of": 3,
 "p1_id": "10197",
 "p1_name": "Ipek Oz",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "5749",
+"p2_name": "Julia Riera",
 "winner": "",
 "score": "",
 "p1_country": "Türkiye",
-"p2_country": "",
+"p2_country": "Argentina",
 "tour": "wta"
 },
 {
