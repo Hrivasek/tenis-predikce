@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-23T12:15:25+00:00",
+"fetched": "2026-11-23T13:15:23+00:00",
 "matches": [
 {
 "match_id": "187505",
@@ -1359,13 +1359,13 @@
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "1095",
-"p1_name": "Polona Hercog",
+"p1_id": "-3",
+"p1_name": "TBD",
 "p2_id": "10197",
 "p2_name": "Ipek Oz",
 "winner": "",
 "score": "",
-"p1_country": "Slovenia",
+"p1_country": "",
 "p2_country": "Türkiye",
 "tour": "wta"
 },
@@ -1551,13 +1551,13 @@
 "time_valid": 0,
 "status": "scheduled",
 "best_of": 3,
-"p1_id": "2984",
-"p1_name": "Rebeka Masarova",
+"p1_id": "1095",
+"p1_name": "Polona Hercog",
 "p2_id": "14562",
 "p2_name": "Sofia Costoulas",
 "winner": "",
 "score": "",
-"p1_country": "Switzerland",
+"p1_country": "Slovenia",
 "p2_country": "Belgium",
 "tour": "wta"
 },
