@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-25T17:15:30+00:00",
+"fetched": "2026-11-25T18:34:43+00:00",
 "matches": [
 {
 "match_id": "187580",
@@ -458,30 +458,6 @@
 "tour": "wta"
 },
 {
-"match_id": "186828",
-"event_id": "867-2026",
-"tourney_name": "IEB+ Argentina Open",
-"venue": "Buenos Aires, Argentina",
-"event_start": "20261122",
-"tourney_level": "A",
-"round": "Round 1",
-"round_order": 1,
-"qualifying": 0,
-"date": "2026-11-25T18:00Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "15617",
-"p1_name": "Sol Ailin Larraya Guidi",
-"p2_id": "3220",
-"p2_name": "Maria Lourdes Carle",
-"winner": "",
-"score": "",
-"p1_country": "Argentina",
-"p2_country": "Argentina",
-"tour": "wta"
-},
-{
 "match_id": "186839",
 "event_id": "867-2026",
 "tourney_name": "IEB+ Argentina Open",
@@ -493,7 +469,7 @@
 "qualifying": 0,
 "date": "2026-11-25T18:00Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "1374",
 "p1_name": "Martina Trevisan",
@@ -503,6 +479,30 @@
 "score": "",
 "p1_country": "Italy",
 "p2_country": "Slovenia",
+"tour": "wta"
+},
+{
+"match_id": "186828",
+"event_id": "867-2026",
+"tourney_name": "IEB+ Argentina Open",
+"venue": "Buenos Aires, Argentina",
+"event_start": "20261122",
+"tourney_level": "A",
+"round": "Round 1",
+"round_order": 1,
+"qualifying": 0,
+"date": "2026-11-25T18:05Z",
+"time_valid": 1,
+"status": "live",
+"best_of": 3,
+"p1_id": "15617",
+"p1_name": "Sol Ailin Larraya Guidi",
+"p2_id": "3220",
+"p2_name": "Maria Lourdes Carle",
+"winner": "",
+"score": "",
+"p1_country": "Argentina",
+"p2_country": "Argentina",
 "tour": "wta"
 },
 {
