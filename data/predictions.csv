@@ -1452,7 +1452,7 @@ match_id,tour,start,tourney,round,surface,p1_id,p1_name,p2_id,p2_name,p1_elo,p2_
 186834,wta,2026-11-26T18:00Z,IEB+ Argentina Open,Round 2,Clay,14562,Sofia Costoulas,423,Varvara Lepchenko,2204.4,2264.0,326,1203,0.4338,2026-11-24T23:19+01:00,live,,,v3,
 186836,wta,2026-11-26T18:00Z,IEB+ Argentina Open,Round 2,Clay,12957,Guiomar Maristany Zuleta De Reales,5168,Nuria Brancaccio,2403.5,2316.8,477,483,0.5957,2026-11-24T18:15+01:00,final,12957,1-6 6-3 6-1,v3,
 186833,wta,2026-11-26T19:30Z,IEB+ Argentina Open,Round 2,Clay,4546,Irene Burillo,15069,Laura Samson,2196.6,2387.6,650,149,0.2988,2026-11-24T21:15+01:00,live,,,v3,
-186835,wta,2026-11-26T21:00Z,IEB+ Argentina Open,Round 2,Clay,3220,Maria Lourdes Carle,3256,Nadia Podoroska,2217.3,2370.5,529,593,0.3353,2026-11-25T21:30+01:00,scheduled,,,v3,
+186835,wta,2026-11-26T21:30Z,IEB+ Argentina Open,Round 2,Clay,3220,Maria Lourdes Carle,3256,Nadia Podoroska,2217.3,2370.5,529,593,0.3353,2026-11-25T21:30+01:00,scheduled,,,v3,
 186829,wta,2026-11-27T05:00Z,IEB+ Argentina Open,Quarterfinal,Clay,-3,TBD,-4,TBD,1500.0,1500.0,0,0,0.5000,2026-11-20T01:31+01:00,scheduled,,,v3,
 186830,wta,2026-11-27T05:00Z,IEB+ Argentina Open,Quarterfinal,Clay,12957,Guiomar Maristany Zuleta De Reales,-4,TBD,2411.0,1500.0,478,0,0.9832,2026-11-26T21:42+01:00,scheduled,,,v3,
 186831,wta,2026-11-27T05:00Z,IEB+ Argentina Open,Quarterfinal,Clay,4629,Alicia Herrero Linana,5749,Julia Riera,2339.8,2319.5,241,393,0.5226,2026-11-26T01:15+01:00,scheduled,,,v3,
