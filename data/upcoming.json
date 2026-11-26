@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-26T17:42:43+00:00",
+"fetched": "2026-11-26T18:25:19+00:00",
 "matches": [
 {
 "match_id": "187580",
@@ -587,9 +587,9 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-11-26T18:00Z",
+"date": "2026-11-26T18:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "12957",
 "p1_name": "Guiomar Maristany Zuleta De Reales",
@@ -611,9 +611,9 @@
 "round": "Round 2",
 "round_order": 2,
 "qualifying": 0,
-"date": "2026-11-26T18:00Z",
+"date": "2026-11-26T18:05Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "14562",
 "p1_name": "Sofia Costoulas",
