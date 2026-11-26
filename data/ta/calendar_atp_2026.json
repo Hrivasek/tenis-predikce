@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-20T20:00:08",
+"fetched": "2026-11-26T20:10:04",
 "events": [
 {
 "week": "2026-01-05",
@@ -1918,6 +1918,62 @@
 "name": "Champaign Challenger",
 "city": "Champaign",
 "country": "United States",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-23",
+"name": "Engie Open Florianópolis",
+"city": "Florianópolis",
+"country": "Brazil",
+"surface": "Clay",
+"nth": 1
+},
+{
+"week": "2026-11-23",
+"name": "City of Playford Tennis International",
+"city": "Playford",
+"country": "Australia",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-23",
+"name": "Keio Challenger",
+"city": "Yokohama",
+"country": "Japan",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-23",
+"name": "Ankara Challenger",
+"city": "Ankara",
+"country": "Turkey",
+"surface": "Hard",
+"nth": 1
+},
+{
+"week": "2026-11-23",
+"name": "Crete Challenger IV",
+"city": "Hersonissos",
+"country": "Greece",
+"surface": "Hard",
+"nth": 4
+},
+{
+"week": "2026-11-23",
+"name": "Monastir Open II",
+"city": "Monastir",
+"country": "Tunisia",
+"surface": "Hard",
+"nth": 2
+},
+{
+"week": "2026-11-23",
+"name": "El Salvador Open",
+"city": "San Salvador",
+"country": "El Salvador",
 "surface": "Hard",
 "nth": 1
 }
