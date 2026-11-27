@@ -7495,9 +7495,11 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026AnkaraChallenger,atp,2026-11-23,Hard,Q2,211491,Robert Guna,ROU,144907,Adrian Oetzbach,GER,5-7 6-4 7-5
 2026AnkaraChallenger,atp,2026-11-23,Hard,Q2,212756,Nikita Bilozertsev,UKR,212630,Aaron Funk,GER,6-2 6-2
 2026AnkaraChallenger,atp,2026-11-23,Hard,R16,134068,Vadym Ursu,UKR,210425,Svyatoslav Gulin,RUS,7-6(4) 6-2
+2026AnkaraChallenger,atp,2026-11-23,Hard,R16,144985,Ergi Kirkin,TUR,210339,Jannik Maute,GER,7-5 6-3
 2026AnkaraChallenger,atp,2026-11-23,Hard,R16,209405,Daniel Rincon,ESP,212969,Matisse Bobichon,FRA,7-6(5) 7-5
 2026AnkaraChallenger,atp,2026-11-23,Hard,R16,210054,Matthew William Donald,CZE,210714,Robin Catry,FRA,6-4 6-2
 2026AnkaraChallenger,atp,2026-11-23,Hard,R16,210513,Tuncay Duran,TUR,125833,Mert Naci Turker,TUR,7-6(4) 7-6(4)
+2026AnkaraChallenger,atp,2026-11-23,Hard,R16,211491,Robert Guna,ROU,208328,Max Wiskandt,GER,6-2 6-4
 2026AnkaraChallenger,atp,2026-11-23,Hard,R16,212225,Thomas Faurel,FRA,212756,Nikita Bilozertsev,UKR,6-3 6-4
 2026AnkaraChallenger,atp,2026-11-23,Hard,R16,212309,Diego Dedura Palomero,GER,144716,Oleg Prihodko,UKR,3-6 6-3 7-6(4)
 2026AnkaraChallenger,atp,2026-11-23,Hard,R32,125833,Mert Naci Turker,TUR,209885,Gokberk Saritas,TUR,6-2 7-6(5)
@@ -7533,6 +7535,14 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026FlorianopolisChallenger,atp,2026-11-23,Clay,Q2,208099,Santiago De La Fuente,ARG,210052,Nicolas Zanellato,BRA,5-2 RET
 2026FlorianopolisChallenger,atp,2026-11-23,Clay,Q2,208532,Thiago Cigarran,ARG,208533,Joao Victor Couto Loureiro,BRA,7-6(3) 4-6 6-3
 2026FlorianopolisChallenger,atp,2026-11-23,Clay,Q2,212944,Ryo Tabata,JPN,104905,Nicolas Barrientos,COL,WO
+2026FlorianopolisChallenger,atp,2026-11-23,Clay,R16,127108,Igor Ribeiro Marcondes,BRA,126627,Johan Nikles,SUI,6-2 6-4
+2026FlorianopolisChallenger,atp,2026-11-23,Clay,R16,144821,Genaro Alberto Olivieri,ARG,212051,Joaquin Aguilar Cardozo,URU,4-6 6-2 6-4
+2026FlorianopolisChallenger,atp,2026-11-23,Clay,R16,200335,Felipe Meligeni Alves,BRA,212785,Carlos Maria Zarate,ARG,6-2 6-1
+2026FlorianopolisChallenger,atp,2026-11-23,Clay,R16,200495,Eduardo Ribeiro,BRA,208024,Max Alcala Gurri,ESP,6-2 7-6(5)
+2026FlorianopolisChallenger,atp,2026-11-23,Clay,R16,207815,Guido Ivan Justo,ARG,200266,Javier Barranco Cosano,ESP,7-6(2) 6-4
+2026FlorianopolisChallenger,atp,2026-11-23,Clay,R16,208364,Franco Roncadelli,URU,207764,Ryan Nijboer,NED,6-3 7-5
+2026FlorianopolisChallenger,atp,2026-11-23,Clay,R16,210052,Nicolas Zanellato,BRA,209284,Elmer Moller,DEN,0-6 6-4 6-2
+2026FlorianopolisChallenger,atp,2026-11-23,Clay,R16,210412,Juan Manuel La Serna,ARG,208532,Thiago Cigarran,ARG,6-2 6-1
 2026FlorianopolisChallenger,atp,2026-11-23,Clay,R32,126627,Johan Nikles,SUI,208046,Pedro Boscardin Dias,BRA,6-4 7-6(3)
 2026FlorianopolisChallenger,atp,2026-11-23,Clay,R32,127108,Igor Ribeiro Marcondes,BRA,121264,Oscar Jose Gutierrez,BRA,6-4 3-6 6-1
 2026FlorianopolisChallenger,atp,2026-11-23,Clay,R32,144821,Genaro Alberto Olivieri,ARG,208223,Alvaro Guillen Meza,ECU,6-3 6-3
@@ -7566,6 +7576,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026Hersonissos4Challenger,atp,2026-11-23,Hard,R16,202125,Benjamin Pietri,FRA,211596,Yaroslav Demin,RUS,7-5 6-4
 2026Hersonissos4Challenger,atp,2026-11-23,Hard,R16,202475,Philip Henning,RSA,212748,Anas Mazdrashki,BUL,6-1 6-2
 2026Hersonissos4Challenger,atp,2026-11-23,Hard,R16,209191,Oleksandr Ovcharenko,UKR,206662,Georgii Kravchenko,UKR,6-4 6-3
+2026Hersonissos4Challenger,atp,2026-11-23,Hard,R16,209354,Ioannis Xilas,GRE,126106,Ryan Peniston,GBR,6-3 3-6 6-3
 2026Hersonissos4Challenger,atp,2026-11-23,Hard,R16,211346,Andres Martin,USA,212305,Juan Cruz Martin Manzano,ITA,6-2 6-3
 2026Hersonissos4Challenger,atp,2026-11-23,Hard,R16,211451,Gilles Arnaud Bailly,BEL,207404,Miles Jones,USA,6-1 6-3
 2026Hersonissos4Challenger,atp,2026-11-23,Hard,R16,211639,Alejo Sanchez Quilez,ESP,206782,Demetris Azoides,GRE,7-5 6-3
@@ -7606,8 +7617,12 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026Monastir2Challenger,atp,2026-11-23,Hard,Q2,209937,Giorgio Tabacco,ITA,213758,Pablo Aunion,ESP,7-5 6-2
 2026Monastir2Challenger,atp,2026-11-23,Hard,R16,106293,Kimmer Coppejans,BEL,210025,Branko Djuric,SRB,7-5 4-6 7-5
 2026Monastir2Challenger,atp,2026-11-23,Hard,R16,206325,Pedro Vives Marcos,ESP,212280,Giulio Perego,ITA,6-3 6-4
+2026Monastir2Challenger,atp,2026-11-23,Hard,R16,208431,Semen Pankin,RUS,209951,Petr Bar Biryukov,RUS,6-2 7-6(5)
 2026Monastir2Challenger,atp,2026-11-23,Hard,R16,209898,Dali Blanch,USA,209863,Leo Borg,SWE,6-3 6-3
+2026Monastir2Challenger,atp,2026-11-23,Hard,R16,209937,Giorgio Tabacco,ITA,209131,Eliakim Coulibaly,CIV,6-2 6-0
 2026Monastir2Challenger,atp,2026-11-23,Hard,R16,210120,Gabriel Debru,FRA,207669,Robert Strombachs,LAT,6-3 6-3
+2026Monastir2Challenger,atp,2026-11-23,Hard,R16,210682,Federico Bondioli,ITA,200289,Mathieu Scaglia,FRA,7-6(4) 6-1
+2026Monastir2Challenger,atp,2026-11-23,Hard,R16,212025,Yannik Kelm,GER,211542,Filippo Romano,ITA,6-4 6-4
 2026Monastir2Challenger,atp,2026-11-23,Hard,R32,106293,Kimmer Coppejans,BEL,207457,Wojciech Marek,POL,6-2 6-4
 2026Monastir2Challenger,atp,2026-11-23,Hard,R32,200289,Mathieu Scaglia,FRA,210230,Wissam Abderrahman,TUN,7-6(5) 7-6(1)
 2026Monastir2Challenger,atp,2026-11-23,Hard,R32,206325,Pedro Vives Marcos,ESP,200086,Toufik Sahtali,ALG,6-1 6-1
@@ -7640,6 +7655,9 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026PlayfordChallenger,atp,2026-11-23,Hard,Q2,211317,Chen Dong,AUS,208382,Herman Hoeyeraal,NOR,7-6(4) 4-6 6-3
 2026PlayfordChallenger,atp,2026-11-23,Hard,Q2,213204,Zane Stevens,AUS,213802,Mustafa Ege Sik,TUR,6-4 5-7 6-4
 2026PlayfordChallenger,atp,2026-11-23,Hard,Q2,214483,Harrison Satara,AUS,200166,Stefan Vujic,AUS,6-4 7-5
+2026PlayfordChallenger,atp,2026-11-23,Hard,QF,132052,Christian Langmo,USA,202354,Matthew Dellavedova,AUS,6-4 7-6(5)
+2026PlayfordChallenger,atp,2026-11-23,Hard,QF,208013,Dane Sweeny,AUS,209274,Carl Emil Overbeck,DEN,6-4 4-6 6-3
+2026PlayfordChallenger,atp,2026-11-23,Hard,QF,209262,Tristan Schoolkate,AUS,207728,Moerani Bouzige,AUS,5-7 6-3 7-6(5)
 2026PlayfordChallenger,atp,2026-11-23,Hard,R16,106109,Alex Bolt,AUS,210613,Derek Pham,AUS,6-4 6-0
 2026PlayfordChallenger,atp,2026-11-23,Hard,R16,117357,Omar Jasika,AUS,111454,Li Tu,AUS,6-3 7-5
 2026PlayfordChallenger,atp,2026-11-23,Hard,R16,132052,Christian Langmo,USA,117361,Akira Santillan,AUS,WO
@@ -7677,8 +7695,13 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,Q2,210645,Ofek Shimanov,ISR,213376,Jeffrey Fradkin,USA,2-6 6-2 6-2
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,Q2,212720,Juan Carlos Fuentes Vasquez,ESA,212716,Kyle Overmyer,USA,7-5 6-3
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,Q2,214443,Juan Miguel Bolivar Idarraga,COL,210565,Elijah Strode,USA,4-6 7-5 6-1
+2026SanSalvadorChallenger,atp,2026-11-23,Hard,R16,208051,Axel Nefve,USA,213653,Benjamin Willwerth,USA,6-4 7-5
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,R16,209080,Blaise Bicknell,JAM,213932,Theodore Dean,USA,6-7(6) 6-4 7-6(4)
+2026SanSalvadorChallenger,atp,2026-11-23,Hard,R16,209355,Timo Legout,FRA,207202,Karl Poling,USA,6-7(6) 7-6(5) 6-2
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,R16,210377,Luciano Emanuel Ambrogi,ARG,213603,Joaquin Guilleme,NIC,6-2 6-3
+2026SanSalvadorChallenger,atp,2026-11-23,Hard,R16,210545,Luis Carlos Alvarez,MEX,105944,Juan Sebastian Gomez,COL,6-1 6-3
+2026SanSalvadorChallenger,atp,2026-11-23,Hard,R16,212455,Lucas Andrade Da Silva,BRA,209294,Diego Duran,ESA,6-7(2) 7-6(2) 7-6(5)
+2026SanSalvadorChallenger,atp,2026-11-23,Hard,R16,212831,Samuel Heredia,COL,211707,Amit Vales,ISR,6-3 6-3
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,R16,213036,Luis Guto Miguel,BRA,212839,Oliver Bonding,GBR,4-6 7-5 7-6(3)
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,R32,105944,Juan Sebastian Gomez,COL,212259,Benjamin Thomas George,CAN,6-2 6-4
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,R32,207202,Karl Poling,USA,213376,Jeffrey Fradkin,USA,6-2 6-2
@@ -7697,13 +7720,16 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,R32,213653,Benjamin Willwerth,USA,127123,Mateus Alves,BRA,4-6 7-5 6-4
 2026SanSalvadorChallenger,atp,2026-11-23,Hard,R32,213932,Theodore Dean,USA,210386,Rafael Botran Neutze,GTM,6-3 1-0 RET
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,201478,Varvara Lepchenko,USA,221741,Abigail Rencheli,MDA,6-3 6-2
+2026WTABuenosAires125,wta,2026-11-23,Clay,R16,201478,Varvara Lepchenko,USA,223321,Sofia Costoulas,BEL,6-3 6-7(0) 7-5
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,203354,Martina Trevisan,ITA,264149,Ayana Akli,USA,6-1 6-2
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,206408,Nadia Podoroska,ARG,220742,Leyre Romero Gormaz,ESP,7-6(4) 6-0
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,213706,Irene Burillo Escorihuela,ESP,236968,Lourdes Ayala,ARG,6-2 6-2
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,213998,Ipek Oz,TUR,213541,Alexandra Osborne,AUS,6-4 6-3
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,214189,Alicia Herrero Linana,ESP,214459,Lucia Bronzetti,ITA,6-1 6-2
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,214189,Alicia Herrero Linana,ESP,231639,Ariana Geerlings,ESP,7-5 7-5
+2026WTABuenosAires125,wta,2026-11-23,Clay,R16,214604,Maria Lourdes Carle,ARG,206408,Nadia Podoroska,ARG,6-4 7-6(4)
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,215571,Guiomar Maristany Zuleta De Reales,ESP,260711,Luna Maria Cinalli,ARG,6-1 6-1
+2026WTABuenosAires125,wta,2026-11-23,Clay,R16,215571,Guiomar Maristany Zuleta De Reales,ESP,215572,Nuria Brancaccio,ITA,1-6 6-3 6-1
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,215572,Nuria Brancaccio,ITA,221209,Anastasia Zolotareva,RUS,6-1 6-2
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,220662,Veronika Erjavec,SLO,214992,Zhibek Kulambayeva,KAZ,6-2 6-4
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,220662,Veronika Erjavec,SLO,203354,Martina Trevisan,ITA,6-0 3-1 RET
@@ -7715,6 +7741,7 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,223321,Sofia Costoulas,BEL,201555,Polona Hercog,SLO,6-2 4-2 RET
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,231639,Ariana Geerlings,ESP,260717,Josefina Estevez,ARG,6-2 6-2
 2026WTABuenosAires125,wta,2026-11-23,Clay,R16,266671,Laura Samson,CZE,206345,Victoria Bosio,ARG,6-4 6-2
+2026WTABuenosAires125,wta,2026-11-23,Clay,R16,266671,Laura Samson,CZE,213706,Irene Burillo Escorihuela,ESP,6-3 6-3
 2026WTABuenosAires125,wta,2026-11-23,Clay,R32,201478,Varvara Lepchenko,USA,221741,Abigail Rencheli,MDA,6-3 6-2
 2026WTABuenosAires125,wta,2026-11-23,Clay,R32,203354,Martina Trevisan,ITA,264149,Ayana Akli,USA,6-1 6-2
 2026WTABuenosAires125,wta,2026-11-23,Clay,R32,206408,Nadia Podoroska,ARG,220742,Leyre Romero Gormaz,ESP,7-6(4) 6-0
@@ -7746,6 +7773,10 @@ slug,tour,start,surface,round,winner_id,winner_name,winner_ioc,loser_id,loser_na
 2026YokohamaChallenger,atp,2026-11-23,Hard,Q2,200050,Finn Bass,GBR,210121,Kokoro Isomura,JPN,6-4 6-4
 2026YokohamaChallenger,atp,2026-11-23,Hard,Q2,202113,Hikaru Shiraishi,JPN,208277,Taiyo Yamanaka,JPN,6-4 6-4
 2026YokohamaChallenger,atp,2026-11-23,Hard,Q2,207998,Takuya Kumasaka,JPN,126878,David Poljak,CZE,6-2 3-6 6-3
+2026YokohamaChallenger,atp,2026-11-23,Hard,QF,111187,Kaichi Uchida,JPN,212207,Ognjen Milic,SRB,7-6(4) 4-6 6-2
+2026YokohamaChallenger,atp,2026-11-23,Hard,QF,201987,Masamichi Imamura,JPN,122554,David Jorda Sanchis,ESP,7-5 6-3
+2026YokohamaChallenger,atp,2026-11-23,Hard,QF,211627,Hayato Matsuoka,JPN,200677,Rio Noguchi,JPN,6-0 6-1
+2026YokohamaChallenger,atp,2026-11-23,Hard,QF,211897,Naoya Honda,JPN,202122,Yuta Shimizu,JPN,6-0 2-0 RET
 2026YokohamaChallenger,atp,2026-11-23,Hard,R16,111187,Kaichi Uchida,JPN,211324,Mitsuki Wei Kang Leong,MAS,6-3 4-6 7-6(7)
 2026YokohamaChallenger,atp,2026-11-23,Hard,R16,122554,David Jorda Sanchis,ESP,210484,Lennon Roark Jones,JPN,6-4 6-2
 2026YokohamaChallenger,atp,2026-11-23,Hard,R16,200677,Rio Noguchi,JPN,133975,Benjamin Hassan,LBN,6-4 6-4
