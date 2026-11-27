@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-27T16:56:55+00:00",
+"fetched": "2026-11-27T18:15:37+00:00",
 "matches": [
 {
 "match_id": "187580",
@@ -674,6 +674,30 @@
 "tour": "wta"
 },
 {
+"match_id": "186829",
+"event_id": "867-2026",
+"tourney_name": "IEB+ Argentina Open",
+"venue": "Buenos Aires, Argentina",
+"event_start": "20261122",
+"tourney_level": "A",
+"round": "Quarterfinal",
+"round_order": 10,
+"qualifying": 0,
+"date": "2026-11-27T18:05Z",
+"time_valid": 1,
+"status": "live",
+"best_of": 3,
+"p1_id": "423",
+"p1_name": "Varvara Lepchenko",
+"p2_id": "15069",
+"p2_name": "Laura Samson",
+"winner": "",
+"score": "",
+"p1_country": "USA",
+"p2_country": "Czechia",
+"tour": "wta"
+},
+{
 "match_id": "186832",
 "event_id": "867-2026",
 "tourney_name": "IEB+ Argentina Open",
@@ -683,7 +707,7 @@
 "round": "Quarterfinal",
 "round_order": 10,
 "qualifying": 0,
-"date": "2026-11-27T18:00Z",
+"date": "2026-11-27T18:15Z",
 "time_valid": 1,
 "status": "scheduled",
 "best_of": 3,
@@ -695,30 +719,6 @@
 "score": "",
 "p1_country": "France",
 "p2_country": "Slovenia",
-"tour": "wta"
-},
-{
-"match_id": "186829",
-"event_id": "867-2026",
-"tourney_name": "IEB+ Argentina Open",
-"venue": "Buenos Aires, Argentina",
-"event_start": "20261122",
-"tourney_level": "A",
-"round": "Quarterfinal",
-"round_order": 10,
-"qualifying": 0,
-"date": "2026-11-27T18:00Z",
-"time_valid": 1,
-"status": "scheduled",
-"best_of": 3,
-"p1_id": "423",
-"p1_name": "Varvara Lepchenko",
-"p2_id": "15069",
-"p2_name": "Laura Samson",
-"winner": "",
-"score": "",
-"p1_country": "USA",
-"p2_country": "Czechia",
 "tour": "wta"
 },
 {
