@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-27T23:19:39+00:00",
+"fetched": "2026-11-28T00:15:22+00:00",
 "matches": [
 {
 "match_id": "187580",
@@ -757,14 +757,14 @@
 "qualifying": 0,
 "date": "2026-11-27T22:05Z",
 "time_valid": 1,
-"status": "live",
+"status": "final",
 "best_of": 3,
 "p1_id": "4629",
 "p1_name": "Alicia Herrero Linana",
 "p2_id": "5749",
 "p2_name": "Julia Riera",
-"winner": "",
-"score": "",
+"winner": "5749",
+"score": "7-5 6-1",
 "p1_country": "Spain",
 "p2_country": "Argentina",
 "tour": "wta"
@@ -809,12 +809,12 @@
 "best_of": 3,
 "p1_id": "5878",
 "p1_name": "Veronika Erjavec",
-"p2_id": "-4",
-"p2_name": "TBD",
+"p2_id": "5749",
+"p2_name": "Julia Riera",
 "winner": "",
 "score": "",
 "p1_country": "Slovenia",
-"p2_country": "",
+"p2_country": "Argentina",
 "tour": "wta"
 },
 {
