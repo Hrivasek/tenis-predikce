@@ -1,5 +1,5 @@
 {
-"fetched": "2026-11-28T14:15:25+00:00",
+"fetched": "2026-11-28T15:15:21+00:00",
 "matches": [
 {
 "match_id": "187580",
@@ -779,9 +779,9 @@
 "round": "Semifinal",
 "round_order": 11,
 "qualifying": 0,
-"date": "2026-11-28T15:00Z",
+"date": "2026-11-28T15:10Z",
 "time_valid": 1,
-"status": "scheduled",
+"status": "live",
 "best_of": 3,
 "p1_id": "12957",
 "p1_name": "Guiomar Maristany Zuleta De Reales",
